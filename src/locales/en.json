@@ -1,0 +1,85 @@
+{
+    "message": "Hello i18n !!",
+    "header": {
+        "main": "Main",
+        "catalog": "Catalog",
+        "education": "Education",
+        "certificates": "Certificates",
+        "contacts": "Contacts"
+    },
+    "main": {
+        "intro": {
+            "movement": "MOVEMENT - ",
+            "itsLife": "IT'S LIFE",
+            "more": "More",
+            "text": "«Vostok-Medservice» is a specialized company in the field of traumatology, orthopedics and neurosurgery, as well as the exclusive representative of the Hungarian manufacturing plant Medimetal Kft in Ukraine, which manufactures thousands of implants from high-quality stainless steel and titanium. Our company offers a wide range of medical equipment and surgical instruments. The main advantages of the products offered by Vostok-Medservice are the ratio of high quality, affordable price, as well as a convenient, intuitive instrument for the doctor."
+        },
+        "carts": {
+            "traumatology": {
+                "title": "Traumatology",
+                "text": "Orthopedic and trauma structures using advanced technologies for osteosynthesis of bone fractures",
+                "links": {
+                    "intramedullaryPins": "Intramedullary pins",
+                    "blockedPlates": "Blocked plates",
+                    "tool": "Tool",
+                    "screwsAT": "Screws AT",
+                    "JSCPlates": "JSC plates",
+                    "needlesRodsCerclage": "Needles, rods, cerclage",
+                    "microsurgery": "Microsurgery",
+                    "ilizarovsApparatus": "Ilizarov's apparatus"
+                }
+            },
+            "surgery": {
+                "title": "Surgery",
+                "text": "Modern sewing materials; polymer endoprostheses - meshes for hernioplasty",
+                "links": {
+                    "sutureMaterials": "Suture materials",
+                    "endoprosthesesPolymerNets": "Endoprostheses - polymer nets",
+                    "endoprosthesesForUrogynecology": "Endoprostheses for urogynecology",
+                    "antiAdhesiveAgents": "Anti-adhesive agents",
+                    "woundCovers": "Wound covers",
+                    "hemostaticSponge": "Hemostatic sponge",
+                    "productsPfZMCompany": "Products of ZM company"
+                }
+            },
+            "neurosurgery": {
+                "title": "Neurosurgery",
+                "text": "High-quality implants for spine surgery and a tool for their installation",
+                "links": {
+                    "transpedicularFixationOfTheSpine": "Transpedicular fixation of the spine",
+                    "neurosurgicalPlates": "Neurosurgical plates",
+                    "vertebralEndoprostheses": "Vertebral endoprostheses",
+                    "neurosurgicalInstrument": "Neurosurgical instrument",
+                    "antiAdhesionGel": "Anti-adhesion gel"
+                }
+            },
+            "toolsAndEquipment": {
+                "title": "Tools and equipment",
+                "text": "A wide range of medical equipment and surgical instruments",
+                "links": {
+                    "inhalersNebulizers": "Inhalers-nebulizers",
+                    "equipmentForOperatingRooms": "Equipment for operating rooms",
+                    "medicalFurniture": "Medical furniture",
+                    "sterilization": "Sterilization",
+                    "cardiology": "Cardiology",
+                    "medicalInstrument": "Medical instrument"
+                }
+            },
+            "more": "More"
+        },
+        "education": {
+            "links": {
+                "traumatology": "Traumatology",
+                "surgery": "Surgery",
+                "neurosurgery": "Neurosurgery",
+                "toolsAndEquipment": "Tools and equipment"
+            },
+            "block": {
+                "title": "Education",
+                "text-p1": "Doctors who cooperate with «Восток-Медсервис» LLC and use the products of the Hungarian company «Medimetal» have the opportunity to undergo training in Hungary on the basis of clinics in the city of Budapest.",
+                "text-p2": "After graduation, an international certificate is issued."
+            }
+        }
+    }
+
+}

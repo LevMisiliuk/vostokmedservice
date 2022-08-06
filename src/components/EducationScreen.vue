@@ -1,0 +1,96 @@
+<template>
+    <div class="education">
+        <div class="container">
+            <MainHeader />
+            <div class="education__inner">
+                <div class="education__links">
+                    <a class="education__link" href="">{{$t('main.education.links.traumatology')}}</a>
+                    <a class="education__link" href="">{{$t('main.education.links.surgery')}}</a>
+                    <a class="education__link" href="">{{$t('main.education.links.neurosurgery')}}</a>
+                    <a class="education__link" href="">{{$t('main.education.links.toolsAndEquipment')}}</a>
+                </div>
+                <div class="education__block">
+                    <h2 class="education__block-title">
+                        {{ $t('main.education.block.title') }}
+                    </h2>
+                    <p class="education__block-text p1">
+                        {{ $t('main.education.block.text-p1') }}
+                    </p>
+                    <p class="education__block-text p2">
+                        {{ $t('main.education.block.text-p2') }}
+                    </p>
+                    <div class="education__imgs">
+                        <img src="../assets/education-1.png" alt="">
+                        <img src="../assets/education-2.png" alt="">
+                        <img src="../assets/education-3.png" alt="">
+                        <img src="../assets/education-4.png" alt="">
+                        <img src="../assets/education-5.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script>
+import MainHeader from './MainHeader.vue'
+
+export default {
+    name: "EducationScreen",
+    components: {
+        MainHeader
+    },
+    setup () {
+        return {}
+    }
+}
+</script>
+
+<style lang="scss" scoped>
+    .education {
+
+        &__inner {
+            display: flex;
+        }
+
+        &__links {
+            display: flex;
+            flex-direction: column;
+
+            margin-right: 100px;
+        }
+
+        &__link {
+            font-weight: 300;
+            margin: 20px 0 0 0;
+            white-space: nowrap;
+
+            &:first-child {
+                margin: 0;
+            }
+        }
+
+        &__block-title {
+            color: $primary-blue;
+            margin-bottom: 20px;
+        }
+
+        &__block-text {
+            font-weight: 350;
+        }
+
+        .p1 {
+            margin-bottom: 40px;
+        }
+
+        .p2 {
+            margin-bottom: 60px;
+        }
+
+        &__imgs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px
+        }
+    }
+</style>
