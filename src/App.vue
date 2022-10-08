@@ -13,6 +13,7 @@ export default {
 body {
   margin: 0;
   font-family: 'Raleway';
+  font-weight: 400;
   background: linear-gradient(0deg, #F2F2F2, #F2F2F2), #F6F6F6;
 
   font-size: 18px;
@@ -42,6 +43,24 @@ p {
   padding: 70px;
 }
 
+.blue-circle {
+  width: 10px;
+  height: 10px;
+  background-color: $primary-pale-blue;
+  border-radius: 50%;
+  margin-right: 10px;
+  transition: all .3s linear;
+}
+
+.breadcrumb {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 60px;
+}
+.blue-txt {
+    color: $primary-blue;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -54,9 +73,5 @@ li {
 a {
   text-decoration: none;
   color: $primary-black;
-}
-
-img {
-  max-width: 100%;
 }
 </style>
