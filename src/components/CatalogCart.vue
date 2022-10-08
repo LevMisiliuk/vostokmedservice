@@ -88,7 +88,7 @@ export default {
             align-self: center;
             margin: auto;
             height: 60px;
-            background: linear-gradient(180deg, #004159 0%, #0080B0 100%);
+            background: $primary-deep-blue;
             position: absolute;
             bottom: 0; right: 0; left: 0;
             opacity: 0;

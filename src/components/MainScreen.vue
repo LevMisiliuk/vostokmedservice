@@ -28,8 +28,13 @@
               :key="item"
               class="cart__list"
             >
-              <div class="blue-circle"></div>
-              <a href="#">{{ item }}</a>
+              <PrimaryLink
+                path="#"
+                :linkTitle="item"
+                :blueCircle="true"
+                :linkSize="15"
+                :linkMargin="20"
+              />
             </li>
           </ul>
         </div>
@@ -46,8 +51,13 @@
               :key="item"
               class="cart__list"
             >
-              <div class="blue-circle"></div>
-              <a href="#">{{ item }}</a>
+                <PrimaryLink
+                  path="#"
+                  :linkTitle="item"
+                  :blueCircle="true"
+                  :linkSize="15"
+                  :linkMargin="20"
+                />
             </li>
           </ul>
         </div>
@@ -64,8 +74,13 @@
               :key="item"
               class="cart__list"
             >
-              <div class="blue-circle"></div>
-              <a href="#">{{ item }}</a>
+              <PrimaryLink
+                path="#"
+                :linkTitle="item"
+                :blueCircle="true"
+                :linkSize="15"
+                :linkMargin="20"
+              />
             </li>
           </ul>
         </div>
@@ -82,8 +97,13 @@
               :key="item"
               class="cart__list"
             >
-              <div class="blue-circle"></div>
-              <a href="#">{{ item }}</a>
+              <PrimaryLink
+                path="#"
+                :linkTitle="item"
+                :blueCircle="true"
+                :linkSize="15"
+                :linkMargin="20"
+              />
             </li>
           </ul>
         </div>
@@ -98,8 +118,8 @@ import { computed } from 'vue'
 import MainHeader from './MainHeader.vue'
 import MainFooter from './MainFooter.vue'
 import CatalogCart from './CatalogCart.vue'
+import PrimaryLink from './PrimaryLink'
 import i18n from '../i18n'
-// import { useI18n } from 'vue-i18n'
 
 export default {
   name: 'MainScreen',
@@ -107,12 +127,12 @@ export default {
     MainHeader,
     MainFooter,
     CatalogCart,
+    PrimaryLink
   },
   props: {
     msg: String
   },
   setup() {
-    console.log('i18n', i18n)
     const traumatologyLinks = computed(() => [
       i18n.global.t('main.carts.traumatology.links.intramedullaryPins'),
       i18n.global.t('main.carts.traumatology.links.blockedPlates'),
@@ -186,7 +206,7 @@ export default {
     }
 
     &__text {
-      font-weight: 300;
+      font-weight: 400;
       color: $primary-white;
       margin-bottom: 20px;
 
@@ -211,25 +231,12 @@ export default {
     justify-content: space-between;
 
     .cart {
-      margin: 0 4px;
-      &__list {
-        display: flex;
-        align-items: center;
-        padding: 12px;
+      margin-right: 4px;
+      margin-left: 4px;
+      margin-bottom: 8px;
 
-        &:hover {
-          .blue-circle {
-            background-color: $primary-blue;
-          }
-        }
-      }
-      .blue-circle {
-        width: 10px;
-        height: 10px;
-        background-color: $primary-pale-blue;
-        border-radius: 50%;
-        margin-right: 10px;
-        transition: all .3s linear;
+      &__list {
+        padding: 0 10px 0 10px;
       }
     }
   }

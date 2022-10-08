@@ -6,11 +6,11 @@
         >
             <div>
                 {{ selected.name ? selected.name : selected }}
-                <img :src="selected.flag" alt="">
+                <img class="lang-select__selected-flag" :src="selected.flag" alt="">
             </div>
             <img
                 class="lang-select__dropdown-arrow"
-                src="../assets/dropdown-arrow.svg"
+                src="../assets/svg/dropdown-arrow.svg"
                 alt="dropdown arrow"
             >
         </div>
@@ -102,6 +102,14 @@ export default {
             width: 100%;
 
             z-index: 100;
+
+            &:last-child {
+                border-radius: 8px;
+            }
+        }
+
+        &__selected-flag {
+            margin-left: 4px;
         }
 
         .option {
@@ -112,6 +120,9 @@ export default {
 
             &:hover  {
                 background: rgba(0, 174, 239, 0.25);
+                &:last-child {
+                    border-radius: 8px;
+                }
             }
             justify-content: space-between;
         }

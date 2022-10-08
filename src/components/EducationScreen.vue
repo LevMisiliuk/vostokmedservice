@@ -4,10 +4,22 @@
             <MainHeader />
             <div class="education__inner">
                 <div class="education__links">
-                    <a class="education__link" href="">{{$t('main.education.links.traumatology')}}</a>
-                    <a class="education__link" href="">{{$t('main.education.links.surgery')}}</a>
-                    <a class="education__link" href="">{{$t('main.education.links.neurosurgery')}}</a>
-                    <a class="education__link" href="">{{$t('main.education.links.toolsAndEquipment')}}</a>
+                    <PrimaryLink
+                        :linkTitle="$t('main.certificates.links.traumatology')"
+                        :path="`/${$i18n.locale}/catalog/traumatology`"
+                    />
+                    <PrimaryLink
+                        :linkTitle="$t('main.certificates.links.surgery')"
+                        :path="`/${$i18n.locale}/catalog/surgery`"
+                    />
+                    <PrimaryLink
+                        :linkTitle="$t('main.certificates.links.neurosurgery')"
+                        :path="`/${$i18n.locale}/catalog/neurosurgery`"
+                    />
+                    <PrimaryLink
+                        :linkTitle="$t('main.certificates.links.toolsAndEquipment')"
+                        :path="`/${$i18n.locale}/catalog/tools-and-equipment`"
+                    />
                 </div>
                 <div class="education__block">
                     <h2 class="education__block-title">
@@ -30,15 +42,20 @@
             </div>
         </div>
     </div>
+    <MainFooter />
 </template>
 
 <script>
 import MainHeader from './MainHeader.vue'
+import MainFooter from './MainFooter.vue'
+import PrimaryLink from './PrimaryLink.vue'
 
 export default {
     name: "EducationScreen",
     components: {
-        MainHeader
+        MainHeader,
+        PrimaryLink,
+        MainFooter
     },
     setup () {
         return {}
@@ -61,7 +78,7 @@ export default {
         }
 
         &__link {
-            font-weight: 300;
+            font-weight: 400;
             margin: 20px 0 0 0;
             white-space: nowrap;
 
@@ -76,7 +93,7 @@ export default {
         }
 
         &__block-text {
-            font-weight: 350;
+            font-weight: 400;
         }
 
         .p1 {

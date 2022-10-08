@@ -36,7 +36,7 @@ export default {
         ]);
         const selected = ref(
             localStorage.getItem('lang') === 'ua' ? options.value[0] : localStorage.getItem('lang') === 'en'
-            ? options.value[1] : localStorage.getItem('lang') === 'ru' ? options.value[2] : null);
+            ? options.value[1] : localStorage.getItem('lang') === 'ru' ? options.value[2] : options.value[0]);
 
         function optionSelect(option) {
             selected.value = option;
