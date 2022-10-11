@@ -19,6 +19,7 @@ body {
   font-size: 18px;
   line-height: 1.6;
   color: $primary-black;
+  font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 *,
@@ -57,6 +58,7 @@ p {
   font-size: 16px;
   margin-bottom: 60px;
 }
+
 .blue-txt {
     color: $primary-blue;
 }
@@ -73,5 +75,8 @@ li {
 a {
   text-decoration: none;
   color: $primary-black;
+}
+.el-table {
+  border-radius: 15px;
 }
 </style>

@@ -65,9 +65,7 @@ export default {
     },
 
     setup () {
-        return {
-            source1: 'assets/pdf/catalogue-2009-rus.pdf',
-        }
+        return {}
     }
 }
 </script>

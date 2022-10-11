@@ -23,8 +23,8 @@
                             class="catalog-traumatology__link-list"
                         >
                             <PrimaryLink
-                                path="#"
-                                :linkTitle="item"
+                                :path="item.path"
+                                :linkTitle="item.name"
                                 :blueCircle="true"
                                 :linkMargin="10"
                             />
@@ -88,14 +88,38 @@ export default {
 
     setup () {
         const traumatologyLinks = computed(() => [
-            i18n.global.t('main.carts.traumatology.links.intramedullaryPins'),
-            i18n.global.t('main.carts.traumatology.links.blockedPlates'),
-            i18n.global.t('main.carts.traumatology.links.tool'),
-            i18n.global.t('main.carts.traumatology.links.screwsAT'),
-            i18n.global.t('main.carts.traumatology.links.JSCPlates'),
-            i18n.global.t('main.carts.traumatology.links.needlesRodsCerclage'),
-            i18n.global.t('main.carts.traumatology.links.microsurgery'),
-            i18n.global.t('main.carts.traumatology.links.ilizarovsApparatus')
+            {
+                name: i18n.global.t('main.carts.traumatology.links.intramedullaryPins'),
+                path: `/${i18n.global.locale.value}/catalog/traumatology/intramedullary-pins`
+            },
+            {
+                name: i18n.global.t('main.carts.traumatology.links.blockedPlates'),
+                path: `/404`
+            },
+            {
+                name: i18n.global.t('main.carts.traumatology.links.tool'),
+                path: `/404`
+            },
+            {
+                name: i18n.global.t('main.carts.traumatology.links.screwsAT'),
+                path: `/404`
+            },
+            {
+                name: i18n.global.t('main.carts.traumatology.links.JSCPlates'),
+                path: `/404`
+            },
+            {
+                name: i18n.global.t('main.carts.traumatology.links.needlesRodsCerclage'),
+                path: `/404`
+            },
+            {
+                name: i18n.global.t('main.carts.traumatology.links.microsurgery'),
+                path: `/404`
+            },
+            {
+                name: i18n.global.t('main.carts.traumatology.links.ilizarovsApparatus'),
+                path: `/404`
+            }
         ])
 
         const traumatologyCarts = computed(() => [
@@ -107,37 +131,37 @@ export default {
             {
                 title: i18n.global.t('main.carts.traumatology.links.blockedPlates'),
                 img: require('../assets/traumatology/blocked-plates.png'),
-                link: '#'
+                link: '/404'
             },
             {
                 title: i18n.global.t('main.carts.traumatology.links.tool'),
                 img: require('../assets/traumatology/tools.png'),
-                link: '#'
+                link: '/404'
             },
             {
                 title: i18n.global.t('main.carts.traumatology.links.screwsAT'),
                 img: require('../assets/traumatology/screews-at.png'),
-                link: '#'
+                link: '/404'
             },
             {
                 title: i18n.global.t('main.carts.traumatology.links.JSCPlates'),
                 img: require('../assets/traumatology/plates-at.png'),
-                link: '#'
+                link: '/404'
             },
             {
                 title: i18n.global.t('main.carts.traumatology.links.needlesRodsCerclage'),
                 img: require('../assets/traumatology/needles-etc.png'),
-                link: '#'
+                link: '/404'
             },
             {
                 title: i18n.global.t('main.carts.traumatology.links.microsurgery'),
                 img: require('../assets/traumatology/microsurgery.png'),
-                link: '#'
+                link: '/404'
             },
             {
                 title: i18n.global.t('main.carts.traumatology.links.ilizarovsApparatus'),
                 img: require('../assets/traumatology/ilizarovs-apparatus.png'),
-                link: '#'
+                link: '/404'
             },
         ])
 

@@ -35,8 +35,34 @@
 						"JSCPlates": "Пластины АО",
 						"needlesRodsCerclage": "Спицы, стержни, серкляж",
 						"microsurgery": "Микрохирургия",
-						"ilizarovsApparatus": "Аппарат Илизарова"
-					}
+						"ilizarovsApparatus": "Аппарат Илизарова",
+						"calfPins": "Штифт для голени",
+						"pinsVerticalZType": "Штифты вертикальные z типа",
+						"thighPins": "Штифты для бедер",
+						"pinsForShoulder": "Штифты для плеча",
+						"retrogradeFemoralPins": "Штифты ретроградные бедренные ",
+						"distalFemoralNail": "Штифт дистальный бедренный ",
+						"hipProximalPins": "Штифты проксимальные для бедра "
+					},
+          "calfPin": {
+            "title": "Штифт для голени",
+            "subtitle": "Штифт интрамедуллярный для голени - канюлированый",
+            "lockingScrew": "Блокирующий винт",
+            "lockingScrewData": "Ø4,9 мм, 12200-49020 – 12200-49100",
+            "plug": "Заглушка",
+            "material": "Метериал",
+            "materialData": "нерж. сталь или сплав титана. В случае сплава титана первая цифра будет 3",
+            "tool": "Инструмент",
+            "table": {
+			  "first": "L, мм",
+              "second": "Ø 8 мм",
+              "third": "Ø 9 мм",
+              "fourth": "Ø 10 мм",
+              "fifth": "Ø 11 мм",
+              "sixth": "Ø 12 мм",
+              "seventh": "Ø 13 мм"
+            }
+          }
 				},
 				"surgery": {
 					"title": "Хирургия",
