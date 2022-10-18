@@ -138,7 +138,7 @@ export default {
             {
                 title: i18n.global.t('main.carts.traumatology.links.pinsVerticalZType'),
                 img: require('../assets/traumatology/pins-vertical-z-type.jpeg'),
-                link: '/404'
+                link: `/${i18n.global.locale.value}/catalog/traumatology/intramedullary-pins/pins-vertical-z-type`
             },
             {
                 title: i18n.global.t('main.carts.traumatology.links.thighPins'),

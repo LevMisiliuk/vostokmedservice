@@ -7,7 +7,7 @@
                 <p class="card__header-subtitle">{{subtitle}}</p>
             </div>
         </div>
-        <div class="card__product-info">
+        <div v-if="productsParams.length" class="card__product-info">
             <div class="card__product-info-inner" v-for="item in productsParams" :key="item.id">
                 <div class="card__product-name">
                     {{ item.name }}
@@ -60,7 +60,7 @@ export default {
 .card {
     margin-bottom: 40px;
     min-width: 970px;
-    min-height: 646px;
+    min-height: 200px;
     border-radius: 16px;
     background-color: #fff;
 

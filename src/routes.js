@@ -8,6 +8,7 @@ import CataologSreen from './components/CatalogScreen'
 import PageNotFound from './components/PageNotFound'
 import IntramedullaryPins from './components/IntramedullaryPins';
 import CalfPin from './components/CalfPin'
+import PinsVerticalZType from './components/PinsVerticalZType'
 
 export default createRouter({
     history: createWebHistory(),
@@ -24,6 +25,7 @@ export default createRouter({
                 { path: 'catalog/traumatology/intramedullary-pins', component: IntramedullaryPins },
                 { path: "404", component: PageNotFound },
                 { path: 'catalog/traumatology/intramedullary-pins/calf-pin', component: CalfPin },
+                { path: 'catalog/traumatology/intramedullary-pins/pins-vertical-z-type', component: PinsVerticalZType },
             ]
         }
     ]
