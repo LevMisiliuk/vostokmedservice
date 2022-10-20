@@ -11,8 +11,9 @@ router.beforeEach((to, from, next) => {
     if(!['ua', 'ru', 'en'].includes(lang)) {
       const locale = localStorage.getItem('lang') || 'ua'
       i18n.global.locale.value = locale
-      router.push({ path: `${locale}/404` });
-      if (!locale) router.push({ path: '/ua' });
+      if (to.path === '/') return next(`/${locale}`)
+      if (!locale) return next(`/${locale}`)
+      return next(`${locale}/404`)
     }
 
     if(i18n.global.locale.value !== lang) {

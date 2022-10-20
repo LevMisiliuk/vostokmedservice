@@ -1,4 +1,5 @@
 const { defineConfig } = require('@vue/cli-service')
+const path = require('path');
 
 module.exports = defineConfig({
   css: {
@@ -21,5 +22,15 @@ module.exports = defineConfig({
       compositionOnly: false,
       fullInstall: true
     }
-  }
+  },
+  configureWebpack: {
+    plugins: [
+      require('unplugin-vue-components/webpack')({ /* options */ }),
+    ],
+    resolve: {
+      alias: {
+        "@": path.resolve(__dirname, 'src/')
+      }
+    }
+  },
 })

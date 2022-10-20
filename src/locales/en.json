@@ -44,52 +44,64 @@
 					"distalFemoralNail": "Distal femoral nail",
 					"hipProximalPins": "Hip proximal pins"
 				},
-			"calfPin": {
-			"title": "Calf pin",
-			"subtitle": "Intramedullary nail for lower leg - cannulated",
-			"lockingScrew": "Locking screw",
-			"lockingScrewData": "Ø4,9 mm, 12200-49020 – 12200-49100",
-			"plug": "Stub",
-			"material": "Meterial",
-			"materialData": "stainless steel steel or titanium alloy. In the case of titanium alloy, the first digit will be 3",
-			"tool": "Tool",
-			"table": {
-				"first": "L, mm",
-				"second": "Ø 8 mm",
-				"third": "Ø 9 mm",
-				"fourth": "Ø 10 mm",
-				"fifth": "Ø 11 mm",
-				"sixth": "Ø 12 mm",
-				"seventh": "Ø 13 mm"
-			}
-			},
-			"pinsVerticalZType": {
-				"title": "Vertical pins Z type",
-				"material": "Meterial",
-				"materialData": "stainless steel or titanium alloy. In the case of titanium alloy, the first digit will be 3",
-				"tool": "Tool",
-				"long": "Long",
-				"short": "Short",
-				"left": "Left",
-				"right": "Right",
-				"table": {
-					"first": "Ø mm",
-					"second": "L",
-					"third": "α (°)",
-					"fourth": "Cannula.",
-					"fifth": "Regular"
+				"calfPin": {
+					"title": "Calf pin",
+					"subtitle": "Intramedullary nail for lower leg - cannulated",
+					"lockingScrew": "Locking screw",
+					"lockingScrewData": "Ø4,9 mm, 12200-49020 – 12200-49100",
+					"plug": "Stub",
+					"material": "Meterial",
+					"materialData": "stainless steel steel or titanium alloy. In the case of titanium alloy, the first digit will be 3",
+					"tool": "Tool",
+					"table": {
+						"first": "L, mm",
+						"second": "Ø 8 mm",
+						"third": "Ø 9 mm",
+						"fourth": "Ø 10 mm",
+						"fifth": "Ø 11 mm",
+						"sixth": "Ø 12 mm",
+						"seventh": "Ø 13 mm"
+					}
 				},
-				"secondTable": {
-					"first": "",
-					"firstData": "Dynamic screw",
-					"second": "Stainless steel",
-					"secondData": "Retaining screw",
-					"third": "Titanium alloy",
-					"thirdData": "Stub",
-					"fourthData": "Lock screw 4.9mm"
+				"pinsVerticalZType": {
+					"title": "Vertical pins Z type",
+					"material": "Meterial",
+					"materialData": "stainless steel or titanium alloy. In the case of titanium alloy, the first digit will be 3",
+					"tool": "Tool",
+					"long": "Long",
+					"short": "Short",
+					"left": "Left",
+					"right": "Right",
+					"table": {
+						"first": "Ø mm",
+						"second": "L",
+						"third": "α (°)",
+						"fourth": "Cannula.",
+						"fifth": "Regular"
+					},
+					"secondTable": {
+						"first": "",
+						"firstData": "Dynamic screw",
+						"second": "Stainless steel",
+						"secondData": "Retaining screw",
+						"third": "Titanium alloy",
+						"thirdData": "Stub",
+						"fourthData": "Lock screw 4.9mm"
+					}
+				},
+				"thighPins": {
+					"title": "Thigh pin",
+					"table": {
+						"first": "L, mm",
+						"second": "Ø 9 mm",
+						"third": "Ø 10 mm",
+						"fourth": "Ø 11 mm",
+						"fifth": "Ø 12 mm",
+						"sixth": "Ø 13 mm",
+						"seventh": "Ø 14 mm"
+					}
 				}
-			}
-		},
+			},
 			"surgery": {
 				"title": "Surgery",
 				"text": "Modern sewing materials; polymer endoprostheses - meshes for hernioplasty",

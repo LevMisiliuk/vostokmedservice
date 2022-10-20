@@ -3,7 +3,6 @@
 </template>
 
 <script>
-
 export default {
   name: 'App'
 }
@@ -14,7 +13,7 @@ body {
   margin: 0;
   font-family: 'Raleway';
   font-weight: 400;
-  background: linear-gradient(0deg, #F2F2F2, #F2F2F2), #F6F6F6;
+  background: linear-gradient(0deg, #f2f2f2, #f2f2f2), #f6f6f6;
 
   font-size: 18px;
   line-height: 1.6;
@@ -28,7 +27,12 @@ body {
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -50,7 +54,7 @@ p {
   background-color: $primary-pale-blue;
   border-radius: 50%;
   margin-right: 10px;
-  transition: all .3s linear;
+  transition: all 0.3s linear;
 }
 
 .breadcrumb {
@@ -60,7 +64,7 @@ p {
 }
 
 .blue-txt {
-    color: $primary-blue;
+  color: $primary-blue;
 }
 
 ul {
