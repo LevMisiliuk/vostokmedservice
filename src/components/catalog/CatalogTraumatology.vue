@@ -39,7 +39,7 @@
 
 <script>
 import { computed } from 'vue'
-import i18n from '../i18n'
+import i18n from '@/i18n'
 
 export default {
   name: 'CatalogTraumatology',
@@ -50,46 +50,46 @@ export default {
         title: i18n.global.t(
           'main.carts.traumatology.links.intramedullaryPins'
         ),
-        img: require('../assets/traumatology/intramedullary-pins.png'),
+        img: require('@/assets/traumatology/intramedullary-pins.png'),
         link: `/${i18n.global.locale.value}/catalog/traumatology/intramedullary-pins`
       },
       {
         title: i18n.global.t('main.carts.traumatology.links.blockedPlates'),
-        img: require('../assets/traumatology/blocked-plates.png'),
+        img: require('@/assets/traumatology/blocked-plates.png'),
         link: '/404'
       },
       {
         title: i18n.global.t('main.carts.traumatology.links.tool'),
-        img: require('../assets/traumatology/tools.png'),
+        img: require('@/assets/traumatology/tools.png'),
         link: '/404'
       },
       {
         title: i18n.global.t('main.carts.traumatology.links.screwsAT'),
-        img: require('../assets/traumatology/screews-at.png'),
+        img: require('@/assets/traumatology/screews-at.png'),
         link: '/404'
       },
       {
         title: i18n.global.t('main.carts.traumatology.links.JSCPlates'),
-        img: require('../assets/traumatology/plates-at.png'),
+        img: require('@/assets/traumatology/plates-at.png'),
         link: '/404'
       },
       {
         title: i18n.global.t(
           'main.carts.traumatology.links.needlesRodsCerclage'
         ),
-        img: require('../assets/traumatology/needles-etc.png'),
+        img: require('@/assets/traumatology/needles-etc.png'),
         link: '/404'
       },
       {
         title: i18n.global.t('main.carts.traumatology.links.microsurgery'),
-        img: require('../assets/traumatology/microsurgery.png'),
+        img: require('@/assets/traumatology/microsurgery.png'),
         link: '/404'
       },
       {
         title: i18n.global.t(
           'main.carts.traumatology.links.ilizarovsApparatus'
         ),
-        img: require('../assets/traumatology/ilizarovs-apparatus.png'),
+        img: require('@/assets/traumatology/ilizarovs-apparatus.png'),
         link: '/404'
       }
     ])

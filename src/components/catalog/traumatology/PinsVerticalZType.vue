@@ -36,7 +36,6 @@
             :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
             :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
             :data="tableData"
-            border
             style="width: 100%; margin-bottom: 40px"
           >
             <el-table-column
@@ -75,7 +74,6 @@
             :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
             :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
             :data="secondTableData"
-            border
             style="width: 100%; margin-bottom: 40px"
           >
             <el-table-column
@@ -112,7 +110,6 @@
             :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
             :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
             :data="thirdTable"
-            border
             style="width: 100%; margin-bottom: 40px"
           >
             <el-table-column
@@ -155,7 +152,6 @@
             :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
             :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
             :data="fourthTable"
-            border
             style="width: 100%; margin-bottom: 40px"
           >
             <el-table-column
@@ -198,7 +194,6 @@
             :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
             :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
             :data="fifthTable"
-            border
             style="width: 100%; margin-bottom: 40px"
           >
             <el-table-column
@@ -235,7 +230,7 @@
 
 <script>
 import { computed, ref } from 'vue'
-import i18n from '../../i18n'
+import i18n from '@/i18n'
 
 export default {
   name: 'PinsVerticalZType',

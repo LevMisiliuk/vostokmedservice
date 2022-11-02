@@ -3,14 +3,14 @@
     <div class="container">
       <div class="footer__main">
         <div class="footer__info">
-          <img src="../assets/logo.png" alt="logo" />
+          <img src="@/assets/logo.png" alt="logo" />
           <div>
             <p class="footer__info-text">{{ $t('footer.text') }}</p>
             <p>2010 - 2022</p>
           </div>
           <img
             class="footer__info-img"
-            src="../assets/comp_logo.png"
+            src="@/assets/comp_logo.png"
             alt="company logo"
           />
         </div>

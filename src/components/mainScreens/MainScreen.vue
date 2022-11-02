@@ -21,7 +21,7 @@
           <CatalogCart
             :title="$t('main.carts.traumatology.title')"
             :text="$t('main.carts.traumatology.text')"
-            :img="require('../assets/traumatology-img.png')"
+            :img="require('@/assets/traumatology-img.png')"
             img-position="bottom"
           />
           <ul>
@@ -44,7 +44,7 @@
           <CatalogCart
             :title="$t('main.carts.surgery.title')"
             :text="$t('main.carts.surgery.text')"
-            :img="require('../assets/surgery-img.png')"
+            :img="require('@/assets/surgery-img.png')"
             img-position="bottom"
           />
           <ul>
@@ -63,7 +63,7 @@
           <CatalogCart
             :title="$t('main.carts.neurosurgery.title')"
             :text="$t('main.carts.neurosurgery.text')"
-            :img="require('../assets/neurosurgery-img.png')"
+            :img="require('@/assets/neurosurgery-img.png')"
             img-position="bottom"
           />
           <ul>
@@ -86,7 +86,7 @@
           <CatalogCart
             :title="$t('main.carts.toolsAndEquipment.title')"
             :text="$t('main.carts.toolsAndEquipment.text')"
-            :img="require('../assets/tools-and-equipment-img.png')"
+            :img="require('@/assets/tools-and-equipment-img.png')"
             img-position="top"
           />
           <ul>
@@ -113,7 +113,7 @@
 
 <script>
 import { computed } from 'vue'
-import i18n from '../i18n'
+import i18n from '@/i18n'
 
 export default {
   name: 'MainScreen',
@@ -209,7 +209,7 @@ export default {
     width: 100%;
     border-radius: 16px;
     height: 480px;
-    background-image: url('../assets/main-image.png');
+    background-image: url('@/assets/main-image.png');
     background-repeat: no-repeat;
     background-size: cover;
 

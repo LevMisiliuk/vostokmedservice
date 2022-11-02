@@ -10,7 +10,7 @@
       </div>
       <img
         class="lang-select__dropdown-arrow"
-        src="../assets/svg/dropdown-arrow.svg"
+        src="@/assets/svg/dropdown-arrow.svg"
         alt="dropdown arrow"
       />
     </div>
@@ -30,8 +30,8 @@
 
 <script>
 import { ref } from 'vue'
-import i18n from '../i18n'
-import router from '../routes'
+import i18n from '@/i18n'
+import router from '../../routes'
 
 export default {
   name: 'LangSelect',

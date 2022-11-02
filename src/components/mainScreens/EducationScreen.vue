@@ -32,11 +32,11 @@
             {{ $t('main.education.block.text-p2') }}
           </p>
           <div class="education__imgs">
-            <img src="../assets/education-1.png" alt="" />
-            <img src="../assets/education-2.png" alt="" />
-            <img src="../assets/education-3.png" alt="" />
-            <img src="../assets/education-4.png" alt="" />
-            <img src="../assets/education-5.png" alt="" />
+            <img src="@/assets/education-1.png" alt="" />
+            <img src="@/assets/education-2.png" alt="" />
+            <img src="@/assets/education-3.png" alt="" />
+            <img src="@/assets/education-4.png" alt="" />
+            <img src="@/assets/education-5.png" alt="" />
           </div>
         </div>
       </div>

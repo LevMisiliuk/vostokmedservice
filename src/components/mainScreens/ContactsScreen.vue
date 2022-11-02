@@ -7,7 +7,7 @@
         <div class="contacts__phone">
           <div class="contacts__phone-inner">
             <img
-              src="../assets/svg/phone-icon.svg"
+              src="@/assets/svg/phone-icon.svg"
               class="contacts__img"
               alt="phone"
             />
@@ -20,7 +20,7 @@
         <div class="contacts__email">
           <div class="contacts__email-inner">
             <img
-              src="../assets/svg/email-icon.svg"
+              src="@/assets/svg/email-icon.svg"
               class="contacts__img"
               alt="email"
             />
