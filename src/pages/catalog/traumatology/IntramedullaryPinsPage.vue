@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import IntramedullaryPins from '@/components/traumatology/IntramedullaryPins.vue';
+import IntramedullaryPins from '@/components/catalog/traumatology/IntramedullaryPins.vue';
 
 export default {
   components: {

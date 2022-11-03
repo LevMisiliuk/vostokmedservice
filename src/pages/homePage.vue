@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import MainScreen from '@/components/MainScreen.vue';
+import MainScreen from '@/components/mainScreens/MainScreen.vue';
 
 export default {
   components: {

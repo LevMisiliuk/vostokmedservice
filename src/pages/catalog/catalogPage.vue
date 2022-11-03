@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import CataologSreen from '@/components/CatalogScreen.vue';
+import CataologSreen from '@/components/catalog/CatalogScreen.vue';
 
 export default {
   components: {

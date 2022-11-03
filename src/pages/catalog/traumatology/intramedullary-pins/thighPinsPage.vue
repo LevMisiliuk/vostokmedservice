@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import ThighPins from '@/components/traumatology/ThighPins.vue';
+import ThighPins from '@/components/catalog/traumatology/ThighPins.vue';
 
 export default {
   components: {

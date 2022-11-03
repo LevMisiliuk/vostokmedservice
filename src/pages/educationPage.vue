@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import EducationScreen from '@/components/EducationScreen.vue';
+import EducationScreen from '@/components/mainScreens/EducationScreen.vue';
 
 export default {
   components: {

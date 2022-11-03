@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import CatalogTraumatology from '@/components/CatalogTraumatology.vue';
+import CatalogTraumatology from '@/components/catalog/CatalogTraumatology.vue';
 
 export default {
   components: {

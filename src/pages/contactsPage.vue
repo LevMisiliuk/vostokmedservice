@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import ContactsScreen from '@/components/ContactsScreen.vue';
+import ContactsScreen from '@/components/mainScreens/ContactsScreen.vue';
 
 export default {
   components: {

@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import CalfPin from '@/components/traumatology/CalfPin.vue';
+import CalfPin from '@/components/catalog/traumatology/CalfPin.vue';
 
 export default {
   components: {

@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import PinsVerticalZType from '@/components/traumatology/PinsVerticalZType.vue';
+import PinsVerticalZType from '@/components/catalog/traumatology/PinsVerticalZType.vue';
 
 export default {
   components: {

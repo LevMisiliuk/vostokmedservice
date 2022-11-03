@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import CertificatesScreen from '@/components/CertificatesScreen.vue';
+import CertificatesScreen from '@/components/mainScreens/CertificatesScreen.vue';
 
 export default {
   components: {
