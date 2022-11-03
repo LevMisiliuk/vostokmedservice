@@ -34,10 +34,10 @@
             {{ $t('main.certificates.block.title') }}
           </h2>
           <div class="certificates__imgs">
-            <img src="../assets/certificates/certificate-1.png" alt="" />
-            <img src="../assets/certificates/certificate-2.png" alt="" />
-            <img src="../assets/certificates/certificate-3.png" alt="" />
-            <img src="../assets/certificates/certificate-4.png" alt="" />
+            <img src="@/assets/certificates/certificate-1.png" alt="" />
+            <img src="@/assets/certificates/certificate-2.png" alt="" />
+            <img src="@/assets/certificates/certificate-3.png" alt="" />
+            <img src="@/assets/certificates/certificate-4.png" alt="" />
           </div>
         </div>
       </div>

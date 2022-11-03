@@ -48,9 +48,9 @@ export default {
   name: 'MainHeader',
   setup() {
     const options = ref([
-      { name: 'УКР', value: 'ua', flag: require('../assets/ua-flag.png') },
-      { name: 'ENG', value: 'en', flag: require('../assets/en-flag.png') },
-      { name: 'РУС', value: 'ru', flag: require('../assets/ru-flag.png') }
+      { name: 'УКР', value: 'ua', flag: require('@/assets/ua-flag.png') },
+      { name: 'ENG', value: 'en', flag: require('@/assets/en-flag.png') },
+      { name: 'РУС', value: 'ru', flag: require('@/assets/ru-flag.png') }
     ])
     const selected = ref(
       localStorage.getItem('lang') === 'ua'

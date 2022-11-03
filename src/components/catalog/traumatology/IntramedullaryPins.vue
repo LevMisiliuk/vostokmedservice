@@ -68,7 +68,7 @@ export default {
       {
         title: i18n.global.t('main.carts.traumatology.links.pinsForShoulder'),
         img: require('@/assets/traumatology/pins-for-shoulder.jpeg'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/traumatology/intramedullary-pins/shoulder-pins`
       },
       {
         title: i18n.global.t(

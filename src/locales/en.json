@@ -100,6 +100,26 @@
 						"sixth": "Ø 13 mm",
 						"seventh": "Ø 14 mm"
 					}
+				},
+        "shoulderPins": {
+					"title": "Pin for shoulder",
+          "subtitle": "Intramedullary pin for the shoulder",
+					"lockingScrew": "Locking screw",
+					"lockingScrewData": "Ø 3,9mm, 12200-39020 – 12200-39065",
+					"plug": "Stub",
+					"material": "Meterial",
+					"materialData": "stainless steel steel or titanium alloy. In the case of titanium alloy, the first digit will be 3",
+					"tool": "Tool",
+					"table": {
+						"first": "L, mm",
+						"second": "0°",
+						"third": "60°",
+						"fourth": "0°",
+						"fifth": "60°",
+						"sixth": "0°",
+						"seventh": "60°",
+						"eights": "Ø 7 mm"
+					}
 				}
 			},
 			"surgery": {

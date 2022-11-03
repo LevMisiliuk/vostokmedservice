@@ -11,7 +11,7 @@
     <img
       v-if="blueArrow"
       :class="`primary-link__img_${arrowPosition}`"
-      src="../assets/svg/blue-arrow.svg"
+      src="@/assets/svg/blue-arrow.svg"
       alt="blue arrow"
     />
   </a>
