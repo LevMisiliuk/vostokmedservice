@@ -11,6 +11,7 @@ import CalfPin from './components/catalog/traumatology/CalfPin'
 import PinsVerticalZType from './components/catalog/traumatology/PinsVerticalZType'
 import ThighPins from './components/catalog/traumatology/ThighPins'
 import ShoulderPins from './components/catalog/traumatology/ShoulderPins'
+import RetrogradeFemoralPins from './components/catalog/traumatology/RetrogradeFemoralPins'
 
 export default createRouter({
     history: createWebHistory(),
@@ -29,7 +30,8 @@ export default createRouter({
                 { path: 'catalog/traumatology/intramedullary-pins/calf-pin', component: CalfPin },
                 { path: 'catalog/traumatology/intramedullary-pins/pins-vertical-z-type', component: PinsVerticalZType },
                 { path: 'catalog/traumatology/intramedullary-pins/thigh-pins', component: ThighPins },
-                { path: 'catalog/traumatology/intramedullary-pins/shoulder-pins', component: ShoulderPins }
+                { path: 'catalog/traumatology/intramedullary-pins/shoulder-pins', component: ShoulderPins },
+                { path: 'catalog/traumatology/intramedullary-pins/retrograde-femoral-pins', component: RetrogradeFemoralPins }
             ]
         }
     ]

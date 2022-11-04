@@ -75,7 +75,7 @@ export default {
           'main.carts.traumatology.links.retrogradeFemoralPins'
         ),
         img: require('@/assets/traumatology/retrograde-femoral-pins.jpeg'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/traumatology/intramedullary-pins/retrograde-femoral-pins`
       },
       {
         title: i18n.global.t('main.carts.traumatology.links.distalFemoralNail'),

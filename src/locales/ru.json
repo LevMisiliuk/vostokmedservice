@@ -120,6 +120,26 @@
 						"seventh": "60°",
 						"eights": "Ø 7 мм"
 					}
+				},
+        "retrogradeFemoralPins": {
+					"title": "Штифты ретроградные бедренные",
+          "subtitle": "Штифт ретроградный бедренный",
+					"lockingScrew": "Блокирующий винт",
+					"lockingScrewData": "Ø4,9 мм",
+					"plug": "Заглушка",
+					"material": "Метериал",
+					"materialData": "нерж. сталь или сплав титана. В случае сплава титана первая цифра будет 3",
+					"tool": "Инструмент",
+					"table": {
+						"first": "",
+            "firstData": "Прямой",
+            "secondData": "Выгнутый",
+            "thirdData": "Канюлиров",
+						"second": "L, мм",
+						"third": "Ø 10 мм",
+						"fourth": "Ø 11 мм",
+						"fifth": "Ø 12 мм"
+					}
 				}
 			},
 			"surgery": {

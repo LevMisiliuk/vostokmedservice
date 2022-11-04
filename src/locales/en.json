@@ -120,6 +120,26 @@
 						"seventh": "60°",
 						"eights": "Ø 7 mm"
 					}
+				},
+				"retrogradeFemoralPins": {
+					"title": "Retrograde femoral pins",
+          "subtitle": "Retrograde femoral pin",
+					"lockingScrew": "Locking screw",
+					"lockingScrewData": "Ø4,9mm",
+					"plug": "Stub",
+					"material": "Meterial",
+					"materialData": "stainless steel steel or titanium alloy. In the case of titanium alloy, the first digit will be 3",
+					"tool": "Tool",
+					"table": {
+						"first": "",
+            "firstData": "Straight",
+            "secondData": "Curved",
+            "thirdData": "Cannulas",
+						"second": "L, mm",
+						"third": "Ø 10 mm",
+						"fourth": "Ø 11 mm",
+						"fifth": "Ø 12 mm"
+					}
 				}
 			},
 			"surgery": {

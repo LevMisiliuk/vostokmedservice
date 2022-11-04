@@ -121,6 +121,26 @@
 						"seventh": "60°",
 						"eights": "Ø 7 мм"
 					}
+				},
+        "retrogradeFemoralPins": {
+					"title": "Штифти ретроградні стегнові",
+          "subtitle": "Штифт ретроградний стегновий",
+          "lockingScrew": "Блокуючий гвинт",
+          "lockingScrewData": "Ø4,9 мм",
+          "plug": "Заглушка",
+          "material": "Матеріал",
+          "materialData": "нерж. сталь або сплав титану. У разі сплаву титану перша цифра буде 3",
+          "tool": "Інструмент",
+					"table": {
+						"first": "",
+            "firstData": "Прямий",
+            "secondData": "Вигнутий",
+            "thirdData": "Канюлірів",
+						"second": "L, мм",
+						"third": "Ø 10 мм",
+						"fourth": "Ø 11 мм",
+						"fifth": "Ø 12 мм"
+					}
 				}
       },
       "surgery": {
