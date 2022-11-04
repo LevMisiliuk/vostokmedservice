@@ -4,8 +4,6 @@ import i18n from './i18n'
 import router from './routes'
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
-import { Vue3Mq } from "vue3-mq"
-
 
 router.beforeEach((to, from, next) => {
     const lang = to.params.lang;
@@ -26,9 +24,6 @@ router.beforeEach((to, from, next) => {
 })
 
 createApp(App)
-    .use(Vue3Mq, {
-      preset: 'devices'
-    })
     .use(i18n)
     .use(router)
     .use(ElementPlus)

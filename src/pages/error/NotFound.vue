@@ -4,17 +4,28 @@
   </MqResponsive>
   <MqResponsive target="tablet">
   </MqResponsive>
-  <MqResponsive target="laptop+">
+  <MqResponsive target="laptop">
     <PageNotFound />
   </MqResponsive>
 </template>
 
 <script>
 import PageNotFound from '@/components/PageNotFound.vue';
+import { MqResponsive } from "vue3-mq";
+import { onMounted } from "vue";
+import { updateBreakpoints } from "vue3-mq";
 
 export default {
   components: {
-    PageNotFound
+    PageNotFound,
+    MqResponsive
+  },
+  setup() {
+    onMounted(() => {
+      updateBreakpoints({
+        preset: "devices"
+      })
+    })
   }
 }
 </script>
