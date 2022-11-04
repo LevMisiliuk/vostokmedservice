@@ -3,7 +3,7 @@
   </MqResponsive>
   <MqResponsive target="tablet">
   </MqResponsive>
-  <MqResponsive target="laptop">
+  <MqResponsive :target="['laptop', 'desktop']">
     <EducationScreen />
   </MqResponsive>
 </template>

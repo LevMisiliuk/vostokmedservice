@@ -1,15 +1,15 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import homePage from './pages/homePage.vue'
-import traumatologyPage from './pages/catalog/traumatology/traumatologyPage.vue'
-import educationPage from './pages/educationPage.vue'
-import certificatesPage from './pages/certificatesPage.vue'
-import contactsPage from './pages/contactsPage.vue'
-import catalogPage from './pages/catalog/catalogPage.vue'
+import HomePage from './pages/HomePage.vue'
+import TraumatologyPage from './pages/catalog/traumatology/TraumatologyPage.vue'
+import EducationPage from './pages/EducationPage.vue'
+import CertificatesPage from './pages/CertificatesPage.vue'
+import ContactsPage from './pages/ContactsPage.vue'
+import CatalogPage from './pages/catalog/CatalogPage.vue'
 import NotFound from './pages/error/NotFound.vue'
 import IntramedullaryPinsPage from './pages/catalog/traumatology/IntramedullaryPinsPage.vue';
-import calfPinPage from './pages/catalog/traumatology/intramedullary-pins/calfPinPage.vue'
-import pinsVerticalZTypePage from './pages/catalog/traumatology/intramedullary-pins/pinsVerticalZTypePage.vue'
-import thighPinsPage from './pages/catalog/traumatology/intramedullary-pins/thighPinsPage.vue'
+import CalfPinPage from './pages/catalog/traumatology/intramedullary-pins/CalfPinPage.vue'
+import PinsVerticalZTypePage from './pages/catalog/traumatology/intramedullary-pins/PinsVerticalZTypePage.vue'
+import ThighPinsPage from './pages/catalog/traumatology/intramedullary-pins/ThighPinsPage.vue'
 import ShoulderPins from './components/catalog/traumatology/ShoulderPins.vue'
 import RetrogradeFemoralPins from './components/catalog/traumatology/RetrogradeFemoralPins.vue'
 
@@ -19,17 +19,17 @@ export default createRouter({
         {
             path: '/:lang',
             children: [
-                { path: '', component: homePage },
-                { path: 'catalog', component: catalogPage },
-                { path: 'catalog/traumatology', component: traumatologyPage },
-                { path: 'education', component: educationPage },
-                { path: 'certificates', component: certificatesPage },
-                { path: 'contacts', component: contactsPage },
+                { path: '', component: HomePage },
+                { path: 'catalog', component: CatalogPage },
+                { path: 'catalog/traumatology', component: TraumatologyPage },
+                { path: 'education', component: EducationPage },
+                { path: 'certificates', component: CertificatesPage },
+                { path: 'contacts', component: ContactsPage },
                 { path: 'catalog/traumatology/intramedullary-pins', component: IntramedullaryPinsPage },
                 { path: '404', component: NotFound, },
-                { path: 'catalog/traumatology/intramedullary-pins/calf-pin', component: calfPinPage },
-                { path: 'catalog/traumatology/intramedullary-pins/pins-vertical-z-type', component: pinsVerticalZTypePage },
-                { path: 'catalog/traumatology/intramedullary-pins/thigh-pins', component: thighPinsPage },
+                { path: 'catalog/traumatology/intramedullary-pins/calf-pin', component: CalfPinPage },
+                { path: 'catalog/traumatology/intramedullary-pins/pins-vertical-z-type', component: PinsVerticalZTypePage },
+                { path: 'catalog/traumatology/intramedullary-pins/thigh-pins', component: ThighPinsPage },
                 { path: 'catalog/traumatology/intramedullary-pins/shoulder-pins', component: ShoulderPins },
                 { path: 'catalog/traumatology/intramedullary-pins/retrograde-femoral-pins', component: RetrogradeFemoralPins }
             ]

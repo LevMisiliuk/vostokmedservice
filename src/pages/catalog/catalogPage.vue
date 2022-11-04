@@ -4,7 +4,7 @@
     </MqResponsive>
     <MqResponsive target="tablet">
     </MqResponsive>
-    <MqResponsive target="laptop">
+    <MqResponsive :target="['laptop', 'desktop']">
       <CataologSreen />
     </MqResponsive>
 </template>
