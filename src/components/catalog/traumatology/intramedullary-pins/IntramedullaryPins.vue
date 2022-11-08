@@ -78,14 +78,14 @@ export default {
         link: `/${i18n.global.locale.value}/catalog/traumatology/intramedullary-pins/retrograde-femoral-pins`
       },
       {
-        title: i18n.global.t('main.carts.traumatology.links.distalFemoralNail'),
+        title: i18n.global.t('main.carts.traumatology.links.distalFemoralPins'),
         img: require('@/assets/traumatology/distal-femoral-nail.jpeg'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/traumatology/intramedullary-pins/distal-femoral-pins`
       },
       {
         title: i18n.global.t('main.carts.traumatology.links.hipProximalPins'),
         img: require('@/assets/traumatology/hip-proximal-pins.jpeg'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/traumatology/intramedullary-pins/hip-proximal-pins`
       }
     ])
 

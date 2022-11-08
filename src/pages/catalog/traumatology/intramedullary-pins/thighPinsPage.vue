@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import ThighPins from '@/components/catalog/traumatology/ThighPins.vue';
+import ThighPins from '@/components/catalog/traumatology/intramedullary-pins/ThighPins.vue'
 import { MqResponsive } from "vue3-mq";
 import { onMounted } from "vue";
 import { updateBreakpoints } from "vue3-mq";

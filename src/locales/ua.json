@@ -10,7 +10,7 @@
   "footer": {
     "text": "© ТОВ «Восток-Медсервис»",
     "author-1": "Дизайн - Володимир Капустян",
-    "author-2": "Розробка - Лев Місілюк"
+    "author-2": "Розробка - Лев Місілюк, Анатолій Нестеренко"
   },
   "contacts": {
     "contact-us": "Зв'яжіться з нами",
@@ -42,7 +42,7 @@
           "thighPins": "Штифты для бедра",
           "pinsForShoulder": "Штифты для плеча",
           "retrogradeFemoralPins": "Штифты ретроградные бедренные",
-          "distalFemoralNail": "Штифт дистальний бедренный",
+          "distalFemoralPins": "Штифт дистальний бедренный",
           "hipProximalPins": "Штифты проксимальные для бедра"
         },
         "calfPin": {
@@ -141,6 +141,64 @@
 						"fourth": "Ø 11 мм",
 						"fifth": "Ø 12 мм"
 					}
+				},
+				"distalFemoralPins": {
+					"title": "Дистальний стегновий штифт",
+          "subtitle": "",
+					"lockingScrew": "Блокуючий гвинт",
+          "lockingScrewData": "Ø4,9 мм",
+          "plug": "Заглушка",
+          "material": "Матеріал",
+          "materialData": "нерж. сталь або сплав титану. У разі сплаву титану перша цифра буде 3",
+          "tool": "Інструмент",
+					"table": {
+						"first": "",
+						"firstData": "Звичайний",
+						"second": "Ø",
+            "secondData": "Канюлированый",
+						"third": "L=150 мм",
+						"fourth": "L=210 мм",
+						"fifth": "L=250 мм"
+					}
+				},
+        "hipProximalPins": {
+					"title": "Штифти проксимальні для стегна",
+          "subtitle": "",
+          "material": "Матеріал",
+          "materialData": "нерж. сталь або сплав титану. У разі сплаву титану перша цифра буде 3",
+          "tool": "Інструмент",
+          "short": "Короткий",
+          "long": "Довгий",
+          "right": "Правий",
+          "left": "Лівий",
+					"table": {
+						"first": "Ø мм",
+						"second": "L",
+						"third": "α (°)",
+            "fourth": "Канюлированый",
+						"fifth": "Звичайний"
+					},
+          "secondTable": {
+            "first": "",
+            "firstData": "Шийковий гвинт",
+						"second": "Нерж. сталь",
+            "secondData": "Деротаційний гвинт",
+						"third": "Сплав титану",
+            "thirdData": "Заглушка",
+            "fourthData": "Блокуючий гвинт 4,9 мм"
+          },
+          "thirdTable": {
+            "first": "Ø мм",
+            "second": "L",
+						"third": "α (°)",
+            "fourth": "Канюлированый"
+          },
+          "fourthTable": {
+            "first": "Ø мм",
+            "second": "L",
+						"third": "α (°)",
+            "fourth": "Канюлированый"
+          }
 				}
       },
       "surgery": {

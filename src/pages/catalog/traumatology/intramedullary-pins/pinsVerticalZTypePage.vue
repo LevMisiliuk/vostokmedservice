@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import PinsVerticalZType from '@/components/catalog/traumatology/PinsVerticalZType.vue';
+import PinsVerticalZType from '@/components/catalog/traumatology/intramedullary-pins/PinsVerticalZType.vue'
 import { MqResponsive } from "vue3-mq";
 import { onMounted } from "vue";
 import { updateBreakpoints } from "vue3-mq";

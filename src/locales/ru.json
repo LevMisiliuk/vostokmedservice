@@ -9,7 +9,7 @@
 	"footer": {
 		"text": "© ТОВ «Восток-Медсервис»",
 		"author-1": "Дизайн - Владимир Капустян",
-		"author-2": "Разработка - Лев Мисилюк"
+		"author-2": "Разработка - Лев Мисилюк, Анатолий Нестеренко"
 	},
 	"contacts": {
 		"contact-us": "Свяжитесь с нами",
@@ -41,7 +41,7 @@
 					"thighPins": "Штифты для бедер",
 					"pinsForShoulder": "Штифты для плеча",
 					"retrogradeFemoralPins": "Штифты ретроградные бедренные ",
-					"distalFemoralNail": "Штифт дистальный бедренный ",
+					"distalFemoralPins": "Штифт дистальный бедренный ",
 					"hipProximalPins": "Штифты проксимальные для бедра "
 				},
 				"calfPin": {
@@ -133,13 +133,71 @@
 					"table": {
 						"first": "",
             "firstData": "Прямой",
-            "secondData": "Выгнутый",
-            "thirdData": "Канюлиров",
 						"second": "L, мм",
+            "secondData": "Выгнутый",
 						"third": "Ø 10 мм",
+            "thirdData": "Канюлиров",
 						"fourth": "Ø 11 мм",
 						"fifth": "Ø 12 мм"
 					}
+				},
+				"distalFemoralPins": {
+					"title": "Дистальный бедренный штифт",
+          "subtitle": "",
+					"lockingScrew": "Блокирующий винт",
+					"lockingScrewData": "Ø4,9 мм",
+					"plug": "Заглушка",
+					"material": "Метериал",
+					"materialData": "нерж. сталь или сплав титана. В случае сплава титана первая цифра будет 3",
+					"tool": "Инструмент",
+					"table": {
+						"first": "",
+						"firstData": "Обычный",
+						"second": "Ø",
+            "secondData": "Канюлированый",
+						"third": "L=150 мм",
+						"fourth": "L=210 мм",
+						"fifth": "L=250 мм"
+					}
+				},
+				"hipProximalPins": {
+					"title": "Штифты проксимальные для бедра",
+          "subtitle": "",
+         	"material": "Материал",
+          "materialData": "нерж. сталь или сплав титана. В случае сплава титана первая цифра будет 3",
+          "tool": "Инструмент",
+          "short": "Короткий",
+          "long": "Длинный",
+          "right": "Правый",
+          "left": "Левый",
+					"table": {
+						"first": "Ø мм",
+						"second": "L",
+						"third": "α (°)",
+            "fourth": "Канюлированый",
+						"fifth": "Обычный"
+					},
+          "secondTable": {
+            "first": "",
+            "firstData": "Шеечный винт",
+						"second": "Нерж. сталь",
+            "secondData": "Деротационный винт ",
+						"third": "Сплав титана",
+            "thirdData": "Заглушка",
+            "fourthData": "Блокирующий винт 4,9 мм"
+          },
+          "thirdTable": {
+            "first": "Ø мм",
+            "second": "L",
+						"third": "α (°)",
+            "fourth": "Канюлированый"
+          },
+          "fourthTable": {
+            "first": "Ø мм",
+            "second": "L",
+						"third": "α (°)",
+            "fourth": "Канюлированый"
+          }
 				}
 			},
 			"surgery": {

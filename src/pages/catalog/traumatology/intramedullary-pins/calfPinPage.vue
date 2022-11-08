@@ -1,6 +1,5 @@
 <template>
   <MqResponsive target="phone">
-    
   </MqResponsive>
   <MqResponsive target="tablet">
   </MqResponsive>
@@ -10,7 +9,7 @@
 </template>
 
 <script>
-import CalfPin from '@/components/catalog/traumatology/CalfPin.vue';
+import CalfPin from '@/components/catalog/traumatology/intramedullary-pins/CalfPin.vue';
 import { MqResponsive } from "vue3-mq";
 import { onMounted } from "vue";
 import { updateBreakpoints } from "vue3-mq";

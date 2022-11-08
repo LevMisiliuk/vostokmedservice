@@ -9,7 +9,7 @@
 	"footer": {
 		"text": "© TOV «Vostok-Medservis»",
 		"author-1": "Design - Volodymyr Kapustyan",
-		"author-2": "Development - Lev Misiliuk"
+		"author-2": "Development - Lev Misiliuk, Anatolii Nesterenko"
 	},
 	"contacts": {
 		"contact-us": "Contact us",
@@ -41,7 +41,7 @@
 					"thighPins": "Thigh pins",
 					"pinsForShoulder": "Pins for shoulder",
 					"retrogradeFemoralPins": "Retrograde femoral pins",
-					"distalFemoralNail": "Distal femoral nail",
+					"distalFemoralPins": "Distal femoral nail",
 					"hipProximalPins": "Hip proximal pins"
 				},
 				"calfPin": {
@@ -140,6 +140,63 @@
 						"fourth": "Ø 11 mm",
 						"fifth": "Ø 12 mm"
 					}
+				},
+				"distalFemoralPins": {
+					"title": "Distal Femoral Pins",
+          "lockingScrew": "Locking screw",
+					"lockingScrewData": "Ø4,9mm",
+					"plug": "Stub",
+					"material": "Meterial",
+					"materialData": "stainless steel steel or titanium alloy. In the case of titanium alloy, the first digit will be 3",
+					"tool": "Tool",
+					"table": {
+						"first": "",
+						"firstData": "Normal",
+						"second": "Ø",
+            "secondData": "Cannulated",
+						"third": "L=150 mm",
+						"fourth": "L=210 mm",
+						"fifth": "L=250 mm"
+					}
+				},
+				"hipProximalPins": {
+					"title": "Proximal pins for the hip",
+          "subtitle": "",
+          "material": "Meterial",
+					"materialData": "stainless steel steel or titanium alloy. In the case of titanium alloy, the first digit will be 3",
+					"tool": "Tool",
+          "short": "Short",
+          "long": "Long",
+          "right": "Right",
+          "left": "Left",
+					"table": {
+						"first": "Ø mm",
+						"second": "L",
+						"third": "α (°)",
+            "fourth": "Cannulated",
+						"fifth": "Normal"
+					},
+          "secondTable": {
+            "first": "",
+            "firstData": "Cervical screw",
+						"second": "Stainless steel",
+            "secondData": "Derotation screw",
+						"third": "Titanium alloy",
+            "thirdData": "Plug",
+            "fourthData": "Locking screw 4.9 mm"
+          },
+          "thirdTable": {
+            "first": "Ø mm",
+            "second": "L",
+						"third": "α (°)",
+            "fourth": "Cannulated"
+          },
+          "fourthTable": {
+            "first": "Ø mm",
+            "second": "L",
+						"third": "α (°)",
+            "fourth": "Cannulated"
+          }
 				}
 			},
 			"surgery": {
