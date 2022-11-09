@@ -57,6 +57,15 @@ p {
   transition: all 0.3s linear;
 }
 
+.white-circle {
+  width: 10px;
+  height: 10px;
+  background-color: $primary-white;
+  border-radius: 50%;
+  margin-right: 10px;
+  transition: all 0.3s linear;
+}
+
 .breadcrumb {
   font-weight: 400;
   font-size: 16px;
