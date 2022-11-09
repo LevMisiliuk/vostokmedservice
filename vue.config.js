@@ -30,7 +30,11 @@ module.exports = defineConfig({
     resolve: {
       alias: {
         "@": path.resolve(__dirname, 'src/')
-      }
+      },
     }
   },
+  chainWebpack(config) {
+    config.resolve.symlinks(false)
+    config.resolve.alias.set( 'vue', path.resolve('./node_modules/vue'))    
+  },  
 })

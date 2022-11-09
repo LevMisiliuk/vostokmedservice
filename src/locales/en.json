@@ -23,6 +23,12 @@
 			"more": "More",
 			"text": "«Vostok-Medservice» is a specialized company in the field of traumatology, orthopedics and neurosurgery, as well as the exclusive representative of the Hungarian manufacturing plant Medimetal Kft in Ukraine, which manufactures thousands of implants from high-quality stainless steel and titanium. Our company offers a wide range of medical equipment and surgical instruments. The main advantages of the products offered by Vostok-Medservice are the ratio of high quality, affordable price, as well as a convenient, intuitive instrument for the doctor."
 		},
+		"intro-mobile": {
+      "movement": "MOVEMENT - ",
+      "itsLife": "IT'S LIFE",
+      "more": "More",
+      "text": "A specialized company in the field of traumatology, orthopedics and neurosurgery, which offers a wide range of medical equipment and surgical instruments"
+    },
 		"carts": {
 			"traumatology": {
 				"title": "Traumatology",

@@ -5,6 +5,7 @@
     :href="path"
   >
     <div v-if="blueCircle" class="blue-circle"></div>
+    <div v-if="whiteCircle" class="white-circle"></div>
     <div :style="`font-size: ${linkSize}px`" class="primary-link__link">
       {{ linkTitle }}
     </div>
@@ -30,6 +31,10 @@ export default {
       default: 'right'
     },
     blueCircle: {
+      type: Boolean,
+      default: false
+    },
+    whiteCircle: {
       type: Boolean,
       default: false
     },
@@ -79,6 +84,9 @@ export default {
   &:hover {
     .blue-circle {
       background-color: $primary-blue;
+    }
+    .white-circle {
+      background-color: $primary-black;
     }
   }
 }
