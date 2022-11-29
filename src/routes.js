@@ -14,6 +14,7 @@ import ShoulderPins from './components/catalog/traumatology/intramedullary-pins/
 import RetrogradeFemoralPins from './components/catalog/traumatology/intramedullary-pins/RetrogradeFemoralPins.vue'
 import DistalFemoralPins from '@/components/catalog/traumatology/intramedullary-pins/DistalFemoralPins.vue'
 import HipProximalPins from '@/components/catalog/traumatology/intramedullary-pins/HipProximalPins.vue'
+import BlockedPlates from '@/components/catalog/traumatology/blocked-plates/BlockedPlates.vue';
 
 export default createRouter({
     history: createWebHistory(),
@@ -28,6 +29,7 @@ export default createRouter({
                 { path: 'certificates', component: CertificatesPage },
                 { path: 'contacts', component: ContactsPage },
                 { path: 'catalog/traumatology/intramedullary-pins', component: IntramedullaryPinsPage },
+                { path: 'catalog/traumatology/blocked-plates', component: BlockedPlates },
                 { path: '404', component: NotFound, },
                 { path: 'catalog/traumatology/intramedullary-pins/calf-pin', component: CalfPinPage },
                 { path: 'catalog/traumatology/intramedullary-pins/pins-vertical-z-type', component: PinsVerticalZTypePage },

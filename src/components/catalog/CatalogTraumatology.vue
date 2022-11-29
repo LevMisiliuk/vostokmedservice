@@ -56,7 +56,7 @@ export default {
       {
         title: i18n.global.t('main.carts.traumatology.links.blockedPlates'),
         img: require('@/assets/traumatology/blocked-plates.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/traumatology/blocked-plates`
       },
       {
         title: i18n.global.t('main.carts.traumatology.links.tool'),

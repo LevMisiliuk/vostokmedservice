@@ -49,7 +49,11 @@
           "pinsForShoulder": "Штифты для плеча",
           "retrogradeFemoralPins": "Штифты ретроградные бедренные",
           "distalFemoralPins": "Штифт дистальний бедренный",
-          "hipProximalPins": "Штифты проксимальные для бедра"
+          "hipProximalPins": "Штифты проксимальные для бедра",
+					"smallInsertsWithAngularStability": "Малі пластини з кутовою стабільністю",
+					"specialInsertsWithAngularStability": "Спеціальні пластини з кутовою стабільністю",
+					"angularStabilityInserts": "Пластини з кутовою стабільністю",
+					"largeInsertsWithAngularStability": "Великі пластини з кутовою стабільністю"
         },
         "calfPin": {
           "title": "Штифт для голені",

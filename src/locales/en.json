@@ -48,7 +48,11 @@
 					"pinsForShoulder": "Pins for shoulder",
 					"retrogradeFemoralPins": "Retrograde femoral pins",
 					"distalFemoralPins": "Distal femoral nail",
-					"hipProximalPins": "Hip proximal pins"
+					"hipProximalPins": "Hip proximal pins",
+					"smallInsertsWithAngularStability": "Small inserts with angular stability",
+					"specialInsertsWithAngularStability": "Special inserts with angular stability",
+					"angularStabilityInserts": "Angular stability inserts",
+					"largeInsertsWithAngularStability": "Large inserts with angular stability"
 				},
 				"calfPin": {
 					"title": "Calf pin",
