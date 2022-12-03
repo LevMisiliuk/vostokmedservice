@@ -1,12 +1,7 @@
 <template>
-    <MqResponsive target="phone">
-      
-    </MqResponsive>
-    <MqResponsive target="tablet">
-    </MqResponsive>
-    <MqResponsive :target="['laptop', 'desktop']">
-      <CatalogTraumatology />
-    </MqResponsive>
+   <MqResponsive :target="['xs', 'sm', 'md', 'lg', 'xl', 'xxl']">
+     <CatalogTraumatology />
+  </MqResponsive>
 </template>
 
 <script>

@@ -51,7 +51,7 @@ export default {
       },
       {
         name: i18n.global.t('main.carts.traumatology.links.blockedPlates'),
-        path: `/404`
+        path: `/${i18n.global.locale.value}/catalog/traumatology/blocked-plates`
       },
       {
         name: i18n.global.t('main.carts.traumatology.links.tool'),

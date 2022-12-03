@@ -1,5 +1,5 @@
 <template>
-  <MqResponsive :target="['xs', 'sm', 'md', 'xl', 'xxl']">
+  <MqResponsive :target="['xs', 'sm', 'md', 'lg', 'xl', 'xxl']">
      <CertificatesScreen />
   </MqResponsive>
 </template>

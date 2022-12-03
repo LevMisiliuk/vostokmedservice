@@ -2,7 +2,7 @@
     <MqResponsive :target="['xs', 'sm']">
       <MainScreenMobile />
     </MqResponsive>
-    <MqResponsive :target="['md', 'xl', 'xxl']">
+    <MqResponsive :target="['md', 'lg', 'xl', 'xxl']">
       <MainScreen />
     </MqResponsive>
 </template>

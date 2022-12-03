@@ -38,7 +38,7 @@
         </div>
         <div class="footer__authors">
           <p class="footer__authors-text">{{ $t('footer.author-1') }}</p>
-          <p>{{ $t('footer.author-2') }}</p>
+          <p class="footer__authors-text">{{ $t('footer.author-2') }}</p>
         </div>
       </div>
     </div>
@@ -92,6 +92,7 @@ export default {
 
     &-text {
       margin-bottom: 10px;
+      max-width: 265px;
     }
   }
 
