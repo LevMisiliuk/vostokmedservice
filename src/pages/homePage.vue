@@ -1,10 +1,8 @@
 <template>
-    <MqResponsive target="phone">
+    <MqResponsive :target="['xs', 'sm']">
       <MainScreenMobile />
     </MqResponsive>
-    <MqResponsive target="tablet">
-    </MqResponsive>
-    <MqResponsive :target="['laptop', 'desktop']">
+    <MqResponsive :target="['md', 'xl', 'xxl']">
       <MainScreen />
     </MqResponsive>
 </template>
@@ -25,7 +23,7 @@ export default {
   setup() {
     onMounted(() => {
       updateBreakpoints({
-        preset: "devices"
+        preset: "bootstrap5"
       })
     })
 

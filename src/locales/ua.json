@@ -209,7 +209,19 @@
 						"third": "α (°)",
             "fourth": "Канюлированый"
           }
-				}
+				},
+        "smallInsertsWithAngularStability": {
+          "title": "Малі пластини з кутовою стабільністю",
+					"straightPlate": "Пластина пряма 10 х 3 мм, кутостабільна",
+					"thickness": "Товщина",
+					"thicknessData": "3.0 мм",
+					"width": "Ширина",
+					"widthData": "10 мм",
+					"screwDiameter": "Діаметр гвинта",
+					"screwDiameterData": "3.5 мм",
+					"material": "Матеріал",
+					"materialData": "нерж. сталь або сплав титану"
+        }
       },
       "surgery": {
         "title": "Хірургія",

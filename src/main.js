@@ -4,6 +4,7 @@ import i18n from './i18n'
 import router from './routes'
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
+import VueGtag from "vue-gtag";
 
 router.beforeEach((to, from, next) => {
     const lang = to.params.lang;
@@ -26,5 +27,10 @@ router.beforeEach((to, from, next) => {
 createApp(App)
     .use(i18n)
     .use(router)
+    .use(VueGtag, {
+      appName: 'Vostokmedservice',
+      config: { id: "G-33M7TSNPRJ" },
+      pageTrackerScreenviewEnabled: true,
+    }, router)
     .use(ElementPlus)
     .mount('#app')

@@ -1,17 +1,20 @@
 <template>
   <div class="card">
     <h3 class="card__header blue-txt">{{ title }}</h3>
-    <div class="card__product-info">
-      <div
-        class="card__product-info-inner"
-        v-for="item in productsParams"
-        :key="item.id"
-      >
-        <div class="card__product-name">
-          {{ item.name }}
-        </div>
-        <div class="card__product-data">
-          {{ item.data }}
+    <div class="card__product-info-structure">
+       <img class="card__product-image" v-if="image" :src="image" alt="product" />
+       <div class="card__product-info">
+        <div
+          class="card__product-info-inner"
+          v-for="item in productsParams"
+          :key="item.id"
+        >
+          <div class="card__product-name">
+            {{ item.name }}
+          </div>
+          <div class="card__product-data">
+            {{ item.data }}
+          </div>
         </div>
       </div>
     </div>
@@ -28,6 +31,10 @@ export default {
     productsParams: {
       type: Array,
       default: () => []
+    },
+    image: {
+      type: String,
+      default: ''
     }
   }
 }
@@ -44,6 +51,12 @@ export default {
 
   &__header {
     margin-bottom: 20px;
+  }
+
+  &__product-info-structure {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   &__product-info {
@@ -69,6 +82,11 @@ export default {
     font-size: 16px;
     max-width: 350px;
     white-space: pre-wrap;
+  }
+
+  &__product-image {
+    max-width: 40%;
+    max-height: 70px;
   }
 }
 </style>

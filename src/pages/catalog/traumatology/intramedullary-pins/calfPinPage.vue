@@ -22,7 +22,7 @@ export default {
   setup() {
     onMounted(() => {
       updateBreakpoints({
-        preset: "devices"
+        preset: "bootstrap5"
       })
     })
   }

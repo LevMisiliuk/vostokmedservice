@@ -207,7 +207,19 @@
 						"third": "α (°)",
             "fourth": "Cannulated"
           }
-				}
+				},
+        "smallInsertsWithAngularStability": {
+          "title": "Small inserts with angular stability",
+					"straightPlate": "Straight plate 10 x 3 mm, angle stable",
+					"thickness": "Thickness",
+					"thicknessData": "3.0 mm",
+					"width": "Width",
+					"widthData": "10 mm",
+					"screwDiameter": "Screw diameter",
+					"screwDiameterData": "3.5 мм",
+					"material": "Meterial",
+					"materialData": "stainless steel or titanium alloy."
+        }
 			},
 			"surgery": {
 				"title": "Surgery",
