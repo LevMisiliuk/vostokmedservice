@@ -94,6 +94,7 @@ export default {
     flex-direction: column;
     margin-top: 40px;
     align-items: center;
+    text-align: center;
     color: #929393;
 
     &-text {

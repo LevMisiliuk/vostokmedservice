@@ -1,5 +1,8 @@
 <template>
-  <MqResponsive :target="['xs', 'sm', 'md', 'lg', 'xl', 'xxl']">
+  <MqResponsive :target="['xs', 'sm']">
+    <CatalogPageMobile />
+  </MqResponsive>
+  <MqResponsive :target="['md', 'lg', 'xl', 'xxl']">
     <CataologSreen />
   </MqResponsive>
 </template>
