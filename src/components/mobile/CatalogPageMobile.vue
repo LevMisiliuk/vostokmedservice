@@ -1,24 +1,26 @@
 <template>
   <div class="catalog_mobile">
     <div class="catalog_mobile__block">
-      <MainBurgerMenu/>
+      <MainBurgerMenu />
       <div class="catalog_mobile__block__logo">
         <router-link :to="`/${$i18n.locale}/`">
           <img src="@/assets/logo-mobile.png" alt="logo" />
         </router-link>
       </div>
       <div class="catalog_mobile__inner">
-        <div></div>
+        <div class="catalog_mobile__links">
+          <ButtonLinks />
+        </div>
         <div class="catalog_mobile__inner-links">
-          <h2>Каталог</h2>
-          <el-button class="button-contacts">
-            <mail>Каталог травматології російською мовою</mail>
+          <h2>{{ $t('main.catalog.block.title') }}</h2>
+          <el-button class="button-download-pdf-mobile">
+            {{ $t('main.catalog.block.button-1') }}
           </el-button>
-          <el-button class="button-contacts">
-            <mail>Новий каталог травматології</mail>
+          <el-button class="button-download-pdf-mobile">
+            {{ $t('main.catalog.block.button-3') }}
           </el-button>
-          <el-button class="button-contacts">
-            <mail>Каталог травматології Восток Медсервис</mail>
+          <el-button class="button-download-pdf-mobile">
+            {{ $t('main.catalog.block.button-3') }}
           </el-button>
         </div>
       </div>
@@ -48,18 +50,36 @@ export default {
 };
 </script>
 
-<style lang="scss">
-.bm-burger-bars {
-  background-color: #000;
-}
+<style lang="scss" >
 
+.button-download-pdf-mobile {
+    width: 80vw !important;
+    height: 48px !important;
+    text-align: center !important;
+    margin: 0 !important;
+    border: 2px solid #00aeef !important;
+    border-radius: 16px !important;
+    margin-bottom: 30px !important;
+  }
+.button-links-mobile {
+    width: 45vw !important;
+    height: 48px !important;
+    text-align: center !important;
+    margin-left: 10px !important;
+    border-radius: 16px !important;
+    margin-bottom: 30px !important;
+}
 .catalog_mobile {
+  .bm-burger-bars {
+    background-color: #000;
+  }
+
   &__block {
     display: flex;
     flex-direction: column;
     color: $primary-white;
     width: 100vw;
-    height: 80vh;
+    height: 70vh;
   
     &-menu {
       position: absolute;
@@ -76,6 +96,11 @@ export default {
       }
     }
   }
+
+  &__links {
+    margin-top: 80px;
+  }
+
   &__inner {
     display: flex;
     flex-direction: column;
@@ -83,6 +108,7 @@ export default {
 
     h2 {
       color:$primary-blue;
+      margin-bottom: 14px;
     }
 
     &-links {
