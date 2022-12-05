@@ -19,6 +19,10 @@ body {
   line-height: 1.6;
   color: $primary-black;
   font-feature-settings: 'pnum' on, 'lnum' on;
+
+  &.active {
+    overflow: hidden;
+  }
 }
 
 *,

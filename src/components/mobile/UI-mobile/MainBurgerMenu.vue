@@ -1,176 +1,277 @@
 <template>
-      <Slide class="slide" @click="toggleDisplay" width="400">
-        <span class="menu-items" v-show="display">
-          <div class="intro_mobile__block__logo">
-            <router-link :to="`/${$i18n.locale}/`">
-              <img src="@/assets/logo-mobile.png" alt="logo" />
-            </router-link>
-          </div>
-          <div class="burger__menu">
-            <PrimaryLink
-              :linkTitle="$t('header.main')"
-              :path="`/${$i18n.locale}`"
-            />
-            <PrimaryLink
-              :linkTitle="$t('header.education')"
-              :path="`/${$i18n.locale}/education`"
-            />
-            <PrimaryLink
-              :linkTitle="$t('header.certificates')"
-              :path="`/${$i18n.locale}/certificates`"
-            />
-            <PrimaryLink
-              :linkTitle="$t('header.contacts')"
-              :path="`/${$i18n.locale}/contacts`"
-            />
-          </div>
-          <el-button class="button-contacts">
-            +38(050) 960-37-67
-          </el-button>
-          <el-button class="button-contacts">
-            <mail>tdvostok@mail.ru</mail>
-          </el-button>
-          </span>
-          <LangSelect
-          :options="options"
-          @select="optionSelect"
-          :selected="selected"
-          class="lang-select-mobile"
-        />
-      </Slide>
+  <div class="burger-menu">
+    <nav>
+      <div class="burger-menu__wrap">
+        <button
+          @click="toggleMenu"
+          class="burger-menu__menu"
+          :class="{ active: isActive }"
+        >
+          <svg viewBox="0 0 64 48">
+            <path d="M19,15 L45,15 C70,15 58,-2 49.0177126,7 L19,37"></path>
+            <path d="M19,24 L45,24 C61.2371586,24 57,49 41,33 L32,24"></path>
+            <path d="M45,33 L19,33 C-8,33 6,-2 22,14 L45,37"></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+    <div
+      class="burger-menu__dropdown"
+      :class="{ 'burger-menu__dropdown-after': isActive }"
+    >
+      <div class="burger-menu__dropdown-content">
+        <router-link :to="`/${$i18n.locale}/`" class="burger-menu__dropdown-content-item">
+          <img src="@/assets/logo-mobile.png" alt="logo" />
+        </router-link>
+        <div class="burger-menu__dropdown-content-items">
+          <PrimaryLink
+            :linkTitle="$t('header.main')"
+            :path="`/${$i18n.locale}`"
+            class="burger-menu__dropdown-content-item"
+          />
+          <PrimaryLink
+            :linkTitle="$t('header.education')"
+            :path="`/${$i18n.locale}/education`"
+            class="burger-menu__dropdown-content-item"
+          />
+          <PrimaryLink
+            :linkTitle="$t('header.certificates')"
+            :path="`/${$i18n.locale}/certificates`"
+            class="burger-menu__dropdown-content-item"
+          />
+          <PrimaryLink
+            :linkTitle="$t('header.contacts')"
+            :path="`/${$i18n.locale}/contacts`"
+            class="burger-menu__dropdown-content-item"
+          />
+        </div>
+        <a class="burger-menu__contact" href="tel:+38(050) 960-37-67">
+          <img
+            src="@/assets/svg/phone-icon.svg"
+            class="burger-menu__contact-img"
+            alt="phone"
+          />
+          +38(050) 960-37-67
+        </a>
+        <div class="burger-menu__contact">
+          <img
+            src="@/assets/svg/email-icon.svg"
+            class="burger-menu__contact-img"
+            alt="email"
+          />
+          <mail class="">tdvostok@mail.ru</mail>
+        </div>
+        <div class="burger-menu__contact-langs">
+          <ChooseLangButton
+            :language="'УКР'"
+            :flag="require('@/assets/ua-flag.png')"
+            @click="setLocale('ua')"
+          />
+          <ChooseLangButton
+            :language="'РУС'"
+            :flag="require('@/assets/ru-flag.png')"
+            @click="setLocale('ru')"
+          />
+          <ChooseLangButton
+            :language="'ENG'"
+            :flag="require('@/assets/en-flag.png')"
+            @click="setLocale('en')"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
-import { ref } from 'vue';
-import { Slide } from 'vue3-burger-menu'
-
-import 'swiper/css/pagination';
-import 'swiper/css';
+import { ref } from 'vue'
+import ChooseLangButton from '@/components/auxiliaryComponents/ChooseLangButton.vue'
+import i18n from '@/i18n'
+import router from '@/routes'
 
 export default {
   components: {
-    Slide
+    ChooseLangButton
   },
   props: {
     msg: {
       type: String,
       default: ''
-    },
+    }
   },
   setup() {
-    const options = ref([
-      { name: 'УКР', value: 'ua', flag: require('@/assets/ua-flag.png') },
-      { name: 'ENG', value: 'en', flag: require('@/assets/en-flag.png') },
-      { name: 'РУС', value: 'ru', flag: require('@/assets/ru-flag.png') }
-    ])
-
-    const selected = ref(
-      localStorage.getItem('lang') === 'ua'
-        ? options.value[0]
-        : localStorage.getItem('lang') === 'en'
-        ? options.value[1]
-        : localStorage.getItem('lang') === 'ru'
-        ? options.value[2]
-        : options.value[0]
-    )
-
-    const display = ref(true);
-
-    function toggleDisplay() {
-      display.value = !display.value;
+    function toggleMenu() {
+      isActive.value = !isActive.value
+      document.body.classList.toggle('active'); //removing scroll when we have burger menu active
     }
 
-    function optionSelect(option) {
-      selected.value = option
+    function setLocale(locale) {
+      localStorage.setItem('lang', locale)
+      i18n.global.locale.value = locale
+      router.push({
+        params: { lang: locale }
+      })
     }
+
+    const isActive = ref(false)
 
     return {
-      toggleDisplay,
-      display,
-      options,
-      selected,
-      optionSelect
-    };
-  },
-};
+      isActive,
+      toggleMenu,
+      setLocale
+    }
+  }
+}
 </script>
 
 <style lang="scss">
-.lang-select-mobile {
-  left: 35%;
-}
+.burger-menu {
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  width: 100%;
 
-.slide {
-  z-index:3;
-}
-
-.button-contacts {
-    width: 75vw !important;
-    height: 48px !important;
-    text-align: center !important;
-    margin-top: 0 !important;
-    border: 2px solid #00aeef !important;
-    border-radius: 16px !important;
-    margin-bottom: 30px !important;
+  &__wrap {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    margin-top: 0;
   }
 
-.menu-items {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.burger__menu {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  margin-bottom: 40px;
-}
-
-.bm-burger-button {
-  position: fixed;
-  width: 32px;
-  height: 30px;
-  left: 80%;
-  top: 2.5%;
-  cursor: pointer;
-}
-
-.bm-burger-bars {
-  background-color: #fff;
-}
-
-.line-style {
-  height: 10%;
-}
-
-.bm-menu {
-  height: 100vh;
-  background-color: #F2F2F2;
-}
-
-.cross-style {
-  top: 25px;
-  right: 15px;
-}
-
-.bm-item-list {
-  margin: auto;
-}
-
-.intro_mobile {
-  &__block {
+  &__dropdown {
+    height: 0px;
+    background-color: #fff;
+    transition: height 0.4s ease;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    color: $primary-white;
-    width: 100vw;
-    height: 80vh;
-    background-image: url('@/assets/main-image.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+    overflow: hidden;
+
+    &-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+
+      &-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 32px;
+      }
+
+      &-item {
+        margin-bottom: 32px;
+      }
+    }
+  }
+
+  &__dropdown-after {
+    position: fixed;
+    height: calc(110vh);
+    width: 100%;
+    transition: height 0.2s ease;
+    display: flex;
+    align-items: flex-start;
+    padding: 64px 37px;
+  }
+
+  &__wrap {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__menu {
+    --color: #fff;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    margin: 12px 18px 0 0;
+    outline: none;
+    position: relative;
+    right: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    -webkit-appearence: none;
+    -webkit-tap-highlight-color: transparent;
+    svg {
+      width: 64px;
+      height: 48px;
+      top: -6px;
+      left: -14px;
+      stroke: var(--color);
+      stroke-width: 4px;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+      display: block;
+      position: absolute;
+      path {
+        transition: stroke-dasharray var(--duration, 0.85s) var(--easing, ease)
+            var(--delay, 0s),
+          stroke-dashoffset var(--duration, 0.85s) var(--easing, ease)
+            var(--delay, 0s);
+        stroke-dasharray: var(--array-1, 26px) var(--array-2, 100px);
+        stroke-dashoffset: var(--offset, 126px);
+        transform: translateZ(0);
+        &:nth-child(2) {
+          --duration: 0.7s;
+          --easing: ease-in;
+          --offset: 100px;
+          --array-2: 74px;
+        }
+        &:nth-child(3) {
+          --offset: 133px;
+          --array-2: 107px;
+        }
+      }
+    }
+    &.active {
+      svg {
+        stroke: gray;
+        path {
+          --offset: 57px;
+          &:nth-child(1),
+          &:nth-child(3) {
+            --delay: 0.15s;
+            --easing: cubic-bezier(0.2, 0.4, 0.2, 1.1);
+          }
+          &:nth-child(2) {
+            --duration: 0.4s;
+            --offset: 2px;
+            --array-1: 1px;
+          }
+          &:nth-child(3) {
+            --offset: 58px;
+          }
+        }
+      }
+    }
+  }
+
+  &__contact {
+    width: 100%;
+    padding: 11px 64px;
+    height: 100%;
+    text-align: center;
+    margin-top: 0;
+    border: 2px solid #00aeef;
+    border-radius: 16px;
+    margin-bottom: 30px;
+    color: $primary-black;
+    margin-bottom: 40px;
+    white-space: nowrap;
+
+    &-img {
+      margin-right: 18px;
+    }
+
+    &-langs {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
   }
 }
 </style>
