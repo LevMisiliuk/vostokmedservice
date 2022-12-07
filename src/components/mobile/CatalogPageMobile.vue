@@ -19,39 +19,32 @@
 </template>
 
 <script>
-
 export default {
   setup() {
-
-
-    return {
-
-    };
-  },
-};
+    return {}
+  }
+}
 </script>
 
-<style lang="scss" >
-
+<style lang="scss">
 .button-download-pdf-mobile {
-    width: 80vw !important;
-    height: 48px !important;
-    text-align: center !important;
-    margin: 0 !important;
-    border: 2px solid #00aeef !important;
-    border-radius: 16px !important;
-    margin-bottom: 30px !important;
-  }
+  width: 80vw !important;
+  height: 48px !important;
+  text-align: center !important;
+  margin: 0 !important;
+  border: 2px solid #00aeef !important;
+  border-radius: 16px !important;
+  margin-bottom: 30px !important;
+}
 .button-links-mobile {
-    width: 45vw !important;
-    height: 48px !important;
-    text-align: center !important;
-    margin-left: 10px !important;
-    border-radius: 16px !important;
-    margin-bottom: 30px !important;
+  width: 45vw !important;
+  height: 48px !important;
+  text-align: center !important;
+  margin-left: 10px !important;
+  border-radius: 16px !important;
+  margin-bottom: 30px !important;
 }
 .catalog_mobile {
-
   &__links {
     margin-top: 80px;
   }
@@ -62,7 +55,7 @@ export default {
     margin-top: 40px;
 
     h2 {
-      color:$primary-blue;
+      color: $primary-blue;
       margin-bottom: 14px;
     }
 

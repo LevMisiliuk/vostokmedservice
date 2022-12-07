@@ -30,6 +30,11 @@
             class="burger-menu__dropdown-content-item"
           />
           <PrimaryLink
+            :linkTitle="$t('header.catalog')"
+            :path="`/${$i18n.locale}/catalog`"
+            class="burger-menu__dropdown-content-item"
+          />
+          <PrimaryLink
             :linkTitle="$t('header.education')"
             :path="`/${$i18n.locale}/education`"
             class="burger-menu__dropdown-content-item"
