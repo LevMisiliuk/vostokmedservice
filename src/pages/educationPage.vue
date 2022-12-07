@@ -1,5 +1,8 @@
 <template>
-  <MqResponsive :target="['xs', 'sm', 'md', 'lg', 'xl', 'xxl']">
+  <MqResponsive :target="['xs', 'sm']">
+    <EducationScreenMobile />
+  </MqResponsive>
+  <MqResponsive :target="['md', 'lg', 'xl', 'xxl']">
     <EducationScreen />
   </MqResponsive>
 </template>
