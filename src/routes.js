@@ -10,12 +10,12 @@ import IntramedullaryPinsPage from './pages/catalog/traumatology/IntramedullaryP
 import CalfPinPage from './pages/catalog/traumatology/intramedullary-pins/CalfPinPage.vue'
 import PinsVerticalZTypePage from './pages/catalog/traumatology/intramedullary-pins/PinsVerticalZTypePage.vue'
 import ThighPinsPage from './pages/catalog/traumatology/intramedullary-pins/ThighPinsPage.vue'
-import ShoulderPins from './components/catalog/traumatology/intramedullary-pins/ShoulderPins.vue'
-import RetrogradeFemoralPins from './components/catalog/traumatology/intramedullary-pins/RetrogradeFemoralPins.vue'
-import DistalFemoralPins from '@/components/catalog/traumatology/intramedullary-pins/DistalFemoralPins.vue'
-import HipProximalPins from '@/components/catalog/traumatology/intramedullary-pins/HipProximalPins.vue'
+import ShoulderPinsPage from './pages/catalog/traumatology/intramedullary-pins/ShoulderPinsPage.vue'
+import RetrogradeFemoralPinsPage from './pages/catalog/traumatology/intramedullary-pins/ShoulderPinsPage.vue'
+import DistalFemoralPinsPage from './pages/catalog/traumatology/intramedullary-pins/ShoulderPinsPage.vue'
+import HipProximalPinsPage from './pages/catalog/traumatology/intramedullary-pins/ShoulderPinsPage.vue'
 import BlockedPlatesPage from '@/pages/catalog/traumatology/blocked-plates/BlockedPlatesPage.vue'
-import SmallInsertsWithAngularStability from '@/components/catalog/traumatology/blocked-plates/SmallInsertsWithAngularStability'
+import SmallInsertsWithAngularStabilityPage from '@/pages/catalog/traumatology/blocked-plates/SmallInsertsWithAngularStabilityPage.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -39,7 +39,7 @@ export default createRouter({
         },
         {
           path: 'catalog/traumatology/blockedPlates/small-inserts-with-angular-stability',
-          component: SmallInsertsWithAngularStability
+          component: SmallInsertsWithAngularStabilityPage
         },
         { path: '404', component: NotFound },
         {
@@ -56,19 +56,19 @@ export default createRouter({
         },
         {
           path: 'catalog/traumatology/intramedullary-pins/shoulder-pins',
-          component: ShoulderPins
+          component: ShoulderPinsPage
         },
         {
           path: 'catalog/traumatology/intramedullary-pins/retrograde-femoral-pins',
-          component: RetrogradeFemoralPins
+          component: RetrogradeFemoralPinsPage
         },
         {
           path: 'catalog/traumatology/intramedullary-pins/distal-femoral-pins',
-          component: DistalFemoralPins
+          component: DistalFemoralPinsPage
         },
         {
           path: 'catalog/traumatology/intramedullary-pins/hip-proximal-pins',
-          component: HipProximalPins
+          component: HipProximalPinsPage
         }
       ]
     }

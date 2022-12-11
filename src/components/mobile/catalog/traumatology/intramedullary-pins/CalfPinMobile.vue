@@ -7,7 +7,6 @@
         :subtitle="calfData[0].subtitle"
         :productsParams="calfData[0].productsParams"
       />
-
     </div>
   </MobilePageWrapper>
 </template>
