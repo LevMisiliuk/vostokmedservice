@@ -1,5 +1,8 @@
 <template>
-  <MqResponsive :target="['xs', 'sm', 'md', 'lg', 'xl', 'xxl']">
+  <MqResponsive :target="['xs', 'sm']">
+    <CalfPinMobile />
+  </MqResponsive>
+  <MqResponsive :target="['md', 'lg', 'xl', 'xxl']">
     <CalfPin />
   </MqResponsive>
 </template>
