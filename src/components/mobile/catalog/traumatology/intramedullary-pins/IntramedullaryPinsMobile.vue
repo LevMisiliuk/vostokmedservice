@@ -1,7 +1,7 @@
 <template>
   <MobilePageWrapper>
     <div class="intramedullary-pins_mobile__inner">
-      <h2 class="contacts-mobile__title">{{ $t('main.carts.traumatology.title') }}</h2>
+      <h2 class="intramedullary-pins_mobile__title">{{ $t('main.carts.traumatology.title') }}</h2>
       <div class="intramedullary-pins_mobile__inner-links">
         <Swiper
           :slides-per-view="1"
@@ -97,6 +97,13 @@ export default {
 
 <style lang="scss">
 .intramedullary-pins_mobile {
+  &__title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px !important;
+    width: 100%;
+  }
+
   &__inner {
     display: flex;
     flex-direction: column;
