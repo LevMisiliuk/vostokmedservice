@@ -1,0 +1,264 @@
+<template>
+  <MobilePageWrapper>
+    <div class="hip-proximal-pins_mobile__card">
+      <ProductInfoCardMobile
+        :image="cardData[0].image"
+        :title="cardData[0].title"
+        :subtitle="cardData[0].subtitle"
+        :productsParams="cardData[0].productsParams"
+      />
+    </div>
+  </MobilePageWrapper>
+</template>
+
+<script>
+import { computed, ref } from 'vue'
+import i18n from '@/i18n'
+
+export default {
+
+  setup() {
+    const tableData = ref([
+      {
+        first: '11',
+        second: '180',
+        third: '130',
+        fourth: '14651-18130',
+        fifth: '14650-18130',
+      },
+      {
+        first: '11',
+        second: '200',
+        third: '130',
+        fourth: '14651-18135',
+        fifth: '14650-18135 ',
+      },
+      {
+        first: '11',
+        second: '220',
+        third: '130',
+        fourth: '14651-20130',
+        fifth: '14650-20130'
+      },
+      {
+        first: '11',
+        second: '240',
+        third: '130',
+        fourth: '14651-20135',
+        fifth: '14650-20135'
+      },
+      {
+        first: '11',
+        second: '180',
+        third: '135',
+        fourth: '14651-22130',
+        fifth: '14650-22130'
+      },
+      {
+        first: '11',
+        second: '200',
+        third: '135',
+        fourth: '14651-22135',
+        fifth: '14650-22135'
+      },
+      {
+        first: '11',
+        second: '220',
+        third: '135',
+        fourth: '14651-24130',
+        fifth: '14650-24130'
+      },
+      {
+        first: '11',
+        second: '240',
+        third: '135',
+        fourth: '14651-24135',
+        fifth: '14650-24135'
+      },
+    ])
+    const secondTableData = computed(() => [
+      {
+        first: i18n.global.t('main.carts.traumatology.hipProximalPins.secondTable.firstData'),
+        second: '12710-95075 – 12710-95145',
+        third: '32710-95075 – 12710-95145'
+      },
+      {
+        first: i18n.global.t('main.carts.traumatology.hipProximalPins.secondTable.secondData'),
+        second: '12001-65055 – 12001-65130',
+        third: '32001-65055 – 12001-65130'
+      },
+      {
+        first: i18n.global.t('main.carts.traumatology.hipProximalPins.secondTable.thirdData'),
+        second: '12400-14016',
+        third: '32400-14016'
+      },
+      {
+        first: i18n.global.t('main.carts.traumatology.hipProximalPins.secondTable.fourthData'),
+        second: '12200-49020 – 12200-49100',
+        third: '32200-49020 – 32200-49100'
+      },
+    ])
+    const thirdTableData = computed(() => [
+      {
+        first: '10',
+        second: '340',
+        third: '130',
+        fourth: '14670-34130'
+      },
+      {
+        first: '10',
+        second: '360',
+        third: '130',
+        fourth: '14670-36130'
+      },
+      {
+        first: '10',
+        second: '380',
+        third: '130',
+        fourth: '14670-38130'
+      },
+      {
+        first: '10',
+        second: '400',
+        third: '130',
+        fourth: '14670-40130'
+      },
+      {
+        first: '10',
+        second: '420',
+        third: '130',
+        fourth: '14670-42130'
+      },
+      {
+        first: '10',
+        second: '340',
+        third: '135',
+        fourth: '14670-34135'
+      },
+      {
+        first: '10',
+        second: '360',
+        third: '135',
+        fourth: '14670-36135'
+      },
+      {
+        first: '10',
+        second: '380',
+        third: '135',
+        fourth: '14670-38135'
+      },
+      {
+        first: '10',
+        second: '400',
+        third: '135',
+        fourth: '14670-40135'
+      },
+      {
+        first: '10',
+        second: '420',
+        third: '135',
+        fourth: '14670-42135'
+      },
+    ])
+    const fourthTableData = computed(() => [
+      {
+        first: '10',
+        second: '340',
+        third: '130',
+        fourth: '14660-34130'
+      },
+      {
+        first: '10',
+        second: '360',
+        third: '130',
+        fourth: '14660-36130'
+      },
+      {
+        first: '10',
+        second: '380',
+        third: '130',
+        fourth: '14660-38130'
+      },
+      {
+        first: '10',
+        second: '400',
+        third: '130',
+        fourth: '14660-40130'
+      },
+      {
+        first: '10',
+        second: '420',
+        third: '130',
+        fourth: '14660-42130'
+      },
+      {
+        first: '10',
+        second: '340',
+        third: '135',
+        fourth: '14660-34135'
+      },
+      {
+        first: ' 10',
+        second: '360',
+        third: '135',
+        fourth: '14660-36135'
+      },
+      {
+        first: '10',
+        second: '380',
+        third: '135',
+        fourth: '14660-38135'
+      },
+      {
+        first: '10',
+        second: '400',
+        third: '135',
+        fourth: '14660-40135'
+      },
+      {
+        first: '10',
+        second: '420',
+        third: '135',
+        fourth: '14660-42135'
+      },
+    ])
+    const cardData = computed(() => [
+      {
+        title: i18n.global.t('main.carts.traumatology.hipProximalPins.title'),
+        subtitle: i18n.global.t('main.carts.traumatology.hipProximalPins.subtitle'),
+        image: require('@/assets/traumatology/hip-proximal-pins.jpeg'),
+        productsParams: [
+          {
+            id: 3,
+            name: i18n.global.t('main.carts.traumatology.hipProximalPins.material'),
+            data: i18n.global.t('main.carts.traumatology.hipProximalPins.materialData')
+          },
+          {
+            id: 4,
+            name: i18n.global.t('main.carts.traumatology.hipProximalPins.tool'),
+            data: '94660-00000'
+          }
+        ]
+      }
+    ])
+
+    return {
+      cardData,
+      tableData,
+      secondTableData,
+      thirdTableData,
+      fourthTableData
+    }
+  },
+};
+</script>
+
+<style lang="scss" >
+.hip-proximal-pins_mobile {
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+  }
+}
+</style>
