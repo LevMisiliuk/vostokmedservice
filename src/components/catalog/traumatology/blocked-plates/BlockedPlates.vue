@@ -63,7 +63,7 @@ export default {
       {
         title: i18n.global.t('main.carts.traumatology.links.angularStabilityInserts'),
         img: require('@/assets/traumatology/angular-stability-inserts.jpeg'),
-         link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/404`
       },
       {
         title: i18n.global.t('main.carts.traumatology.links.largeInsertsWithAngularStability'),

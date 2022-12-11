@@ -14,7 +14,7 @@ import ShoulderPins from './components/catalog/traumatology/intramedullary-pins/
 import RetrogradeFemoralPins from './components/catalog/traumatology/intramedullary-pins/RetrogradeFemoralPins.vue'
 import DistalFemoralPins from '@/components/catalog/traumatology/intramedullary-pins/DistalFemoralPins.vue'
 import HipProximalPins from '@/components/catalog/traumatology/intramedullary-pins/HipProximalPins.vue'
-import BlockedPlates from '@/components/catalog/traumatology/blocked-plates/BlockedPlates.vue'
+import BlockedPlatesPage from '@/pages/catalog/traumatology/blocked-plates/BlockedPlatesPage.vue'
 import SmallInsertsWithAngularStability from '@/components/catalog/traumatology/blocked-plates/SmallInsertsWithAngularStability'
 
 export default createRouter({
@@ -35,7 +35,7 @@ export default createRouter({
         },
         {
           path: 'catalog/traumatology/blocked-plates',
-          component: BlockedPlates
+          component: BlockedPlatesPage
         },
         {
           path: 'catalog/traumatology/blockedPlates/small-inserts-with-angular-stability',
