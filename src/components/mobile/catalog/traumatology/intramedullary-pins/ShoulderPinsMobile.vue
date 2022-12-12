@@ -8,6 +8,71 @@
         :productsParams="cardData[0].productsParams"
       />
     </div>
+    {{ 'hui' }}
+    <div class="mobile_table-container">
+      <el-table
+        :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
+        :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
+        :data="tableData"
+        border
+        style="width: 100%"
+        :scrollbar-always-on="true"
+      >
+        <el-table-column label="" prop="first" min-width="140px">
+          <el-table-column
+            :label="$t('main.carts.traumatology.shoulderPins.table.first')"
+            prop="first"
+            min-width="140px"
+          />
+        </el-table-column>
+        <el-table-column
+          :label="$t('main.carts.traumatology.shoulderPins.table.second')"
+          prop="second"
+          min-width="140px"
+        >
+          <el-table-column
+            :label="$t('main.carts.traumatology.shoulderPins.table.eights')"
+            prop="second"
+            min-width="140px"
+          />
+        </el-table-column>
+        <el-table-column
+          :label="$t('main.carts.traumatology.shoulderPins.table.third')"
+          prop="third"
+          min-width="140px"
+        >
+          <el-table-column prop="second" min-width="140px"> </el-table-column>
+        </el-table-column>
+        <el-table-column
+          :label="$t('main.carts.traumatology.shoulderPins.table.fourth')"
+          prop="fourth"
+          min-width="140px"
+        >
+          <el-table-column label="Ø 8 мм" prop="second" min-width="140px" />
+        </el-table-column>
+        <el-table-column
+          :label="$t('main.carts.traumatology.shoulderPins.table.fifth')"
+          prop="fifth"
+          min-width="140px"
+        >
+          <el-table-column prop="second" min-width="140px" />
+        </el-table-column>
+        <el-table-column
+          :label="$t('main.carts.traumatology.shoulderPins.table.sixth')"
+          prop="sixth"
+          min-width="140px"
+        >
+          <el-table-column label="Ø 9 мм" prop="second" min-width="140px" />
+        </el-table-column>
+        <el-table-column
+          :label="$t('main.carts.traumatology.shoulderPins.table.seventh')"
+          prop="seventh"
+          min-width="140px"
+        >
+          <el-table-column prop="second" min-width="140px" />
+        </el-table-column>
+      </el-table>
+    </div>
   </MobilePageWrapper>
 </template>
 
@@ -16,7 +81,6 @@ import { computed, ref } from 'vue'
 import i18n from '@/i18n'
 
 export default {
-
   setup() {
     const tableData = ref([
       {
@@ -122,12 +186,16 @@ export default {
     const cardData = computed(() => [
       {
         title: i18n.global.t('main.carts.traumatology.shoulderPins.title'),
-        subtitle: i18n.global.t('main.carts.traumatology.shoulderPins.subtitle'),
+        subtitle: i18n.global.t(
+          'main.carts.traumatology.shoulderPins.subtitle'
+        ),
         image: require('@/assets/traumatology/pins-for-shoulder.jpeg'),
         productsParams: [
           {
             id: 1,
-            name: i18n.global.t('main.carts.traumatology.shoulderPins.lockingScrew'),
+            name: i18n.global.t(
+              'main.carts.traumatology.shoulderPins.lockingScrew'
+            ),
             data: i18n.global.t(
               'main.carts.traumatology.shoulderPins.lockingScrewData'
             )
@@ -139,8 +207,12 @@ export default {
           },
           {
             id: 3,
-            name: i18n.global.t('main.carts.traumatology.shoulderPins.material'),
-            data: i18n.global.t('main.carts.traumatology.shoulderPins.materialData')
+            name: i18n.global.t(
+              'main.carts.traumatology.shoulderPins.material'
+            ),
+            data: i18n.global.t(
+              'main.carts.traumatology.shoulderPins.materialData'
+            )
           },
           {
             id: 4,
@@ -153,15 +225,14 @@ export default {
 
     return {
       cardData,
-      tableData,
+      tableData
     }
-  },
-};
+  }
+}
 </script>
 
-<style lang="scss" >
+<style lang="scss">
 .shoulder-pin_mobile {
-
   &__card {
     display: flex;
     flex-direction: column;

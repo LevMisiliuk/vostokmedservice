@@ -1,10 +1,10 @@
 <template>
   <div class="card">
     <div class="card__header">
-      <img class="card__header-img" :src="image" alt="product" />
+      <img class="card__header-img" :src="image" alt="product" v-if="image" />
       <div class="card__header-inner">
-        <h2 class="blue-txt">{{ title }}</h2>
-        <p class="card__header-subtitle">{{ subtitle }}</p>
+        <h2 class="blue-txt" v-if="title">{{ title }}</h2>
+        <p class="card__header-subtitle" v-if="subtitle">{{ subtitle }}</p>
       </div>
     </div>
     <div v-if="productsParams.length" class="card__product-info">

@@ -1,7 +1,12 @@
 <template>
   <MobilePageWrapper>
+    <div class="catalog-traumatology_mobile__links">
+      <ButtonLinks />
+    </div>
     <div class="intramedullary-pins_mobile__inner">
-      <h2 class="intramedullary-pins_mobile__title">{{ $t('main.carts.traumatology.title') }}</h2>
+      <h2 class="intramedullary-pins_mobile__title">
+        {{ $t('main.carts.traumatology.title') }}
+      </h2>
       <div class="intramedullary-pins_mobile__inner-links">
         <Swiper
           :slides-per-view="1"
@@ -11,10 +16,7 @@
         >
           <swiper-slide v-for="cart in traumatologyCarts" :key="cart">
             <div class="intramedullary-pins_mobile__carts">
-              <a
-                class="intramedullary-pins_mobile__cart"
-                :href="cart.link"
-              >
+              <a class="intramedullary-pins_mobile__cart" :href="cart.link">
                 <img
                   :src="cart.img"
                   alt=""
@@ -35,16 +37,16 @@
 <script>
 import { computed } from 'vue'
 import i18n from '@/i18n'
-import { Swiper, SwiperSlide } from 'swiper/vue';
-import { Pagination } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/vue'
+import { Pagination } from 'swiper'
 
-import 'swiper/css/pagination';
-import 'swiper/css';
+import 'swiper/css/pagination'
+import 'swiper/css'
 
 export default {
   components: {
     Swiper,
-    SwiperSlide,
+    SwiperSlide
   },
   setup() {
     const traumatologyCarts = computed(() => [
@@ -89,10 +91,10 @@ export default {
 
     return {
       traumatologyCarts,
-      modules: [Pagination],
+      modules: [Pagination]
     }
-  },
-};
+  }
+}
 </script>
 
 <style lang="scss">
@@ -107,10 +109,10 @@ export default {
   &__inner {
     display: flex;
     flex-direction: column;
-    margin: 80px 0px 50px 0px;
+    margin: 0px 0px 50px 0px;
 
     h2 {
-      color:$primary-blue;
+      color: $primary-blue;
       margin-bottom: 14px;
     }
 

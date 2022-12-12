@@ -11,9 +11,9 @@ import CalfPinPage from './pages/catalog/traumatology/intramedullary-pins/CalfPi
 import PinsVerticalZTypePage from './pages/catalog/traumatology/intramedullary-pins/PinsVerticalZTypePage.vue'
 import ThighPinsPage from './pages/catalog/traumatology/intramedullary-pins/ThighPinsPage.vue'
 import ShoulderPinsPage from './pages/catalog/traumatology/intramedullary-pins/ShoulderPinsPage.vue'
-import RetrogradeFemoralPinsPage from './pages/catalog/traumatology/intramedullary-pins/ShoulderPinsPage.vue'
-import DistalFemoralPinsPage from './pages/catalog/traumatology/intramedullary-pins/ShoulderPinsPage.vue'
-import HipProximalPinsPage from './pages/catalog/traumatology/intramedullary-pins/ShoulderPinsPage.vue'
+import RetrogradeFemoralPinsPage from './pages/catalog/traumatology/intramedullary-pins/RetrogradeFemoralPinsPage.vue'
+import DistalFemoralPinsPage from './pages/catalog/traumatology/intramedullary-pins/DistalFemoralPinsPage.vue'
+import HipProximalPinsPage from './pages/catalog/traumatology/intramedullary-pins/HipProximalPinsPage.vue'
 import BlockedPlatesPage from '@/pages/catalog/traumatology/blocked-plates/BlockedPlatesPage.vue'
 import SmallInsertsWithAngularStabilityPage from '@/pages/catalog/traumatology/blocked-plates/SmallInsertsWithAngularStabilityPage.vue'
 
