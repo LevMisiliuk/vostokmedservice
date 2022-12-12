@@ -8,6 +8,51 @@
         :productsParams="cardData[0].productsParams"
       />
     </div>
+    <div class="mobile_table-container">
+      <el-table
+        :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
+        :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
+        :data="tableData"
+        style="width: 100%"
+        :scrollbar-always-on="true"
+      >
+        <el-table-column
+          :label="$t('main.carts.traumatology.thighPins.table.first')"
+          prop="first"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="$t('main.carts.traumatology.thighPins.table.second')"
+          prop="second"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="$t('main.carts.traumatology.thighPins.table.third')"
+          prop="third"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="$t('main.carts.traumatology.thighPins.table.fourth')"
+          prop="fourth"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="$t('main.carts.traumatology.thighPins.table.fifth')"
+          prop="fifth"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="$t('main.carts.traumatology.thighPins.table.sixth')"
+          prop="sixth"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="$t('main.carts.traumatology.thighPins.table.seventh')"
+          prop="seventh"
+          min-width="140px"
+        />
+      </el-table>
+    </div>
   </MobilePageWrapper>
 </template>
 
@@ -16,7 +61,6 @@ import { computed, ref } from 'vue'
 import i18n from '@/i18n'
 
 export default {
-
   setup() {
     const tableData = ref([
       {
@@ -144,15 +188,14 @@ export default {
 
     return {
       cardData,
-      tableData,
+      tableData
     }
-  },
-};
+  }
+}
 </script>
 
-<style lang="scss" >
+<style lang="scss">
 .thigh-pins_mobile {
-
   &__card {
     display: flex;
     flex-direction: column;

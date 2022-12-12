@@ -8,6 +8,198 @@
         :productsParams="cardData[0].productsParams"
       />
     </div>
+    <div class="mobile_table-container">
+      <ProductInfoCardMobile
+        class="mobile_table-info"
+        :title="$t('main.carts.traumatology.pinsVerticalZType.short')"
+        :productsParams="cardData[0].productsParams"
+      />
+      <!-- First -->
+      <el-table
+        :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
+        :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
+        :data="tableData"
+        style="width: 100%; margin-bottom: 40px"
+        :scrollbar-always-on="true"
+      >
+        <el-table-column
+          :label="$t('main.carts.traumatology.pinsVerticalZType.table.first')"
+          prop="first"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="$t('main.carts.traumatology.pinsVerticalZType.table.second')"
+          prop="second"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="$t('main.carts.traumatology.pinsVerticalZType.table.third')"
+          prop="third"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="$t('main.carts.traumatology.pinsVerticalZType.table.fourth')"
+          prop="fourth"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="$t('main.carts.traumatology.pinsVerticalZType.table.fifth')"
+          prop="fifth"
+          min-width="140px"
+        />
+      </el-table>
+      <!-- Second -->
+      <el-table
+        :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
+        :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
+        :data="secondTableData"
+        style="width: 100%; margin-bottom: 40px"
+        :scrollbar-always-on="true"
+      >
+        <el-table-column
+          :label="
+            $t('main.carts.traumatology.pinsVerticalZType.secondTable.first')
+          "
+          prop="first"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="
+            $t('main.carts.traumatology.pinsVerticalZType.secondTable.second')
+          "
+          prop="second"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="
+            $t('main.carts.traumatology.pinsVerticalZType.secondTable.third')
+          "
+          prop="third"
+          min-width="140px"
+        />
+      </el-table>
+      <ProductInfoCardMobile
+        class="mobile_table-info"
+        :title="$t('main.carts.traumatology.pinsVerticalZType.long')"
+        :productsParams="cardData[0].productsParams"
+      />
+      <!-- Third -->
+      <el-table
+        :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
+        :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
+        :data="thirdTable"
+        style="width: 100%; margin-bottom: 40px"
+        :scrollbar-always-on="true"
+      >
+        <el-table-column
+          :label="$t('main.carts.traumatology.pinsVerticalZType.right')"
+          min-width="140px"
+        >
+          <el-table-column
+            :label="$t('main.carts.traumatology.pinsVerticalZType.table.first')"
+            prop="first"
+            min-width="140px"
+          />
+          <el-table-column
+            :label="
+              $t('main.carts.traumatology.pinsVerticalZType.table.second')
+            "
+            prop="second"
+            min-width="140px"
+          />
+          <el-table-column
+            :label="$t('main.carts.traumatology.pinsVerticalZType.table.third')"
+            prop="third"
+            min-width="140px"
+          />
+          <el-table-column
+            :label="
+              $t('main.carts.traumatology.pinsVerticalZType.table.fourth')
+            "
+            prop="fourth"
+            min-width="140px"
+          />
+          <el-table-column
+            :label="$t('main.carts.traumatology.pinsVerticalZType.table.fifth')"
+            prop="fifth"
+            min-width="140px"
+          />
+        </el-table-column>
+      </el-table>
+      <!-- Fourth -->
+      <el-table
+        :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
+        :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
+        :data="fourthTable"
+        style="width: 100%; margin-bottom: 40px"
+        :scrollbar-always-on="true"
+      >
+        <el-table-column
+          :label="$t('main.carts.traumatology.pinsVerticalZType.left')"
+          min-width="140px"
+        >
+          <el-table-column
+            :label="$t('main.carts.traumatology.pinsVerticalZType.table.first')"
+            prop="first"
+            min-width="140px"
+          />
+          <el-table-column
+            :label="
+              $t('main.carts.traumatology.pinsVerticalZType.table.second')
+            "
+            prop="second"
+            min-width="140px"
+          />
+          <el-table-column
+            :label="$t('main.carts.traumatology.pinsVerticalZType.table.third')"
+            prop="third"
+            min-width="140px"
+          />
+          <el-table-column
+            :label="
+              $t('main.carts.traumatology.pinsVerticalZType.table.fourth')
+            "
+            prop="fourth"
+            min-width="140px"
+          />
+          <el-table-column
+            :label="$t('main.carts.traumatology.pinsVerticalZType.table.fifth')"
+            prop="fifth"
+            min-width="140px"
+          />
+        </el-table-column>
+      </el-table>
+      <!-- Fifth -->
+      <el-table
+        :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
+        :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
+        :data="fifthTable"
+        style="width: 100%; margin-bottom: 40px"
+        :scrollbar-always-on="true"
+      >
+        <el-table-column
+          :label="
+            $t('main.carts.traumatology.pinsVerticalZType.secondTable.first')
+          "
+          prop="first"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="
+            $t('main.carts.traumatology.pinsVerticalZType.secondTable.second')
+          "
+          prop="second"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="
+            $t('main.carts.traumatology.pinsVerticalZType.secondTable.third')
+          "
+          prop="third"
+          min-width="140px"
+        />
+      </el-table>
+    </div>
   </MobilePageWrapper>
 </template>
 
@@ -16,7 +208,6 @@ import { computed, ref } from 'vue'
 import i18n from '@/i18n'
 
 export default {
-
   setup() {
     const tableData = ref([
       {
@@ -370,13 +561,12 @@ export default {
       fourthTable,
       fifthTable
     }
-  },
-};
+  }
+}
 </script>
 
-<style lang="scss" >
+<style lang="scss">
 .pins-vertical-z-type_mobile {
-
   &__card {
     display: flex;
     flex-direction: column;

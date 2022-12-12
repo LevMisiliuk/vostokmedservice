@@ -8,6 +8,47 @@
         :productsParams="cardData[0].productsParams"
       />
     </div>
+    <div class="mobile_table-container">
+      <el-table
+        :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
+        :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
+        :data="tableData"
+        border
+        style="width: 100%"
+        :span-method="objectSpanMethod"
+        :scrollbar-always-on="true"
+      >
+        <el-table-column label="" prop="first" min-width="140px" />
+        <el-table-column
+          :label="
+            $t('main.carts.traumatology.retrogradeFemoralPins.table.second')
+          "
+          prop="second"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="
+            $t('main.carts.traumatology.retrogradeFemoralPins.table.third')
+          "
+          prop="third"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="
+            $t('main.carts.traumatology.retrogradeFemoralPins.table.fourth')
+          "
+          prop="fourth"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="
+            $t('main.carts.traumatology.retrogradeFemoralPins.table.fifth')
+          "
+          prop="fifth"
+          min-width="140px"
+        />
+      </el-table>
+    </div>
   </MobilePageWrapper>
 </template>
 
@@ -16,11 +57,12 @@ import { computed } from 'vue'
 import i18n from '@/i18n'
 
 export default {
-
   setup() {
     const tableData = computed(() => [
       {
-        first: i18n.global.t('main.carts.traumatology.retrogradeFemoralPins.table.firstData'),
+        first: i18n.global.t(
+          'main.carts.traumatology.retrogradeFemoralPins.table.firstData'
+        ),
         second: '240',
         third: '14270-10240',
         fourth: ' 14270-11260',
@@ -62,7 +104,9 @@ export default {
         fifth: '14270-12360'
       },
       {
-        first: i18n.global.t('main.carts.traumatology.retrogradeFemoralPins.table.secondData'),
+        first: i18n.global.t(
+          'main.carts.traumatology.retrogradeFemoralPins.table.secondData'
+        ),
         second: '360',
         third: '14270-10360',
         fourth: '14270-11380',
@@ -104,7 +148,9 @@ export default {
         fifth: ''
       },
       {
-        first: i18n.global.t('main.carts.traumatology.retrogradeFemoralPins.table.thirdData'),
+        first: i18n.global.t(
+          'main.carts.traumatology.retrogradeFemoralPins.table.thirdData'
+        ),
         second: '260',
         third: '14271-10260',
         fourth: '14271-11260',
@@ -148,30 +194,44 @@ export default {
     ])
     const cardData = computed(() => [
       {
-        title: i18n.global.t('main.carts.traumatology.retrogradeFemoralPins.title'),
-        subtitle: i18n.global.t('main.carts.traumatology.retrogradeFemoralPins.subtitle'),
+        title: i18n.global.t(
+          'main.carts.traumatology.retrogradeFemoralPins.title'
+        ),
+        subtitle: i18n.global.t(
+          'main.carts.traumatology.retrogradeFemoralPins.subtitle'
+        ),
         image: require('@/assets/traumatology/retrograde-femoral-pins.jpeg'),
         productsParams: [
           {
             id: 1,
-            name: i18n.global.t('main.carts.traumatology.retrogradeFemoralPins.lockingScrew'),
+            name: i18n.global.t(
+              'main.carts.traumatology.retrogradeFemoralPins.lockingScrew'
+            ),
             data: i18n.global.t(
               'main.carts.traumatology.retrogradeFemoralPins.lockingScrewData'
             )
           },
           {
             id: 2,
-            name: i18n.global.t('main.carts.traumatology.retrogradeFemoralPins.plug'),
+            name: i18n.global.t(
+              'main.carts.traumatology.retrogradeFemoralPins.plug'
+            ),
             data: '--'
           },
           {
             id: 3,
-            name: i18n.global.t('main.carts.traumatology.retrogradeFemoralPins.material'),
-            data: i18n.global.t('main.carts.traumatology.retrogradeFemoralPins.materialData')
+            name: i18n.global.t(
+              'main.carts.traumatology.retrogradeFemoralPins.material'
+            ),
+            data: i18n.global.t(
+              'main.carts.traumatology.retrogradeFemoralPins.materialData'
+            )
           },
           {
             id: 4,
-            name: i18n.global.t('main.carts.traumatology.retrogradeFemoralPins.tool'),
+            name: i18n.global.t(
+              'main.carts.traumatology.retrogradeFemoralPins.tool'
+            ),
             data: '94270-00000'
           }
         ]
@@ -180,15 +240,14 @@ export default {
 
     return {
       cardData,
-      tableData,
+      tableData
     }
-  },
-};
+  }
+}
 </script>
 
-<style lang="scss" >
+<style lang="scss">
 .shoulder-pin_mobile {
-
   &__card {
     display: flex;
     flex-direction: column;

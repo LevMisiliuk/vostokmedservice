@@ -8,6 +8,207 @@
         :productsParams="cardData[0].productsParams"
       />
     </div>
+    <div class="mobile_table-container">
+      <ProductInfoCardMobile
+        class="mobile_table-info"
+        :image="cardData[0].imageAddition"
+        :title="
+          $t(
+            'main.carts.traumatology.smallInsertsWithAngularStability.straightPlate'
+          )
+        "
+        :productsParams="cardData[0].productsParams"
+      />
+      <!-- First table -->
+      <el-table
+        border
+        style="width: 100%; margin-bottom: 20px"
+        :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
+        :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
+        :data="tableData"
+        :scrollbar-always-on="true"
+      >
+        <el-table-column
+          :label="$t('main.carts.traumatology.hipProximalPins.table.first')"
+          prop="first"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="$t('main.carts.traumatology.hipProximalPins.table.second')"
+          prop="second"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="$t('main.carts.traumatology.hipProximalPins.table.third')"
+          prop="third"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="$t('main.carts.traumatology.hipProximalPins.table.fourth')"
+          prop="fourth"
+        />
+        <el-table-column
+          :label="$t('main.carts.traumatology.hipProximalPins.table.fifth')"
+          prop="fifth"
+          min-width="140px"
+        />
+      </el-table>
+      <!-- Second table -->
+      <el-table
+        border
+        style="width: 100%; margin-bottom: 40px"
+        :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
+        :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
+        :data="secondTableData"
+        :scrollbar-always-on="true"
+      >
+        <el-table-column
+          :label="
+            $t('main.carts.traumatology.hipProximalPins.secondTable.first')
+          "
+          prop="first"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="
+            $t('main.carts.traumatology.hipProximalPins.secondTable.second')
+          "
+          prop="second"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="
+            $t('main.carts.traumatology.hipProximalPins.secondTable.third')
+          "
+          prop="third"
+          min-width="140px"
+        />
+      </el-table>
+      <ProductInfoCardMobile
+        class="mobile_table-info"
+        :title="$t('main.carts.traumatology.hipProximalPins.long')"
+        :productsParams="cardData[0].productsParams"
+      />
+      <!-- Third table -->
+      <el-table
+        border
+        style="width: 100%; margin-bottom: 20px"
+        :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
+        :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
+        :data="thirdTableData"
+        :scrollbar-always-on="true"
+      >
+        <el-table-column
+          :label="$t('main.carts.traumatology.hipProximalPins.right')"
+          prop="first"
+          min-width="140px"
+        >
+          <el-table-column
+            :label="
+              $t('main.carts.traumatology.hipProximalPins.thirdTable.first')
+            "
+            prop="first"
+            min-width="140px"
+          />
+          <el-table-column
+            :label="
+              $t('main.carts.traumatology.hipProximalPins.thirdTable.second')
+            "
+            prop="second"
+            min-width="140px"
+          />
+          <el-table-column
+            :label="
+              $t('main.carts.traumatology.hipProximalPins.thirdTable.third')
+            "
+            prop="third"
+            min-width="140px"
+          />
+          <el-table-column
+            :label="
+              $t('main.carts.traumatology.hipProximalPins.thirdTable.fourth')
+            "
+            prop="fourth"
+            min-width="140px"
+          />
+        </el-table-column>
+      </el-table>
+      <!-- Fourth table -->
+      <el-table
+        border
+        style="width: 100%; margin-bottom: 20px"
+        :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
+        :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
+        :data="fourthTableData"
+        :scrollbar-always-on="true"
+      >
+        <el-table-column
+          :label="$t('main.carts.traumatology.hipProximalPins.left')"
+          prop="first"
+          min-width="140px"
+        >
+          <el-table-column
+            :label="
+              $t('main.carts.traumatology.hipProximalPins.thirdTable.first')
+            "
+            prop="first"
+            min-width="140px"
+          />
+          <el-table-column
+            :label="
+              $t('main.carts.traumatology.hipProximalPins.thirdTable.second')
+            "
+            prop="second"
+            min-width="140px"
+          />
+          <el-table-column
+            :label="
+              $t('main.carts.traumatology.hipProximalPins.thirdTable.third')
+            "
+            prop="third"
+            min-width="140px"
+          />
+          <el-table-column
+            :label="
+              $t('main.carts.traumatology.hipProximalPins.thirdTable.fourth')
+            "
+            prop="fourth"
+            min-width="140px"
+          />
+        </el-table-column>
+      </el-table>
+      <!-- Fifth table the same as second so we use the same keys for objects -->
+      <el-table
+        border
+        style="width: 100%; margin-bottom: 40px"
+        :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
+        :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
+        :data="secondTableData"
+        :scrollbar-always-on="true"
+      >
+        <el-table-column
+          :label="
+            $t('main.carts.traumatology.hipProximalPins.secondTable.first')
+          "
+          prop="first"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="
+            $t('main.carts.traumatology.hipProximalPins.secondTable.second')
+          "
+          prop="second"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="
+            $t('main.carts.traumatology.hipProximalPins.secondTable.third')
+          "
+          prop="third"
+          min-width="140px"
+        />
+      </el-table>
+    </div>
   </MobilePageWrapper>
 </template>
 
@@ -16,7 +217,6 @@ import { computed, ref } from 'vue'
 import i18n from '@/i18n'
 
 export default {
-
   setup() {
     const tableData = ref([
       {
@@ -232,7 +432,9 @@ export default {
     ])
     const cardData = computed(() => [
       {
-        title: i18n.global.t('main.carts.traumatology.smallInsertsWithAngularStability.title'),
+        title: i18n.global.t(
+          'main.carts.traumatology.smallInsertsWithAngularStability.title'
+        ),
         image: require('@/assets/traumatology/small-inserts-with-angular-stability.jpeg'),
         imageAddition: require('@/assets/traumatology/straight-plate.jpeg'),
         productsParams: [
@@ -243,7 +445,7 @@ export default {
             ),
             data: i18n.global.t(
               'main.carts.traumatology.smallInsertsWithAngularStability.thicknessData'
-            ),
+            )
           },
           {
             id: 2,
@@ -252,7 +454,7 @@ export default {
             ),
             data: i18n.global.t(
               'main.carts.traumatology.smallInsertsWithAngularStability.widthData'
-            ),
+            )
           },
           {
             id: 3,
@@ -265,9 +467,13 @@ export default {
           },
           {
             id: 4,
-            name: i18n.global.t('main.carts.traumatology.smallInsertsWithAngularStability.material'),
-            data: i18n.global.t('main.carts.traumatology.smallInsertsWithAngularStability.materialData')
-          },
+            name: i18n.global.t(
+              'main.carts.traumatology.smallInsertsWithAngularStability.material'
+            ),
+            data: i18n.global.t(
+              'main.carts.traumatology.smallInsertsWithAngularStability.materialData'
+            )
+          }
         ]
       }
     ])
@@ -279,16 +485,26 @@ export default {
       thirdTableData,
       fourthTableData
     }
-  },
-};
+  }
+}
 </script>
 
-<style lang="scss" >
+<style lang="scss">
 .small-inserts-with-angular-stability_mobile {
-
   &__card {
     display: flex;
     flex-direction: column;
+  }
+}
+
+.mobile_table {
+  &-container {
+    margin: 0px 16px 40px 16px;
+  }
+
+  &-info {
+    margin: 0px !important;
+    margin-bottom: 40px !important;
   }
 }
 </style>

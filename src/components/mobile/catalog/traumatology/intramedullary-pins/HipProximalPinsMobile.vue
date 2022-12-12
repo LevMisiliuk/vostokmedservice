@@ -8,6 +8,203 @@
         :productsParams="cardData[0].productsParams"
       />
     </div>
+    <div class="mobile_table-container">
+      <ProductInfoCardMobile
+        class="mobile_table-info"
+        :title="$t('main.carts.traumatology.hipProximalPins.short')"
+        :productsParams="cardData[0].productsParams"
+      />
+      <!-- First table -->
+      <el-table
+        border
+        style="width: 100%; margin-bottom: 20px"
+        :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
+        :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
+        :data="tableData"
+        :scrollbar-always-on="true"
+      >
+        <el-table-column
+          :label="$t('main.carts.traumatology.hipProximalPins.table.first')"
+          prop="first"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="$t('main.carts.traumatology.hipProximalPins.table.second')"
+          prop="second"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="$t('main.carts.traumatology.hipProximalPins.table.third')"
+          prop="third"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="$t('main.carts.traumatology.hipProximalPins.table.fourth')"
+          prop="fourth"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="$t('main.carts.traumatology.hipProximalPins.table.fifth')"
+          prop="fifth"
+          min-width="140px"
+        />
+      </el-table>
+      <!-- Second table -->
+      {{ 'second' }}
+      <el-table
+        border
+        style="width: 100%; margin-bottom: 40px"
+        :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
+        :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
+        :data="secondTableData"
+        :scrollbar-always-on="true"
+      >
+        <el-table-column
+          :label="
+            $t('main.carts.traumatology.hipProximalPins.secondTable.first')
+          "
+          prop="first"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="
+            $t('main.carts.traumatology.hipProximalPins.secondTable.second')
+          "
+          prop="second"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="
+            $t('main.carts.traumatology.hipProximalPins.secondTable.third')
+          "
+          prop="third"
+          min-width="140px"
+        />
+      </el-table>
+      <ProductInfoCardMobile
+        class="mobile_table-info"
+        :title="$t('main.carts.traumatology.hipProximalPins.long')"
+        :productsParams="cardData[0].productsParams"
+      />
+      <!-- Third table -->
+      <el-table
+        border
+        style="width: 100%; margin-bottom: 20px"
+        :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
+        :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
+        :data="thirdTableData"
+        :scrollbar-always-on="true"
+      >
+        <el-table-column
+          :label="$t('main.carts.traumatology.hipProximalPins.right')"
+          prop="first"
+        >
+          <el-table-column
+            :label="
+              $t('main.carts.traumatology.hipProximalPins.thirdTable.first')
+            "
+            prop="first"
+            min-width="140px"
+          />
+          <el-table-column
+            :label="
+              $t('main.carts.traumatology.hipProximalPins.thirdTable.second')
+            "
+            prop="second"
+            min-width="140px"
+          />
+          <el-table-column
+            :label="
+              $t('main.carts.traumatology.hipProximalPins.thirdTable.third')
+            "
+            prop="third"
+            min-width="140px"
+          />
+          <el-table-column
+            :label="
+              $t('main.carts.traumatology.hipProximalPins.thirdTable.fourth')
+            "
+            prop="fourth"
+            min-width="140px"
+          />
+        </el-table-column>
+      </el-table>
+      <!-- Fourth table -->
+      <el-table
+        border
+        style="width: 100%; margin-bottom: 20px"
+        :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
+        :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
+        :data="fourthTableData"
+        :scrollbar-always-on="true"
+      >
+        <el-table-column
+          :label="$t('main.carts.traumatology.hipProximalPins.left')"
+          prop="first"
+          min-width="140px"
+        >
+          <el-table-column
+            :label="
+              $t('main.carts.traumatology.hipProximalPins.thirdTable.first')
+            "
+            prop="first"
+            min-width="140px"
+          />
+          <el-table-column
+            :label="
+              $t('main.carts.traumatology.hipProximalPins.thirdTable.second')
+            "
+            prop="second"
+            min-width="140px"
+          />
+          <el-table-column
+            :label="
+              $t('main.carts.traumatology.hipProximalPins.thirdTable.third')
+            "
+            prop="third"
+            min-width="140px"
+          />
+          <el-table-column
+            :label="
+              $t('main.carts.traumatology.hipProximalPins.thirdTable.fourth')
+            "
+            prop="fourth"
+            min-width="140px"
+          />
+        </el-table-column>
+      </el-table>
+      <!-- Fifth table the same as second so we use the same keys for objects -->
+      <el-table
+        border
+        style="width: 100%; margin-bottom: 40px"
+        :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
+        :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
+        :data="secondTableData"
+        :scrollbar-always-on="true"
+      >
+        <el-table-column
+          :label="
+            $t('main.carts.traumatology.hipProximalPins.secondTable.first')
+          "
+          prop="first"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="
+            $t('main.carts.traumatology.hipProximalPins.secondTable.second')
+          "
+          prop="second"
+          min-width="140px"
+        />
+        <el-table-column
+          :label="
+            $t('main.carts.traumatology.hipProximalPins.secondTable.third')
+          "
+          prop="third"
+          min-width="140px"
+        />
+      </el-table>
+    </div>
   </MobilePageWrapper>
 </template>
 
@@ -16,7 +213,6 @@ import { computed, ref } from 'vue'
 import i18n from '@/i18n'
 
 export default {
-
   setup() {
     const tableData = ref([
       {
@@ -24,14 +220,14 @@ export default {
         second: '180',
         third: '130',
         fourth: '14651-18130',
-        fifth: '14650-18130',
+        fifth: '14650-18130'
       },
       {
         first: '11',
         second: '200',
         third: '130',
         fourth: '14651-18135',
-        fifth: '14650-18135 ',
+        fifth: '14650-18135 '
       },
       {
         first: '11',
@@ -74,29 +270,37 @@ export default {
         third: '135',
         fourth: '14651-24135',
         fifth: '14650-24135'
-      },
+      }
     ])
     const secondTableData = computed(() => [
       {
-        first: i18n.global.t('main.carts.traumatology.hipProximalPins.secondTable.firstData'),
+        first: i18n.global.t(
+          'main.carts.traumatology.hipProximalPins.secondTable.firstData'
+        ),
         second: '12710-95075 – 12710-95145',
         third: '32710-95075 – 12710-95145'
       },
       {
-        first: i18n.global.t('main.carts.traumatology.hipProximalPins.secondTable.secondData'),
+        first: i18n.global.t(
+          'main.carts.traumatology.hipProximalPins.secondTable.secondData'
+        ),
         second: '12001-65055 – 12001-65130',
         third: '32001-65055 – 12001-65130'
       },
       {
-        first: i18n.global.t('main.carts.traumatology.hipProximalPins.secondTable.thirdData'),
+        first: i18n.global.t(
+          'main.carts.traumatology.hipProximalPins.secondTable.thirdData'
+        ),
         second: '12400-14016',
         third: '32400-14016'
       },
       {
-        first: i18n.global.t('main.carts.traumatology.hipProximalPins.secondTable.fourthData'),
+        first: i18n.global.t(
+          'main.carts.traumatology.hipProximalPins.secondTable.fourthData'
+        ),
         second: '12200-49020 – 12200-49100',
         third: '32200-49020 – 32200-49100'
-      },
+      }
     ])
     const thirdTableData = computed(() => [
       {
@@ -158,7 +362,7 @@ export default {
         second: '420',
         third: '135',
         fourth: '14670-42135'
-      },
+      }
     ])
     const fourthTableData = computed(() => [
       {
@@ -220,18 +424,24 @@ export default {
         second: '420',
         third: '135',
         fourth: '14660-42135'
-      },
+      }
     ])
     const cardData = computed(() => [
       {
         title: i18n.global.t('main.carts.traumatology.hipProximalPins.title'),
-        subtitle: i18n.global.t('main.carts.traumatology.hipProximalPins.subtitle'),
+        subtitle: i18n.global.t(
+          'main.carts.traumatology.hipProximalPins.subtitle'
+        ),
         image: require('@/assets/traumatology/hip-proximal-pins.jpeg'),
         productsParams: [
           {
             id: 3,
-            name: i18n.global.t('main.carts.traumatology.hipProximalPins.material'),
-            data: i18n.global.t('main.carts.traumatology.hipProximalPins.materialData')
+            name: i18n.global.t(
+              'main.carts.traumatology.hipProximalPins.material'
+            ),
+            data: i18n.global.t(
+              'main.carts.traumatology.hipProximalPins.materialData'
+            )
           },
           {
             id: 4,
@@ -249,13 +459,12 @@ export default {
       thirdTableData,
       fourthTableData
     }
-  },
-};
+  }
+}
 </script>
 
-<style lang="scss" >
+<style lang="scss">
 .hip-proximal-pins_mobile {
-
   &__card {
     display: flex;
     flex-direction: column;
