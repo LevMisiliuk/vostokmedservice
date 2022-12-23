@@ -80,6 +80,10 @@ p {
   color: $primary-blue;
 }
 
+.white-txt {
+  color: #fff;
+}
+
 ul {
   margin: 0;
   padding: 0;

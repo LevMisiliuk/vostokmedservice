@@ -17,23 +17,57 @@
       </el-breadcrumb>
       <div class="blocked-plates__inner">
         <LeftLinksMenu />
-        <div class="blocked-plates__block">
-          <div class="blocked-plates__carts">
-            <a
-              v-for="cart in traumatologyCarts"
-              :key="cart"
-              class="blocked-plates__cart"
-              :href="cart.link"
-            >
-              <img
-                :src="cart.img"
-                alt=""
-                class="blocked-plates__cart-img"
-              />
-              <div class="blocked-plates__cart-title">
-                {{ cart.title }}
-              </div>
-            </a>
+        <div class="blocked-plates__inner-block">
+          <div class="blocked-plates__block">
+            <div class="blocked-plates__carts">
+              <a
+                v-for="cart in traumatologyCarts"
+                :key="cart"
+                class="blocked-plates__cart"
+                :href="cart.link"
+              >
+                <img :src="cart.img" alt="" class="blocked-plates__cart-img" />
+                <div class="blocked-plates__cart-title">
+                  {{ cart.title }}
+                </div>
+              </a>
+            </div>
+          </div>
+          <br />
+          <div class="blocked-plates__block">
+            Новым шагом в оперативном лечении переломов стала разработка
+            Международной ассоциацией остеосинтеза (AO/ASIF) системы блокируемых
+            компрессирующих пластин с угловой стабильностью LCP (Locking
+            Compression Plate - блокирующаяся компрессирующая пластина) для
+            различных анатомических локализаций. Отверстие LCP пластины состоит
+            из двух частей. Одна часть имеет резьбу, позволяющую фиксировать
+            головку блокируемого винта, а другая часть соответствует по форме
+            отверстию динамической компрессирующей пластины с ограниченным
+            контактом (LC-DCP), через которое путем эксцентричного введения
+            стандартных кортикальных или спонгиозных винтов может достигаться
+            динамическая компрессия. Так как отверстия пластины LCP
+            асимметричны, то динамическую компрессию можно производить только в
+            одном направлении, в связи с чем необходимо обращать внимание на
+            сопоставление центра пластины с линией перелома. Блокируемые в
+            пластине винты могут быть самосверлящие (предназначены для
+            монокортикального введения в диафиз, при этом можно не измерять
+            длину винта) и самонарезающие (используются моно и бикортикально в
+            тех зонах, где требуется точное измерение длины винта, например,
+            метафиз). Блокируемые винты необходимо проводить через резьбовую
+            часть отверстия строго по ее центру и перпендикулярно к поверхности
+            кости, так как в противном случае винт может не получить необходимой
+            фиксации в пластине. При затягивании эксцентрично введенного винта в
+            овальном отверстии , его головка соскальзывает по наклонной стенке,
+            заставляя пластину смещаться вдоль своей оси, что можно использовать
+            для уменьшения щели перелома или создания компрессии между отломками
+            костей. Стандартная динамическая компрессирующая пластина (DCP или
+            LC-DCP) выполняет свою функцию, только если ее нижняя поверхность
+            плотно прижата к кости. Это создает трение между металлоконструкцией
+            и костью, позволяя механическим силам передаваться с одного
+            фрагмента кости на другой. При этом кость должна быть достаточно
+            плотной. Если имеется остеопороз кости (особенно в области
+            метафиза), то после операции может наблюдаться расшатывание винта и
+            утрата стабильности фиксации.
           </div>
         </div>
       </div>
@@ -51,22 +85,30 @@ export default {
   setup() {
     const traumatologyCarts = computed(() => [
       {
-        title: i18n.global.t('main.carts.traumatology.links.smallInsertsWithAngularStability'),
+        title: i18n.global.t(
+          'main.carts.traumatology.links.smallInsertsWithAngularStability'
+        ),
         img: require('@/assets/traumatology/small-inserts-with-angular-stability.jpeg'),
         link: `/${i18n.global.locale.value}/catalog/traumatology/blockedPlates/small-inserts-with-angular-stability`
       },
       {
-        title: i18n.global.t('main.carts.traumatology.links.specialInsertsWithAngularStability'),
+        title: i18n.global.t(
+          'main.carts.traumatology.links.specialInsertsWithAngularStability'
+        ),
         img: require('@/assets/traumatology/special-inserts-with-angular-stability.jpeg'),
         link: `/${i18n.global.locale.value}/404`
       },
       {
-        title: i18n.global.t('main.carts.traumatology.links.angularStabilityInserts'),
+        title: i18n.global.t(
+          'main.carts.traumatology.links.angularStabilityInserts'
+        ),
         img: require('@/assets/traumatology/angular-stability-inserts.jpeg'),
         link: `/${i18n.global.locale.value}/404`
       },
       {
-        title: i18n.global.t('main.carts.traumatology.links.largeInsertsWithAngularStability'),
+        title: i18n.global.t(
+          'main.carts.traumatology.links.largeInsertsWithAngularStability'
+        ),
         img: require('@/assets/traumatology/large-inserts-with-angular-stability.jpeg'),
         link: `/${i18n.global.locale.value}/404`
       }

@@ -49,6 +49,7 @@
                       :linkTitle="item.title"
                       :whiteCircle="true"
                       :linkSize="15"
+                      class="white-txt"
                     />
                   </li>
                 </ul>
@@ -76,6 +77,7 @@
                       :linkTitle="item"
                       :whiteCircle="true"
                       :linkSize="15"
+                      class="white-txt"
                     />
                   </li>
                 </ul>
@@ -103,6 +105,7 @@
                       :linkTitle="item"
                       :whiteCircle="true"
                       :linkSize="15"
+                      class="white-txt"
                     />
                   </li>
                 </ul>
@@ -130,6 +133,7 @@
                       :linkTitle="item"
                       :whiteCircle="true"
                       :linkSize="15"
+                      class="white-txt"
                     />
                   </li>
                 </ul>
@@ -148,11 +152,11 @@ import { computed } from 'vue';
 import i18n from '@/i18n';
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import { Pagination } from 'swiper';
-
 import 'swiper/css/pagination';
 import 'swiper/css';
 
 export default {
+  name: 'MainScreenMobile',
   components: {
     Swiper,
     SwiperSlide,

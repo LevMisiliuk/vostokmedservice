@@ -86,7 +86,7 @@ export default {
       background-color: $primary-blue;
     }
     .white-circle {
-      background-color: $primary-black;
+      transform: scale(1.3);
     }
   }
 }
