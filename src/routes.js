@@ -7,7 +7,7 @@ import ContactsPage from './pages/ContactsPage.vue'
 import CatalogPage from './pages/catalog/CatalogPage.vue'
 import NotFound from './pages/error/NotFound.vue'
 import IntramedullaryPinsPage from './pages/catalog/traumatology/IntramedullaryPinsPage.vue'
-import CalfPinPage from './pages/catalog/traumatology/intramedullary-pins/CalfPinPage.vue'
+import CalfPinPage from './pages/catalog/traumatology/intramedullary-pins/СalfPinPage.vue'
 import PinsVerticalZTypePage from './pages/catalog/traumatology/intramedullary-pins/PinsVerticalZTypePage.vue'
 import ThighPinsPage from './pages/catalog/traumatology/intramedullary-pins/ThighPinsPage.vue'
 import ShoulderPinsPage from './pages/catalog/traumatology/intramedullary-pins/ShoulderPinsPage.vue'
@@ -18,7 +18,7 @@ import BlockedPlatesPage from '@/pages/catalog/traumatology/blocked-plates/Block
 import SmallInsertsWithAngularStabilityPage from '@/components/catalog/traumatology/blocked-plates/small-inserts-with-angular-stability/SmallInsertsWithAngularStability.vue'
 import SpecialInsertsWithAngularStability from '@/components/catalog/traumatology/blocked-plates/special-inserts-with-angular-stability/SpecialInsertsWithAngularStability.vue'
 import InsertsWithAngularStability from '@/components/catalog/traumatology/blocked-plates/inserts-with-angular-stability/InsertsWithAngularStability.vue'
-
+import ToolsAndEquipmentPage from '@/pages/catalog/toolsAndEquipment/ToolsAndEquipmentPage.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -29,6 +29,7 @@ export default createRouter({
         { path: '', component: HomePage },
         { path: 'catalog', component: CatalogPage },
         { path: 'catalog/traumatology', component: TraumatologyPage },
+        { path: 'catalog/tools-and-equipment', component: ToolsAndEquipmentPage },
         { path: 'education', component: EducationPage },
         { path: 'certificates', component: CertificatesPage },
         { path: 'contacts', component: ContactsPage },

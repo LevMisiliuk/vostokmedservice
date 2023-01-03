@@ -433,7 +433,27 @@
 					"sterilization": "Sterilization",
 					"cardiology": "Cardiology",
 					"medicalInstrument": "Medical instrument"
-				}
+				},
+				"secondlinks": {
+          "panmedCamers": "Panmed Cameras",
+          "repairSterilizer": "Air sterilizers",
+          "electricSterilizers": "Electric sterilizers",
+          "sterilizationBoxes": "Round sterilization boxes",
+          "formalinChambers": "Steam formalin chambers",
+          "bactericidalIrradiators": "Bactericidal irradiators",
+					"suctionUnits": "Suction units",
+          "coagulators": "Coagulators",
+          "lights": "Lights",
+          "operatingTables": "Operating tables",
+          "medicalCabinets": "Medical cabinets",
+          "surgicalTables": "Surgical tables",
+          "chairs": "Couchsets, carts, chairs",
+					"medicalStretcher": "Medical stretcher",
+					"gynecologicalChairs": "gynecologicalChairs",
+					"defibrillatorMonitor": "Defibrillator monitor",
+					"electrocardiographs": "Electrocardiographs",
+					"careMonitor": "Intensive Care Monitor"
+        }
 			},
 			"more": "More"
 		},

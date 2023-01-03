@@ -4,15 +4,30 @@
       :path="`/${$i18n.locale}/catalog/traumatology/`"
       :linkTitle="$t('main.certificates.links.traumatology')"
       :blueArrow="true"
-      arrowPosition="top"
+      :arrowPosition="typeLink === 'traumatology' ? null : 'top'" 
     />
-    <ul>
+    <ul v-if="typeLink === 'traumatology'">
       <li
-        v-for="item in traumatologyLinks"
+        v-for="item in linksData"
         :key="item"
         class="link-list"
       >
+        <ul v-if="Array.isArray(item)">
+          <li
+            v-for="itemData in item"
+            :key="itemData"
+            class="link-list"
+          >
+            <PrimaryLink
+              :path="itemData.path"
+              :linkTitle="itemData.name"
+              :blueCircle="true"
+              :linkMargin="10"
+            />
+          </li>
+        </ul>
         <PrimaryLink
+          v-else
           :path="item.path"
           :linkTitle="item.name"
           :blueCircle="true"
@@ -24,64 +39,127 @@
       :linkTitle="$t('main.certificates.links.surgery')"
       path="#"
       :blueArrow="true"
+      :arrowPosition="typeLink === 'surgery' ? null : 'top'"
     />
+    <ul v-if="typeLink === 'surgery'">
+      <li
+        v-for="item in linksData"
+        :key="item"
+        class="link-list"
+      >
+        <ul v-if="Array.isArray(item)">
+          <li
+            v-for="itemData in item"
+            :key="itemData"
+            class="link-list"
+          >
+            <PrimaryLink
+              :path="itemData.path"
+              :linkTitle="itemData.name"
+              :blueCircle="true"
+              :linkMargin="10"
+            />
+          </li>
+        </ul>
+        <PrimaryLink
+          v-else
+          :path="item.path"
+          :linkTitle="item.name"
+          :blueCircle="true"
+          :linkMargin="10"
+        />
+      </li>
+    </ul>
     <PrimaryLink
       :linkTitle="$t('main.certificates.links.neurosurgery')"
       path="#"
       :blueArrow="true"
+      :arrowPosition="typeLink === 'neurosurgery' ? null : 'top'"
     />
+    <ul v-if="typeLink === 'neurosurgery'">
+      <li
+        v-for="item in linksData"
+        :key="item"
+        class="link-list"
+      >
+        <ul v-if="Array.isArray(item)">
+          <li
+            v-for="itemData in item"
+            :key="itemData"
+            class="link-list"
+          >
+            <PrimaryLink
+              :path="itemData.path"
+              :linkTitle="itemData.name"
+              :blueCircle="true"
+              :linkMargin="10"
+            />
+          </li>
+        </ul>
+        <PrimaryLink
+          v-else
+          :path="item.path"
+          :linkTitle="item.name"
+          :blueCircle="true"
+          :linkMargin="10"
+        />
+      </li>
+    </ul>
     <PrimaryLink
       :linkTitle="$t('main.certificates.links.toolsAndEquipment')"
-      path="#"
+      :path="`/${$i18n.locale}/catalog/tools-and-equipment/`"
       :blueArrow="true"
+      :arrowPosition="typeLink === 'toolsAndEquipment' ? null : 'top'"
     />
+    <ul v-if="typeLink === 'toolsAndEquipment'">
+      <li
+        v-for="item in linksData"
+        :key="item"
+        class="link-list"
+      >
+        <ul v-if="Array.isArray(item)">
+          <li
+            v-for="itemData in item"
+            :key="itemData"
+            class="link-list"
+          >
+            <PrimaryLink
+              :path="itemData.path"
+              :linkTitle="itemData.name"
+              :blueCircle="true"
+              :linkMargin="10"
+            />
+          </li>
+        </ul>
+        <PrimaryLink
+          v-else
+          :path="item.path"
+          :linkTitle="item.name"
+          :blueCircle="true"
+          :linkMargin="10"
+        />
+      </li>
+    </ul>
   </div>
 </template>
 
 <script>
-import { computed } from 'vue'
-import i18n from '@/i18n'
 
 export default {
+  props: {
+    linksData: {
+      type: Array,
+      default: () => []
+    },
+    typeLink: {
+      type: String,
+      default: ''
+    }
+  },
   setup() {
-    const traumatologyLinks = computed(() => [
-      {
-        name: i18n.global.t('main.carts.traumatology.links.intramedullaryPins'),
-        path: `/${i18n.global.locale.value}/catalog/traumatology/intramedullary-pins`
-      },
-      {
-        name: i18n.global.t('main.carts.traumatology.links.blockedPlates'),
-        path: `/${i18n.global.locale.value}/catalog/traumatology/blocked-plates`
-      },
-      {
-        name: i18n.global.t('main.carts.traumatology.links.tool'),
-        path: `/404`
-      },
-      {
-        name: i18n.global.t('main.carts.traumatology.links.screwsAT'),
-        path: `/404`
-      },
-      {
-        name: i18n.global.t('main.carts.traumatology.links.JSCPlates'),
-        path: `/404`
-      },
-      {
-        name: i18n.global.t(
-          'main.carts.traumatology.links.needlesRodsCerclage'
-        ),
-        path: `/404`
-      },
-      {
-        name: i18n.global.t('main.carts.traumatology.links.microsurgery'),
-        path: `/404`
-      },
-      {
-        name: i18n.global.t('main.carts.traumatology.links.ilizarovsApparatus'),
-        path: `/404`
-      }
-    ])
+    
     return {
-      traumatologyLinks
+
     }
   }
 }

@@ -438,7 +438,27 @@
 					"sterilization": "Стерилизация",
 					"cardiology": "Кардиология",
 					"medicalInstrument": "Медицинский инструмент"
-				}
+				},
+				"secondlinks": {
+          "panmedCamers": "Камеры Панмед",
+          "repairSterilizer": "Стерилизаторы воздушные",
+          "electricSterilizers": "Стерилизаторы электрические",
+          "sterilizationBoxes": "Коробки стерилизационные круглые",
+          "formalinChambers": "Камеры пароформалиновые",
+          "bactericidalIrradiators": "Облучатели бактерицидные",
+					"suctionUnits": "Отсасыватели",
+          "coagulators": "Коагуляторы",
+          "lights": "Светильники",
+          "operatingTables": "Столы операционные",
+          "medicalCabinets": "Шкафы медицинские",
+          "surgicalTables": "Столы хирургические",
+          "chairs": "Кушетки, тележки, стулья",
+					"medicalStretcher": "Носилки медицинские",
+					"gynecologicalChairs": "Кресла гинекологические",
+					"defibrillatorMonitor": "Дефибриллятор-монитор",
+					"electrocardiographs": "Электрокардиографы",
+					"careMonitor": "Монитор реанимационный"
+        }
 			},
 			"more": "Подробнее"
 		},

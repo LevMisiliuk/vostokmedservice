@@ -11,7 +11,7 @@
         </el-breadcrumb-item>
       </el-breadcrumb>
       <div class="catalog-traumatology__inner">
-        <LeftLinksMenu />
+        <LeftLinksMenu :typeLink="'traumatology'" :linksData="traumatologyLinks" />
         <div class="catalog-traumatology__block">
           <div class="catalog-traumatology__carts">
             <a
@@ -45,6 +45,43 @@ export default {
   name: 'CatalogTraumatology',
 
   setup() {
+    const traumatologyLinks = computed(() => [
+      {
+        name: i18n.global.t('main.carts.traumatology.links.intramedullaryPins'),
+        path: `/${i18n.global.locale.value}/catalog/traumatology/intramedullary-pins`
+      },
+      {
+        name: i18n.global.t('main.carts.traumatology.links.blockedPlates'),
+        path: `/${i18n.global.locale.value}/catalog/traumatology/blocked-plates`
+      },
+      {
+        name: i18n.global.t('main.carts.traumatology.links.tool'),
+        path: `/404`
+      },
+      {
+        name: i18n.global.t('main.carts.traumatology.links.screwsAT'),
+        path: `/404`
+      },
+      {
+        name: i18n.global.t('main.carts.traumatology.links.JSCPlates'),
+        path: `/404`
+      },
+      {
+        name: i18n.global.t(
+          'main.carts.traumatology.links.needlesRodsCerclage'
+        ),
+        path: `/404`
+      },
+      {
+        name: i18n.global.t('main.carts.traumatology.links.microsurgery'),
+        path: `/404`
+      },
+      {
+        name: i18n.global.t('main.carts.traumatology.links.ilizarovsApparatus'),
+        path: `/404`
+      }
+    ])
+
     const traumatologyCarts = computed(() => [
       {
         title: i18n.global.t(
@@ -95,7 +132,8 @@ export default {
     ])
 
     return {
-      traumatologyCarts
+      traumatologyCarts,
+      traumatologyLinks
     }
   }
 }

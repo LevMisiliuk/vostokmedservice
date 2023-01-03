@@ -1,21 +1,21 @@
 <template>
   <MqResponsive :target="['xs', 'sm']">
-    <CatalogPageMobile />
+    <ToolsAndEquipmentScreen />
   </MqResponsive>
   <MqResponsive :target="['md', 'lg', 'xl', 'xxl']">
-    <CatalogSreen />
+    <ToolsAndEquipmentScreen />
   </MqResponsive>
 </template>
 
 <script>
-import CatalogSreen from '@/components/catalog/CatalogScreen.vue';
+import ToolsAndEquipmentScreen from '@/components/catalog/ToolsAndEquipmentScreen.vue';
 import { MqResponsive } from "vue3-mq";
 import { onMounted } from "vue";
 import { updateBreakpoints } from "vue3-mq";
 
 export default {
   components: {
-    CatalogSreen,
+    ToolsAndEquipmentScreen,
     MqResponsive
   },
   setup() {
