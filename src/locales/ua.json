@@ -292,6 +292,26 @@
           "sterilization": "Стерилізація",
           "cardiology": "Кардіологія",
           "medicalInstrument": "Медичний інструмент"
+        },
+        "secondlinks": {
+          "panmedCamers": "Камери Панмед",
+          "repairSterilizer": "Стерилізатор повітряний",
+          "electricSterilizers": "Стерилізатори електричні",
+          "sterilizationBoxes": "Коробки стерилізаційні круглі",
+          "formalinChambers": "Камери пароформалінові",
+          "bactericidalIrradiators": "Опромінювачі бактерицидні",
+          "suctionUnits": "Відсмоктувачі",
+          "coagulators": "Коагулятори",
+          "lights": "Світильники",
+          "operatingTables": "Столи операційні",
+          "medicalCabinets": "Шафи медичні",
+          "surgicalTables": "Столи хірургічні",
+          "chairs": "Кушетки, візки, стільці",
+          "medicalStretcher": "Ноші медичні",
+					"gynecologicalChairs": "Крісла гінекологічні",
+					"defibrillatorMonitor": "Дефибриллятор-монитор",
+					"electrocardiographs": "Електрокардіографи",
+					"careMonitor": "Монітор реанімаційний"
         }
       },
       "more": "Докладніше"
