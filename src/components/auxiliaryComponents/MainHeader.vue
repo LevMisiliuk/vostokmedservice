@@ -87,6 +87,11 @@ export default {
     align-items: center;
   }
 
+  &__nav {
+    display: flex;
+    flex-direction: row;
+  }
+
   &__nav-link {
     display: inline-block;
     vertical-align: top;

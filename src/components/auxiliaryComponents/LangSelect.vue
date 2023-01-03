@@ -4,7 +4,7 @@
       class="lang-select__title"
       @click="areOptionsVisible = !areOptionsVisible"
     >
-      <div>
+      <div class="lang-select__name-flag">
         {{ selected.name ? selected.name : selected }}
         <img class="lang-select__selected-flag" :src="selected.flag" alt="" />
       </div>
@@ -81,6 +81,17 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  &__name-flag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  &__dropdown-arrow {
+    margin-left: 4px;
   }
   position: relative;
   display: flex;

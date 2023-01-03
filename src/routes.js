@@ -16,6 +16,8 @@ import DistalFemoralPinsPage from './pages/catalog/traumatology/intramedullary-p
 import HipProximalPinsPage from './pages/catalog/traumatology/intramedullary-pins/HipProximalPinsPage.vue'
 import BlockedPlatesPage from '@/pages/catalog/traumatology/blocked-plates/BlockedPlatesPage.vue'
 import SmallInsertsWithAngularStabilityPage from '@/components/catalog/traumatology/blocked-plates/small-inserts-with-angular-stability/SmallInsertsWithAngularStability.vue'
+import SpecialInsertsWithAngularStability from '@/components/catalog/traumatology/blocked-plates/special-inserts-with-angular-stability/SpecialInsertsWithAngularStability.vue'
+import InsertsWithAngularStability from '@/components/catalog/traumatology/blocked-plates/inserts-with-angular-stability/InsertsWithAngularStability.vue'
 import ToolsAndEquipmentPage from '@/pages/catalog/toolsAndEquipment/ToolsAndEquipmentPage.vue'
 
 export default createRouter({
@@ -42,6 +44,14 @@ export default createRouter({
         {
           path: 'catalog/traumatology/blockedPlates/small-inserts-with-angular-stability',
           component: SmallInsertsWithAngularStabilityPage
+        },
+        {
+          path: 'catalog/traumatology/blockedPlates/special-inserts-with-angular-stability',
+          component: SpecialInsertsWithAngularStability
+        },
+        {
+          path: 'catalog/traumatology/blockedPlates/inserts-with-angular-stability',
+          component: InsertsWithAngularStability
         },
         { path: '404', component: NotFound },
         {

@@ -78,48 +78,7 @@ export default {
         title: i18n.global.t(
           'main.carts.traumatology.smallInsertsWithAngularStability.title'
         ),
-        image: require('@/assets/traumatology/small-inserts-with-angular-stability.jpeg'),
-        imageAddition: require('@/assets/traumatology/straight-plate.jpeg'),
-        imageAdditionSecond: require('@/assets/traumatology/straight-plate-second.jpeg'),
-        imageAdditionThird: require('@/assets/traumatology/small-plate-t-shaped.jpeg'),
-        productsParams: [
-          {
-            id: 1,
-            name: i18n.global.t(
-              'main.carts.traumatology.smallInsertsWithAngularStability.thickness'
-            ),
-            data: i18n.global.t(
-              'main.carts.traumatology.smallInsertsWithAngularStability.thicknessData.first'
-            )
-          },
-          {
-            id: 2,
-            name: i18n.global.t(
-              'main.carts.traumatology.smallInsertsWithAngularStability.width'
-            ),
-            data: i18n.global.t(
-              'main.carts.traumatology.smallInsertsWithAngularStability.widthData'
-            )
-          },
-          {
-            id: 3,
-            name: i18n.global.t(
-              'main.carts.traumatology.smallInsertsWithAngularStability.screwDiameter'
-            ),
-            data: i18n.global.t(
-              'main.carts.traumatology.smallInsertsWithAngularStability.screwDiameterData'
-            )
-          },
-          {
-            id: 4,
-            name: i18n.global.t(
-              'main.carts.traumatology.smallInsertsWithAngularStability.material'
-            ),
-            data: i18n.global.t(
-              'main.carts.traumatology.smallInsertsWithAngularStability.materialData'
-            )
-          }
-        ]
+        image: require('@/assets/traumatology/small-inserts-with-angular-stability.jpeg')
       }
     ])
 
