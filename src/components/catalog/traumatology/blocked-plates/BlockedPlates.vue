@@ -96,14 +96,14 @@ export default {
           'main.carts.traumatology.links.specialInsertsWithAngularStability'
         ),
         img: require('@/assets/traumatology/special-inserts-with-angular-stability.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/traumatology/blockedPlates/special-inserts-with-angular-stability`
       },
       {
         title: i18n.global.t(
           'main.carts.traumatology.links.angularStabilityInserts'
         ),
         img: require('@/assets/traumatology/angular-stability-inserts.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/traumatology/blockedPlates/inserts-with-angular-stability`
       },
       {
         title: i18n.global.t(

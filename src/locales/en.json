@@ -254,6 +254,149 @@
             "fifth": "Cat. № titanium alloy",
 						"sixth": "Side"
           }
+        },
+				"specialInsertsWithAngularStability": {
+          "title": "Special inserts with angular stability",
+					"lockingSmallTPlate": "Locking small T plate",
+					"lockingSmallPlateOblique": "Locking small T plate, oblique",
+					"lockingDistalMedialHumeralPlate": "Locking distal medial humeral plate",
+					"threadStabilizedSmallTPlate": "Thread stabilized small T plate",
+					"threadStabilizedSmallTPlateOblique": "Thread stabilized small T plate, oblique",
+					"lockingDistalFemurPlate": "Locking distal femur plate",
+					"lockingProximalTibiaPlate": "Locking proximal tibia plate",
+					"lockingDistalMedialTibiaPlate": "Locking distal medial tibia plate",
+					"thickness": "Thickness",
+					"thicknessData": {
+						"1mm": "1.0 mm",
+            "1,2mm": "1,2 mm",
+						"1,2mm-2mm": "1.2-2 mm",
+						"2mm": "2.0 mm",
+            "3mm": "3.0 mm",
+						"3,5mm": "3.5 mm",
+						"3,6mm": "3.6 mm",
+						"4mm": "4.0 mm",
+						"6mm": "6.0 mm"
+          },
+					"width": "Width",
+					"widthData": {
+						"4mm": "4 mm",
+						"10mm": "10 mm",
+						"11,5mm": "11.5 mm",
+						"12,8mm": "12.8 mm",
+						"16mm": "16.0 mm",
+						"28mm": "28 mm"
+					},
+					"screwDiameter": "Screw diameter",
+					"screwDiameterData": {
+						"3,5mm": "3.5 mm",
+						"3,5mm-4mmAO": "3.5-4.0 mm AO",
+						"3,5mm-4mmLocking": "3.5-4.0 mm Locking",
+						"4mm-5mmLocking": "4.0-5.0 mm Locking",
+						"3,5mm-4,5mmAO": "3.5-4.5 mm AO screw",
+						"4,5mm": "4.5 mm",
+						"4,5mm-6,5mm": "4.5-6.5 mm",
+						"3,5mmCortical": "3.5 mm cortical screw",
+						"4,5mmCortical": "4.5 mm cortical screw",
+            "4,5mmCancellous": "4.0 mm cancellous screw",
+						"5,0mm-6,5mmLocking": "5.0-6.5 mm locking screw "
+					},
+					"threadStabilizedScrews": "Thread stabilized screws",
+					"threadStabilizedScrewsData": {
+            "3,5mm": "3,5 mm"
+          },
+					"lockingScrew": "Locking screw",
+					"lockingScrew3,5/1,5": "3,5 / 1,5 mm",
+          "lockingScrew4,5/1,5": "4,5 / 1,5 mm",
+          "lockingScrew4": "4 mm",
+          "lockingScrew4/1,5": "4,5 / 1,5 mm",
+					"lockingScrew5,0/2,0mm": "5,0/2,0 mm",
+					"lockingScrew6,5/26mm": "6,5/26 mm",
+          "lockingScrewData": {
+            "first": "12001-40012 – 40060   3.5/1.5 mm   12001-35012 – 35060",
+						"second": "3.5-4.0 mm locking screw"
+          },
+					"material": "Meterial",
+					"materialData": "stainless steel or titanium alloy.",
+					"table": {
+            "first": "L, mm",
+            "second": "Thickness, mm",
+            "third": "Number of holes",
+            "fourth": "Cat. № stainless steel",
+            "fifth": "Cat. № titanium alloy",
+						"sixth": "Side",
+						"seventh": "Head",
+						"eights": "Shaft",
+						"ninth": "Plate thickness"
+          }
+        },
+				"insertsWithAngularStability": {
+          "title": "Inserts with angular stability",
+					"smallLockingSelfCompressingPlate": "Small locking self-compressing plate",
+					"thickness": "Thickness",
+					"thicknessData": {
+						"1mm": "1.0 mm",
+            "1,2mm": "1,2 mm",
+						"1,2mm-2mm": "1.2-2 mm",
+						"2mm": "2.0 mm",
+            "3mm": "3.0 mm",
+						"3,3mm": "3.3 mm",
+						"3,5mm": "3.5 mm",
+						"3,6mm": "3.6 mm",
+						"4mm": "4.0 mm",
+						"6mm": "6.0 mm"
+          },
+					"width": "Width",
+					"widthData": {
+						"4mm": "4 mm",
+						"10mm": "10 mm",
+						"11mm": "11.0 mm",
+						"11,5mm": "11.5 mm",
+						"12,8mm": "12.8 mm",
+						"16mm": "16.0 mm",
+						"28mm": "28 mm"
+					},
+					"screwDiameter": "Screw diameter",
+					"screwDiameterData": {
+						"3,5mm": "3.5 mm",
+						"3,5mm-4mmAO": "3.5-4.0 mm AO",
+						"3,5mm-4mmLocking": "3.5-4.0 mm Locking",
+						"4mm-5mmLocking": "4.0-5.0 mm Locking",
+						"3,5mm-4,5mmAO": "3.5-4.5 mm AO screw",
+						"4,5mm": "4.5 mm",
+						"4,5mm-6,5mm": "4.5-6.5 mm",
+						"3,5mmCortical": "3.5 mm cortical screw",
+						"4,5mmCortical": "4.5 mm cortical screw",
+            "4,5mmCancellous": "4.0 mm cancellous screw",
+						"5,0mm-6,5mmLocking": "5.0-6.5 mm locking screw "
+					},
+					"threadStabilizedScrews": "Thread stabilized screws",
+					"threadStabilizedScrewsData": {
+            "3,5mm": "3,5 mm"
+          },
+					"lockingScrew": "Locking screw",
+					"lockingScrew3,5/1,5": "3,5 / 1,5 mm",
+          "lockingScrew4,5/1,5": "4,5 / 1,5 mm",
+          "lockingScrew4": "4 mm",
+          "lockingScrew4/1,5": "4,5 / 1,5 mm",
+					"lockingScrew5,0/2,0mm": "5,0/2,0 mm",
+					"lockingScrew6,5/26mm": "6,5/26 mm",
+          "lockingScrewData": {
+            "first": "12001-40012 – 40060   3.5/1.5 mm   12001-35012 – 35060",
+						"second": "3.5-4.0 mm locking screw"
+          },
+					"material": "Meterial",
+					"materialData": "stainless steel or titanium alloy.",
+					"table": {
+            "first": "L, mm",
+            "second": "Thickness, mm",
+            "third": "Number of holes",
+            "fourth": "Cat. № stainless steel",
+            "fifth": "Cat. № titanium alloy",
+						"sixth": "Side",
+						"seventh": "Head",
+						"eights": "Shaft",
+						"ninth": "Plate thickness"
+          }
         }
 			},
 			"surgery": {

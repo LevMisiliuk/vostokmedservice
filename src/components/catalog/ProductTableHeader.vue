@@ -75,7 +75,7 @@ export default {
   &__product-name {
     font-size: 16px;
     font-weight: bold;
-    min-width: 200px;
+    width: 200px;
   }
 
   &__product-data {
