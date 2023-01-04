@@ -8,14 +8,12 @@
 </template>
 
 <script>
-import ToolsAndEquipmentScreen from '@/components/catalog/ToolsAndEquipmentScreen.vue';
 import { MqResponsive } from "vue3-mq";
 import { onMounted } from "vue";
 import { updateBreakpoints } from "vue3-mq";
 
 export default {
   components: {
-    ToolsAndEquipmentScreen,
     MqResponsive
   },
   setup() {

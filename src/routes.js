@@ -19,6 +19,7 @@ import SmallInsertsWithAngularStabilityPage from '@/components/catalog/traumatol
 import SpecialInsertsWithAngularStability from '@/components/catalog/traumatology/blocked-plates/special-inserts-with-angular-stability/SpecialInsertsWithAngularStability.vue'
 import InsertsWithAngularStability from '@/components/catalog/traumatology/blocked-plates/inserts-with-angular-stability/InsertsWithAngularStability.vue'
 import ToolsAndEquipmentPage from '@/pages/catalog/toolsAndEquipment/ToolsAndEquipmentPage.vue'
+import SterilizationScreen from '@/components/catalog/toolsAndEquipment/sterilization/SterilizationScreen.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -29,7 +30,6 @@ export default createRouter({
         { path: '', component: HomePage },
         { path: 'catalog', component: CatalogPage },
         { path: 'catalog/traumatology', component: TraumatologyPage },
-        { path: 'catalog/tools-and-equipment', component: ToolsAndEquipmentPage },
         { path: 'education', component: EducationPage },
         { path: 'certificates', component: CertificatesPage },
         { path: 'contacts', component: ContactsPage },
@@ -81,7 +81,9 @@ export default createRouter({
         {
           path: 'catalog/traumatology/intramedullary-pins/hip-proximal-pins',
           component: HipProximalPinsPage
-        }
+        },
+        { path: 'catalog/tools-and-equipment', component: ToolsAndEquipmentPage },
+        { path: 'catalog/tools-and-equipment/sterilization', component: SterilizationScreen },
       ]
     }
   ]

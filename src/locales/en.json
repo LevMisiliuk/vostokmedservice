@@ -436,7 +436,7 @@
 				},
 				"secondlinks": {
           "panmedCamers": "Panmed Cameras",
-          "repairSterilizer": "Air sterilizers",
+          "airSterilizer": "Air sterilizers",
           "electricSterilizers": "Electric sterilizers",
           "sterilizationBoxes": "Round sterilization boxes",
           "formalinChambers": "Steam formalin chambers",
@@ -453,6 +453,36 @@
 					"defibrillatorMonitor": "Defibrillator monitor",
 					"electrocardiographs": "Electrocardiographs",
 					"careMonitor": "Intensive Care Monitor"
+        },
+				"panmedCamersLinks": {
+          "uvCameraMedium": "PANMED-1 MEDIUM UV CAMERA (670 MM)",
+					"uvCameraLarge": "PANMED-1 LARGE UV CAMERA (970 MM)",
+					"uvCameraSmall": "PANMED-1 SMALL UV CAMERA (500MM)"
+        },
+				"airSterilizerLinks" : {
+          "airSterilizerNotPassable": "AIR STERILIZERS GP-320 BD NOT PASSABLE",
+					"airSterilizerUkraine": "AIR STERILIZERS GP-20, GP-40, GP-80, UKRAINE",
+					"airSterilizerGP": "AIR STERILIZERS GP-160BD, GP-640BD, GP-1300BD",
+					"airSterilizerSpu": "AIR STERILIZERS GP-20 SPOO, GP-40 SPOO, GP-80 SPU",
+					"sterilizationCabinet": "SHS-80 DRYING AND STERILIZATION CABINET"
+        },
+				"electricSterilizersLinks": {
+					"electricSterilizers420": "ELECTRIC STERILIZER 420 E (BOILERS)",
+					"electricSterilizers320": "320 E ELECTRIC STERILIZER (BOILERS)"
+				},
+				"sterilizationBoxesLinks": {
+					"sterilizationBoxesRound": "ROUND STERILIZATION BOXES"
+				},
+				"formalinChambersLinks": {
+          "formalinChamberBig": "STEAM FORMALIN KHI BIG CHAMBER",
+					"formalinChamberSmall": "KHI SMALL STEAM FORMALIN CHAMBER"
+        },
+        "bactericidalIrradiatorsLinks": {
+          "bactericidalIrradiator1Lamp": "BACTERICIDAL 1-LAMP IRRADIATOR OBN-75",
+					"bactericidalIrradiator2Lamp150M": "2-LAMP GERMICIDAL IRRADIATOR OBN-150M",
+					"bactericidalIrradiator2Lamp150MP": "2-LAMP GERMICIDAL IRRADIATOR OBN-150MP",
+					"bactericidalIrradiator4Lamp300M": "4-LAMP GERMICIDAL IRRADIATOR OBN-300M",
+					"bactericidalIrradiator3Lamp225M": "3-LAMP BACTERICIDAL ILLUMINATOR OBPE-225M"
         }
 			},
 			"more": "More"

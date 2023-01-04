@@ -441,7 +441,7 @@
 				},
 				"secondlinks": {
           "panmedCamers": "Камеры Панмед",
-          "repairSterilizer": "Стерилизаторы воздушные",
+          "airSterilizer": "Стерилизаторы воздушные",
           "electricSterilizers": "Стерилизаторы электрические",
           "sterilizationBoxes": "Коробки стерилизационные круглые",
           "formalinChambers": "Камеры пароформалиновые",
@@ -458,6 +458,36 @@
 					"defibrillatorMonitor": "Дефибриллятор-монитор",
 					"electrocardiographs": "Электрокардиографы",
 					"careMonitor": "Монитор реанимационный"
+        },
+				"panmedCamersLinks": {
+          "uvCameraMedium": "УФ-КАМЕРА ПАНМЕД-1 СРЕДНЯЯ (670ММ)",
+					"uvCameraLarge": "УФ-КАМЕРА ПАНМЕД-1 БОЛЬШАЯ (970ММ)",
+					"uvCameraSmall": "УФ-КАМЕРА ПАНМЕД-1 МАЛАЯ (500ММ)"
+        },
+				"airSterilizerLinks" : {
+          "airSterilizerNotPassable": "СТЕРИЛИЗАТОРЫ ВОЗДУШНЫЕ ГП-320 БД НЕПРОХОДНЫЕ",
+					"airSterilizerUkraine": "СТЕРИЛИЗАТОРЫ ВОЗДУШНЫЕ ГП-20, ГП-40, ГП-80, УКРАИНА",
+					"airSterilizerGP": "СТЕРИЛИЗАТОРЫ ВОЗДУШНЫЕ ГП-160БД, ГП-640 БД, ГП-1300 БД",
+					"airSterilizerSpu": "СТЕРИЛИЗАТОРЫ ВОЗДУШНЫЕ ГП-20 СПУ, ГП-40 СПУ, ГП-80 СПУ",
+					"sterilizationCabinet": "ШКАФ СУШИЛЬНО-СТЕРИЛИЗАЦИОННЫЙ 'ШС-80'"
+        },
+				"electricSterilizersLinks": {
+					"electricSterilizers420": "СТЕРИЛИЗАТОР ЭЛЕКТРИЧЕСКИЙ 420 Е (КИПЯТИЛЬНИК)",
+					"electricSterilizers320": "СТЕРИЛИЗАТОР ЭЛЕКТРИЧЕСКИЙ 320 Е (КИПЯТИЛЬНИК)"
+				},
+				"sterilizationBoxesLinks": {
+					"sterilizationBoxesRound": "КОРОБКИ СТЕРИЛИЗАЦИОННЫЕ КРУГЛЫЕ"
+				},
+				"formalinChambersLinks": {
+          "formalinChamberBig": "КАМЕРА ПАРОФОРМАЛИНОВАЯ КХИ БОЛЬШАЯ",
+					"formalinChamberSmall": "КАМЕРА ПАРОФОРМАЛИНОВАЯ КХИ МАЛАЯ"
+        },
+        "bactericidalIrradiatorsLinks": {
+          "bactericidalIrradiator1Lamp": "ОБЛУЧАТЕЛЬ БАКТЕРИЦИДНЫЙ 1-ЛАМПОВЫЙ ОБН-75",
+					"bactericidalIrradiator2Lamp150M": "ОБЛУЧАТЕЛЬ БАКТЕРИЦИДНЫЙ 2-ЛАМПОВЫЙ ОБН-150М",
+					"bactericidalIrradiator2Lamp150MP": "ОБЛУЧАТЕЛЬ БАКТЕРИЦИДНЫЙ 2-ЛАМПОВЫЙ ОБН-150МП",
+					"bactericidalIrradiator4Lamp300M": "ОБЛУЧАТЕЛЬ БАКТЕРИЦИДНЫЙ 4-ЛАМПОВЫЙ ОБН-300М",
+					"bactericidalIrradiator3Lamp225M": "ОБЛУЧАТЕЛЬ БАКТЕРИЦИДНЫЙ 3-ЛАМПОВЫЙ ОБПЕ-225М"
         }
 			},
 			"more": "Подробнее"

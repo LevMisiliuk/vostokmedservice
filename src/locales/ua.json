@@ -441,7 +441,7 @@
         },
         "secondlinks": {
           "panmedCamers": "Камери Панмед",
-          "repairSterilizer": "Стерилізатор повітряний",
+          "airSterilizer": "Стерилізатор повітряний",
           "electricSterilizers": "Стерилізатори електричні",
           "sterilizationBoxes": "Коробки стерилізаційні круглі",
           "formalinChambers": "Камери пароформалінові",
@@ -458,6 +458,36 @@
 					"defibrillatorMonitor": "Дефибриллятор-монитор",
 					"electrocardiographs": "Електрокардіографи",
 					"careMonitor": "Монітор реанімаційний"
+        },
+        "panmedCamersLinks": {
+          "uvCameraMedium": "УФ-КАМЕРА ПАНМЕД-1 СЕРЕДНЯ (670ММ)",
+          "uvCameraLarge": "УФ-КАМЕРА ПАНМЕД-1 ВЕЛИКА (970ММ)",
+          "uvCameraSmall": "УФ-КАМЕРА ПАНМЕД-1 МАЛА (500ММ)"
+        },
+        "airSterilizerLinks" : {
+          "airSterilizerNotPassable": "СТЕРИЛІЗАТОРИ ПОВІТРЯНІ ГП-320 БД НЕПРОХІДНІ",
+          "airSterilizerUkraine": "СТЕРИЛІЗАТОРИ ПОВІТРЯНІ ГП-20, ГП-40, ГП-80, УКРАЇНА",
+          "airSterilizerGP": "СТЕРИЛІЗАТОРИ ПОВІТРЯНІ ГП-160БД, ГП-640 БД, ГП-1300 БД",
+          "airSterilizerSpu": "СТЕРИЛІЗАТОРИ ПОВІТРЯНІ ГП-20 СПУ, ГП-40 СПУ, ГП-80 СПУ",
+          "sterilizationCabinet": "ШАФА СУШИЛЬНО-СТЕРИЛІЗАЦІЙНА 'ШС-80'"
+        },
+        "electricSterilizersLinks": {
+					"electricSterilizers420": "СТЕРИЛІЗАТОР ЕЛЕКТРИЧНИЙ 420 Е (КИП'ЯТИЛЬНИК)",
+          "electricSterilizers320": "СТЕРИЛІЗАТОР ЕЛЕКТРИЧНИЙ 320 Е (КИП'ЯТИЛЬНИК)"
+				},
+        "sterilizationBoxesLinks": {
+					"sterilizationBoxesRound": "КОРОБКИ СТЕРИЛІЗАЦІЙНІ КРУГЛІ"
+				},
+        "formalinChambersLinks": {
+          "formalinChamberBig": "КАМЕРА ПАРОФОРМАЛІНОВА КХІ ВЕЛИКА",
+          "formalinChamberSmall": "КАМЕРА ПАРОФОРМАЛІНОВА КХІ МАЛА"
+        },
+        "bactericidalIrradiatorsLinks": {
+          "bactericidalIrradiator1Lamp": "ОПРОМІНЮВАЧ БАКТЕРИЦИДНИЙ 1-ЛАМПОВИЙ ОБН-75",
+          "bactericidalIrradiator2Lamp150M": "ОПРОМІНЮВАЧ БАКТЕРИЦИДНИЙ 2-ЛАМПОВИЙ ОБН-150М",
+          "bactericidalIrradiator2Lamp150MP": "ОПРОМІНЮВАЧ БАКТЕРИЦИДНИЙ 2-ЛАМПОВИЙ ОБН-150МП",
+          "bactericidalIrradiator4Lamp300M": "ОПРОМІНЮВАЧ БАКТЕРИЦИДНИЙ 4-ЛАМПОВИЙ ОБН-300М",
+          "bactericidalIrradiator3Lamp225M": "ОПРОМІНЮВАЧ БАКТЕРИЦИДНИЙ 3-ЛАМПОВИЙ ОБПЕ-225М"
         }
       },
       "more": "Докладніше"
