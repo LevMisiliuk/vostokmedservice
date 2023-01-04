@@ -332,6 +332,9 @@
 				"insertsWithAngularStability": {
           "title": "Inserts with angular stability",
 					"smallLockingSelfCompressingPlate": "Small locking self-compressing plate",
+					"smallLockingLowContactSelfCompressingPlate": "Small locking low contact self-compressing plate",
+					"lockingReconstructionPlate": "Locking reconstruction plate 10 x 3 mm",
+					"lockingProximalHumeralPlate": "Locking proximal humeral plate",
 					"thickness": "Thickness",
 					"thicknessData": {
 						"1mm": "1.0 mm",
@@ -351,6 +354,7 @@
 						"10mm": "10 mm",
 						"11mm": "11.0 mm",
 						"11,5mm": "11.5 mm",
+						"12mm": "12.0 mm",
 						"12,8mm": "12.8 mm",
 						"16mm": "16.0 mm",
 						"28mm": "28 mm"
@@ -377,7 +381,7 @@
 					"lockingScrew3,5/1,5": "3,5 / 1,5 mm",
           "lockingScrew4,5/1,5": "4,5 / 1,5 mm",
           "lockingScrew4": "4 mm",
-          "lockingScrew4/1,5": "4,5 / 1,5 mm",
+          "lockingScrew4/1,5": "4,0 / 1,5 mm",
 					"lockingScrew5,0/2,0mm": "5,0/2,0 mm",
 					"lockingScrew6,5/26mm": "6,5/26 mm",
           "lockingScrewData": {

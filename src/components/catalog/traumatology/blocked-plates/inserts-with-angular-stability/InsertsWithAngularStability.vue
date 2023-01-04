@@ -28,6 +28,18 @@
           />
 
           <SmallLockingSelfCompressingPlateGrid />
+
+          <SmallLockingLowContactSelfCompressingPlateGrid />
+
+          <LockingSmallTPlateGrid />
+
+          <LockingSmallTPlateObliqueGrid />
+
+          <LockingReconstructionPlateGrid />
+
+          <LockingProximalHumeralPlateGrid />
+
+          <LockingDistalMedialHumerusPlateGrid />
         </div>
       </div>
     </div>
@@ -39,6 +51,12 @@
 import { computed } from 'vue'
 import i18n from '@/i18n'
 import SmallLockingSelfCompressingPlateGrid from './grid/SmallLockingSelfCompressingPlateGrid.vue'
+import SmallLockingLowContactSelfCompressingPlateGrid from './grid/SmallLockingLowContactSelfCompressingPlateGrid.vue'
+import LockingSmallTPlateGrid from '../special-inserts-with-angular-stability/grid/LockingSmallTPlateGrid.vue'
+import LockingSmallTPlateObliqueGrid from '../special-inserts-with-angular-stability/grid/LockingSmallTPlateObliqueGrid.vue'
+import LockingReconstructionPlateGrid from './grid/LockingReconstructionPlateGrid.vue'
+import LockingProximalHumeralPlateGrid from './grid/LockingProximalHumeralPlateGrid.vue'
+import LockingDistalMedialHumerusPlateGrid from '../special-inserts-with-angular-stability/grid/LockingDistalMedialHumerusPlateGrid.vue'
 
 export default {
   name: 'InsertsWithAngularStability',
@@ -55,7 +73,7 @@ export default {
       cardData
     }
   },
-  components: { SmallLockingSelfCompressingPlateGrid }
+  components: { SmallLockingSelfCompressingPlateGrid, SmallLockingLowContactSelfCompressingPlateGrid, LockingSmallTPlateGrid, LockingSmallTPlateObliqueGrid, LockingReconstructionPlateGrid, LockingProximalHumeralPlateGrid, LockingDistalMedialHumerusPlateGrid }
 }
 </script>
 
