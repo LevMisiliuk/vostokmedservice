@@ -40,6 +40,25 @@
           <LockingProximalHumeralPlateGrid />
 
           <LockingDistalMedialHumerusPlateGrid />
+
+          <LockingDistalTibiaPlate />
+
+          <ThreadStabilizedSmallTPlateGrid />
+
+          <ThreadStabilizedSmallTPlateObliqueGrid />
+
+          <LockingTPlateGrid />
+
+          <LockingTButtressPlate />
+
+          <LockingLButtressPlate />
+
+          <LockingProximalTibiaPlateDefaultGrid />
+
+          <LockingProximalTibiaPlateGrid />
+
+          <LockingDistalMedialTibiaPlateGrid />
+
         </div>
       </div>
     </div>
@@ -57,6 +76,15 @@ import LockingSmallTPlateObliqueGrid from '../special-inserts-with-angular-stabi
 import LockingReconstructionPlateGrid from './grid/LockingReconstructionPlateGrid.vue'
 import LockingProximalHumeralPlateGrid from './grid/LockingProximalHumeralPlateGrid.vue'
 import LockingDistalMedialHumerusPlateGrid from '../special-inserts-with-angular-stability/grid/LockingDistalMedialHumerusPlateGrid.vue'
+import LockingDistalTibiaPlate from './grid/LockingDistalTibiaPlate.vue'
+import ThreadStabilizedSmallTPlateGrid from '../special-inserts-with-angular-stability/grid/ThreadStabilizedSmallTPlateGrid.vue'
+import ThreadStabilizedSmallTPlateObliqueGrid from '../special-inserts-with-angular-stability/grid/ThreadStabilizedSmallTPlateObliqueGrid.vue'
+import LockingTPlateGrid from './grid/LockingTPlateGrid.vue'
+import LockingTButtressPlate from './grid/LockingTButtressPlate.vue'
+import LockingLButtressPlate from './grid/LockingLButtressPlate.vue'
+import LockingProximalTibiaPlateDefaultGrid from './grid/LockingProximalTibiaPlateDefaultGrid.vue'
+import LockingDistalMedialTibiaPlateGrid from '../special-inserts-with-angular-stability/grid/LockingDistalMedialTibiaPlateGrid.vue'
+import LockingProximalTibiaPlateGrid from '../special-inserts-with-angular-stability/grid/LockingProximalTibiaPlateGrid.vue'
 
 export default {
   name: 'InsertsWithAngularStability',
@@ -73,7 +101,7 @@ export default {
       cardData
     }
   },
-  components: { SmallLockingSelfCompressingPlateGrid, SmallLockingLowContactSelfCompressingPlateGrid, LockingSmallTPlateGrid, LockingSmallTPlateObliqueGrid, LockingReconstructionPlateGrid, LockingProximalHumeralPlateGrid, LockingDistalMedialHumerusPlateGrid }
+  components: { SmallLockingSelfCompressingPlateGrid, SmallLockingLowContactSelfCompressingPlateGrid, LockingSmallTPlateGrid, LockingSmallTPlateObliqueGrid, LockingReconstructionPlateGrid, LockingProximalHumeralPlateGrid, LockingDistalMedialHumerusPlateGrid, LockingDistalTibiaPlate, ThreadStabilizedSmallTPlateGrid, ThreadStabilizedSmallTPlateObliqueGrid, LockingTPlateGrid, LockingTButtressPlate, LockingLButtressPlate, LockingProximalTibiaPlateDefaultGrid, LockingDistalMedialTibiaPlateGrid, LockingProximalTibiaPlateGrid }
 }
 </script>
 
