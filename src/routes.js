@@ -20,6 +20,7 @@ import SpecialInsertsWithAngularStability from '@/components/catalog/traumatolog
 import InsertsWithAngularStability from '@/components/catalog/traumatology/blocked-plates/inserts-with-angular-stability/InsertsWithAngularStability.vue'
 import ToolsAndEquipmentPage from '@/pages/catalog/toolsAndEquipment/ToolsAndEquipmentPage.vue'
 import SterilizationScreen from '@/components/catalog/toolsAndEquipment/sterilization/SterilizationScreen.vue'
+import EquipmentScreen from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/EquipmentScreen.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -84,6 +85,7 @@ export default createRouter({
         },
         { path: 'catalog/tools-and-equipment', component: ToolsAndEquipmentPage },
         { path: 'catalog/tools-and-equipment/sterilization', component: SterilizationScreen },
+        { path: 'catalog/tools-and-equipment/operational-equipment', component: EquipmentScreen },
       ]
     }
   ]

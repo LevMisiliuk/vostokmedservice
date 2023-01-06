@@ -497,7 +497,40 @@
 					"bactericidalIrradiator2Lamp150MP": "2-LAMP GERMICIDAL IRRADIATOR OBN-150MP",
 					"bactericidalIrradiator4Lamp300M": "4-LAMP GERMICIDAL IRRADIATOR OBN-300M",
 					"bactericidalIrradiator3Lamp225M": "3-LAMP BACTERICIDAL ILLUMINATOR OBPE-225M"
-        }
+        },
+				"equipmentOperatingRooms": {
+          "links": {
+            "electric7a23v": "ELECTRIC, MODEL 7A-23V",
+            "electric7a23d": "ELECTRIC, MODEL 7A-23D",
+            "electric7s": "ELECTRIC, MODEL 7S",
+            "children7eb": "CHILDREN, MODEL 7E-B",
+						"universal7ed": "UNIVERSAL, MODEL 7E-D",
+            "pedal7c": "PEDAL, MODEL 7C",
+            "surgicalElema": "SURGICAL ELEMA-N AM1M",
+            "coagulator": "COAGULATOR",
+            "luminaireL7412II": "LUMINAIRE L7412-II",
+            "luminaireL200063II": "L2000 6+3-II LUMINAIRE",
+            "luminaireL735II": "L735-II LUMINAIRE",
+            "luminaireZmdII": "LUMINAIRE ZMD-II",
+            "luminaireL20006II": "L2000 6-II LUMINAIRE",
+            "luminaireL20003II": "LUMINAIRE L 2000-3-II",
+            "luminaireL20003e": "LUMINAIRE L2000-3E",
+            "luminaireL739II": "L739-II LUMINAIRE",
+            "luminaireL735E": "L735E LUMINAIRE",
+            "luminaireL734II": "L734-II LUMINAIRE",
+						"luminaireSPR5eEma": "LUMINAIRE SPR-5-'E-EMA'",
+            "luminaireL751IISingle": "L751-II SINGLE-REFLECTOR LUMINAIRE",
+            "luminaireReflectorEEma9": "E-EMA 9-REFLECTOR LUMINAIRE",
+            "luminaireReflectorEEma3": "E-EMA 3-REFLECTOR LUMINAIRE",
+						"luminaireReflectorEEma6": "CP-4 - E-EMA 6-REFLECTOR LUMINAIRE",
+            "luminaireReflectorL35II5": "L735-II 5-REFLECTOR LUMINAIRE",
+            "electricTableDS1": "ELECTRIC OPERATING TABLE DS-1",
+            "electricTableDS3": "ELECTRIC OPERATING TABLE DS-3",
+						"tableHydrDriven3008A": "TABLE WITH HYDR. DRIVEN 3008(A)",
+            "operatingTable3008s": "OPERATING TABLE 3008(S)",
+            "operatingTable3006": "HYDRAULICALLY DRIVEN TABLE DRIVE MOBILE 3006"
+          }
+				}
 			},
 			"more": "More"
 		},

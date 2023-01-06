@@ -501,6 +501,39 @@
           "bactericidalIrradiator2Lamp150MP": "ОПРОМІНЮВАЧ БАКТЕРИЦИДНИЙ 2-ЛАМПОВИЙ ОБН-150МП",
           "bactericidalIrradiator4Lamp300M": "ОПРОМІНЮВАЧ БАКТЕРИЦИДНИЙ 4-ЛАМПОВИЙ ОБН-300М",
           "bactericidalIrradiator3Lamp225M": "ОПРОМІНЮВАЧ БАКТЕРИЦИДНИЙ 3-ЛАМПОВИЙ ОБПЕ-225М"
+        },
+        "equipmentOperatingRooms": {
+          "links": {
+            "electric7a23v": "ЕЛЕКТРИЧНИЙ, МОДЕЛЬ 7А-23В",
+            "electric7a23d": "ЕЛЕКТРИЧНИЙ, МОДЕЛЬ 7А-23D",
+            "electric7s": "ЕЛЕКТРИЧНИЙ, МОДЕЛЬ 7С",
+            "children7eb": "ДИТЯЧИЙ, МОДЕЛЬ 7Е-B",
+            "universal7ed": "УНІВЕРСАЛЬНИЙ, МОДЕЛЬ 7Е-D",
+            "pedal7c": "ПЕДАЛЬНИЙ, МОДЕЛЬ 7В",
+            "surgicalElema": "ХІРУРГІЧНИЙ ЕЛЕМА-Н АМ1М",
+            "coagulator": "КОАГУЛЯТОР",
+            "luminaireL7412II": "СВІТИЛЬНИК L7412-II",
+            "luminaireL200063II": "СВІТИЛЬНИК L2000 6+3-II",
+            "luminaireL735II": "СВІТИЛЬНИК L735-II",
+            "luminaireZmdII": "СВІТИЛЬНИК ZMD-II",
+            "luminaireL20006II": "СВІТИЛЬНИК L2000 6-II",
+            "luminaireL20003II": "СВІТИЛЬНИК L 2000-3-II",
+            "luminaireL20003e": "СВІТИЛЬНИК L2000-3E",
+            "luminaireL739II": "СВІТИЛЬНИК L739-II",
+            "luminaireL735E": "СВІТИЛЬНИК L735E",
+            "luminaireL734II": "СВІТИЛЬНИК L734-II",
+            "luminaireSPR5eEma": "СВІТИЛЬНИК СПР-5-'Е-ЕМА'",
+            "luminaireL751IISingle": "СВІТИЛЬНИК L751-II ОДНОРЕФЛЕКТОРНИЙ",
+            "luminaireReflectorEEma9": "СВІТИЛЬНИК 'Е-ЕМА' 9-ТИ РЕФЛЕКТОРНИЙ",
+						"luminaireReflectorEEma3": "СВІТИЛЬНИК 'Е-ЕМА' 3-Х РЕФЛЕКТОРНИЙ",
+            "luminaireReflectorEEma6": "СВІТИЛЬНИК СР-4 - 'Е-ЕМА' 6-И РЕФЛЕКТОРНИЙ",
+            "luminaireReflectorL35II5": "СВІТИЛЬНИК L735-II 5-И РЕФЛЕКТОРНИЙ",
+            "electricTableDS1": "СТІЛ ОПЕРАЦІЙНИЙ ЕЛЕКТРИЧНИЙ DS-1",
+						"electricTableDS3": "СТІЛ ОПЕРАЦІЙНИЙ ЕЛЕКТРИЧНИЙ DS-3",
+            "tableHydrDriven3008A": "СТІЛ З ГІДРАВЛ. ПРИВОДОМ 3008(А)",
+            "operatingTable3008s": "СТІЛ ОПЕРАЦІЙНИЙ 3008(S)",
+            "operatingTable3006": "СТІЛ З ГІДРАВЛ. ПРИВОДОМ ПЕРЕСУВНИЙ 3006"
+          }
         }
       },
       "more": "Докладніше"

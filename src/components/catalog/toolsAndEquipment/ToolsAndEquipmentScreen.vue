@@ -2,7 +2,7 @@
   <ToolsAndEquipmentLayuot>
     <div class="tools-equipment__carts">
       <a
-        v-for="cart in traumatologyCarts"
+        v-for="cart in toolsAndEquipmentCarts"
         :key="cart"
         class="tools-equipment__cart"
         :href="cart.link"
@@ -26,7 +26,7 @@ import i18n from '@/i18n'
 
 export default {
   setup() {
-    const traumatologyCarts = computed(() => [
+    const toolsAndEquipmentCarts = computed(() => [
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.links.sterilization'),
         img: require('@/assets/toolsAndEquipment/sterilization.png'),
@@ -60,7 +60,7 @@ export default {
     ])
 
     return {
-      traumatologyCarts,
+      toolsAndEquipmentCarts,
     }
   }
 }

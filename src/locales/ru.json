@@ -500,7 +500,40 @@
 					"bactericidalIrradiator2Lamp150MP": "ОБЛУЧАТЕЛЬ БАКТЕРИЦИДНЫЙ 2-ЛАМПОВЫЙ ОБН-150МП",
 					"bactericidalIrradiator4Lamp300M": "ОБЛУЧАТЕЛЬ БАКТЕРИЦИДНЫЙ 4-ЛАМПОВЫЙ ОБН-300М",
 					"bactericidalIrradiator3Lamp225M": "ОБЛУЧАТЕЛЬ БАКТЕРИЦИДНЫЙ 3-ЛАМПОВЫЙ ОБПЕ-225М"
-        }
+        },
+				"equipmentOperatingRooms": {
+          "links": {
+            "electric7a23v": "ЭЛЕКТРИЧЕСКИЙ, МОДЕЛЬ 7А-23В",
+            "electric7a23d": "ЭЛЕКТРИЧЕСКИЙ, МОДЕЛЬ 7А-23D",
+            "electric7s": "ЭЛЕКТРИЧЕСКИЙ, МОДЕЛЬ 7С",
+            "children7eb": "ДЕТСКИЙ, МОДЕЛЬ 7Е-B",
+						"universal7ed": "УНИВЕРСАЛЬНЫЙ, МОДЕЛЬ 7Е-D",
+            "pedal7c": "ПЕДАЛЬНЫЙ, МОДЕЛЬ 7В",
+            "surgicalElema": "ХИРУРГИЧЕСКИЙ ЭЛЕМА-Н АМ1М",
+            "coagulator": "КОАГУЛЯТОР",
+            "luminaireL7412II": "CВЕТИЛЬНИК L7412-II",
+            "luminaireL200063II": "СВЕТИЛЬНИК L2000 6+3-II",
+            "luminaireL735II": "СВЕТИЛЬНИК L735-II",
+            "luminaireZmdII": "СВЕТИЛЬНИК ZMD-II",
+            "luminaireL20006II": "СВЕТИЛЬНИК L2000 6-II",
+            "luminaireL20003II": "СВЕТИЛЬНИК L 2000-3-II",
+            "luminaireL20003e": "СВЕТИЛЬНИК L2000-3E",
+            "luminaireL739II": "СВЕТИЛЬНИК L739-II",
+            "luminaireL735E": "СВЕТИЛЬНИК L735E",
+            "luminaireL734II": "СВЕТИЛЬНИК L734-II",
+						"luminaireSPR5eEma": "CВЕТИЛЬНИК СПР-5–'Е-ЭМА'",
+            "luminaireL751IISingle": "СВЕТИЛЬНИК L751-II ОДНОРЕФЛЕКТОРНЫЙ",
+            "luminaireReflectorEEma9": "СВЕТИЛЬНИК 'Е-ЭМА' 9-ТИ РЕФЛЕКТОРНЫЙ",
+						"luminaireReflectorEEma3": "СВЕТИЛЬНИК 'Е-ЭМА' 3-Х РЕФЛЕКТОРНЫЙ",
+            "luminaireReflectorEEma6": "СВЕТИЛЬНИК СР-4 – 'Е-ЭМА' 6-И РЕФЛЕКТОРНЫЙ",
+            "luminaireReflectorL35II5": "СВЕТИЛЬНИК L735-II 5-И РЕФЛЕКТОРНЫЙ",
+            "electricTableDS1": "СТОЛ ОПЕРАЦИОННЫЙ ЭЛЕКТРИЧЕСКИЙ DS-1",
+						"electricTableDS3": "СТОЛ ОПЕРАЦИОННЫЙ ЭЛЕКТРИЧЕСКИЙ DS-3",
+            "tableHydrDriven3008A": "СТОЛ С ГИДРАВЛ. ПРИВОДОМ 3008(А)",
+            "operatingTable3008s": "СТОЛ ОПЕРАЦИОННЫЙ 3008(S)",
+            "operatingTable3006": "СТОЛ С ГИДРАВЛ. ПРИВОДОМ ПЕРЕДВИЖНОЙ 3006"
+          }
+				}
 			},
 			"more": "Подробнее"
 		},

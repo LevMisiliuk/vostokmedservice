@@ -2,7 +2,7 @@
   <ToolsAndEquipmentLayuot>
     <div class="sterilization__carts">
       <a
-        v-for="cart in traumatologyCarts"
+        v-for="cart in sterilizationCarts"
         :key="cart"
         class="sterilization__cart"
         :href="cart.link"
@@ -27,7 +27,7 @@ import i18n from '@/i18n'
 export default {
   setup() {
 
-    const traumatologyCarts = computed(() => [
+    const sterilizationCarts = computed(() => [
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.panmedCamersLinks.uvCameraMedium'),
         img: require('@/assets/toolsAndEquipment/uv-camera-medium.png'),
@@ -121,7 +121,7 @@ export default {
     ])
 
     return {
-      traumatologyCarts,
+      sterilizationCarts,
     }
   }
 }
