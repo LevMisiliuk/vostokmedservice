@@ -110,7 +110,7 @@ export default {
           'main.carts.traumatology.links.largeInsertsWithAngularStability'
         ),
         img: require('@/assets/traumatology/large-inserts-with-angular-stability.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/traumatology/blockedPlates/large-inserts-with-angular-stability`
       }
     ])
 
