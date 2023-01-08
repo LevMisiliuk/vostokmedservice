@@ -22,6 +22,7 @@ import ToolsAndEquipmentPage from '@/pages/catalog/toolsAndEquipment/ToolsAndEqu
 import SterilizationScreen from '@/components/catalog/toolsAndEquipment/sterilization/SterilizationScreen.vue'
 import EquipmentScreen from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/EquipmentScreen.vue'
 import CardiologyScreen from '@/components/catalog/toolsAndEquipment/cardiology/CardiologyScreen.vue'
+import medicalFurnitureScreen from '@/components/catalog/toolsAndEquipment/medicalFurniture/medicalFurnitureScreen.vue'
 import LargeInsertsWithAngularStability from '@/components/catalog/traumatology/blocked-plates/large-inserts-with-angular-stability/LargeInsertsWithAngularStability.vue'
 
 export default createRouter({
@@ -93,6 +94,7 @@ export default createRouter({
         { path: 'catalog/tools-and-equipment/sterilization', component: SterilizationScreen },
         { path: 'catalog/tools-and-equipment/operational-equipment', component: EquipmentScreen },
         { path: 'catalog/tools-and-equipment/cardiology', component: CardiologyScreen },
+        { path: 'catalog/tools-and-equipment/medical-furniture', component: medicalFurnitureScreen },
       ]
     }
   ]

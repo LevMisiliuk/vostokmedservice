@@ -630,7 +630,46 @@
 						"monitorResuscitation": "МОНІТОР РЕАНІМАЦІЙНИЙ МІТАР-01-Р-Д",
 						"defibrillatorMonitor": "ДЕФІБРИЛЯТОР-МОНІТОР ДКІ-Н-10 'АКСІОН-Х'"
           }
-        }
+        },
+        "medicalFurniture": {
+					"links": {
+						"medicalCabinetSHM1": "ШАФА МЕДИЧНА ОДНОСТУЛКОВА ШМ-1",
+						"medicalCabinetSHM2": "ШАФА МЕДИЧНА ДВОСТУЛКОВА ШМ-2",
+						"medicalCabinetSHM1S": "ШАФА МЕДИЧНА ОДНОСТУЛКОВА З СЕЙФОМ ШМ-1С",
+						"gynecologicalCouchKKG": "КУШЕТКА ГІНЕКОЛОГІЧНА ККГ",
+						"treatmentCouchKP": "КУШЕТКА ПРОЦЕДУРНА КП",
+						"diagnosticCouchCD1": "КУШЕТКА ДІАГНОСТИЧНА КД-1",
+						"bowelFlushingCouchCPC": "КУШЕТКА ДЛЯ ПРОМЫВКИ КИШЕЧНИКА КПК",
+						"adjustableMassegeCouch": "КУШЕТКА МАСАЖНА РЕГУЛЬОВАНА КМ-3",
+						"powerDrivenMessageCouch": "КУШЕТКА МАСАЖНА З ЕЛЕКТРОПРИВОДОМ КМЕ",
+						"stationaryMessageCouch": "КУШЕТКА МАСАЖНА СТАЦІОНАРНА КМ-1",
+						"adjustableHeadrestCouch": "КУШЕТКА З РЕГУЛЬОВАНИМ ПІДГОЛІВНИКОМ КРП",
+						"proceduralCocuhTable": "КУШЕТКА ПРОЦЕДУРНА З ТУМБОЧКОЮ КРПТ",
+						"examinationCouch": "КУШЕТКА ОГЛЯДОВА КС-1",
+						"newbornBabyCartTN": "ВІЗОК ДЛЯ НОВОНАРОДЖЕНИХ ТН",
+						"cartRemovableStretcher": "ВІЗОК ЗІ ЗНІМНИМИ НОШАМИ ТБС-150",
+						"patientTransferCart": "ВІЗОК ДЛЯ ТРАНСПОРТУВАННЯ ПАЦІЄНТІВ ТПБР",
+						"screwChairWithoutBackrest": "СТІЛЕЦЬ ГВИНТОВИЙ БЕЗ СПИНКИ СВ",
+						"screwChairWithBackrest": "СТІЛЕЦЬ ГВИНТОВИЙ ЗІ СПИНКОЮ ПЕРЕСУВНИЙ З ПІДСТАВКОЮ ДЛЯ НІГ СВПС",
+						"screwChairWithBackrestSVS": "СТІЛЕЦЬ ГВИНТОВИЙ ЗІ СПИНКОЮ СВС",
+						"changingTableSPL": "СТІЛ ПЕЛЕНАЛЬНИЙ СПЛ",
+						"insrumentTableC5": "СТОЛИК ІНСТРУМЕНТАЛЬНИЙ СИ-5",
+						"surgicalTableSH1": "СТОЛИК ХІРУРГІЧНИЙ СХ-1",
+						"anesthesiologistsTable": "СТОЛИК АНЕСТЕЗІОЛОГА СА",
+						"manipulationTableCM3": "СТОЛИК МАНІПУЛЯЦІЙНИЙ СМ-3",
+						"stretcherMedicalA03": "НОШІ МЕДИЧНІ А03",
+						"stretcherMedicalA16": "НОШІ МЕДИЧНІ А16",
+						"stretcherMedicalA01": "НОШІ МЕДИЧНІ А01",
+						"stretcherMedicalB01": "НОШІ МЕДИЧНІ В01",
+						"stretcherMedicalB03": "НОШІ МЕДИЧНІ В03",
+						"stretcherMedicalB11": "НОШІ МЕДИЧНІ В11",
+						"gynecologicalPediatricChairElectricDrive": "КРІСЛО ГІНЕКОЛОГІЧНЕ ДИТЯЧЕ З ЕЛЕКТРОПРИВОДОМ КГ-3Д",
+						"gynecologicalChairKG1M": "КРІСЛО ГІНЕКОЛОГІЧНЕ КГ-1М",
+						"gynecologicalChairKG1ME": "КРІСЛО ГІНЕКОЛОГІЧНЕ КГ-1МЕ",
+						"gynecologicalChairKG2M": "КРІСЛО ГІНЕКОЛОГІЧНЕ КГ-2М",
+						"gynecologicalChairElectricDrive": "КРІСЛО ГІНЕКОЛОГІЧНЕ З ЕЛЕКТРОПРИВОДОМ КГ-ЗЕ"
+					}
+				}
       },
       "more": "Докладніше"
     },

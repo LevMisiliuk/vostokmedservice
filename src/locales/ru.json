@@ -628,7 +628,46 @@
 						"monitorResuscitation": "МОНИТОР РЕАНИМАЦИОННЫЙ МИТАР-01-Р-Д",
 						"defibrillatorMonitor": "ДЕФИБРИЛЛЯТОР-МОНИТОР ДКИ-Н-10 'АКСИОН-Х'"
           }
-        }
+        },
+				"medicalFurniture": {
+					"links": {
+						"medicalCabinetSHM1": "ШКАФ МЕДИЦИНСКИЙ ОДНОСТВОРЧАТЫЙ ШМ-1",
+						"medicalCabinetSHM2": "ШКАФ МЕДИЦИНСКИЙ ДВУСТВОРЧАТЫЙ ШМ-2",
+						"medicalCabinetSHM1S": "ШКАФ МЕДИЦИНСКИЙ ОДНОСТВОРЧАТЫЙ С СЕЙФОМ ШМ-1С",
+						"gynecologicalCouchKKG": "КУШЕТКА ГИНЕКОЛОГИЧЕСКАЯ ККГ",
+						"treatmentCouchKP": "КУШЕТКА ПРОЦЕДУРНАЯ КП",
+						"diagnosticCouchCD1": "КУШЕТКА ДИАГНОСТИЧЕСКАЯ КД-1",
+						"bowelFlushingCouchCPC": "КУШЕТКА ДЛЯ ПРОМЫВКИ КИШЕЧНИКА КПК",
+						"adjustableMassegeCouch": "КУШЕТКА МАССАЖНАЯ РЕГУЛИРУЕМАЯ КМ-3",
+						"powerDrivenMessageCouch": "КУШЕТКА МАССАЖНАЯ С ЭЛЕКТРОПРИВОДОМ КМЕ",
+						"stationaryMessageCouch": "КУШЕТКА МАССАЖНАЯ СТАЦИОНАРНАЯ КМ-1",
+						"adjustableHeadrestCouch": "КУШЕТКА С РЕГУЛИРУЕМЫМ ПОДГОЛОВНИКОМ КРП",
+						"proceduralCocuhTable": "КУШЕТКА ПРОЦЕДУРНАЯ С ТУМБОЧКОЙ КРПТ",
+						"examinationCouch": "КУШЕТКА СМОТРОВАЯ КС-1",
+						"newbornBabyCartTN": "ТЕЛЕЖКА ДЛЯ НОВОРОЖДЕННЫХ ТН",
+						"cartRemovableStretcher": "ТЕЛЕЖКА СО СЪЕМНЫМИ НОСИЛКАМИ ТБС-150",
+						"patientTransferCart": "ТЕЛЕЖКА ДЛЯ ТРАНСПОРТИРОВКИ ПАЦИЕНТОВ ТПБР",
+						"screwChairWithoutBackrest": "СТУЛ ВИНТОВОЙ БЕЗ СПИНКИ СВ",
+						"screwChairWithBackrest": "СТУЛ ВИНТОВОЙ СО СПИНКОЙ ПЕРЕДВИЖНОЙ С ПОДСТАВКОЙ ДЛЯ НОГ СВПС",
+						"screwChairWithBackrestSVS": "СТУЛ ВИНТОВОЙ СО СПИНКОЙ СВС",
+						"changingTableSPL": "СТОЛ ПЕЛЕНАЛЬНЫЙ СПЛ",
+						"insrumentTableC5": "СТОЛИК ИНСТРУМЕНТАЛЬНЫЙ СИ-5",
+						"surgicalTableSH1": "СТОЛИК ХИРУРГИЧЕСКИЙ СХ-1",
+						"anesthesiologistsTable": "СТОЛИК АНЕСТЕЗИОЛОГА СА",
+						"manipulationTableCM3": "СТОЛИК МАНИПУЛЯЦИОННЫЙ СМ-3",
+						"stretcherMedicalA03": "НОСИЛКИ МЕДИЦИНСКИЕ А03",
+						"stretcherMedicalA16": "НОСИЛКИ МЕДИЦИНСКИЕ А16",
+						"stretcherMedicalA01": "НОСИЛКИ МЕДИЦИНСКИЕ А01",
+						"stretcherMedicalB01": "НОСИЛКИ МЕДИЦИНСКИЕ В01",
+						"stretcherMedicalB03": "НОСИЛКИ МЕДИЦИНСКИЕ В03",
+						"stretcherMedicalB11": "НОСИЛКИ МЕДИЦИНСКИЕ В11",
+						"gynecologicalPediatricChairElectricDrive": "КРЕСЛО ГИНЕКОЛОГИЧЕСКОЕ ДЕТСКОЕ С ЕЛЕКТРОПРИВОДОМ КГ-3Д",
+						"gynecologicalChairKG1M": "КРЕСЛО ГИНЕКОЛОГИЧЕСКОЕ КГ-1М",
+						"gynecologicalChairKG1ME": "КРЕСЛО ГИНЕКОЛОГИЧЕСКОЕ КГ-1МЕ",
+						"gynecologicalChairKG2M": "КРЕСЛО ГИНЕКОЛОГИЧЕСКОЕ КГ-2М",
+						"gynecologicalChairElectricDrive": "КРЕСЛО ГИНЕКОЛОГИЧЕСКОЕ С ЭЛЕКТРОПРИВОДОМ КГ-ЗЭ"
+					}
+				}
 			},
 			"more": "Подробнее"
 		},

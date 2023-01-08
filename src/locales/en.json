@@ -625,7 +625,46 @@
 						"monitorResuscitation": "RESUSCITATION MONITOR MITAR-01-R-D",
 						"defibrillatorMonitor": "DEFIBRILLATOR MONITOR DC-N-10 AXION-X"
           }
-        }
+        },
+				"medicalFurniture": {
+					"links": {
+						"medicalCabinetSHM1": "MEDICAL CABINET SINGLE-WING SHM-1",
+						"medicalCabinetSHM2": "MEDICAL CUPBOARD SHM-2 DOUBLE-WING",
+						"medicalCabinetSHM1S": "MEDICAL CABINET WITH SINGLE-WING SAFE SHM-1S",
+						"gynecologicalCouchKKG": "GYNECOLOGICAL COUCH KKG",
+						"treatmentCouchKP": "TREATMENT COUCH KP",
+						"diagnosticCouchCD1": "DIAGNOSTIC COUCH CD-1",
+						"bowelFlushingCouchCPC": "COUCH FOR BOWEL FLUSHING CPC",
+						"adjustableMassegeCouch": "ADJUSTABLE MASSAGE COUCH KM-3",
+						"powerDrivenMessageCouch": "POWER-DRIVEN MASSAGE COUCH KME",
+						"stationaryMessageCouch": "STATIONARY MASSAGE COUCH KM-1",
+						"adjustableHeadrestCouch": "COUCH WITH ADJUSTABLE HEADREST KRP",
+						"proceduralCocuhTable": "PROCEDURAL COUCH WITH BEDSIDE TABLE KRPT",
+						"examinationCouch": "EXAMINATION COUCH KS-1",
+						"newbornBabyCartTN": "NEWBORN BABY CART TN",
+						"cartRemovableStretcher": "TBS-150 CART WITH REMOVABLE STRETCHER",
+						"patientTransferCart": "PATIENT TRANSFER CART TPBR",
+						"screwChairWithoutBackrest": "SCREW CHAIR WITHOUT BACKREST CV",
+						"screwChairWithBackrest": "SCREW CHAIR WITH BACKREST MOBILE WITH FOOTREST SVPS",
+						"screwChairWithBackrestSVS": "SCREW CHAIR WITH BACKREST SVS",
+						"changingTableSPL": "CHANGING TABLE SPL",
+						"insrumentTableC5": "INSTRUMENT TABLE C-5",
+						"surgicalTableSH1": "SURGICAL TABLE SH-1",
+						"anesthesiologistsTable": "ANESTHESIOLOGIST'S TABLE SA",
+						"manipulationTableCM3": "MANIPULATION TABLE CM-3",
+						"stretcherMedicalA03": "MEDICAL STRETCHER A03",
+						"stretcherMedicalA16": "MEDICAL STRETCHER A16",
+						"stretcherMedicalA01": "MEDICAL STRETCHER A01",
+						"stretcherMedicalB01": "MEDICAL STRETCHER B01",
+						"stretcherMedicalB03": "MEDICAL STRETCHER B03",
+						"stretcherMedicalB11": "MEDICAL STRETCHER B11",
+						"gynecologicalPediatricChairElectricDrive": "GYNECOLOGICAL PEDIATRIC CHAIR WITH ELECTRIC DRIVE KG-3D",
+						"gynecologicalChairKG1M": "GYNECOLOGICAL CHAIR KG-1M",
+						"gynecologicalChairKG1ME": "GYNECOLOGICAL CHAIR KG-1ME",
+						"gynecologicalChairKG2M": "GYNECOLOGICAL CHAIR KG-2M",
+						"gynecologicalChairElectricDrive": "GYNECOLOGICAL CHAIR WITH ELECTRIC DRIVE KG-ZE"
+					}
+				}
 			},
 			"more": "More"
 		},
