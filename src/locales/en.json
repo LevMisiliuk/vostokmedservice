@@ -615,7 +615,17 @@
             "operatingTable3008s": "OPERATING TABLE 3008(S)",
             "operatingTable3006": "HYDRAULICALLY DRIVEN TABLE DRIVE MOBILE 3006"
           }
-				}
+				},
+				"cardiology": {
+          "links": {
+            "electrocardiogrphAksion": "ELECTROCARDIOGRAPH SINGLE/TRIPLE-CHANNEL EK1T-1/3-07 AKSION",
+						"electrocardiogrphMiniature": "EK 12T-01-R-D MINIATURE ELECTROCARDIOGRAPH",
+						"electrocardiogrphRDArmasoft": "ELECTROCARDIOGRAPH EK 12T-01-R-D WITH ARMASOFT-12-CARDIO",
+						"electrocardiogrphSingleThreeChannel": "ELECTROCARDIOGRAPH SINGLE-THREE-CHANNEL EC 3T-01-R-D",
+						"monitorResuscitation": "RESUSCITATION MONITOR MITAR-01-R-D",
+						"defibrillatorMonitor": "DEFIBRILLATOR MONITOR DC-N-10 AXION-X"
+          }
+        }
 			},
 			"more": "More"
 		},

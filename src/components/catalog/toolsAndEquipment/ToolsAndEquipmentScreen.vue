@@ -50,7 +50,7 @@ export default {
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.links.cardiology'),
         img: require('@/assets/toolsAndEquipment/cardiology.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/cardiology`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.links.medicalInstrument'),

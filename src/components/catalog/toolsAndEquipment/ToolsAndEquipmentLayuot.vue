@@ -112,7 +112,7 @@ export default {
       ],
       {
         name: i18n.global.t('main.carts.toolsAndEquipment.links.cardiology'),
-        path: `/404`
+        path: `/${i18n.global.locale.value}/catalog/tools-and-equipment/cardiology`
       },
       [
         {

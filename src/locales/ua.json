@@ -620,6 +620,16 @@
             "operatingTable3008s": "СТІЛ ОПЕРАЦІЙНИЙ 3008(S)",
             "operatingTable3006": "СТІЛ З ГІДРАВЛ. ПРИВОДОМ ПЕРЕСУВНИЙ 3006"
           }
+        },
+        "cardiology": {
+          "links": {
+            "electrocardiogrphAksion": "ЕЛЕКТРОКАРДІОГРАФ ОДНО/ТРИКАНАЛЬНИЙ ЕК1Т-1/3-07 'АКСІОН'",
+						"electrocardiogrphMiniature": "ЕЛЕКТРОКАРДІОГРАФ МІНІАТЮРНИЙ ЕК 12Т-01-Р-Д",
+						"electrocardiogrphRDArmasoft": "ЕЛЕКТРОКАРДІОГРАФ ЕК 12Т-01-Р-Д З ARMASOFT-12-CARDIO",
+						"electrocardiogrphSingleThreeChannel": "ЕЛЕКТРОКАРДІОГРАФ ОДНО-ТРИКАНАЛЬНИЙ ЕК 3Т-01-Р-Д",
+						"monitorResuscitation": "МОНІТОР РЕАНІМАЦІЙНИЙ МІТАР-01-Р-Д",
+						"defibrillatorMonitor": "ДЕФІБРИЛЯТОР-МОНІТОР ДКІ-Н-10 'АКСІОН-Х'"
+          }
         }
       },
       "more": "Докладніше"
