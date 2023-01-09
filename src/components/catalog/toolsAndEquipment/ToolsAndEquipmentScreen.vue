@@ -35,7 +35,7 @@ export default {
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.links.inhalersNebulizers'),
         img: require('@/assets/toolsAndEquipment/inhalers-nebulizers.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/inhalers-nebulizers`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.links.equipmentForOperatingRooms'),
@@ -55,7 +55,7 @@ export default {
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.links.medicalInstrument'),
         img: require('@/assets/toolsAndEquipment/medical-instrument.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-instruments`
       },
     ])
 

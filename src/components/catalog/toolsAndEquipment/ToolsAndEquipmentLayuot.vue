@@ -60,7 +60,7 @@ export default {
       ],
       {
         name: i18n.global.t('main.carts.toolsAndEquipment.links.inhalersNebulizers'),
-        path: `/404`
+        path: `/${i18n.global.locale.value}/catalog/tools-and-equipment/inhalers-nebulizers`
       },
       {
         name: i18n.global.t('main.carts.toolsAndEquipment.links.equipmentForOperatingRooms'),
@@ -130,45 +130,11 @@ export default {
       ],
       {
         name: i18n.global.t('main.carts.toolsAndEquipment.links.medicalInstrument'),
-        path: `/404`
+        path: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-instruments`
       },
     ]);
 
-    const traumatologyCarts = computed(() => [
-      {
-        title: i18n.global.t('main.carts.toolsAndEquipment.links.sterilization'),
-        img: require('@/assets/toolsAndEquipment/sterilization.png'),
-        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/sterilization`
-      },
-      {
-        title: i18n.global.t('main.carts.toolsAndEquipment.links.inhalersNebulizers'),
-        img: require('@/assets/toolsAndEquipment/inhalers-nebulizers.png'),
-        link: '/404'
-      },
-      {
-        title: i18n.global.t('main.carts.toolsAndEquipment.links.equipmentForOperatingRooms'),
-        img: require('@/assets/toolsAndEquipment/equipment-for-operating-rooms.png'),
-        link: '/404'
-      },
-      {
-        title: i18n.global.t('main.carts.toolsAndEquipment.links.medicalFurniture'),
-        img: require('@/assets/toolsAndEquipment/medical-furniture.png'),
-        link: '/404'
-      },
-      {
-        title: i18n.global.t('main.carts.toolsAndEquipment.links.cardiology'),
-        img: require('@/assets/toolsAndEquipment/cardiology.png'),
-        link: '/404'
-      },
-      {
-        title: i18n.global.t('main.carts.toolsAndEquipment.links.medicalInstrument'),
-        img: require('@/assets/toolsAndEquipment/medical-instrument.png'),
-        link: '/404'
-      },
-    ])
-
     return {
-      traumatologyCarts,
       toolsAndEquipmentLinks,
     }
   }

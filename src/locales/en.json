@@ -688,6 +688,21 @@
 						"gynecologicalChairKG2M": "GYNECOLOGICAL CHAIR KG-2M",
 						"gynecologicalChairElectricDrive": "GYNECOLOGICAL CHAIR WITH ELECTRIC DRIVE KG-ZE"
 					}
+				},
+				"inhalersNebulizers": {
+					"links": {
+						"compressorInhalerDolphin": "COMPRESSOR INHALER (NEBULIZER) DOLPHIN",
+						"compressorInhalerBoreal": "COMPRESSOR INHALER (NEBULIZER) BOREAL",
+						"inhaler403A": "403A INHALER (COMPRESSOR)",
+						"omronNeC30": "OMRON NE – C30 COMP A.I.R. ELITE",
+						"omronNeC29": "OMRON NE – C29 COMP A.I.R. PRO.",
+						"omronNeC28": "OMRON NE–C28 COMP A.I.R."
+					}
+				},
+				"medicalInstrument": {
+					"links": {
+						"medicalInstrumentButton": "DOWNLOAD A CATALOG OF MEDICAL INSTRUMENTS"
+					}
 				}
 			},
 			"more": "More"

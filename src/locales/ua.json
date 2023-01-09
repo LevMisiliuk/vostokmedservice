@@ -693,7 +693,22 @@
 						"gynecologicalChairKG2M": "КРІСЛО ГІНЕКОЛОГІЧНЕ КГ-2М",
 						"gynecologicalChairElectricDrive": "КРІСЛО ГІНЕКОЛОГІЧНЕ З ЕЛЕКТРОПРИВОДОМ КГ-ЗЕ"
 					}
-				}
+				},
+        "inhalersNebulizers": {
+						"links": {
+							"compressorInhalerDolphin": "КОМПРЕСОРНИЙ ІНГАЛЯТОР (НЕБУЛАЙЗЕР) ДЕЛЬФІН",
+							"compressorInhalerBoreal": "КОМПРЕСОРНИЙ ІНГАЛЯТОР (НЕБУЛАЙЗЕР) БОРЕАЛ",
+							"inhaler403A": "ІНГАЛЯТОР 403А (КОМПРЕСОРНИЙ)",
+							"omronNeC30": "OMRON NE – C30 COMP A.I.R. ELITE",
+							"omronNeC29": "OMRON NE – C29 COMP A.I.R. PRO.",
+							"omronNeC28": "OMRON NE–C28 COMP A.I.R."
+						}
+					},
+          "medicalInstrument": {
+            "links": {
+              "medicalInstrumentButton": "ЗАВАНТАЖИТИ КАТАЛОГ МЕДИЧНОГО ІНСТРУМЕНТУ"
+            }
+          }
       },
       "more": "Докладніше"
     },

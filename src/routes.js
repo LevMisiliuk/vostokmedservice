@@ -22,7 +22,9 @@ import ToolsAndEquipmentPage from '@/pages/catalog/toolsAndEquipment/ToolsAndEqu
 import SterilizationScreen from '@/components/catalog/toolsAndEquipment/sterilization/SterilizationScreen.vue'
 import EquipmentScreen from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/EquipmentScreen.vue'
 import CardiologyScreen from '@/components/catalog/toolsAndEquipment/cardiology/CardiologyScreen.vue'
-import medicalFurnitureScreen from '@/components/catalog/toolsAndEquipment/medicalFurniture/medicalFurnitureScreen.vue'
+import InhalersNebulizersScreen from '@/components/catalog/toolsAndEquipment/inhalersNebulizers/InhalersNebulizersScreen.vue'
+import MedicalInstrumentScreen from '@/components/catalog/toolsAndEquipment/medicalInstrument/MedicalInstrumentScreen.vue'
+import MedicalFurnitureScreen from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalFurnitureScreen.vue'
 import LargeInsertsWithAngularStability from '@/components/catalog/traumatology/blocked-plates/large-inserts-with-angular-stability/LargeInsertsWithAngularStability.vue'
 import TraumatologyTools from '@/components/catalog/traumatology/tools/TraumatologyTools.vue'
 
@@ -99,7 +101,9 @@ export default createRouter({
         { path: 'catalog/tools-and-equipment/sterilization', component: SterilizationScreen },
         { path: 'catalog/tools-and-equipment/operational-equipment', component: EquipmentScreen },
         { path: 'catalog/tools-and-equipment/cardiology', component: CardiologyScreen },
-        { path: 'catalog/tools-and-equipment/medical-furniture', component: medicalFurnitureScreen },
+        { path: 'catalog/tools-and-equipment/medical-furniture', component: MedicalFurnitureScreen },
+        { path: 'catalog/tools-and-equipment/inhalers-nebulizers', component: InhalersNebulizersScreen },
+        { path: 'catalog/tools-and-equipment/medical-instruments', component: MedicalInstrumentScreen },
       ]
     }
   ]
