@@ -56,7 +56,7 @@ export default {
       },
       {
         name: i18n.global.t('main.carts.traumatology.links.tool'),
-        path: `/404`
+        path: `/${i18n.global.locale.value}/catalog/traumatology/tools`
       },
       {
         name: i18n.global.t('main.carts.traumatology.links.screwsAT'),
@@ -98,7 +98,7 @@ export default {
       {
         title: i18n.global.t('main.carts.traumatology.links.tool'),
         img: require('@/assets/traumatology/tools.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/traumatology/tools`
       },
       {
         title: i18n.global.t('main.carts.traumatology.links.screwsAT'),

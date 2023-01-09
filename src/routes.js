@@ -24,6 +24,7 @@ import EquipmentScreen from '@/components/catalog/toolsAndEquipment/equipmentOpe
 import CardiologyScreen from '@/components/catalog/toolsAndEquipment/cardiology/CardiologyScreen.vue'
 import medicalFurnitureScreen from '@/components/catalog/toolsAndEquipment/medicalFurniture/medicalFurnitureScreen.vue'
 import LargeInsertsWithAngularStability from '@/components/catalog/traumatology/blocked-plates/large-inserts-with-angular-stability/LargeInsertsWithAngularStability.vue'
+import TraumatologyTools from '@/components/catalog/traumatology/tools/TraumatologyTools.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -60,6 +61,10 @@ export default createRouter({
         {
           path: 'catalog/traumatology/blockedPlates/large-inserts-with-angular-stability',
           component: LargeInsertsWithAngularStability
+        },
+        {
+          path: 'catalog/traumatology/tools',
+          component: TraumatologyTools
         },
         { path: '404', component: NotFound },
         {

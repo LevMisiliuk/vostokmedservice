@@ -52,7 +52,13 @@
 					"smallInsertsWithAngularStability": "Small inserts with angular stability",
 					"specialInsertsWithAngularStability": "Special inserts with angular stability",
 					"angularStabilityInserts": "Angular stability inserts",
-					"largeInsertsWithAngularStability": "Large inserts with angular stability"
+					"largeInsertsWithAngularStability": "Large inserts with angular stability",
+					"instrumentSetCalfThighRetrogradeThigh": "Instrument Set Calf-Thigh-Retrograde Thigh",
+					"setOfToolsForSettingTrochanterPinZType": "Set of tools for setting the trochanter pin Z - type",
+					"humerusInstrument": "Humerus Instrument",
+					"toolForDtssDcssInsert": "Tool for DTSS-DCSS insert",
+					"toolTraumatological": "Tool traumatological",
+					"toolTraumatologicalMedimetal": "Tool traumatological Medimetal"
 				},
 				"calfPin": {
 					"title": "Calf pin",
@@ -496,6 +502,24 @@
 						"eights": "Shaft",
 						"ninth": "Plate thickness"
           }
+        },
+				"instrumentSetCalfThighRetrogradeThigh": {
+          "title": "Instrument Set Calf-Thigh-Retrograde Thigh"
+        },
+        "setOfToolsForSettingTrochanterPinZType": {
+          "title": "Set of tools for setting the trochanter pin Z - type"
+        },
+        "humerusInstrument": {
+          "title": "Humerus Instrument"
+        },
+        "toolForDtssDcssInsert": {
+          "title": "Tool for DTSS-DCSS insert"
+        },
+        "toolTraumatological": {
+          "title": "Tool traumatological"
+        },
+        "toolTraumatologicalMedimetal": {
+          "title": "Tool traumatological Medimetal"
         }
 			},
 			"surgery": {

@@ -52,7 +52,13 @@
 					"smallInsertsWithAngularStability": "Малі пластини з кутовою стабільністю",
 					"specialInsertsWithAngularStability": "Спеціальні пластини з кутовою стабільністю",
 					"angularStabilityInserts": "Пластини з кутовою стабільністю",
-					"largeInsertsWithAngularStability": "Великі пластини з кутовою стабільністю"
+					"largeInsertsWithAngularStability": "Великі пластини з кутовою стабільністю",
+          "instrumentSetCalfThighRetrogradeThigh": "Набір інструментів гомілка-стегно-ретроградне стегно",
+          "setOfToolsForSettingTrochanterPinZType": "Набір інструментів для установки штифту Z - типу",
+          "humerusInstrument": "Інструмент для плечової кістки",
+          "toolForDtssDcssInsert": "Інструмент для DTSS-DCSS пластини",
+          "toolTraumatological": "Травматологічний інструмент",
+          "toolTraumatologicalMedimetal": "Травматологічний інструмент Medimetal"
         },
         "calfPin": {
           "title": "Штифт для голені",
@@ -501,6 +507,24 @@
 						"eights": "Вал",
             "ninth": "Товщина пластини"
           }
+        },
+        "instrumentSetCalfThighRetrogradeThigh": {
+          "title": "Набір інструментів гомілка-стегно-ретроградне стегно"
+        },
+        "setOfToolsForSettingTrochanterPinZType": {
+          "title": "Набір інструментів для установки штифту Z - типу"
+        },
+        "humerusInstrument": {
+          "title": "Інструмент для плечової кістки"
+        },
+        "toolForDtssDcssInsert": {
+          "title": "Інструмент для DTSS-DCSS пластини"
+        },
+        "toolTraumatological": {
+          "title": "Травматологічний інструмент"
+        },
+        "toolTraumatologicalMedimetal": {
+          "title": "Травматологічний інструмент Medimetal"
         }
       },
       "surgery": {
