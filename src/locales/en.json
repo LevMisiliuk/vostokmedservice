@@ -504,10 +504,93 @@
           }
         },
 				"instrumentSetCalfThighRetrogradeThigh": {
-          "title": "Instrument Set Calf-Thigh-Retrograde Thigh"
+          "title": "Instrument Set Calf-Thigh-Retrograde Thigh",
+					"table": {
+            "kit": "kit",
+            "qty": "Qty"
+          },
+					"tableData": {
+            "first": "94240-00300 Awl",
+						"second": "94240-00600 Cannulated threaded sleeve",
+						"third": "94240-00500 Hammer shaft cannulated",
+						"fourth": "94240-00700 Threaded sleeve",
+						"fifth": "94240-01100 Soft cloth protector Ø10/8.1mm",
+						"sixth": "94240-00800 Drill sleeve Ø8/6.1mm",
+						"seventh": "94240-01000 Drill sleeve Ø8/4.6mm",
+						"eights": "94240-00900 Drill sleeve Ø8/3.6mm",
+						"ninth": "94240-02400 Hexagonal distal guide Ø10/4.8 mm",
+						"tenth": "99010-45195 Drill Ø4.5 x 195 mm",
+						"eleventh": "99010-60195 Drill Ø6.0 x 195 mm",
+						"twelfth": "94240-00100 Proximal guide: 12a 94240-00201 Distal guide 12b 94240-00208 Sagittal guide → 12n 94240-01800 Screw M612c 94240-00205 Calf guide 12d 94240-00206 Femoral guide 12e 92420-00209 Holder → 12.f 94240-02300 Screw M4 → 12.g 94240-01700 Screw M5",
+						"thirteenth": "94241-02600 T-handle drill Ø6mm x 500mm",
+						"fourteenth": "94241-02500 T-handle drill Ø8mm x 500mm",
+						"fifteenth": "99000-00007 Teflon tube Ø8/6 x 400 mm",
+						"sixteenth": "94240-10000 Tool Tray 1"
+          },
+					"secondTableData": {
+            "first": "94240-00100 Proximal Guide",
+						"second": "94240-01400 Hammer",
+						"third": "94241-00400 Rimmer Ø14 mm",
+						"fourth": "99000-00008 Key 11 mm",
+						"fifth": "99000-00009 Key 17 mm",
+						"sixth": "94240-01500 Ruler",
+						"seventh": "94241-02700 Screwdriver 3.5 mm",
+						"eights": "94241-01300 Hook for tibial nail 3 mm",
+						"ninth": "94241-01200 Hook for femoral nail 3.5 mm",
+						"tenth": "94240-00210 Hook retaining ring → 25l 94240-02200 Screw M4",
+						"eleventh": "94240-01600 Guide Holder",
+						"twelfth": "61.00.02-06 Rail holder: 94240-02100 Screw M6 → 27k 94240-02000 Nut M7 27i 94240-00203 Rail holder",
+						"thirteenth": "94241-02600 T-handle drill Ø6mm x 500mm",
+						"fourteenth": "94241-02500 T-handle drill Ø8mm x 500mm",
+						"fifteenth": "99000-00007 Teflon tube Ø8/6 x 400 mm",
+						"sixteenth": "94240-10000 Tool Tray 1"
+					}
         },
         "setOfToolsForSettingTrochanterPinZType": {
-          "title": "Set of tools for setting the trochanter pin Z - type"
+          "title": "Set of tools for setting the trochanter pin Z - type",
+					"table": {
+            "catalogNumber": "№ Catalog",
+            "name": "Name",
+            "qty": "Qty"
+          },
+          "tableData": {
+            "first": "distal guide 135°",
+						"second": "distal guide 130°",
+						"third": "radiolucent proximal guide",
+						"fourth": "compression device nut",
+						"fifth": "fixing screw",
+						"sixth": "cannulated awl",
+						"seventh": "T-key",
+						"eights": "Connecting screw",
+						"ninth": "fixing screw guide",
+						"tenth": "Guide screw retainer",
+						"eleventh": "hammer",
+						"twelfth": "sliding hammer bar",
+						"thirteenth": "sliding hammer stop",
+						"fourteenth": "guide 3.5 x 400 mm",
+						"fifteenth": "tool tray"
+          },
+					"secondTableData": {
+            "first": "Drill for dynamic screw",
+						"second": "3 x 400 mm threaded Kirschner",
+						"third": "Device for measuring screw length",
+						"fourth": "Small Soft Tissue Protector",
+						"fifth": "Drill sleeve for distal blocking",
+						"sixth": "Guide spoke bushing",
+						"seventh": "Cannulated T-handle (QC)",
+						"eights": "Screwdriver",
+						"ninth": "Key for attaching the pin to the guide",
+						"tenth": "Gimbal key",
+						"eleventh": "Large soft tissue protector",
+						"twelfth": "Drill guide",
+						"thirteenth": "Dynamic screw length gauge ",
+						"fourteenth": "Drill Ø3,2x350",
+						"fifteenth": "Drill Ø4x240",
+						"sixteenth": "Key 12 mm",
+						"seventeenth": "Drill for dynamic screw Ø12.8",
+						"eighteenth": "Removal Tool",
+						"nintheenth": "Sliding Hammer Sleeve"
+          }
         },
         "humerusInstrument": {
           "title": "Humerus Instrument"
