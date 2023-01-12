@@ -593,13 +593,70 @@
           }
         },
         "humerusInstrument": {
-          "title": "Humerus Instrument"
+          "title": "Humerus Instrument",
+					"table": {
+            "catalogNumber": "№ Catalog",
+            "name": "Name",
+            "qty": "Qty"
+          },
+          "tableData": {
+            "first": "director",
+						"second": "Pin guide connector",
+						"third": "Rod connector",
+						"fourth": "Rod handle",
+						"fifth": "Rod Guide",
+						"sixth": "Bar",
+						"seventh": "Fabric Guard",
+						"eights": "Drill sleeve",
+						"ninth": "Screw length gauge",
+						"tenth": "Drill Ø3,5x195 mm",
+						"eleventh": "Screwdriver",
+						"twelfth": "Key 17th"
+          }
         },
         "toolForDtssDcssInsert": {
-          "title": "Tool for DTSS-DCSS insert"
+          "title": "Tool for DTSS-DCSS insert",
+					"table": {
+            "catalogNumber": "№ Catalog",
+            "name": "Name",
+            "qty": "Qty"
+          },
+          "tableData": {
+            "first": "Guide 130°",
+						"second": "Guide 135°",
+						"third": "Guide 140°",
+						"fourth": "Guide 145°",
+						"fifth": "Guide 150°",
+						"sixth": "Guide 95°",
+						"seventh": "Long Key",
+						"eights": "T-key, quick connect",
+						"ninth": "Plate inserter",
+						"tenth": "Extension key for screw",
+						"eleventh": "Threaded Retainer",
+						"twelfth": "Impactor for plate insertion",
+						"thirteenth": "Extractor",
+						"fourteenth": "DHS cutter",
+						"fifteenth": "DCS cutter",
+						"sixteenth": "DTSS triangular drill 8 mm",
+						"seventeenth": "DCSS triangular drill 8 mm",
+						"eighteenth": "Thread drill Ø12.6",
+						"nintheenth": "Length gauge",
+						"twentieth": "Screwdriver 3.5 x 250",
+						"twentyFirst": "Kirchner threaded spoke Ø 2.5/15 x 250",
+						"twentySecond": "Container",
+						"twentyThird": "Manual Guide",
+						"twentyFourth": "3.2 x 145 Drill, quick connect"
+          }
         },
         "toolTraumatological": {
-          "title": "Tool traumatological"
+          "title": "Tool traumatological",
+					"drill": "Drill ",
+					"screwTap": "Screw tap",
+					"hexScrewdriver": "Hex screwdriver",
+					"table": {
+            "0mm": "Ø mm",
+            "steel": "Steel"
+          }
         },
         "toolTraumatologicalMedimetal": {
           "title": "Tool traumatological Medimetal"

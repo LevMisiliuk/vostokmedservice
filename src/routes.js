@@ -29,6 +29,9 @@ import LargeInsertsWithAngularStability from '@/components/catalog/traumatology/
 import TraumatologyTools from '@/components/catalog/traumatology/tools/TraumatologyTools.vue'
 import InstrumentsCalfThighRetrogradetThigh from '@/components/catalog/traumatology/tools/instruments-calf-thigh-retrogradet-tight/InstrumentsCalfThighRetrogradetThigh.vue'
 import ZTypeTrochantericStudToolKit from '@/components/catalog/traumatology/tools/z-type-trochanteric-stud-tool-kit/ZTypeTrochantericStudToolKit.vue'
+import HumerusTool from '@/components/catalog/traumatology/tools/humerus-tool/HumerusTool.vue'
+import ToolDtssDcssInsert from '@/components/catalog/traumatology/tools/tool-dtss-dcss-insert/ToolDtssDcssInsert.vue'
+import ToolTraumatology from '@/components/catalog/traumatology/tools/tool-traumatology/ToolTraumatology.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -77,6 +80,18 @@ export default createRouter({
         {
           path: 'catalog/traumatology/tools/z-type-trochanteric-stud-tool-kit',
           component: ZTypeTrochantericStudToolKit
+        },
+        {
+          path: 'catalog/traumatology/tools/humerus-tool',
+          component: HumerusTool
+        },
+        {
+          path: 'catalog/traumatology/tools/tool-dtss-dcss-inserts',
+          component: ToolDtssDcssInsert
+        },
+        {
+          path: 'catalog/traumatology/tools/tool-traumatology',
+          component: ToolTraumatology
         },
         { path: '404', component: NotFound },
         {

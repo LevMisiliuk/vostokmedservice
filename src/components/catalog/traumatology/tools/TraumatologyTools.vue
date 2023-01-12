@@ -67,21 +67,21 @@ export default {
           'main.carts.traumatology.links.humerusInstrument'
         ),
         img: require('@/assets/traumatology/humerus-istrument.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/traumatology/tools/humerus-tool`
       },
       {
         title: i18n.global.t(
           'main.carts.traumatology.links.toolForDtssDcssInsert'
         ),
         img: require('@/assets/traumatology/tool-for-dtss-dcss-insert.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/traumatology/tools/tool-dtss-dcss-inserts`
       },
       {
         title: i18n.global.t(
           'main.carts.traumatology.links.toolTraumatological'
         ),
         img: require('@/assets/traumatology/tool-traumatology.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/traumatology/tools/tool-traumatology`
       },
       {
         title: i18n.global.t(

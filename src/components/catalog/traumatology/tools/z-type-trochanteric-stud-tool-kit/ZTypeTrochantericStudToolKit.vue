@@ -10,9 +10,9 @@
           {{ $t('main.carts.traumatology.title') }}
         </el-breadcrumb-item>
         <el-breadcrumb-item
-          :to="`/${$i18n.locale}/catalog/traumatology/blocked-plates/`"
+          :to="`/${$i18n.locale}/catalog/traumatology/tools/`"
         >
-          {{ $t('main.carts.traumatology.links.blockedPlates') }}
+          {{ $t('main.carts.traumatology.links.tool') }}
         </el-breadcrumb-item>
         <el-breadcrumb-item>
           {{
