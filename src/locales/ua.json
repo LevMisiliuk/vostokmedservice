@@ -58,7 +58,15 @@
           "humerusInstrument": "Інструмент для плечової кістки",
           "toolForDtssDcssInsert": "Інструмент для DTSS-DCSS пластини",
           "toolTraumatological": "Травматологічний інструмент",
-          "toolTraumatologicalMedimetal": "Травматологічний інструмент Medimetal"
+          "toolTraumatologicalMedimetal": "Травматологічний інструмент Medimetal",
+          "aoScrews": "Гвинти АО",
+          "microscrews": "Мікрогвинти",
+          "cancellousScrews": "Спонгіозні гвинти",
+          "corticalScrews": "Кортикальні гвинти",
+          "threadResistantScrews": "Гвинти різьбостабільні",
+          "specialScrews": "Гвинти спеціальні",
+          "screwsInsertsWithAngularStability": "Гвинти для пластин з кутовою стабільністю",
+          "cannulatedScrews": "Канюльовані гвинти"
         },
         "calfPin": {
           "title": "Штифт для голені",
@@ -665,6 +673,47 @@
         },
         "toolTraumatologicalMedimetal": {
           "title": "Травматологічний інструмент Medimetal"
+        },
+        "microScrews": {
+          "title": "Мікрогвинти",
+          "corticalScrew2,7mm": "Кортикальний гвинт 2,7 мм",
+          "threadDiameter": "Діаметр різьблення",
+					"coreDiameter": "Діаметр ядра",
+					"headDiameter": "Діаметр головки",
+					"threadSpacing": "Міжрізьбова відстань",
+					"hexagon": "Шестикутник",
+					"material": "Матеріал",
+					"spiralDrill": "Спіральний дриль",
+					"drillForCarving": "Дрель для різьблення",
+					"screwdriver": "Викрутка",
+					"coreDiameterData": {
+						"1mm": "1 мм"
+					},
+					"headDiameterData": {
+						"3mm": "3,0 мм"
+					},
+					"threadSpacingData": {
+						"0,5mm": "0,5 мм"
+					},
+					"hexagonData": {
+						"1,5mm": "1,5 мм"
+					},
+					"spiralDrillData": {
+						"first": "99010-11045 (3 сторонняя)",
+						"second": "99020-11060 (легкоподключаемая)"
+					},
+					"drillForCarvingData": {
+						"first": "99020-11060 (легкоподключаемая)"
+					},
+					"threadDiameterData": {
+						"1,5mm": "1,5 мм"
+					},
+					"materialData": "нерж. сталь або сплав титану",
+          "table": {
+						"first": "L мм",
+						"second": "Кат. № нерж. сталь",
+						"third": "Кат. № сплав титану"
+					}
         }
       },
       "surgery": {

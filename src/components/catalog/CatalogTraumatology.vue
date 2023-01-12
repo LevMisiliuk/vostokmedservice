@@ -103,7 +103,7 @@ export default {
       {
         title: i18n.global.t('main.carts.traumatology.links.screwsAT'),
         img: require('@/assets/traumatology/screews-at.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/traumatology/ao-screws`
       },
       {
         title: i18n.global.t('main.carts.traumatology.links.JSCPlates'),

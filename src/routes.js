@@ -32,6 +32,8 @@ import ZTypeTrochantericStudToolKit from '@/components/catalog/traumatology/tool
 import HumerusTool from '@/components/catalog/traumatology/tools/humerus-tool/HumerusTool.vue'
 import ToolDtssDcssInsert from '@/components/catalog/traumatology/tools/tool-dtss-dcss-insert/ToolDtssDcssInsert.vue'
 import ToolTraumatology from '@/components/catalog/traumatology/tools/tool-traumatology/ToolTraumatology.vue'
+import AoScrews from '@/components/catalog/traumatology/ao-screws/AoScrews.vue'
+import MicroScrew from '@/components/catalog/traumatology/ao-screws/micro-screws/MicroScrew.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -92,6 +94,14 @@ export default createRouter({
         {
           path: 'catalog/traumatology/tools/tool-traumatology',
           component: ToolTraumatology
+        },
+        {
+          path: 'catalog/traumatology/ao-screws',
+          component: AoScrews
+        },
+        {
+          path: 'catalog/traumatology/ao-screws/micro-screws/microscrew',
+          component: MicroScrew
         },
         { path: '404', component: NotFound },
         {

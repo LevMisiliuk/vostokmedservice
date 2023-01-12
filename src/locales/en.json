@@ -58,7 +58,15 @@
 					"humerusInstrument": "Humerus Instrument",
 					"toolForDtssDcssInsert": "Tool for DTSS-DCSS insert",
 					"toolTraumatological": "Tool traumatological",
-					"toolTraumatologicalMedimetal": "Tool traumatological Medimetal"
+					"toolTraumatologicalMedimetal": "Tool traumatological Medimetal",
+					"aoScrews": "AO Screws",
+					"microscrews": "Microscrews",
+					"cancellousScrews": "Cancellous Screws",
+					"corticalScrews": "Cortical Screws",
+					"threadResistantScrews": "Thread resistant screws",
+					"specialScrews": "Special screws",
+					"screwsInsertsWithAngularStability": "Screws inserts with angular stability",
+					"cannulatedScrews": "Cannulated screws"
 				},
 				"calfPin": {
 					"title": "Calf pin",
@@ -660,6 +668,47 @@
         },
         "toolTraumatologicalMedimetal": {
           "title": "Tool traumatological Medimetal"
+        },
+				"microScrews": {
+          "title": "Microscrews",
+					"corticalScrew2,7mm": "Cortical screw 2.7 mm",
+					"threadDiameter": "Thread diameter",
+					"coreDiameter": "Core diameter",
+					"headDiameter": "Head diameter",
+					"threadSpacing": "Thread spacing",
+					"hexagon": "Hexagon",
+					"material": "Material",
+					"spiralDrill": "Spiral drill",
+					"drillForCarving": "Drill for carving",
+					"screwdriver": "Screwdriver",
+					"coreDiameterData": {
+						"1mm": "1mm"
+					},
+					"headDiameterData": {
+					"3mm": "3.0 mm"
+					},
+					"threadSpacingData": {
+					"0.5mm": "0.5 mm"
+					},
+					"hexagonData": {
+					"1.5mm": "1.5 mm"
+					},
+					"spiralDrillData": {
+					"first": "99010-11045 (3-sided)",
+					"second": "99020-11060 (easy to connect)"
+					},
+					"drillForCarvingData": {
+					"first": "99020-11060 (easily connected"
+					},
+					"threadDiameterData": {
+					"1.5mm": "1.5 mm"
+					},
+					"materialData": "stainless steel or titanium alloy",
+					"table": {
+						"first": "L mm",
+						"second": "Cat. stainless steel no. steel",
+						"third": "Cat. No. titanium alloy"
+					}
         }
 			},
 			"surgery": {
