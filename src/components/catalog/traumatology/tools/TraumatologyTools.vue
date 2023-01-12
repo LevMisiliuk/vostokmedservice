@@ -53,14 +53,14 @@ export default {
           'main.carts.traumatology.links.instrumentSetCalfThighRetrogradeThigh'
         ),
         img: require('@/assets/traumatology/instrument-set-calf-thigh-retrograde-thigh.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/traumatology/tools/instruments-calf-thigh-retrogradet-thigh`
       },
       {
         title: i18n.global.t(
           'main.carts.traumatology.links.setOfToolsForSettingTrochanterPinZType'
         ),
         img: require('@/assets/traumatology/set-of-tools-for-setting-trochanter-pin-z-type.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/traumatology/tools/z-type-trochanteric-stud-tool-kit`
       },
       {
         title: i18n.global.t(

@@ -27,6 +27,8 @@ import MedicalInstrumentScreen from '@/components/catalog/toolsAndEquipment/medi
 import MedicalFurnitureScreen from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalFurnitureScreen.vue'
 import LargeInsertsWithAngularStability from '@/components/catalog/traumatology/blocked-plates/large-inserts-with-angular-stability/LargeInsertsWithAngularStability.vue'
 import TraumatologyTools from '@/components/catalog/traumatology/tools/TraumatologyTools.vue'
+import InstrumentsCalfThighRetrogradetThigh from '@/components/catalog/traumatology/tools/instruments-calf-thigh-retrogradet-tight/InstrumentsCalfThighRetrogradetThigh.vue'
+import ZTypeTrochantericStudToolKit from '@/components/catalog/traumatology/tools/z-type-trochanteric-stud-tool-kit/ZTypeTrochantericStudToolKit.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -67,6 +69,14 @@ export default createRouter({
         {
           path: 'catalog/traumatology/tools',
           component: TraumatologyTools
+        },
+        {
+          path: 'catalog/traumatology/tools/instruments-calf-thigh-retrogradet-thigh',
+          component: InstrumentsCalfThighRetrogradetThigh
+        },
+        {
+          path: 'catalog/traumatology/tools/z-type-trochanteric-stud-tool-kit',
+          component: ZTypeTrochantericStudToolKit
         },
         { path: '404', component: NotFound },
         {
