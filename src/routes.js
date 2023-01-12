@@ -34,6 +34,8 @@ import ToolDtssDcssInsert from '@/components/catalog/traumatology/tools/tool-dts
 import ToolTraumatology from '@/components/catalog/traumatology/tools/tool-traumatology/ToolTraumatology.vue'
 import AoScrews from '@/components/catalog/traumatology/ao-screws/AoScrews.vue'
 import MicroScrew from '@/components/catalog/traumatology/ao-screws/micro-screws/MicroScrew.vue'
+import NeurosurgeryPage from '@/pages/catalog/neurosurgery/NeurosurgeryPage.vue'
+import transpedicularFixationScreen from '@/components/catalog/neurosurgery/transpedicularFixation/transpedicularFixationScreen.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -139,6 +141,8 @@ export default createRouter({
         { path: 'catalog/tools-and-equipment/medical-furniture', component: MedicalFurnitureScreen },
         { path: 'catalog/tools-and-equipment/inhalers-nebulizers', component: InhalersNebulizersScreen },
         { path: 'catalog/tools-and-equipment/medical-instruments', component: MedicalInstrumentScreen },
+        { path: 'catalog/neurosurgery', component: NeurosurgeryPage },
+        { path: 'catalog/neurosurgery/transpedikulyarnaya-fiksatsiya-pozvonochnika', component: transpedicularFixationScreen },
       ]
     }
   ]

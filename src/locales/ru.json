@@ -736,7 +736,34 @@
 					"vertebralEndoprostheses": "Эндопротезы позвонков",
 					"neurosurgicalInstrument": "Нейрохирургический инструмент",
 					"antiAdhesionGel": "Гель противоспаечный"
-				}
+				},
+				"secondlinks": {
+          "spinalScrews": "Спинальные винты",
+          "spinalBeams": "Спинальные балки",
+          "spinalHooks": "Спинальные крючки",
+          "spinalSystems": "Спинальные системы"
+        },
+				"spinalScrewsLinks": {
+          "polyaxialScrew": "ПОЛИАКСИАЛЬНЫЙ ВИНТ",
+          "monoaxialScrew": "МОНОАКСИАЛЬНЫЙ ВИНТ"
+        },
+        "spinalBeamsLinks": {
+          "staightGirder": "ПРЯМАЯ БАЛКА",
+          "curvedBeam": "ИЗОГНУТАЯ БАЛКА",
+          "crossBar": "ПЕРЕКРЕСТНАЯ БАЛКА"
+        },
+        "spinalHooksLinks": {
+          "connectionHook": "СОЕДИНИТЕЛЬНЫЙ КРЮЧОК",
+          "closedPedicleHook": "ЗАКРЫТЫЙ ПЕДИКУЛЯРНЫЙ КРЮЧОК",
+          "openPedicleHook": "ОТКРЫТЫЙ ПЕДИКУЛЯРНЫЙ КРЮЧОК",
+          "openLaminarFlowHook": "ОТКРЫТЫЙ ЛАМИНАРНЫЙ КРЮЧОК",
+          "closedLaminarHook": "ЗАКРЫТЫЙ ЛАМИНАРНЫЙ КРЮЧОК",
+          "curvedLaminarHook": "ИЗОГНУТЫЙ ЛАМИНАРНЫЙ КРЮЧОК"
+        },
+        "spinalSystemsLinks": {
+          "sacredBlock": "САКРАЛЬНЫЙ БЛОК",
+          "sacralScrew": "САКРАЛЬНЫЙ ВИНТ"
+        }
 			},
 			"toolsAndEquipment": {
 				"title": "Инструмент и оборудование",

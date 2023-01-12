@@ -738,6 +738,33 @@
           "vertebralEndoprostheses": "Ендопротези хребців",
           "neurosurgicalInstrument": "Нейрохірургічний інструмент",
           "antiAdhesionGel": "Гель протиспайковий"
+        },
+        "secondlinks": {
+          "spinalScrews": "Спінальні гвинти",
+          "spinalBeams": "Спинальні балки",
+          "spinalHooks": "Спінальні гачки",
+          "spinalSystems": "Спінальні системи"
+        },
+        "spinalScrewsLinks": {
+          "polyaxialScrew": "ПОЛІАКСІАЛЬНИЙ ГВИНТ",
+          "monoaxialScrew": "МОНОАКСІАЛЬНИЙ ГВИНТ"
+        },
+        "spinalBeamsLinks": {
+          "staightGirder": "ПРЯМА БАЛКА",
+          "curvedBeam": "ВИГНУТА БАЛКА",
+          "crossBar": "ПЕРЕХРЕСНА БАЛКА"
+        },
+        "spinalHooksLinks": {
+          "connectionHook": "З'ЄДНУВАЛЬНИЙ ГАЧОК",
+          "closedPedicleHook": "ЗАКРИТИЙ ПЕДИКУЛЯРНИЙ ГАЧОК",
+          "openPedicleHook": "ВІДКРИТИЙ ПЕДИКУЛЯРНИЙ ГАЧОК",
+          "openLaminarFlowHook": "ВІДКРИТИЙ ЛАМІНАРНИЙ ГАЧОК",
+          "closedLaminarHook": "ЗАКРИТИЙ ЛАМІНАРНИЙ ГАЧОК",
+          "curvedLaminarHook": "ВИГНУТИЙ ЛАМІНАРНИЙ ГАЧОК"
+        },
+        "spinalSystemsLinks": {
+          "sacredBlock": "САКРАЛЬНИЙ БЛОК",
+          "sacralScrew": "САКРАЛЬНИЙ ГВИНТ"
         }
       },
       "toolsAndEquipment": {

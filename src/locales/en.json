@@ -733,7 +733,34 @@
 					"vertebralEndoprostheses": "Vertebral endoprostheses",
 					"neurosurgicalInstrument": "Neurosurgical instrument",
 					"antiAdhesionGel": "Anti-adhesion gel"
-				}
+				},
+				"secondlinks": {
+          "spinalScrews": "Spinal screws",
+          "spinalBeams": "Spinal beams",
+          "spinalHooks": "Spinal hooks",
+          "spinalSystems": "Spinal systems"
+        },
+				"spinalScrewsLinks": {
+          "polyaxialScrew": "POLYAXIAL SCREW",
+          "monoaxialScrew": "MONOAXIAL SCREW"
+        },
+        "spinalBeamsLinks": {
+          "staightGirder": "STRAIGHT GIRDER",
+          "curvedBeam": "CURVED BEAM",
+          "crossBar": "CROSSBAR"
+        },
+        "spinalHooksLinks": {
+          "connectionHook": "CONNECTION HOOK",
+          "closedPedicleHook": "CLOSED PEDICLE HOOK",
+          "openPedicleHook": "OPEN PEDICLE HOOK",
+          "openLaminarFlowHook": "OPEN LAMINAR FLOW HOOK",
+          "closedLaminarHook": "CLOSED LAMINAR HOOK",
+          "curvedLaminarHook": "CURVED LAMINAR HOOK"
+        },
+        "spinalSystemsLinks": {
+          "sacredBlock": "SACRED BLOCK",
+          "sacralScrew": "SACRAL SCREW"
+        }
 			},
 			"toolsAndEquipment": {
 				"title": "Tools and equipment",

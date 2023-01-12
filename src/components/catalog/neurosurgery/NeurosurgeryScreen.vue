@@ -28,34 +28,29 @@ export default {
   setup() {
     const neurosurgeryCarts = computed(() => [
       {
-        title: i18n.global.t('main.carts.toolsAndEquipment.links.sterilization'),
-        img: require('@/assets/toolsAndEquipment/sterilization.png'),
-        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/sterilization`
+        title: i18n.global.t('main.carts.neurosurgery.links.transpedicularFixationOfTheSpine'),
+        img: require('@/assets/neurosurgery/transpedicular-fixation-ofthespine.png'),
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/transpedikulyarnaya-fiksatsiya-pozvonochnika`
       },
       {
-        title: i18n.global.t('main.carts.toolsAndEquipment.links.inhalersNebulizers'),
-        img: require('@/assets/toolsAndEquipment/inhalers-nebulizers.png'),
-        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/inhalers-nebulizers`
-      },
-      {
-        title: i18n.global.t('main.carts.toolsAndEquipment.links.equipmentForOperatingRooms'),
-        img: require('@/assets/toolsAndEquipment/equipment-for-operating-rooms.png'),
+        title: i18n.global.t('main.carts.neurosurgery.links.neurosurgicalPlates'),
+        img: require('@/assets/neurosurgery/neurosurgical-plates.png'),
         link: '/404'
       },
       {
-        title: i18n.global.t('main.carts.toolsAndEquipment.links.medicalFurniture'),
-        img: require('@/assets/toolsAndEquipment/medical-furniture.png'),
-        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture`
+        title: i18n.global.t('main.carts.neurosurgery.links.vertebralEndoprostheses'),
+        img: require('@/assets/neurosurgery/vertebral-endoprostheses.png'),
+        link: '/404'
       },
       {
-        title: i18n.global.t('main.carts.toolsAndEquipment.links.cardiology'),
-        img: require('@/assets/toolsAndEquipment/cardiology.png'),
-        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/cardiology`
+        title: i18n.global.t('main.carts.neurosurgery.links.neurosurgicalInstrument'),
+        img: require('@/assets/neurosurgery/neurosurgica-iInstrument.png'),
+        link: '/404'
       },
       {
-        title: i18n.global.t('main.carts.toolsAndEquipment.links.medicalInstrument'),
-        img: require('@/assets/toolsAndEquipment/medical-instrument.png'),
-        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-instruments`
+        title: i18n.global.t('main.carts.neurosurgery.links.antiAdhesionGel'),
+        img: require('@/assets/neurosurgery/anti-adhesion-gel.png'),
+        link: '/404'
       },
     ])
 
@@ -72,7 +67,7 @@ export default {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
 
     img {
       width: 100%;
@@ -99,6 +94,7 @@ export default {
     background-color: $primary-blue;
     text-align: center;
     padding: 10px 0;
+    font-size: 16px;
   }
 
   &__cart-img {

@@ -40,7 +40,7 @@ export default {
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.links.equipmentForOperatingRooms'),
         img: require('@/assets/toolsAndEquipment/equipment-for-operating-rooms.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/operational-equipment`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.links.medicalFurniture'),
