@@ -72,7 +72,7 @@
     </ul>
     <PrimaryLink
       :linkTitle="$t('main.certificates.links.neurosurgery')"
-      path="#"
+      :path="`/${$i18n.locale}/catalog/neurosurgery/`"
       :blueArrow="true"
       :arrowPosition="typeLink === 'neurosurgery' ? null : 'top'"
     />
