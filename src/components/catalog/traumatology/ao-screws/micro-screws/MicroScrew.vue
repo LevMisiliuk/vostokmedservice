@@ -27,7 +27,13 @@
             :subtitle="cardData[0].subtitle"
           />
 
-          <CorticalScrewGrid />
+          <CorticalScrewFirstGrid />
+
+          <CorticalScrewSecondGrid />
+
+          <CorticalScrewThirdGrid />
+
+
         </div>
       </div>
     </div>
@@ -38,7 +44,9 @@
 <script>
 import { computed } from 'vue'
 import i18n from '@/i18n'
-import CorticalScrewGrid from './grid/CorticalScrewGrid.vue'
+import CorticalScrewFirstGrid from './grid/CorticalScrewFirstGrid.vue'
+import CorticalScrewSecondGrid from './grid/CorticalScrewSecondGrid.vue'
+import CorticalScrewThirdGrid from './grid/CorticalScrewThirdGrid.vue'
 
 export default {
   name: 'MicroScrew',
@@ -53,7 +61,7 @@ export default {
       cardData
     }
   },
-  components: { CorticalScrewGrid }
+  components: { CorticalScrewFirstGrid, CorticalScrewSecondGrid, CorticalScrewThirdGrid }
 }
 </script>
 
