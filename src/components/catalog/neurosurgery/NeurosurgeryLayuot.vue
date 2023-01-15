@@ -52,15 +52,15 @@ export default {
       ],
       {
         name: i18n.global.t('main.carts.neurosurgery.links.neurosurgicalPlates'),
-        path: `/404`
+        path: `/${i18n.global.locale.value}/catalog/neurosurgery/plates-neurosurgical`
       },
       {
         name: i18n.global.t('main.carts.neurosurgery.links.vertebralEndoprostheses'),
-        path: `/404`
+        path: `/${i18n.global.locale.value}/catalog/neurosurgery/vertebrae-implants`
       },
       {
         name: i18n.global.t('main.carts.neurosurgery.links.neurosurgicalInstrument'),
-        path: `/404`
+        path: `/${i18n.global.locale.value}/catalog/neurosurgery/neurosurgical-tool`
       },
       {
         name: i18n.global.t('main.carts.neurosurgery.links.antiAdhesionGel'),

@@ -35,17 +35,17 @@ export default {
       {
         title: i18n.global.t('main.carts.neurosurgery.links.neurosurgicalPlates'),
         img: require('@/assets/neurosurgery/neurosurgical-plates.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/plates-neurosurgical`
       },
       {
         title: i18n.global.t('main.carts.neurosurgery.links.vertebralEndoprostheses'),
         img: require('@/assets/neurosurgery/vertebral-endoprostheses.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/vertebrae-implants`
       },
       {
         title: i18n.global.t('main.carts.neurosurgery.links.neurosurgicalInstrument'),
         img: require('@/assets/neurosurgery/neurosurgica-iInstrument.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/neurosurgical-tool`
       },
       {
         title: i18n.global.t('main.carts.neurosurgery.links.antiAdhesionGel'),

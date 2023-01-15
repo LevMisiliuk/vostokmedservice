@@ -763,6 +763,41 @@
         "spinalSystemsLinks": {
           "sacredBlock": "САКРАЛЬНЫЙ БЛОК",
           "sacralScrew": "САКРАЛЬНЫЙ ВИНТ"
+        },
+				"neurosurgicalPlatesLinks": {
+          "links": {
+            "cervicalPlatesTitanium": "ПЛАСТИНЫ ШЕЙНЫЕ, ТИТАНОВЫЕ",
+            "hPlate": "ПЛАСТИНА H-ОБРАЗНАЯ",
+            "trapezoidalPlate": "ПЛАСТИНА ТРАПЕЦИООБРАЗНАЯ"
+          }
+        },
+				"vertebralEndoprostheses": {
+          "links": {
+            "slidingLumbarVertebra": "Раздвижной позвонок поясничного отдела",
+            "slindigCervicalVertebra": "Раздвижной позвонок шейного отдела",
+            "slindigVertebraThoracicSpine": "Раздвижной позвонок грудного отдела",
+            "slindigVertebraThoracicSpine2": "Раздвижной позвонок грудного отдела",
+            "lumbarIntervertebraldiscEdoprosthesis": "Эндопротез межпозвонкового диска поясничного отдела",
+            "edoprosthesisCervicalIntervertebraldisc": "Эндопротез межпозвонкового диска шейного отдела"
+          }
+        },
+				"neurosurgicalInstrument": {
+          "links": {
+            "CLOWARD1120116016cm": "CLOWARD 11-201-160 16 CM",
+            "1120214014CM": "11-202-140 14 CM",
+            "INGE1119516016CMSMALLPATTERN": "INGE 11-195-160 16 CM SMALL PATTERN",
+            "INGE1119617017CM": "INGE 11-196-170 17 CM",
+            "INGELARGEPATTERN": "INGE, 26 CM 11-197-260 JAW WITH 5 MM 11-198-260 JAW WITH 10 MM LARGE PATTERN",
+            "cushing": "CUSHING",
+            "glowardTypeCupJaws": "GLOWARD-TYPE SERRATED CUP JAWS",
+            "loveGruenwald": "LOVE-GRUENWALD",
+            "microCupForceps": "MICRO CUP FORCEPS",
+            "microAlligatorShaft": "MICRO ALLIGATOR F0RCEPS WITH TUBULAR SHAFT 18 CM",
+            "lunbraLaminaSpreader": "LUMBAR LAMINA SPREADER 11-200-00 ARM LENGTH: 87.5 MM SPREAD: 37.5 MM",
+            "cloward1119913013CM": "CLOWARD 11-199-130 13 CM",
+            "microGraspingSerrated": "MICRO GRASPING 11-153-00 SERRATED, STRAIGHT",
+            "microAlligatorStraight": "MICRO ALLIGATOR 11-154-00 STRAIGHT"
+          }
         }
 			},
 			"toolsAndEquipment": {

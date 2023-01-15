@@ -35,7 +35,10 @@ import ToolTraumatology from '@/components/catalog/traumatology/tools/tool-traum
 import AoScrews from '@/components/catalog/traumatology/ao-screws/AoScrews.vue'
 import MicroScrew from '@/components/catalog/traumatology/ao-screws/micro-screws/MicroScrew.vue'
 import NeurosurgeryPage from '@/pages/catalog/neurosurgery/NeurosurgeryPage.vue'
-import transpedicularFixationScreen from '@/components/catalog/neurosurgery/transpedicularFixation/transpedicularFixationScreen.vue'
+import TranspedicularFixationScreen from '@/components/catalog/neurosurgery/transpedicularFixation/TranspedicularFixationScreen.vue'
+import NeurosurgicalPlates from '@/components/catalog/neurosurgery/neurosurgicalPlates/NeurosurgicalPlates.vue'
+import VertebralEndoprostheses from '@/components/catalog/neurosurgery/vertebralEndoprostheses/VertebralEndoprostheses.vue'
+import NeurosurgicalInstrument from '@/components/catalog/neurosurgery/neurosurgicalInstrument/NeurosurgicalInstrument.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -142,7 +145,10 @@ export default createRouter({
         { path: 'catalog/tools-and-equipment/inhalers-nebulizers', component: InhalersNebulizersScreen },
         { path: 'catalog/tools-and-equipment/medical-instruments', component: MedicalInstrumentScreen },
         { path: 'catalog/neurosurgery', component: NeurosurgeryPage },
-        { path: 'catalog/neurosurgery/transpedikulyarnaya-fiksatsiya-pozvonochnika', component: transpedicularFixationScreen },
+        { path: 'catalog/neurosurgery/transpedikulyarnaya-fiksatsiya-pozvonochnika', component: TranspedicularFixationScreen },
+        { path: 'catalog/neurosurgery/plates-neurosurgical', component: NeurosurgicalPlates },
+        { path: 'catalog/neurosurgery/vertebrae-implants', component: VertebralEndoprostheses },
+        { path: 'catalog/neurosurgery/neurosurgical-tool', component: NeurosurgicalInstrument },
       ]
     }
   ]
