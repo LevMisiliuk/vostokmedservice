@@ -1,6 +1,6 @@
 <template>
   <ProductTableHeader
-    :title="$t('main.carts.traumatology.microScrews.corticalScrew2,7mm')"
+    :title="$t('main.carts.traumatology.microScrews.corticalScrew1,5mm')"
     :productsParams="cardData[0].productsParams"
     :image="cardData[0].imageAddition"
   />
@@ -31,7 +31,7 @@ import { computed } from 'vue'
 import i18n from '@/i18n'
 
 export default {
-  name: 'CorticalScrewGrid',
+  name: 'CorticalScrewFirstGrid',
 
   setup() {
     const tableData = computed(() => [
@@ -98,7 +98,7 @@ export default {
     ])
     const cardData = computed(() => [
       {
-        imageAddition: require('@/assets/traumatology/cortical-screw.jpeg'),
+        imageAddition: require('@/assets/traumatology/cortical-screw1,5.jpeg'),
         productsParams: [
           {
             id: 1,
