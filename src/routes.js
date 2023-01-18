@@ -45,6 +45,10 @@ import ElectricSterilizers from '@/components/catalog/toolsAndEquipment/steriliz
 import SterilizationBoxes from '@/components/catalog/toolsAndEquipment/sterilization/SterilizationBoxes.vue'
 import FormalinChambers from '@/components/catalog/toolsAndEquipment/sterilization/FormalinChambers.vue'
 import BactericidalIrradiators from '@/components/catalog/toolsAndEquipment/sterilization/BactericidalIrradiators.vue'
+import SuctionUnits from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits.vue'
+import CoagulatorsScreen from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/CoagulatorsScreen.vue'
+import LightsScreen from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen.vue'
+import OperatingTables from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/OperatingTables.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -152,6 +156,10 @@ export default createRouter({
         { path: 'catalog/tools-and-equipment/sterilization/reflectors-bactericidal/', component: BactericidalIrradiators },
         { path: 'catalog/tools-and-equipment/sterilization/camera-paroformalinovaya/', component: FormalinChambers },
         { path: 'catalog/tools-and-equipment/operational-equipment', component: EquipmentScreen },
+        { path: 'catalog/tools-and-equipment/operational-equipment/suction/', component: SuctionUnits },
+        { path: 'catalog/tools-and-equipment/operational-equipment/koagulyatory/', component: CoagulatorsScreen },
+        { path: 'catalog/tools-and-equipment/operational-equipment/fixtures/', component: LightsScreen },
+        { path: 'catalog/tools-and-equipment/operational-equipment/operating-tables/', component: OperatingTables },
         { path: 'catalog/tools-and-equipment/cardiology', component: CardiologyScreen },
         { path: 'catalog/tools-and-equipment/medical-furniture', component: MedicalFurnitureScreen },
         { path: 'catalog/tools-and-equipment/inhalers-nebulizers', component: InhalersNebulizersScreen },

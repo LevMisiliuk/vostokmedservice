@@ -69,19 +69,19 @@ export default {
       [
         {
           name: i18n.global.t('main.carts.toolsAndEquipment.secondlinks.suctionUnits'),
-          path: `/404`
+          path: `/${i18n.global.locale.value}/catalog/tools-and-equipment/operational-equipment/suction/`
         },
         {
           name: i18n.global.t('main.carts.toolsAndEquipment.secondlinks.coagulators'),
-          path: `/404`
+          path: `/${i18n.global.locale.value}/catalog/tools-and-equipment/operational-equipment/koagulyatory/`
         },
         {
           name: i18n.global.t('main.carts.toolsAndEquipment.secondlinks.lights'),
-          path: `/404`
+          path: `/${i18n.global.locale.value}/catalog/tools-and-equipment/operational-equipment/fixtures/`
         },
         {
           name: i18n.global.t('main.carts.toolsAndEquipment.secondlinks.operatingTables'),
-          path: `/404`
+          path: `/${i18n.global.locale.value}/catalog/tools-and-equipment/operational-equipment/operating-tables/`
         },
       ],
       {
