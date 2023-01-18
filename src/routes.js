@@ -45,6 +45,7 @@ import ElectricSterilizers from '@/components/catalog/toolsAndEquipment/steriliz
 import SterilizationBoxes from '@/components/catalog/toolsAndEquipment/sterilization/SterilizationBoxes.vue'
 import FormalinChambers from '@/components/catalog/toolsAndEquipment/sterilization/FormalinChambers.vue'
 import BactericidalIrradiators from '@/components/catalog/toolsAndEquipment/sterilization/BactericidalIrradiators.vue'
+import SpongeScrews from '@/components/catalog/traumatology/ao-screws/sponge-screws/SpongeScrews.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -113,6 +114,10 @@ export default createRouter({
         {
           path: 'catalog/traumatology/ao-screws/micro-screws/microscrew',
           component: MicroScrew
+        },
+        {
+          path: 'catalog/traumatology/ao-screws/micro-screws/sponge-screw',
+          component: SpongeScrews
         },
         { path: '404', component: NotFound },
         {

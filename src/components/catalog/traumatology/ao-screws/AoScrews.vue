@@ -60,7 +60,7 @@ export default {
           'main.carts.traumatology.links.cancellousScrews'
         ),
         img: require('@/assets/traumatology/cancellous-screws.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/traumatology/ao-screws/micro-screws/sponge-screw`
       },
       {
         title: i18n.global.t(
