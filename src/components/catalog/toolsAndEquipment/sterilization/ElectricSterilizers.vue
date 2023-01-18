@@ -1,18 +1,18 @@
 <template>
   <ToolsAndEquipmentLayuot>
-    <div class="panmed-camers__carts">
+    <div class="electric-sterilizers__carts">
       <a
-        v-for="cart in panmedCamersCarts"
+        v-for="cart in ElectricSterilizersCarts"
         :key="cart"
-        class="panmed-camers__cart"
+        class="electric-sterilizers__cart"
         :href="cart.link"
       >
         <img
           :src="cart.img"
           alt=""
-          class="panmed-camers__cart-img"
+          class="electric-sterilizers__cart-img"
         />
-        <div class="panmed-camers__cart-title">
+        <div class="electric-sterilizers__cart-title">
           {{ cart.title }}
         </div>
       </a>
@@ -27,33 +27,28 @@ import i18n from '@/i18n'
 export default {
   setup() {
 
-    const panmedCamersCarts = computed(() => [
+    const ElectricSterilizersCarts = computed(() => [
       {
-        title: i18n.global.t('main.carts.toolsAndEquipment.panmedCamersLinks.uvCameraMedium'),
-        img: require('@/assets/toolsAndEquipment/uv-camera-medium.png'),
-        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/panmed-camers`
-      },
-      {
-        title: i18n.global.t('main.carts.toolsAndEquipment.panmedCamersLinks.uvCameraLarge'),
-        img: require('@/assets/toolsAndEquipment/uv-camera-large.png'),
+        title: i18n.global.t('main.carts.toolsAndEquipment.electricSterilizersLinks.electricSterilizers420'),
+        img: require('@/assets/toolsAndEquipment/electric-sterilizers-420.png'),
         link: '/404'
       },
       {
-        title: i18n.global.t('main.carts.toolsAndEquipment.panmedCamersLinks.uvCameraSmall'),
-        img: require('@/assets/toolsAndEquipment/uv-camera-small.png'),
+        title: i18n.global.t('main.carts.toolsAndEquipment.electricSterilizersLinks.electricSterilizers320'),
+        img: require('@/assets/toolsAndEquipment/electric-sterilizers-320.png'),
         link: '/404'
-      }
+      },
     ])
 
     return {
-      panmedCamersCarts,
+      ElectricSterilizersCarts,
     }
   }
 }
 </script>
 
 <style lang="scss" scoped>
-.panmed-camers {
+.electric-sterilizers {
 
   &__carts {
     width: 100%;

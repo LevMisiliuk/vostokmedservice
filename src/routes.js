@@ -39,6 +39,12 @@ import TranspedicularFixationScreen from '@/components/catalog/neurosurgery/tran
 import NeurosurgicalPlates from '@/components/catalog/neurosurgery/neurosurgicalPlates/NeurosurgicalPlates.vue'
 import VertebralEndoprostheses from '@/components/catalog/neurosurgery/vertebralEndoprostheses/VertebralEndoprostheses.vue'
 import NeurosurgicalInstrument from '@/components/catalog/neurosurgery/neurosurgicalInstrument/NeurosurgicalInstrument.vue'
+import PanmedCamers from '@/components/catalog/toolsAndEquipment/sterilization/PanmedCamers.vue'
+import AirSterilizer from '@/components/catalog/toolsAndEquipment/sterilization/AirSterilizer.vue'
+import ElectricSterilizers from '@/components/catalog/toolsAndEquipment/sterilization/ElectricSterilizers.vue'
+import SterilizationBoxes from '@/components/catalog/toolsAndEquipment/sterilization/SterilizationBoxes.vue'
+import FormalinChambers from '@/components/catalog/toolsAndEquipment/sterilization/FormalinChambers.vue'
+import BactericidalIrradiators from '@/components/catalog/toolsAndEquipment/sterilization/BactericidalIrradiators.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -139,6 +145,12 @@ export default createRouter({
         },
         { path: 'catalog/tools-and-equipment', component: ToolsAndEquipmentPage },
         { path: 'catalog/tools-and-equipment/sterilization', component: SterilizationScreen },
+        { path: 'catalog/tools-and-equipment/sterilization/camera-panmed/', component: PanmedCamers },
+        { path: 'catalog/tools-and-equipment/sterilization/air-sterilizer/', component: AirSterilizer },
+        { path: 'catalog/tools-and-equipment/sterilization/electric-sterilizer/', component: ElectricSterilizers },
+        { path: 'catalog/tools-and-equipment/sterilization/boxes-sterilization-round/', component: SterilizationBoxes },
+        { path: 'catalog/tools-and-equipment/sterilization/reflectors-bactericidal/', component: BactericidalIrradiators },
+        { path: 'catalog/tools-and-equipment/sterilization/camera-paroformalinovaya/', component: FormalinChambers },
         { path: 'catalog/tools-and-equipment/operational-equipment', component: EquipmentScreen },
         { path: 'catalog/tools-and-equipment/cardiology', component: CardiologyScreen },
         { path: 'catalog/tools-and-equipment/medical-furniture', component: MedicalFurnitureScreen },

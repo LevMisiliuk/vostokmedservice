@@ -35,27 +35,27 @@ export default {
       [
         {
           name: i18n.global.t('main.carts.toolsAndEquipment.secondlinks.panmedCamers'),
-          path: `/404`
+          path: `/${i18n.global.locale.value}/catalog/tools-and-equipment/sterilization/camera-panmed/`
         },
         {
           name: i18n.global.t('main.carts.toolsAndEquipment.secondlinks.airSterilizer'),
-          path: `/404`
+          path: `/${i18n.global.locale.value}/catalog/tools-and-equipment/sterilization/air-sterilizer/`
         },
         {
           name: i18n.global.t('main.carts.toolsAndEquipment.secondlinks.electricSterilizers'),
-          path: `/404`
+          path: `/${i18n.global.locale.value}/catalog/tools-and-equipment/sterilization/electric-sterilizer/`
         },
         {
           name: i18n.global.t('main.carts.toolsAndEquipment.secondlinks.sterilizationBoxes'),
-          path: `/404`
+          path: `/${i18n.global.locale.value}/catalog/tools-and-equipment/sterilization/boxes-sterilization-round/`
         },
         {
           name: i18n.global.t('main.carts.toolsAndEquipment.secondlinks.formalinChambers'),
-          path: `/404`
+          path: `/${i18n.global.locale.value}/catalog/tools-and-equipment/sterilization/camera-paroformalinovaya/`
         },
         {
           name: i18n.global.t('main.carts.toolsAndEquipment.secondlinks.bactericidalIrradiators'),
-          path: `/404`
+          path: `/${i18n.global.locale.value}/catalog/tools-and-equipment/sterilization/reflectors-bactericidal/`
         },
       ],
       {

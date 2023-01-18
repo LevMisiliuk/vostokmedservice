@@ -1,18 +1,18 @@
 <template>
   <ToolsAndEquipmentLayuot>
-    <div class="panmed-camers__carts">
+    <div class="formalin-chambers__carts">
       <a
-        v-for="cart in panmedCamersCarts"
+        v-for="cart in FormalinChambersCarts"
         :key="cart"
-        class="panmed-camers__cart"
+        class="formalin-chambers__cart"
         :href="cart.link"
       >
         <img
           :src="cart.img"
           alt=""
-          class="panmed-camers__cart-img"
+          class="formalin-chambers__cart-img"
         />
-        <div class="panmed-camers__cart-title">
+        <div class="formalin-chambers__cart-title">
           {{ cart.title }}
         </div>
       </a>
@@ -27,33 +27,28 @@ import i18n from '@/i18n'
 export default {
   setup() {
 
-    const panmedCamersCarts = computed(() => [
+    const FormalinChambersCarts = computed(() => [
       {
-        title: i18n.global.t('main.carts.toolsAndEquipment.panmedCamersLinks.uvCameraMedium'),
-        img: require('@/assets/toolsAndEquipment/uv-camera-medium.png'),
-        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/panmed-camers`
-      },
-      {
-        title: i18n.global.t('main.carts.toolsAndEquipment.panmedCamersLinks.uvCameraLarge'),
-        img: require('@/assets/toolsAndEquipment/uv-camera-large.png'),
+        title: i18n.global.t('main.carts.toolsAndEquipment.formalinChambersLinks.formalinChamberBig'),
+        img: require('@/assets/toolsAndEquipment/formalin-chamber-big.png'),
         link: '/404'
       },
       {
-        title: i18n.global.t('main.carts.toolsAndEquipment.panmedCamersLinks.uvCameraSmall'),
-        img: require('@/assets/toolsAndEquipment/uv-camera-small.png'),
+        title: i18n.global.t('main.carts.toolsAndEquipment.formalinChambersLinks.formalinChamberSmall'),
+        img: require('@/assets/toolsAndEquipment/formalin-chamber-small.png'),
         link: '/404'
-      }
+      },
     ])
 
     return {
-      panmedCamersCarts,
+      FormalinChambersCarts,
     }
   }
 }
 </script>
 
 <style lang="scss" scoped>
-.panmed-camers {
+.formalin-chambers {
 
   &__carts {
     width: 100%;
