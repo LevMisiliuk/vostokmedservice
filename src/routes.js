@@ -49,6 +49,7 @@ import SuctionUnits from '@/components/catalog/toolsAndEquipment/equipmentOperat
 import CoagulatorsScreen from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/CoagulatorsScreen.vue'
 import LightsScreen from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen.vue'
 import OperatingTables from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/OperatingTables.vue'
+import SpongeScrews from '@/components/catalog/traumatology/ao-screws/sponge-screws/SpongeScrews.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -117,6 +118,10 @@ export default createRouter({
         {
           path: 'catalog/traumatology/ao-screws/micro-screws/microscrew',
           component: MicroScrew
+        },
+        {
+          path: 'catalog/traumatology/ao-screws/micro-screws/sponge-screw',
+          component: SpongeScrews
         },
         { path: '404', component: NotFound },
         {
