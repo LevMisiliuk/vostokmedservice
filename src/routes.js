@@ -50,6 +50,12 @@ import CoagulatorsScreen from '@/components/catalog/toolsAndEquipment/equipmentO
 import LightsScreen from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen.vue'
 import OperatingTables from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/OperatingTables.vue'
 import SpongeScrews from '@/components/catalog/traumatology/ao-screws/sponge-screws/SpongeScrews.vue'
+import MedicalCabinets from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalCabinets.vue'
+import SurgicalTables from '@/components/catalog/toolsAndEquipment/medicalFurniture/SurgicalTables.vue'
+import ChairsScreen from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen.vue'
+import MedicalStretcher from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalStretcher.vue'
+import GynecologicalChairs from '@/components/catalog/toolsAndEquipment/medicalFurniture/GynecologicalChairs.vue'
+import ElectroCardiographs from '@/components/catalog/toolsAndEquipment/cardiology/ElectroCardiographs.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -166,7 +172,13 @@ export default createRouter({
         { path: 'catalog/tools-and-equipment/operational-equipment/fixtures/', component: LightsScreen },
         { path: 'catalog/tools-and-equipment/operational-equipment/operating-tables/', component: OperatingTables },
         { path: 'catalog/tools-and-equipment/cardiology', component: CardiologyScreen },
+        { path: 'catalog/tools-and-equipment/electrocardiograph', component: ElectroCardiographs },
         { path: 'catalog/tools-and-equipment/medical-furniture', component: MedicalFurnitureScreen },
+        { path: 'catalog/tools-and-equipment/medical-furniture/medicine-cabinets', component: MedicalCabinets },
+        { path: 'catalog/tools-and-equipment/medical-furniture/table-surgical/', component: SurgicalTables },
+        { path: 'catalog/tools-and-equipment/medical-furniture/couches/', component: ChairsScreen },
+        { path: 'catalog/tools-and-equipment/medical-furniture/litters-medical/', component: MedicalStretcher },
+        { path: 'catalog/tools-and-equipment/medical-furniture/armchair-gynecological/', component: GynecologicalChairs },
         { path: 'catalog/tools-and-equipment/inhalers-nebulizers', component: InhalersNebulizersScreen },
         { path: 'catalog/tools-and-equipment/medical-instruments', component: MedicalInstrumentScreen },
         { path: 'catalog/neurosurgery', component: NeurosurgeryPage },

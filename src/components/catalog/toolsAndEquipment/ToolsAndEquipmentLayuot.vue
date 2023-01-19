@@ -91,23 +91,23 @@ export default {
       [
         {
           name: i18n.global.t('main.carts.toolsAndEquipment.secondlinks.medicalCabinets'),
-          path: `/404`
+          path: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/medicine-cabinets`
         },
         {
           name: i18n.global.t('main.carts.toolsAndEquipment.secondlinks.surgicalTables'),
-          path: `/404`
+          path: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/table-surgical/`
         },
         {
           name: i18n.global.t('main.carts.toolsAndEquipment.secondlinks.chairs'),
-          path: `/404`
+          path: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/couches/`
         },
         {
           name: i18n.global.t('main.carts.toolsAndEquipment.secondlinks.medicalStretcher'),
-          path: `/404`
+          path: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/litters-medical/`
         },
         {
           name: i18n.global.t('main.carts.toolsAndEquipment.secondlinks.gynecologicalChairs'),
-          path: `/404`
+          path: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/armchair-gynecological/`
         },
       ],
       {
@@ -121,7 +121,7 @@ export default {
         },
         {
           name: i18n.global.t('main.carts.toolsAndEquipment.secondlinks.electrocardiographs'),
-          path: `/404`
+          path: `/${i18n.global.locale.value}/catalog/tools-and-equipment/electrocardiograph`
         },
         {
           name: i18n.global.t('main.carts.toolsAndEquipment.secondlinks.careMonitor'),
