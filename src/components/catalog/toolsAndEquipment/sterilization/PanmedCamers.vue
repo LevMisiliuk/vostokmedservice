@@ -31,17 +31,17 @@ export default {
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.panmedCamersLinks.uvCameraMedium'),
         img: require('@/assets/toolsAndEquipment/uv-camera-medium.png'),
-        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/panmed-camers`
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/sterilization/camera-panmed/uf-kamera-dlya-khraneniya-sterilnogo-medium`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.panmedCamersLinks.uvCameraLarge'),
         img: require('@/assets/toolsAndEquipment/uv-camera-large.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/sterilization/camera-panmed/uf-kamera-dlya-khraneniya-sterilnogo-large`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.panmedCamersLinks.uvCameraSmall'),
         img: require('@/assets/toolsAndEquipment/uv-camera-small.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/sterilization/camera-panmed/uf-kamera-dlya-khraneniya-sterilnogo-small`
       }
     ])
 

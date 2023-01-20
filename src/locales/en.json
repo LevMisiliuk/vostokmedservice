@@ -910,6 +910,11 @@
 					"uvCameraLarge": "PANMED-1 LARGE UV CAMERA (970 MM)",
 					"uvCameraSmall": "PANMED-1 SMALL UV CAMERA (500MM)"
         },
+				"panmedCamers": {
+          "uvCameraMediumData": "UV storage chamber for sterile instruments with metal and glass lids. Medium (670mm).",
+					"uvCameraLargeData": "UV storage chamber for sterile instruments with metal and glass lids. Large (970mm).",
+					"uvCameraSmallData": "UV storage chamber for sterile instruments with metal and glass lids. Small (500mm)."
+        },
 				"airSterilizerLinks" : {
           "airSterilizerNotPassable": "AIR STERILIZERS GP-320 BD NOT PASSABLE",
 					"airSterilizerUkraine": "AIR STERILIZERS GP-20, GP-40, GP-80, UKRAINE",

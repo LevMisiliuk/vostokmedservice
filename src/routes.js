@@ -40,6 +40,7 @@ import NeurosurgicalPlates from '@/components/catalog/neurosurgery/neurosurgical
 import VertebralEndoprostheses from '@/components/catalog/neurosurgery/vertebralEndoprostheses/VertebralEndoprostheses.vue'
 import NeurosurgicalInstrument from '@/components/catalog/neurosurgery/neurosurgicalInstrument/NeurosurgicalInstrument.vue'
 import PanmedCamers from '@/components/catalog/toolsAndEquipment/sterilization/PanmedCamers.vue'
+import uvCameraMedium from '@/components/catalog/toolsAndEquipment/sterilization/PanmedCamers/UvCameraMedium.vue'
 import AirSterilizer from '@/components/catalog/toolsAndEquipment/sterilization/AirSterilizer.vue'
 import ElectricSterilizers from '@/components/catalog/toolsAndEquipment/sterilization/ElectricSterilizers.vue'
 import SterilizationBoxes from '@/components/catalog/toolsAndEquipment/sterilization/SterilizationBoxes.vue'
@@ -60,6 +61,8 @@ import SpinalScrews from '@/components/catalog/neurosurgery/transpedicularFixati
 import SpinalBeams from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalBeams.vue'
 import SpinalHooks from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalHooks.vue'
 import SpinalSystems from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalSystems.vue'
+import UvCameraLarge from '@/components/catalog/toolsAndEquipment/sterilization/PanmedCamers/UvCameraLarge.vue'
+import UvCameraSmall from '@/components/catalog/toolsAndEquipment/sterilization/PanmedCamers/UvCameraSmall.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -165,6 +168,9 @@ export default createRouter({
         { path: 'catalog/tools-and-equipment', component: ToolsAndEquipmentPage },
         { path: 'catalog/tools-and-equipment/sterilization', component: SterilizationScreen },
         { path: 'catalog/tools-and-equipment/sterilization/camera-panmed/', component: PanmedCamers },
+        { path: 'catalog/tools-and-equipment/sterilization/camera-panmed/uf-kamera-dlya-khraneniya-sterilnogo-large', component: UvCameraLarge },
+        { path: 'catalog/tools-and-equipment/sterilization/camera-panmed/uf-kamera-dlya-khraneniya-sterilnogo-medium', component: uvCameraMedium },
+        { path: 'catalog/tools-and-equipment/sterilization/camera-panmed/uf-kamera-dlya-khraneniya-sterilnogo-small', component: UvCameraSmall },
         { path: 'catalog/tools-and-equipment/sterilization/air-sterilizer/', component: AirSterilizer },
         { path: 'catalog/tools-and-equipment/sterilization/electric-sterilizer/', component: ElectricSterilizers },
         { path: 'catalog/tools-and-equipment/sterilization/boxes-sterilization-round/', component: SterilizationBoxes },
