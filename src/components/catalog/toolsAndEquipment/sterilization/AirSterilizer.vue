@@ -31,7 +31,7 @@ export default {
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerLinks.airSterilizerNotPassable'),
         img: require('@/assets/toolsAndEquipment/air-sterilizer-not-passable.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/sterilization/air-sterilizer/sterilizatory-vozdushnye-gp-320-bd-neprokhodnoi-gpd-320-prokhodnoi-usovershenstvovannye-analogi-shss-250p-i-shss-250pr`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerLinks.airSterilizerUkraine'),

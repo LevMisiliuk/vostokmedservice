@@ -63,6 +63,7 @@ import SpinalHooks from '@/components/catalog/neurosurgery/transpedicularFixatio
 import SpinalSystems from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalSystems.vue'
 import UvCameraLarge from '@/components/catalog/toolsAndEquipment/sterilization/PanmedCamers/UvCameraLarge.vue'
 import UvCameraSmall from '@/components/catalog/toolsAndEquipment/sterilization/PanmedCamers/UvCameraSmall.vue'
+import AirSterilizerNotpassable from '@/components/catalog/toolsAndEquipment/sterilization/AirSterilizer/AirSterilizerNotpassable.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -172,6 +173,7 @@ export default createRouter({
         { path: 'catalog/tools-and-equipment/sterilization/camera-panmed/uf-kamera-dlya-khraneniya-sterilnogo-medium', component: uvCameraMedium },
         { path: 'catalog/tools-and-equipment/sterilization/camera-panmed/uf-kamera-dlya-khraneniya-sterilnogo-small', component: UvCameraSmall },
         { path: 'catalog/tools-and-equipment/sterilization/air-sterilizer/', component: AirSterilizer },
+        { path: 'catalog/tools-and-equipment/sterilization/air-sterilizer/sterilizatory-vozdushnye-gp-320-bd-neprokhodnoi-gpd-320-prokhodnoi-usovershenstvovannye-analogi-shss-250p-i-shss-250pr', component: AirSterilizerNotpassable },
         { path: 'catalog/tools-and-equipment/sterilization/electric-sterilizer/', component: ElectricSterilizers },
         { path: 'catalog/tools-and-equipment/sterilization/boxes-sterilization-round/', component: SterilizationBoxes },
         { path: 'catalog/tools-and-equipment/sterilization/reflectors-bactericidal/', component: BactericidalIrradiators },

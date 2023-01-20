@@ -922,6 +922,26 @@
 					"airSterilizerSpu": "AIR STERILIZERS GP-20 SPOO, GP-40 SPOO, GP-80 SPU",
 					"sterilizationCabinet": "SHS-80 DRYING AND STERILIZATION CABINET"
         },
+				"airSterilizer": {
+          "table": {
+            "first": "Conditional chamber volume, liter",
+            "second": "320"
+          },
+					"airSterilizerNotPassableData": {
+						"title": "Designed to sterilize medical devices by exposing them to hot air at a given temperature for a given time. It can also be used for drying. High level of automation, optimal air circulation and high quality thermal insulation guarantee economical and reliable operation. The safety of the operation is ensured by a temperature lock and a safety alarm. The bactericidal filter protects the sterility of the products during cooling.",
+						"airSterilizerNotPassableData1": "Conditional volume of the chamber, l:",
+            "airSterilizerNotPassableData2": "Chamber dimensions (w, h, d), mm (two compartments):",
+            "airSterilizerNotPassableData3": "Set temperature mode, °C:",
+            "airSterilizerNotPassableData4": "Set dwell time, min:",
+						"airSterilizerNotPassableData5": "Heating time to 200 °C, min:",
+            "airSterilizerNotPassableData6": "Temperature deviation by chamber volume from the set value, °С:",
+            "airSterilizerNotPassableData7": "Supply voltage, V:",
+            "airSterilizerNotPassableData8": "Power consumption, kW:",
+            "airSterilizerNotPassableData9": "Overall dimensions, (w, h, d), mm:",
+            "airSterilizerNotPassableData10": "Power consumption, kW:",
+            "airSterilizerNotPassableData11": "Number of loading boxes, qty:"
+					}
+        },
 				"electricSterilizersLinks": {
 					"electricSterilizers420": "ELECTRIC STERILIZER 420 E (BOILERS)",
 					"electricSterilizers320": "320 E ELECTRIC STERILIZER (BOILERS)"
