@@ -56,6 +56,10 @@ import ChairsScreen from '@/components/catalog/toolsAndEquipment/medicalFurnitur
 import MedicalStretcher from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalStretcher.vue'
 import GynecologicalChairs from '@/components/catalog/toolsAndEquipment/medicalFurniture/GynecologicalChairs.vue'
 import ElectroCardiographs from '@/components/catalog/toolsAndEquipment/cardiology/ElectroCardiographs.vue'
+import SpinalScrews from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalScrews.vue'
+import SpinalBeams from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalBeams.vue'
+import SpinalHooks from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalHooks.vue'
+import SpinalSystems from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalSystems.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -183,6 +187,10 @@ export default createRouter({
         { path: 'catalog/tools-and-equipment/medical-instruments', component: MedicalInstrumentScreen },
         { path: 'catalog/neurosurgery', component: NeurosurgeryPage },
         { path: 'catalog/neurosurgery/transpedikulyarnaya-fiksatsiya-pozvonochnika', component: TranspedicularFixationScreen },
+        { path: 'catalog/neurosurgery/spinal-screws', component: SpinalScrews },
+        { path: 'catalog/neurosurgery/spinal-beam', component: SpinalBeams },
+        { path: 'catalog/neurosurgery/spinal-hooks', component: SpinalHooks },
+        { path: 'catalog/neurosurgery/spinal-system', component: SpinalSystems },
         { path: 'catalog/neurosurgery/plates-neurosurgical', component: NeurosurgicalPlates },
         { path: 'catalog/neurosurgery/vertebrae-implants', component: VertebralEndoprostheses },
         { path: 'catalog/neurosurgery/neurosurgical-tool', component: NeurosurgicalInstrument },

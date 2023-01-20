@@ -35,19 +35,19 @@ export default {
       [
         {
           name: i18n.global.t('main.carts.neurosurgery.secondlinks.spinalScrews'),
-          path: `/404`
+          path: `/${i18n.global.locale.value}/catalog/neurosurgery/spinal-screws`
         },
         {
           name: i18n.global.t('main.carts.neurosurgery.secondlinks.spinalBeams'),
-          path: `/404`
+          path: `/${i18n.global.locale.value}/catalog/neurosurgery/spinal-beam`
         },
         {
           name: i18n.global.t('main.carts.neurosurgery.secondlinks.spinalHooks'),
-          path: `/404`
+          path: `/${i18n.global.locale.value}/catalog/neurosurgery/spinal-hooks`
         },
         {
           name: i18n.global.t('main.carts.neurosurgery.secondlinks.spinalSystems'),
-          path: `/404`
+          path: `/${i18n.global.locale.value}/catalog/neurosurgery/spinal-system`
         },
       ],
       {
