@@ -28,7 +28,8 @@
           />
 
           <SpongeScrew4mm />
-          
+
+          <SpongeScrew6and5mm />
         </div>
       </div>
     </div>
@@ -40,6 +41,7 @@
 import { computed } from 'vue'
 import i18n from '@/i18n'
 import SpongeScrew4mm from './grid/SpongeScrew4mm.vue'
+import SpongeScrew6and5mm from './grid/SpongeScrew6and5mm.vue'
 
 export default {
     name: "SpongeScrews",
@@ -54,7 +56,7 @@ export default {
             cardData
         };
     },
-    components: { SpongeScrew4mm }
+    components: { SpongeScrew4mm, SpongeScrew6and5mm }
 }
 </script>
 

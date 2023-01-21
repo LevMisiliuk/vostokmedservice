@@ -23,6 +23,10 @@
       :label="$t('main.carts.traumatology.spongeScrews.table.third')"
       prop="third"
     />
+    <el-table-column
+      :label="$t('main.carts.traumatology.spongeScrews.table.fourth')"
+      prop="fourth"
+    />
   </el-table>
 </template>
 
@@ -36,65 +40,131 @@ export default {
   setup() {
     const tableData = computed(() => [
       {
-        first: '6',
-        second: '11000-15006',
-        third: '31010-15006',
-      },
-      {
-        first: '7',
-        second: '11000-15007',
-        third: '31010-15007',
-      },
-      {
-        first: '8',
-        second: '11000-15008',
-        third: '31010-15008',
-      },
-      {
-        first: '9',
-        second: '11000-15009',
-        third: '31010-15009',
-      },
-      {
         first: '10',
-        second: '11000-15010',
-        third: '31010-15010',
-      },
-      {
-        first: '11',
-        second: '11000-15011',
-        third: '31010-15011',
+        second: '11040-40010',
+        third: '11050-40010',
+        fourth: '31040-40010'
       },
       {
         first: '12',
-        second: '11000-15012',
-        third: '31010-15012',
+        second: '11040-40012',
+        third: '11050-40012',
+        fourth: '31040-40012'
       },
       {
         first: '14',
-        second: '11000-15014',
-        third: '31010-15014',
+        second: '11040-40014',
+        third: '11050-40014',
+        fourth: '31040-40014'
       },
       {
         first: '16',
-        second: '11000-15016',
-        third: '31010-15016',
+        second: '11040-40016',
+        third: '11050-40016',
+        fourth: '31040-40016'
       },
       {
         first: '18',
-        second: '11000-15018',
-        third: '31010-15018',
+        second: '11040-40018',
+        third: '11050-40018',
+        fourth: '31040-40018'
       },
       {
         first: '20',
-        second: '11000-15020',
-        third: '31010-15020',
+        second: '11040-40020',
+        third: '11050-40020',
+        fourth: '31040-40020'
       },
       {
         first: '22',
-        second: '11000-15022',
-        third: '31010-15022',
-      }
+        second: '11040-40022',
+        third: '11050-40022',
+        fourth: '31040-40022'
+      },
+      {
+        first: '24',
+        second: '11040-40024',
+        third: '11050-40024',
+        fourth: '31040-40024'
+      },
+      {
+        first: '26',
+        second: '11040-40026',
+        third: '11050-40026',
+        fourth: '31040-40026'
+      },
+      {
+        first: '28',
+        second: '11040-40028',
+        third: '11050-40028',
+        fourth: '31040-40028'
+      },
+      {
+        first: ' 30',
+        second: '11040-40030',
+        third: '11050-40030',
+        fourth: '31040-40030'
+      },
+      {
+        first: '32',
+        second: '11040-40032',
+        third: '11050-40032',
+        fourth: '31040-40032'
+      },
+      {
+        first: '35',
+        second: '11040-40035',
+        third: '11050-40034',
+        fourth: '31040-40035'
+      },
+      {
+        first: '36',
+        second: '11040-40036',
+        third: '11050-40036',
+        fourth: '31040-40036'
+      },
+      {
+        first: '40',
+        second: '11040-40040',
+        third: '11050-40040',
+        fourth: '31040-40040'
+      },
+      {
+        first: '45',
+        second: '11040-40045',
+        third: '11050-40045',
+        fourth: '31040-40045'
+      },
+      {
+        first: ' 50',
+        second: '11040-40050',
+        third: '11050-40050',
+        fourth: '31040-40050'
+      },
+      {
+        first: '55',
+        second: '11040-40055',
+        third: '11050-40055',
+        fourth: '31040-40055'
+      },
+      {
+        first: '60',
+        second: '11040-40060',
+        third: '11050-40060',
+        fourth: '31040-40060'
+      },
+      {
+        first: '65',
+        second: '11040-40065',
+        third: '11050-40065',
+        fourth: '31040-40065'
+      },
+      {
+        first: '70',
+        second: '11040-40070',
+        third: '11050-40070',
+        fourth: '31040-40070'
+      },
     ])
     const cardData = computed(() => [
       {
@@ -140,7 +210,7 @@ export default {
             id: 4,
             name: i18n.global.t('main.carts.traumatology.spongeScrews.hexagon'),
             data: i18n.global.t(
-              'main.carts.traumatology.spongeScrews.hexagonData.1,5mm'
+              'main.carts.traumatology.spongeScrews.hexagonData.2,5mm'
             )
           },
           {
@@ -179,7 +249,7 @@ export default {
             name: i18n.global.t(
               'main.carts.traumatology.spongeScrews.screwdriver'
             ),
-            data: '99160-25120'
+            data: '99160-15115'
           }
         ]
       }
