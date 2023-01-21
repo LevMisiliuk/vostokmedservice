@@ -922,7 +922,7 @@
 					"airSterilizerSpu": "AIR STERILIZERS GP-20 SPOO, GP-40 SPOO, GP-80 SPU",
 					"sterilizationCabinet": "SHS-80 DRYING AND STERILIZATION CABINET"
         },
-				"airSterilizer": {
+				"airSterilizerNotPassable": {
           "table": {
             "first": "Conditional chamber volume, liter",
             "second": "320"
@@ -941,6 +941,33 @@
             "airSterilizerNotPassableData10": "Power consumption, kW:",
             "airSterilizerNotPassableData11": "Number of loading boxes, qty:"
 					}
+        },
+				"airSterilizerUkraine": {
+          "table": {
+            "first": "Conditional chamber volume, liter",
+						"second": "20",
+            "third": "40",
+						"fourth": "80"
+          },
+          "airSterilizerUkraineData": {
+            "title": "Used in medical and preventive institutions, laboratories, pharmacies, dental clinics, veterinary, etc. Can be used in food, confectionery, chemical industry. Owing to the high technical parameters it can be used for scientific and laboratory researches. Distinctive features Automatic adjustment of the operating parameters; Microprocessor control; Forced convection by silent fan; The chamber is made of stainless steel; Power supply from AC single-phase network (220±22) V, frequency (50±1) Hz. Fixed emergency overheat protection at 230ºC Operating modes:",
+						"airSterilizerUkraineData01": "Drying 85ºC, min",
+            "airSterilizerUkraineData02": "Disinfection 120ºС, min",
+            "airSterilizerUkraineData03": "Sterilisation 160ºC, min",
+            "airSterilizerUkraineData04": "Sterilization 180ºC, min",
+            "airSterilizerUkraineData05": "Two modes, programmable without saving after power failure",
+            "airSterilizerUkraineData1": "Chamber dimensions, (w, h, d), mm",
+            "airSterilizerUkraineData2": "Set temperature mode, °C",
+            "airSterilizerUkraineData3": "Set dwell time, min",
+            "airSterilizerUkraineData4": "Heating time to 200 °C, min",
+            "airSterilizerUkraineData5": "Temperature deviation by chamber volume from the set value, °С",
+            "airSterilizerUkraineData6": "Supply voltage, V",
+            "airSterilizerUkraineData7": "Power consumption, kW",
+            "airSterilizerUkraineData8": "Overall dimensions, (w, h, d), mm",
+            "airSterilizerUkraineData9": "Weight, kg",
+            "airSterilizerUkraineData10": "Number of loading boxes, pcs.",
+            "airSterilizerUkraineData11": "Service"
+          }
         },
 				"electricSterilizersLinks": {
 					"electricSterilizers420": "ELECTRIC STERILIZER 420 E (BOILERS)",

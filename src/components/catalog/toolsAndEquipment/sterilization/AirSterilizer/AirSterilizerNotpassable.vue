@@ -30,11 +30,11 @@
             style="width: 100%"
           >
             <el-table-column
-              :label="$t('main.carts.toolsAndEquipment.airSterilizer.table.first')"
+              :label="$t('main.carts.toolsAndEquipment.airSterilizerNotPassable.table.first')"
               prop="first"
             />
             <el-table-column
-              :label="$t('main.carts.toolsAndEquipment.airSterilizer.table.second')"
+              :label="$t('main.carts.toolsAndEquipment.airSterilizerNotPassable.table.second')"
               prop="second"
             />
           </el-table>
@@ -53,105 +53,105 @@ export default {
   setup() {
     const tableData = ref([
       {
-        first: i18n.global.t('main.carts.toolsAndEquipment.airSterilizer.airSterilizerNotPassableData.airSterilizerNotPassableData2'),
+        first: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerNotPassable.airSterilizerNotPassableData.airSterilizerNotPassableData2'),
         second: '400х900х440',
       },
       {
-        first: i18n.global.t('main.carts.toolsAndEquipment.airSterilizer.airSterilizerNotPassableData.airSterilizerNotPassableData3'),
+        first: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerNotPassable.airSterilizerNotPassableData.airSterilizerNotPassableData3'),
         second: '80…200 ',
       },
       {
-        first: i18n.global.t('main.carts.toolsAndEquipment.airSterilizer.airSterilizerNotPassableData.airSterilizerNotPassableData4'),
+        first: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerNotPassable.airSterilizerNotPassableData.airSterilizerNotPassableData4'),
         second: '1...999',
       },
       {
-        first: i18n.global.t('main.carts.toolsAndEquipment.airSterilizer.airSterilizerNotPassableData.airSterilizerNotPassableData5'),
+        first: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerNotPassable.airSterilizerNotPassableData.airSterilizerNotPassableData5'),
         second: '30',
       },
       {
-        first: i18n.global.t('main.carts.toolsAndEquipment.airSterilizer.airSterilizerNotPassableData.airSterilizerNotPassableData6'),
+        first: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerNotPassable.airSterilizerNotPassableData.airSterilizerNotPassableData6'),
         second: '±3',
       },
       {
-        first: i18n.global.t('main.carts.toolsAndEquipment.airSterilizer.airSterilizerNotPassableData.airSterilizerNotPassableData7'),
+        first: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerNotPassable.airSterilizerNotPassableData.airSterilizerNotPassableData7'),
         second: '380',
       },
       {
-        first: i18n.global.t('main.carts.toolsAndEquipment.airSterilizer.airSterilizerNotPassableData.airSterilizerNotPassableData8'),
+        first: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerNotPassable.airSterilizerNotPassableData.airSterilizerNotPassableData8'),
         second: '9',
       },
       {
-        first: i18n.global.t('main.carts.toolsAndEquipment.airSterilizer.airSterilizerNotPassableData.airSterilizerNotPassableData9'),
+        first: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerNotPassable.airSterilizerNotPassableData.airSterilizerNotPassableData9'),
         second: '1005х1540х840',
       },
       {
-        first: i18n.global.t('main.carts.toolsAndEquipment.airSterilizer.airSterilizerNotPassableData.airSterilizerNotPassableData10'),
+        first: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerNotPassable.airSterilizerNotPassableData.airSterilizerNotPassableData10'),
         second: '180',
       },
       {
-        first: i18n.global.t('main.carts.toolsAndEquipment.airSterilizer.airSterilizerNotPassableData.airSterilizerNotPassableData11'),
+        first: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerNotPassable.airSterilizerNotPassableData.airSterilizerNotPassableData11'),
         second: '8',
       },
     ])
     const airSterilizerNotpassableData = computed(() => [
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerLinks.airSterilizerNotPassable'),
-        subtitle: i18n.global.t('main.carts.toolsAndEquipment.airSterilizer.airSterilizerNotPassableData.title'),
+        subtitle: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerNotPassable.airSterilizerNotPassableData.title'),
         image: require('@/assets/toolsAndEquipment/air-sterilizer-not-passable.png'),
         productsParams: [
           {
             id: 1,
-            name: i18n.global.t('main.carts.toolsAndEquipment.airSterilizer.airSterilizerNotPassableData.airSterilizerNotPassableData1'),
+            name: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerNotPassable.airSterilizerNotPassableData.airSterilizerNotPassableData1'),
             data: '320'
           },
           {
             id: 2,
-            name: i18n.global.t('main.carts.toolsAndEquipment.airSterilizer.airSterilizerNotPassableData.airSterilizerNotPassableData2'),
+            name: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerNotPassable.airSterilizerNotPassableData.airSterilizerNotPassableData2'),
             data: '400х900х440'
           },
           {
             id: 3,
-            name: i18n.global.t('main.carts.toolsAndEquipment.airSterilizer.airSterilizerNotPassableData.airSterilizerNotPassableData3'),
+            name: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerNotPassable.airSterilizerNotPassableData.airSterilizerNotPassableData3'),
             data: '80…200'
           },
           {
             id: 4,
-            name: i18n.global.t('main.carts.toolsAndEquipment.airSterilizer.airSterilizerNotPassableData.airSterilizerNotPassableData4'),
+            name: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerNotPassable.airSterilizerNotPassableData.airSterilizerNotPassableData4'),
             data: '1...999'
           },
           {
             id: 5,
-            name: i18n.global.t('main.carts.toolsAndEquipment.airSterilizer.airSterilizerNotPassableData.airSterilizerNotPassableData5'),
+            name: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerNotPassable.airSterilizerNotPassableData.airSterilizerNotPassableData5'),
             data: '30'
           },
           {
             id: 6,
-            name: i18n.global.t('main.carts.toolsAndEquipment.airSterilizer.airSterilizerNotPassableData.airSterilizerNotPassableData6'),
+            name: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerNotPassable.airSterilizerNotPassableData.airSterilizerNotPassableData6'),
             data: '±3'
           },
           {
             id: 7,
-            name: i18n.global.t('main.carts.toolsAndEquipment.airSterilizer.airSterilizerNotPassableData.airSterilizerNotPassableData7'),
+            name: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerNotPassable.airSterilizerNotPassableData.airSterilizerNotPassableData7'),
             data: '380'
           },
           {
             id: 8,
-            name: i18n.global.t('main.carts.toolsAndEquipment.airSterilizer.airSterilizerNotPassableData.airSterilizerNotPassableData8'),
+            name: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerNotPassable.airSterilizerNotPassableData.airSterilizerNotPassableData8'),
             data: '9'
           },
           {
             id: 9,
-            name: i18n.global.t('main.carts.toolsAndEquipment.airSterilizer.airSterilizerNotPassableData.airSterilizerNotPassableData9'),
+            name: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerNotPassable.airSterilizerNotPassableData.airSterilizerNotPassableData9'),
             data: '1005х1540х840'
           },
           {
             id: 10,
-            name: i18n.global.t('main.carts.toolsAndEquipment.airSterilizer.airSterilizerNotPassableData.airSterilizerNotPassableData10'),
+            name: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerNotPassable.airSterilizerNotPassableData.airSterilizerNotPassableData10'),
             data: '180'
           },
           {
             id: 11,
-            name: i18n.global.t('main.carts.toolsAndEquipment.airSterilizer.airSterilizerNotPassableData.airSterilizerNotPassableData11'),
+            name: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerNotPassable.airSterilizerNotPassableData.airSterilizerNotPassableData11'),
             data: '8'
           },
         ]

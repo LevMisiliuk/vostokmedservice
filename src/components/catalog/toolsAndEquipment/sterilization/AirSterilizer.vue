@@ -36,7 +36,7 @@ export default {
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerLinks.airSterilizerUkraine'),
         img: require('@/assets/toolsAndEquipment/air-sterilizer-ukraine.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/sterilization/air-sterilizer/sterilizatory-vozdushnye-gp-20-gp-40-gp-80-ukraina`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerLinks.airSterilizerGP'),

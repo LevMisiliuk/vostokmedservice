@@ -928,7 +928,7 @@
           "airSterilizerSpu": "СТЕРИЛІЗАТОРИ ПОВІТРЯНІ ГП-20 СПУ, ГП-40 СПУ, ГП-80 СПУ",
           "sterilizationCabinet": "ШАФА СУШИЛЬНО-СТЕРИЛІЗАЦІЙНА 'ШС-80'"
         },
-        "airSterilizer": {
+        "airSterilizerNotPassable": {
           "table": {
             "first": "Умовний об'єм камери, л",
             "second": "320"
@@ -946,6 +946,33 @@
             "airSterilizerNotPassableData9": "Габаритні розміри, (ш, в, г), мм:",
             "airSterilizerNotPassableData10": "Споживана потужність, кВт:",
             "airSterilizerNotPassableData11": "Кількість завантажувальних коробок, шт:"
+          }
+        },
+        "airSterilizerUkraine": {
+          "table": {
+            "first": "Умовний об'єм камери, л",
+						"second": "20",
+            "third": "40",
+						"fourth": "80"
+          },
+          "airSterilizerUkraineData": {
+            "title": "Застосовується в лікувально-профілактичних установах, лабораторіях, аптеках, стоматологічних клініках, ветеринарії тощо. Можуть використовуватися в харчовій, кондитерській, хімічній промисловості. Завдяки високим технічним параметрам може знайти застосування під час наукових і лабораторних досліджень. Відмінні риси Автоматичне забезпечення параметрів режиму роботи; Мікропроцесорне управління; Примусова конвекція безшумним вентилятором; Камера виконана з нержавіючої сталі; Живлення від мережі однофазного змінного струму (220±22)В, частотою (50±1)Гц. Фіксований аварійний захист від перегріву на рівні 230ºC Режими роботи:",
+            "airSterilizerUkraineData01": "сушка 85ºС, хв",
+            "airSterilizerUkraineData02": "дезінфекція 120ºС, хв",
+            "airSterilizerUkraineData03": "стерилізація 160ºС, хв",
+            "airSterilizerUkraineData04": "стерилізація 180ºС, хв",
+            "airSterilizerUkraineData05": "Два режими, програмовані без збереження після вимкнення живлення",
+            "airSterilizerUkraineData1": "Розміри камери, (ш, в, г), мм",
+            "airSterilizerUkraineData2": "Заданий температурний режим, °С",
+            "airSterilizerUkraineData3": "Заданий час витримки, хв",
+            "airSterilizerUkraineData4": "Час нагрівання до 200 °С, хв",
+            "airSterilizerUkraineData5": "Відхилення температури за об'ємом камери від заданого значення, °С",
+            "airSterilizerUkraineData6": "Напруга живлення, В",
+            "airSterilizerUkraineData7": "Споживана потужність, кВт",
+            "airSterilizerUkraineData8": "Габаритні розміри, (ш, в, г), мм",
+            "airSterilizerUkraineData9": "Маса, кг",
+            "airSterilizerUkraineData10": "Кількість завантажувальних коробок, шт",
+            "airSterilizerUkraineData11": "Обслуговування"
           }
         },
         "electricSterilizersLinks": {
