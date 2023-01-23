@@ -41,17 +41,17 @@ export default {
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerLinks.airSterilizerGP'),
         img: require('@/assets/toolsAndEquipment/air-sterilizer-GP.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/sterilization/air-sterilizer/sterilizatory-vozdushnye-gp-160bd-gp-640-bd-gp-1300-bd`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerLinks.airSterilizerSpu'),
         img: require('@/assets/toolsAndEquipment/air-sterilizer-spu.png'),
-        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/sterilization`
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/sterilization/air-sterilizer/sterilizatory-vozdushnye-gp-20-spu-gp-40-spu-gp-80-spu`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerLinks.sterilizationCabinet'),
         img: require('@/assets/toolsAndEquipment/sterilization-cabinet.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/sterilization/air-sterilizer/shkaf-sushilno-sterilizatsionnyi-shs-80`
       },
     ])
 

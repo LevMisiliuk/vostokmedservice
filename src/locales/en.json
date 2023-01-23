@@ -977,6 +977,42 @@
             "airSterilizerUkraineData11": "Service"
           }
         },
+				"airSterilizerGP": {
+					"table": {
+						"first": "Conditional chamber volume, liter",
+						"second": "160",
+            "third": "160"
+					},
+					"airSterilizerGpData1": "Chamber dimensions, (w, h, d), mm",
+					"airSterilizerGpData2": "Set temperature mode, °C",
+					"airSterilizerGpData3": "Set dwell time, min",
+					"airSterilizerGpData4": "Heating time to 200 °C, min",
+					"airSterilizerGpData5": "Temperature deviation by chamber volume from the set value, °С",
+					"airSterilizerGpData6": "Supply voltage, V",
+					"airSterilizerGpData7": "Power consumption, kW",
+					"airSterilizerGpData8": "Overall dimensions, (w, h, d), mm",
+					"airSterilizerGpData9": "Weight, kg",
+					"airSterilizerGpData10": "Number of loading boxes, pcs.",
+					"airSterilizerGpData11": "Service",
+					"text1": "Air sterilizers are designed for sterilization, drying and disinfection of various medical instruments and materials.",
+          "text2": "They are produced in two versions: without cooling (2 sterilization cycles per work shift) and with additional forced cooling (4 sterilization cycles per work shift).",
+          "text3": "The peculiarity of the sterilizers in the version with forced cooling is the presence of an effective system of forced cooling, which eliminates the use of cold air to the sterilized material and bactericidal filters, which cuts the sterilization time almost in half. The cooling time of the loaded sterilizer with forced cooling to +60°C is no more than 30 min.",
+          "text4": "Application field: Used in medical and preventive institutions, dental clinics, pharmacies, etc. They can be used in chemical industry and other branches of industry and in household establishments. The sterilizers can be completed with a floor stand.",
+          "text5": "Advantages:",
+          "text6": "- Automatic regulation and maintenance of temperature;",
+          "text7": "- Automatic countdown and indication of set time intervals;",
+          "text8": "- Uniform temperature distribution throughout the volume of the chamber;",
+          "text9": "- forced cooling via additional cooling circuit;",
+          "text10": "- door handle ensures easy and reliable closing;",
+          "text11": "- High reliability is ensured by testing all products under high temperature and vibration conditions and by careful selection of imported components;",
+          "text12": "- modern design;",
+          "text13": "- low power consumption;",
+          "text14": "- high performance;",
+          "text15": "- overheat protection device."
+				},
+				"sterilizationCabinet": {
+          "title": "SHS-80 is designed for drying, air sterilization and disinfection of glass and metal utensils, heat-resistant syringes, surgical and other instruments. The cabinet is used in hospitals, polyclinics, pharmacies, institutes and other medical institutions. The drying chamber of the cabinet and the trays are made of stainless steel."
+        },
 				"electricSterilizersLinks": {
 					"electricSterilizers420": "ELECTRIC STERILIZER 420 E (BOILERS)",
 					"electricSterilizers320": "320 E ELECTRIC STERILIZER (BOILERS)"

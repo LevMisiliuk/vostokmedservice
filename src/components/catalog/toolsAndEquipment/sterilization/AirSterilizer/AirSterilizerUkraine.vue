@@ -10,7 +10,7 @@
           >{{$t('main.carts.toolsAndEquipment.title')}}</el-breadcrumb-item
         >
         <el-breadcrumb-item>
-          <a>{{$t('main.carts.toolsAndEquipment.airSterilizerLinks.airSterilizerNotPassable')}}</a>
+          <a>{{$t('main.carts.toolsAndEquipment.airSterilizerLinks.airSterilizerUkraine')}}</a>
         </el-breadcrumb-item>
       </el-breadcrumb>
 
@@ -18,10 +18,10 @@
         <LeftLinksMenu />
         <div class="air-sterilizer-ukraine__card">
           <ProductInfoCard
-            :image="airSterilizerNotpassableData[0].image"
-            :title="airSterilizerNotpassableData[0].title"
-            :subtitle="airSterilizerNotpassableData[0].subtitle"
-            :productsParams="airSterilizerNotpassableData[0].productsParams"
+            :image="AirSterilizerUkraineData[0].image"
+            :title="AirSterilizerUkraineData[0].title"
+            :subtitle="AirSterilizerUkraineData[0].subtitle"
+            :productsParams="AirSterilizerUkraineData[0].productsParams"
           />
           <el-table
             :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
@@ -122,12 +122,12 @@ export default {
       },
       {
         first: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerUkraine.airSterilizerUkraineData.airSterilizerUkraineData11'),
-        second: 'one-store',
-        third: 'one-store',
-        fourth: 'one-store'
+        second: 'one-side',
+        third: 'one-side',
+        fourth: 'one-side'
       },
     ])
-    const airSterilizerNotpassableData = computed(() => [
+    const AirSterilizerUkraineData = computed(() => [
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerLinks.airSterilizerUkraine'),
         subtitle: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerUkraine.airSterilizerUkraineData.title'),
@@ -162,7 +162,7 @@ export default {
       }
     ])
     return {
-      airSterilizerNotpassableData,
+      AirSterilizerUkraineData,
       tableData
     }
   }
