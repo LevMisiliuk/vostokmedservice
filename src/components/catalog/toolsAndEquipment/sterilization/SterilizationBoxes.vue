@@ -31,7 +31,7 @@ export default {
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.sterilizationBoxesLinks.sterilizationBoxesRound'),
         img: require('@/assets/toolsAndEquipment/sterilization-boxes-round.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/sterilization/boxes-sterilization-round/boxes-sterilization-round`
       },
     ])
 

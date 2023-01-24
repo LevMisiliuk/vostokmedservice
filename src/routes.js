@@ -68,6 +68,9 @@ import AirSterilizerUkraine from '@/components/catalog/toolsAndEquipment/sterili
 import AirSterilizerBD from '@/components/catalog/toolsAndEquipment/sterilization/AirSterilizer/AirSterilizerBD.vue'
 import AirSterilizerSpu from '@/components/catalog/toolsAndEquipment/sterilization/AirSterilizer/AirSterilizerSpu.vue'
 import SterilizationCabinet from '@/components/catalog/toolsAndEquipment/sterilization/AirSterilizer/SterilizationCabinet.vue'
+import ElectricSterilizersFirst from '@/components/catalog/toolsAndEquipment/sterilization/ElectricSterilizers/ElectricSterilizersFirst.vue'
+import ElectricSterilizersSecond from '@/components/catalog/toolsAndEquipment/sterilization/ElectricSterilizers/ElectricSterilizersSecond.vue'
+import SterilizationBoxesRound from '@/components/catalog/toolsAndEquipment/sterilization/SterilizationBoxes/SterilizationBoxesRound.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -183,7 +186,10 @@ export default createRouter({
         { path: 'catalog/tools-and-equipment/sterilization/air-sterilizer/sterilizatory-vozdushnye-gp-20-spu-gp-40-spu-gp-80-spu', component: AirSterilizerSpu },
         { path: 'catalog/tools-and-equipment/sterilization/air-sterilizer/shkaf-sushilno-sterilizatsionnyi-shs-80', component: SterilizationCabinet },
         { path: 'catalog/tools-and-equipment/sterilization/electric-sterilizer/', component: ElectricSterilizers },
+        { path: 'catalog/tools-and-equipment/sterilization/electric-sterilizer/sterilizator-elektricheskii-420-e-kipyatilnik', component: ElectricSterilizersFirst },
+        { path: 'catalog/tools-and-equipment/sterilization/electric-sterilizer/sterilizator-elektricheskii-320-e-kipyatilnik', component: ElectricSterilizersSecond },
         { path: 'catalog/tools-and-equipment/sterilization/boxes-sterilization-round/', component: SterilizationBoxes },
+        { path: 'catalog/tools-and-equipment/sterilization/boxes-sterilization-round/boxes-sterilization-round', component: SterilizationBoxesRound },
         { path: 'catalog/tools-and-equipment/sterilization/reflectors-bactericidal/', component: BactericidalIrradiators },
         { path: 'catalog/tools-and-equipment/sterilization/camera-paroformalinovaya/', component: FormalinChambers },
         { path: 'catalog/tools-and-equipment/operational-equipment', component: EquipmentScreen },

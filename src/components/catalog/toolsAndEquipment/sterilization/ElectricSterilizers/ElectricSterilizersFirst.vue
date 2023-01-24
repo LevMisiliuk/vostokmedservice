@@ -1,5 +1,5 @@
 <template>
-  <div class="sterilization-cabinet">
+  <div class="electric-sterilizers-first">
     <div class="container">
       <MainHeader />
       <el-breadcrumb class="breadcrumb" separator="/">
@@ -10,18 +10,18 @@
           >{{$t('main.carts.toolsAndEquipment.title')}}</el-breadcrumb-item
         >
         <el-breadcrumb-item>
-          <a>{{$t('main.carts.toolsAndEquipment.airSterilizerLinks.sterilizationCabinet')}}</a>
+          <a>{{$t('main.carts.toolsAndEquipment.electricSterilizersLinks.electricSterilizers420')}}</a>
         </el-breadcrumb-item>
       </el-breadcrumb>
 
-      <div class="sterilization-cabinet__inner">
+      <div class="electric-sterilizers-first__inner">
         <LeftLinksMenu />
-        <div class="sterilization-cabinet__card">
+        <div class="electric-sterilizers-first__card">
           <ProductInfoCard
-            :image="sterilizationCabinetData[0].image"
-            :title="sterilizationCabinetData[0].title"
-            :subtitle="sterilizationCabinetData[0].subtitle"
-            :productsParams="sterilizationCabinetData[0].productsParams"
+            :image="electricSterilizersFirstData[0].image"
+            :title="electricSterilizersFirstData[0].title"
+            :subtitle="electricSterilizersFirstData[0].subtitle"
+            :productsParams="electricSterilizersFirstData[0].productsParams"
           />
         </div>
       </div>
@@ -36,24 +36,24 @@ import i18n from '@/i18n'
 
 export default {
   setup() {
-    const sterilizationCabinetData = computed(() => [
+    const electricSterilizersFirstData = computed(() => [
       {
-        title: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerLinks.sterilizationCabinet'),
-        subtitle: i18n.global.t('main.carts.toolsAndEquipment.sterilizationCabinet.title'),
-        image: require('@/assets/toolsAndEquipment/sterilization-cabinet.png'),
+        title: i18n.global.t('main.carts.toolsAndEquipment.electricSterilizersLinks.electricSterilizers420'),
+        subtitle: '',
+        image: require('@/assets/toolsAndEquipment/electric-sterilizers-420.png'),
         productsParams: [
         ]
       }
     ])
     return {
-      sterilizationCabinetData,
+      electricSterilizersFirstData,
     }
   }
 }
 </script>
 
 <style lang="scss">
-.sterilization-cabinet {
+.electric-sterilizers-first {
   &__inner {
     width: 100%;
     display: flex;

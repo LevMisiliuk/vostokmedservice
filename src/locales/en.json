@@ -1017,6 +1017,21 @@
 					"electricSterilizers420": "ELECTRIC STERILIZER 420 E (BOILERS)",
 					"electricSterilizers320": "320 E ELECTRIC STERILIZER (BOILERS)"
 				},
+				"electricSterilizers": {
+          "electricSterilizers320": {
+						"text1": "The sterilizer is designed for use in hospitals, clinics and laboratories to sterilize small instruments, utensils, containers and some other medical devices.",
+            "text2": "The heating element is a 1000 W electric heating tube installed in the middle of the lower part of the housing. When current flows through the tube, it heats and provides water heating at a high kcd level. It is possible to set the duration of the sterilization. After the set time has elapsed, the power supply is automatically cut off.",
+            "text3": "It is recommended to use treated water such as sterilized, deionized or boiled. This will avoid damage to the appliance through the formation of scale. Under normal conditions (at a boiling temperature of 100 C and atmospheric pressure of 760 mmHg) the standard duration of the sterilization procedure is 20-30 minutes, which ensures the destruction of the prevailing number of microbes."
+          }
+        },
+				"sterilizationBoxes": {
+          "sterilizationBoxesRound": {
+            "text1": "The boxes are designed for sterilization in steam sterilizers, storage and delivery to the place of use of dressing material, surgical linen, heat-resistant syringes, surgical and other medical items.",
+            "text2": "The boxes provide sterility of materials for at least 3 days.",
+            "text3": "They are made of stainless steel. The boxes are used in clinics, hospitals and other medical institutions.",
+            "text4": "Specifications: Volume, cubic dm - from 3 to 18"        
+          }
+        },
 				"sterilizationBoxesLinks": {
 					"sterilizationBoxesRound": "ROUND STERILIZATION BOXES"
 				},
