@@ -71,6 +71,8 @@ import SterilizationCabinet from '@/components/catalog/toolsAndEquipment/sterili
 import ElectricSterilizersFirst from '@/components/catalog/toolsAndEquipment/sterilization/ElectricSterilizers/ElectricSterilizersFirst.vue'
 import ElectricSterilizersSecond from '@/components/catalog/toolsAndEquipment/sterilization/ElectricSterilizers/ElectricSterilizersSecond.vue'
 import SterilizationBoxesRound from '@/components/catalog/toolsAndEquipment/sterilization/SterilizationBoxes/SterilizationBoxesRound.vue'
+import CorticalScrews from '@/components/catalog/traumatology/ao-screws/cortical-screws/CorticalScrews.vue'
+import ThreadResistantScrews from '@/components/catalog/traumatology/ao-screws/thread-resistant-screws/ThreadResistantScrews.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -143,6 +145,14 @@ export default createRouter({
         {
           path: 'catalog/traumatology/ao-screws/micro-screws/sponge-screw',
           component: SpongeScrews
+        },
+        {
+          path: 'catalog/traumatology/ao-screws/micro-screws/cortical-screw',
+          component: CorticalScrews
+        },
+        {
+          path: 'catalog/traumatology/ao-screws/micro-screws/thread-resistance-screw',
+          component: ThreadResistantScrews
         },
         { path: '404', component: NotFound },
         {

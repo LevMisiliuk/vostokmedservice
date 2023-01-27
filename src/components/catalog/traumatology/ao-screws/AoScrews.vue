@@ -67,14 +67,14 @@ export default {
           'main.carts.traumatology.links.corticalScrews'
         ),
         img: require('@/assets/traumatology/cortical-screws.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/traumatology/ao-screws/micro-screws/cortical-screw`
       },
       {
         title: i18n.global.t(
           'main.carts.traumatology.links.threadResistantScrews'
         ),
         img: require('@/assets/traumatology/screws-thread-stable.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/traumatology/ao-screws/micro-screws/thread-resistance-screw`
       },
       {
         title: i18n.global.t(
