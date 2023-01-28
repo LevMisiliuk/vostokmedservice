@@ -1159,6 +1159,15 @@
           "formalinChamberBig": "КАМЕРА ПАРОФОРМАЛИНОВАЯ КХИ БОЛЬШАЯ",
 					"formalinChamberSmall": "КАМЕРА ПАРОФОРМАЛИНОВАЯ КХИ МАЛАЯ"
         },
+				"formalinChamberBig": {
+          "title": "Камера предназначен для стерилизации и хранения (транспортирования) медицинских дрелей, пил и другого инструмента. Стерилизация осуществляется в парах параформа или жидкого формалина. Камера изготавливается из алюминиевого сплава и органического стекла с зажимом для пилы или дрели и другого хирургического инструмента.",
+          "formalinChamberBigData1": "Длина, мм:",
+					"formalinChamberBigData2": "Ширина, мм:",
+					"formalinChamberBigData3": "Высота, мм:",
+					"formalinChamberBigData4": "Масса, кг:",
+					"formalinChamberBigData5": "Вместимость по весу инструмента, кг:",
+					"formalinChamberBigData6": "не более 24"
+        },
         "bactericidalIrradiatorsLinks": {
           "bactericidalIrradiator1Lamp": "ОБЛУЧАТЕЛЬ БАКТЕРИЦИДНЫЙ 1-ЛАМПОВЫЙ ОБН-75",
 					"bactericidalIrradiator2Lamp150M": "ОБЛУЧАТЕЛЬ БАКТЕРИЦИДНЫЙ 2-ЛАМПОВЫЙ ОБН-150М",

@@ -1163,6 +1163,15 @@
           "formalinChamberBig": "STEAM FORMALIN KHI BIG CHAMBER",
 					"formalinChamberSmall": "KHI SMALL STEAM FORMALIN CHAMBER"
         },
+				"formalinChamberBig": {
+          "title": "The chamber is designed for sterilization and storage (transportation) of medical drills, saws and other tools. Sterilization is carried out in vapor of paraform or liquid formalin. The chamber is made of aluminum alloy and organic glass with a clamp for a saw or drill and other surgical instruments.",
+          "formalinChamberBigData1": "Length, mm:",
+					"formalinChamberBigData2": "Width, mm:",
+					"formalinChamberBigData3": "Height, mm:",
+					"formalinChamberBigData4": "Weight, kg:",
+					"formalinChamberBigData5": "Capacity by weight of the tool, kg:",
+					"formalinChamberBigData6": "no more than 24"
+        },
         "bactericidalIrradiatorsLinks": {
           "bactericidalIrradiator1Lamp": "BACTERICIDAL 1-LAMP IRRADIATOR OBN-75",
 					"bactericidalIrradiator2Lamp150M": "2-LAMP GERMICIDAL IRRADIATOR OBN-150M",

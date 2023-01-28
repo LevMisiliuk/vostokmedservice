@@ -73,6 +73,7 @@ import ElectricSterilizersSecond from '@/components/catalog/toolsAndEquipment/st
 import SterilizationBoxesRound from '@/components/catalog/toolsAndEquipment/sterilization/SterilizationBoxes/SterilizationBoxesRound.vue'
 import CorticalScrews from '@/components/catalog/traumatology/ao-screws/cortical-screws/CorticalScrews.vue'
 import ThreadResistantScrews from '@/components/catalog/traumatology/ao-screws/thread-resistant-screws/ThreadResistantScrews.vue'
+import FormalinChamberBig from '@/components/catalog/toolsAndEquipment/sterilization/FormalinChambers/FormalinChamberBig'
 
 export default createRouter({
   history: createWebHistory(),
@@ -202,6 +203,7 @@ export default createRouter({
         { path: 'catalog/tools-and-equipment/sterilization/boxes-sterilization-round/boxes-sterilization-round', component: SterilizationBoxesRound },
         { path: 'catalog/tools-and-equipment/sterilization/reflectors-bactericidal/', component: BactericidalIrradiators },
         { path: 'catalog/tools-and-equipment/sterilization/camera-paroformalinovaya/', component: FormalinChambers },
+        { path: 'catalog/tools-and-equipment/sterilization/camera-paroformalinovaya/kamera-paroformalinovaya-kkhi-dlya-sterilizatsii-medizdelii-i-instrumenta-bolshaya', component: FormalinChamberBig },
         { path: 'catalog/tools-and-equipment/operational-equipment', component: EquipmentScreen },
         { path: 'catalog/tools-and-equipment/operational-equipment/suction/', component: SuctionUnits },
         { path: 'catalog/tools-and-equipment/operational-equipment/koagulyatory/', component: CoagulatorsScreen },
