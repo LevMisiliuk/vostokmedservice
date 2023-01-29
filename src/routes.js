@@ -74,6 +74,12 @@ import SterilizationBoxesRound from '@/components/catalog/toolsAndEquipment/ster
 import CorticalScrews from '@/components/catalog/traumatology/ao-screws/cortical-screws/CorticalScrews.vue'
 import ThreadResistantScrews from '@/components/catalog/traumatology/ao-screws/thread-resistant-screws/ThreadResistantScrews.vue'
 import FormalinChamberBig from '@/components/catalog/toolsAndEquipment/sterilization/FormalinChambers/FormalinChamberBig'
+import FormalinChamberSmall from '@/components/catalog/toolsAndEquipment/sterilization/FormalinChambers/FormalinChamberSmall'
+import BactericidalIrradiator1Lamp from '@/components/catalog/toolsAndEquipment/sterilization/BactericidalIrradiators/BactericidalIrradiator1Lamp.vue'
+import BactericidalIrradiator2Lamp150M from '@/components/catalog/toolsAndEquipment/sterilization/BactericidalIrradiators/BactericidalIrradiator2Lamp150M.vue'
+import BactericidalIrradiator2Lamp150MP from '@/components/catalog/toolsAndEquipment/sterilization/BactericidalIrradiators/BactericidalIrradiator2Lamp150MP.vue'
+import BactericidalIrradiator4Lamp300M from '@/components/catalog/toolsAndEquipment/sterilization/BactericidalIrradiators/BactericidalIrradiator4Lamp300M.vue'
+import BactericidalIrradiator3Lamp225M from '@/components/catalog/toolsAndEquipment/sterilization/BactericidalIrradiators/BactericidalIrradiator3Lamp225M.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -202,7 +208,13 @@ export default createRouter({
         { path: 'catalog/tools-and-equipment/sterilization/boxes-sterilization-round/', component: SterilizationBoxes },
         { path: 'catalog/tools-and-equipment/sterilization/boxes-sterilization-round/boxes-sterilization-round', component: SterilizationBoxesRound },
         { path: 'catalog/tools-and-equipment/sterilization/reflectors-bactericidal/', component: BactericidalIrradiators },
+        { path: 'catalog/tools-and-equipment/sterilization/reflectors-bactericidal/obluchatel-bakteritsidnyi-3-lampovyi-peredvizhnoi-obpe-225m', component: BactericidalIrradiator3Lamp225M },
+        { path: 'catalog/tools-and-equipment/sterilization/reflectors-bactericidal/obluchatel-bakteritsidnyi-4-lampovyi-obn-300m', component: BactericidalIrradiator4Lamp300M },
+        { path: 'catalog/tools-and-equipment/sterilization/reflectors-bactericidal/obluchatel-bakteritsidnyi-2-lampovyi-obn-150mp', component: BactericidalIrradiator2Lamp150MP },
+        { path: 'catalog/tools-and-equipment/sterilization/reflectors-bactericidal/reflectors_bactericidal/obluchatel-bakteritsidnyi-2-lampovyi-obn-150m', component: BactericidalIrradiator2Lamp150M },
+        { path: 'catalog/tools-and-equipment/sterilization/reflectors-bactericidal/obluchatel-bakteritsidnyi-1-lampovyi-obn-75', component: BactericidalIrradiator1Lamp },
         { path: 'catalog/tools-and-equipment/sterilization/camera-paroformalinovaya/', component: FormalinChambers },
+        { path: 'catalog/tools-and-equipment/sterilization/camera-paroformalinovaya/kamera-paroformalinovaya-kkhi-dlya-sterilizatsii-medizdelii-i-instrumenta-malaya', component: FormalinChamberSmall },
         { path: 'catalog/tools-and-equipment/sterilization/camera-paroformalinovaya/kamera-paroformalinovaya-kkhi-dlya-sterilizatsii-medizdelii-i-instrumenta-bolshaya', component: FormalinChamberBig },
         { path: 'catalog/tools-and-equipment/operational-equipment', component: EquipmentScreen },
         { path: 'catalog/tools-and-equipment/operational-equipment/suction/', component: SuctionUnits },

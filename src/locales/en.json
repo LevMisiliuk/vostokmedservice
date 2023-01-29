@@ -1172,6 +1172,15 @@
 					"formalinChamberBigData5": "Capacity by weight of the tool, kg:",
 					"formalinChamberBigData6": "no more than 24"
         },
+				"formalinChamberSmall": {
+          "title": "The chamber is designed for sterilization and storage (transportation) of medical drills, saws and other tools. Sterilization is carried out in vapor of paraform or liquid formalin. The chamber is made of aluminum alloy and organic glass with a clamp for a saw or drill and other surgical instruments.",
+          "formalinChamberSmallData1": "Length, mm:",
+					"formalinChamberSmallData2": "Width, mm:",
+					"formalinChamberSmallData3": "Height, mm:",
+					"formalinChamberSmallData4": "Weight, kg:",
+					"formalinChamberSmallData5": "Capacity by weight of the tool, kg:",
+					"formalinChamberSmallData6": "no more than 8"
+        },
         "bactericidalIrradiatorsLinks": {
           "bactericidalIrradiator1Lamp": "BACTERICIDAL 1-LAMP IRRADIATOR OBN-75",
 					"bactericidalIrradiator2Lamp150M": "2-LAMP GERMICIDAL IRRADIATOR OBN-150M",

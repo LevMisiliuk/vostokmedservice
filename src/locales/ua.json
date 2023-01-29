@@ -1170,6 +1170,15 @@
 					"formalinChamberBigData5": "Місткість за вагою інструменту, кг:",
           "formalinChamberBigData6": "не більше 24"
         },
+        "formalinChamberSmall": {
+          "title": "Камера призначена для стерилізації та зберігання (транспортування) медичних дрилів, пилок та іншого інструменту. Стерилізація здійснюється в парах параформу або рідкого формаліну. Камера виготовляється з алюмінієвого сплаву та органічного скла із затискачем для пилки або дрилі та іншого хірургічного інструменту.",
+          "formalinChamberSmallData1": "Довжина, мм:",
+          "formalinChamberSmallData2": "Ширина, мм:",
+					"formalinChamberSmallData3": "Висота, мм:",
+					"formalinChamberSmallData4": "Маса, кг:",
+					"formalinChamberSmallData5": "Місткість за вагою інструменту, кг:",
+          "formalinChamberSmallData6": "не більше 8"
+        },
         "bactericidalIrradiatorsLinks": {
           "bactericidalIrradiator1Lamp": "ОПРОМІНЮВАЧ БАКТЕРИЦИДНИЙ 1-ЛАМПОВИЙ ОБН-75",
           "bactericidalIrradiator2Lamp150M": "ОПРОМІНЮВАЧ БАКТЕРИЦИДНИЙ 2-ЛАМПОВИЙ ОБН-150М",

@@ -10,7 +10,7 @@
           >{{$t('main.carts.toolsAndEquipment.title')}}</el-breadcrumb-item
         >
         <el-breadcrumb-item>
-          <a>{{$t('main.carts.toolsAndEquipment.electricSterilizersLinks.electricSterilizers320')}}</a>
+          <a>{{$t('main.carts.toolsAndEquipment.formalinChambersLinks.formalinChamberBig')}}</a>
         </el-breadcrumb-item>
       </el-breadcrumb>
 
@@ -18,10 +18,10 @@
         <LeftLinksMenu />
         <div class="formalin-chamber-big__card">
           <ProductInfoCard
-            :image="electricSterilizersSecondData[0].image"
-            :title="electricSterilizersSecondData[0].title"
-            :subtitle="electricSterilizersSecondData[0].subtitle"
-            :productsParams="electricSterilizersSecondData[0].productsParams"
+            :image="formalinChamberBigData[0].image"
+            :title="formalinChamberBigData[0].title"
+            :subtitle="formalinChamberBigData[0].subtitle"
+            :productsParams="formalinChamberBigData[0].productsParams"
           />
         </div>
       </div>
@@ -36,7 +36,7 @@ import i18n from '@/i18n'
 
 export default {
   setup() {
-    const electricSterilizersSecondData = computed(() => [
+    const formalinChamberBigData = computed(() => [
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.formalinChambersLinks.formalinChamberBig'),
         subtitle: i18n.global.t('main.carts.toolsAndEquipment.formalinChamberBig.title'),
@@ -71,7 +71,7 @@ export default {
       }
     ])
     return {
-      electricSterilizersSecondData,
+      formalinChamberBigData,
     }
   }
 }
