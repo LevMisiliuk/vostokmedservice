@@ -81,6 +81,12 @@ import BactericidalIrradiator2Lamp150MP from '@/components/catalog/toolsAndEquip
 import BactericidalIrradiator4Lamp300M from '@/components/catalog/toolsAndEquipment/sterilization/BactericidalIrradiators/BactericidalIrradiator4Lamp300M.vue'
 import BactericidalIrradiator3Lamp225M from '@/components/catalog/toolsAndEquipment/sterilization/BactericidalIrradiators/BactericidalIrradiator3Lamp225M.vue'
 import ElectricOneScreen from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/ElectricOneScreen.vue'
+import ElectricSecondScreen from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/ElectricSecondScreen.vue'
+import ElectricThirdScreen from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/ElectricThirdScreen.vue'
+import ChildrenOne from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/ChildrenOne.vue'
+import UniversalOne from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/UniversalOne.vue'
+import PedalOne from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/PedalOne.vue'
+import SurgicalElema from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/SurgicalElema.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -220,6 +226,12 @@ export default createRouter({
         { path: 'catalog/tools-and-equipment/operational-equipment', component: EquipmentScreen },
         { path: 'catalog/tools-and-equipment/operational-equipment/suction/', component: SuctionUnits },
         { path: 'catalog/tools-and-equipment/operational-equipment/suction/elektricheskii-model-7a-23v', component: ElectricOneScreen },
+        { path: 'catalog/tools-and-equipment/operational-equipment/suction/otsasyvatel-meditsinskii-elektricheskii-model-7a-23d', component: ElectricSecondScreen },
+        { path: 'catalog/tools-and-equipment/operational-equipment/suction/elektricheskii-model-7s-dlya-iskusstvennogo-aborta', component: ElectricThirdScreen },
+        { path: 'catalog/tools-and-equipment/operational-equipment/suction/detskii-model-7e-b', component: ChildrenOne },
+        { path: 'catalog/tools-and-equipment/operational-equipment/suction/universalnyi-model-7e-d', component: UniversalOne },
+        { path: 'catalog/tools-and-equipment/operational-equipment/suction/pedalnyi-model-7v', component: PedalOne },
+        { path: 'catalog/tools-and-equipment/operational-equipment/suction/khirurgicheskii-elema-n-am1m', component: SurgicalElema },
         { path: 'catalog/tools-and-equipment/operational-equipment/koagulyatory/', component: CoagulatorsScreen },
         { path: 'catalog/tools-and-equipment/operational-equipment/fixtures/', component: LightsScreen },
         { path: 'catalog/tools-and-equipment/operational-equipment/operating-tables/', component: OperatingTables },
