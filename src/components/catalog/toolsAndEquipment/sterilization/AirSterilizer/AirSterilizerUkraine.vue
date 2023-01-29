@@ -54,12 +54,12 @@
 </template>
 
 <script>
-import { computed, ref } from 'vue'
+import { computed } from 'vue'
 import i18n from '@/i18n'
 
 export default {
   setup() {
-    const tableData = ref([
+    const tableData = computed(() => [
       {
         first: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerUkraine.airSterilizerUkraineData.airSterilizerUkraineData1'),
         second: '220х300х300',

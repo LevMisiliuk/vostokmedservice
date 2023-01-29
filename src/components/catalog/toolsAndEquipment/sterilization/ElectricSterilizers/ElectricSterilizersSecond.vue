@@ -44,12 +44,12 @@
 </template>
 
 <script>
-import { computed, ref } from 'vue'
+import { computed } from 'vue'
 import i18n from '@/i18n'
 
 export default {
   setup() {
-    const textData = ref([
+    const textData = computed(() => [
       {
         id: 1,
         data: i18n.global.t('main.carts.toolsAndEquipment.electricSterilizers.electricSterilizers320.text1'),

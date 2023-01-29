@@ -80,6 +80,7 @@ import BactericidalIrradiator2Lamp150M from '@/components/catalog/toolsAndEquipm
 import BactericidalIrradiator2Lamp150MP from '@/components/catalog/toolsAndEquipment/sterilization/BactericidalIrradiators/BactericidalIrradiator2Lamp150MP.vue'
 import BactericidalIrradiator4Lamp300M from '@/components/catalog/toolsAndEquipment/sterilization/BactericidalIrradiators/BactericidalIrradiator4Lamp300M.vue'
 import BactericidalIrradiator3Lamp225M from '@/components/catalog/toolsAndEquipment/sterilization/BactericidalIrradiators/BactericidalIrradiator3Lamp225M.vue'
+import ElectricOneScreen from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/ElectricOneScreen.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -218,6 +219,7 @@ export default createRouter({
         { path: 'catalog/tools-and-equipment/sterilization/camera-paroformalinovaya/kamera-paroformalinovaya-kkhi-dlya-sterilizatsii-medizdelii-i-instrumenta-bolshaya', component: FormalinChamberBig },
         { path: 'catalog/tools-and-equipment/operational-equipment', component: EquipmentScreen },
         { path: 'catalog/tools-and-equipment/operational-equipment/suction/', component: SuctionUnits },
+        { path: 'catalog/tools-and-equipment/operational-equipment/suction/elektricheskii-model-7a-23v', component: ElectricOneScreen },
         { path: 'catalog/tools-and-equipment/operational-equipment/koagulyatory/', component: CoagulatorsScreen },
         { path: 'catalog/tools-and-equipment/operational-equipment/fixtures/', component: LightsScreen },
         { path: 'catalog/tools-and-equipment/operational-equipment/operating-tables/', component: OperatingTables },

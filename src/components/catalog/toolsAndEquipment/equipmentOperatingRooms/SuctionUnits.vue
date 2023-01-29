@@ -31,7 +31,7 @@ export default {
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.equipmentOperatingRooms.links.electric7a23v'),
         img: require('@/assets/toolsAndEquipment/equipmentOperatingRooms/electric-7a23v.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/operational-equipment/suction/elektricheskii-model-7a-23v`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.equipmentOperatingRooms.links.electric7a23d'),
