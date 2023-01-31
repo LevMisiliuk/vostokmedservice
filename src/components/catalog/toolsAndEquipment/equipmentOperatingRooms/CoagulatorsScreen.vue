@@ -31,7 +31,7 @@ export default {
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.equipmentOperatingRooms.links.coagulator'),
         img: require('@/assets/toolsAndEquipment/equipmentOperatingRooms/coagulator.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/operational-equipment/koagulyatory/coagulator`
       },
     ])
 

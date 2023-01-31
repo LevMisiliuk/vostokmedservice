@@ -87,6 +87,7 @@ import ChildrenOne from '@/components/catalog/toolsAndEquipment/equipmentOperati
 import UniversalOne from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/UniversalOne.vue'
 import PedalOne from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/PedalOne.vue'
 import SurgicalElema from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/SurgicalElema.vue'
+import CoagulatorPage from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/Coagulator/CoagulatorPage.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -233,6 +234,7 @@ export default createRouter({
         { path: 'catalog/tools-and-equipment/operational-equipment/suction/pedalnyi-model-7v', component: PedalOne },
         { path: 'catalog/tools-and-equipment/operational-equipment/suction/khirurgicheskii-elema-n-am1m', component: SurgicalElema },
         { path: 'catalog/tools-and-equipment/operational-equipment/koagulyatory/', component: CoagulatorsScreen },
+        { path: 'catalog/tools-and-equipment/operational-equipment/koagulyatory/coagulator', component: CoagulatorPage },
         { path: 'catalog/tools-and-equipment/operational-equipment/fixtures/', component: LightsScreen },
         { path: 'catalog/tools-and-equipment/operational-equipment/operating-tables/', component: OperatingTables },
         { path: 'catalog/tools-and-equipment/cardiology', component: CardiologyScreen },
