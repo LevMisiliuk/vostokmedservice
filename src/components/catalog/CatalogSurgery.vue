@@ -50,7 +50,7 @@ export default {
     const surgeryLinks = computed(() => [
       {
         name: i18n.global.t('main.carts.surgery.links.sutureMaterials'),
-        path: `/${i18n.global.locale.value}/404`
+        path: `/${i18n.global.locale.value}/catalog/surgery/suture-materials`
       },
       {
         name: i18n.global.t(

@@ -95,6 +95,7 @@ import LuminaireThird from '@/components/catalog/toolsAndEquipment/equipmentOper
 import LuminaireForth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireForth.vue'
 import LuminaireFfith from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireFfith.vue'
 import LuminaireSixth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireSixth.vue'
+import SutureMaterials from '@/components/catalog/surgery/suture-materials/SutureMaterials.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -111,6 +112,10 @@ export default createRouter({
         {
           path: 'catalog/surgery',
           component: CatalogSurgery
+        },
+        {
+          path: 'catalog/surgery/suture-materials',
+          component: SutureMaterials
         },
         {
           path: 'catalog/traumatology/intramedullary-pins',
