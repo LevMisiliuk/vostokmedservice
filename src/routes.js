@@ -88,6 +88,7 @@ import UniversalOne from '@/components/catalog/toolsAndEquipment/equipmentOperat
 import PedalOne from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/PedalOne.vue'
 import SurgicalElema from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/SurgicalElema.vue'
 import CoagulatorPage from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/Coagulator/CoagulatorPage.vue'
+import CatalogSurgery from '@/components/catalog/CatalogSurgery'
 
 export default createRouter({
   history: createWebHistory(),
@@ -101,6 +102,10 @@ export default createRouter({
         { path: 'education', component: EducationPage },
         { path: 'certificates', component: CertificatesPage },
         { path: 'contacts', component: ContactsPage },
+        {
+          path: 'catalog/surgery',
+          component: CatalogSurgery
+        },
         {
           path: 'catalog/traumatology/intramedullary-pins',
           component: IntramedullaryPinsPage
@@ -198,64 +203,226 @@ export default createRouter({
           path: 'catalog/traumatology/intramedullary-pins/hip-proximal-pins',
           component: HipProximalPinsPage
         },
-        { path: 'catalog/tools-and-equipment', component: ToolsAndEquipmentPage },
-        { path: 'catalog/tools-and-equipment/sterilization', component: SterilizationScreen },
-        { path: 'catalog/tools-and-equipment/sterilization/camera-panmed/', component: PanmedCamers },
-        { path: 'catalog/tools-and-equipment/sterilization/camera-panmed/uf-kamera-dlya-khraneniya-sterilnogo-large', component: UvCameraLarge },
-        { path: 'catalog/tools-and-equipment/sterilization/camera-panmed/uf-kamera-dlya-khraneniya-sterilnogo-medium', component: uvCameraMedium },
-        { path: 'catalog/tools-and-equipment/sterilization/camera-panmed/uf-kamera-dlya-khraneniya-sterilnogo-small', component: UvCameraSmall },
-        { path: 'catalog/tools-and-equipment/sterilization/air-sterilizer/', component: AirSterilizer },
-        { path: 'catalog/tools-and-equipment/sterilization/air-sterilizer/sterilizatory-vozdushnye-gp-320-bd-neprokhodnoi-gpd-320-prokhodnoi-usovershenstvovannye-analogi-shss-250p-i-shss-250pr', component: AirSterilizerNotpassable },
-        { path: 'catalog/tools-and-equipment/sterilization/air-sterilizer/sterilizatory-vozdushnye-gp-20-gp-40-gp-80-ukraina', component: AirSterilizerUkraine },
-        { path: 'catalog/tools-and-equipment/sterilization/air-sterilizer/sterilizatory-vozdushnye-gp-160bd-gp-640-bd-gp-1300-bd', component: AirSterilizerBD },
-        { path: 'catalog/tools-and-equipment/sterilization/air-sterilizer/sterilizatory-vozdushnye-gp-20-spu-gp-40-spu-gp-80-spu', component: AirSterilizerSpu },
-        { path: 'catalog/tools-and-equipment/sterilization/air-sterilizer/shkaf-sushilno-sterilizatsionnyi-shs-80', component: SterilizationCabinet },
-        { path: 'catalog/tools-and-equipment/sterilization/electric-sterilizer/', component: ElectricSterilizers },
-        { path: 'catalog/tools-and-equipment/sterilization/electric-sterilizer/sterilizator-elektricheskii-420-e-kipyatilnik', component: ElectricSterilizersFirst },
-        { path: 'catalog/tools-and-equipment/sterilization/electric-sterilizer/sterilizator-elektricheskii-320-e-kipyatilnik', component: ElectricSterilizersSecond },
-        { path: 'catalog/tools-and-equipment/sterilization/boxes-sterilization-round/', component: SterilizationBoxes },
-        { path: 'catalog/tools-and-equipment/sterilization/boxes-sterilization-round/boxes-sterilization-round', component: SterilizationBoxesRound },
-        { path: 'catalog/tools-and-equipment/sterilization/reflectors-bactericidal/', component: BactericidalIrradiators },
-        { path: 'catalog/tools-and-equipment/sterilization/reflectors-bactericidal/obluchatel-bakteritsidnyi-3-lampovyi-peredvizhnoi-obpe-225m', component: BactericidalIrradiator3Lamp225M },
-        { path: 'catalog/tools-and-equipment/sterilization/reflectors-bactericidal/obluchatel-bakteritsidnyi-4-lampovyi-obn-300m', component: BactericidalIrradiator4Lamp300M },
-        { path: 'catalog/tools-and-equipment/sterilization/reflectors-bactericidal/obluchatel-bakteritsidnyi-2-lampovyi-obn-150mp', component: BactericidalIrradiator2Lamp150MP },
-        { path: 'catalog/tools-and-equipment/sterilization/reflectors-bactericidal/reflectors_bactericidal/obluchatel-bakteritsidnyi-2-lampovyi-obn-150m', component: BactericidalIrradiator2Lamp150M },
-        { path: 'catalog/tools-and-equipment/sterilization/reflectors-bactericidal/obluchatel-bakteritsidnyi-1-lampovyi-obn-75', component: BactericidalIrradiator1Lamp },
-        { path: 'catalog/tools-and-equipment/sterilization/camera-paroformalinovaya/', component: FormalinChambers },
-        { path: 'catalog/tools-and-equipment/sterilization/camera-paroformalinovaya/kamera-paroformalinovaya-kkhi-dlya-sterilizatsii-medizdelii-i-instrumenta-malaya', component: FormalinChamberSmall },
-        { path: 'catalog/tools-and-equipment/sterilization/camera-paroformalinovaya/kamera-paroformalinovaya-kkhi-dlya-sterilizatsii-medizdelii-i-instrumenta-bolshaya', component: FormalinChamberBig },
-        { path: 'catalog/tools-and-equipment/operational-equipment', component: EquipmentScreen },
-        { path: 'catalog/tools-and-equipment/operational-equipment/suction/', component: SuctionUnits },
-        { path: 'catalog/tools-and-equipment/operational-equipment/suction/elektricheskii-model-7a-23v', component: ElectricOneScreen },
-        { path: 'catalog/tools-and-equipment/operational-equipment/suction/otsasyvatel-meditsinskii-elektricheskii-model-7a-23d', component: ElectricSecondScreen },
-        { path: 'catalog/tools-and-equipment/operational-equipment/suction/elektricheskii-model-7s-dlya-iskusstvennogo-aborta', component: ElectricThirdScreen },
-        { path: 'catalog/tools-and-equipment/operational-equipment/suction/detskii-model-7e-b', component: ChildrenOne },
-        { path: 'catalog/tools-and-equipment/operational-equipment/suction/universalnyi-model-7e-d', component: UniversalOne },
-        { path: 'catalog/tools-and-equipment/operational-equipment/suction/pedalnyi-model-7v', component: PedalOne },
-        { path: 'catalog/tools-and-equipment/operational-equipment/suction/khirurgicheskii-elema-n-am1m', component: SurgicalElema },
-        { path: 'catalog/tools-and-equipment/operational-equipment/koagulyatory/', component: CoagulatorsScreen },
-        { path: 'catalog/tools-and-equipment/operational-equipment/koagulyatory/coagulator', component: CoagulatorPage },
-        { path: 'catalog/tools-and-equipment/operational-equipment/fixtures/', component: LightsScreen },
-        { path: 'catalog/tools-and-equipment/operational-equipment/operating-tables/', component: OperatingTables },
-        { path: 'catalog/tools-and-equipment/cardiology', component: CardiologyScreen },
-        { path: 'catalog/tools-and-equipment/electrocardiograph', component: ElectroCardiographs },
-        { path: 'catalog/tools-and-equipment/medical-furniture', component: MedicalFurnitureScreen },
-        { path: 'catalog/tools-and-equipment/medical-furniture/medicine-cabinets', component: MedicalCabinets },
-        { path: 'catalog/tools-and-equipment/medical-furniture/table-surgical/', component: SurgicalTables },
-        { path: 'catalog/tools-and-equipment/medical-furniture/couches/', component: ChairsScreen },
-        { path: 'catalog/tools-and-equipment/medical-furniture/litters-medical/', component: MedicalStretcher },
-        { path: 'catalog/tools-and-equipment/medical-furniture/armchair-gynecological/', component: GynecologicalChairs },
-        { path: 'catalog/tools-and-equipment/inhalers-nebulizers', component: InhalersNebulizersScreen },
-        { path: 'catalog/tools-and-equipment/medical-instruments', component: MedicalInstrumentScreen },
+        {
+          path: 'catalog/tools-and-equipment',
+          component: ToolsAndEquipmentPage
+        },
+        {
+          path: 'catalog/tools-and-equipment/sterilization',
+          component: SterilizationScreen
+        },
+        {
+          path: 'catalog/tools-and-equipment/sterilization/camera-panmed/',
+          component: PanmedCamers
+        },
+        {
+          path: 'catalog/tools-and-equipment/sterilization/camera-panmed/uf-kamera-dlya-khraneniya-sterilnogo-large',
+          component: UvCameraLarge
+        },
+        {
+          path: 'catalog/tools-and-equipment/sterilization/camera-panmed/uf-kamera-dlya-khraneniya-sterilnogo-medium',
+          component: uvCameraMedium
+        },
+        {
+          path: 'catalog/tools-and-equipment/sterilization/camera-panmed/uf-kamera-dlya-khraneniya-sterilnogo-small',
+          component: UvCameraSmall
+        },
+        {
+          path: 'catalog/tools-and-equipment/sterilization/air-sterilizer/',
+          component: AirSterilizer
+        },
+        {
+          path: 'catalog/tools-and-equipment/sterilization/air-sterilizer/sterilizatory-vozdushnye-gp-320-bd-neprokhodnoi-gpd-320-prokhodnoi-usovershenstvovannye-analogi-shss-250p-i-shss-250pr',
+          component: AirSterilizerNotpassable
+        },
+        {
+          path: 'catalog/tools-and-equipment/sterilization/air-sterilizer/sterilizatory-vozdushnye-gp-20-gp-40-gp-80-ukraina',
+          component: AirSterilizerUkraine
+        },
+        {
+          path: 'catalog/tools-and-equipment/sterilization/air-sterilizer/sterilizatory-vozdushnye-gp-160bd-gp-640-bd-gp-1300-bd',
+          component: AirSterilizerBD
+        },
+        {
+          path: 'catalog/tools-and-equipment/sterilization/air-sterilizer/sterilizatory-vozdushnye-gp-20-spu-gp-40-spu-gp-80-spu',
+          component: AirSterilizerSpu
+        },
+        {
+          path: 'catalog/tools-and-equipment/sterilization/air-sterilizer/shkaf-sushilno-sterilizatsionnyi-shs-80',
+          component: SterilizationCabinet
+        },
+        {
+          path: 'catalog/tools-and-equipment/sterilization/electric-sterilizer/',
+          component: ElectricSterilizers
+        },
+        {
+          path: 'catalog/tools-and-equipment/sterilization/electric-sterilizer/sterilizator-elektricheskii-420-e-kipyatilnik',
+          component: ElectricSterilizersFirst
+        },
+        {
+          path: 'catalog/tools-and-equipment/sterilization/electric-sterilizer/sterilizator-elektricheskii-320-e-kipyatilnik',
+          component: ElectricSterilizersSecond
+        },
+        {
+          path: 'catalog/tools-and-equipment/sterilization/boxes-sterilization-round/',
+          component: SterilizationBoxes
+        },
+        {
+          path: 'catalog/tools-and-equipment/sterilization/boxes-sterilization-round/boxes-sterilization-round',
+          component: SterilizationBoxesRound
+        },
+        {
+          path: 'catalog/tools-and-equipment/sterilization/reflectors-bactericidal/',
+          component: BactericidalIrradiators
+        },
+        {
+          path: 'catalog/tools-and-equipment/sterilization/reflectors-bactericidal/obluchatel-bakteritsidnyi-3-lampovyi-peredvizhnoi-obpe-225m',
+          component: BactericidalIrradiator3Lamp225M
+        },
+        {
+          path: 'catalog/tools-and-equipment/sterilization/reflectors-bactericidal/obluchatel-bakteritsidnyi-4-lampovyi-obn-300m',
+          component: BactericidalIrradiator4Lamp300M
+        },
+        {
+          path: 'catalog/tools-and-equipment/sterilization/reflectors-bactericidal/obluchatel-bakteritsidnyi-2-lampovyi-obn-150mp',
+          component: BactericidalIrradiator2Lamp150MP
+        },
+        {
+          path: 'catalog/tools-and-equipment/sterilization/reflectors-bactericidal/reflectors_bactericidal/obluchatel-bakteritsidnyi-2-lampovyi-obn-150m',
+          component: BactericidalIrradiator2Lamp150M
+        },
+        {
+          path: 'catalog/tools-and-equipment/sterilization/reflectors-bactericidal/obluchatel-bakteritsidnyi-1-lampovyi-obn-75',
+          component: BactericidalIrradiator1Lamp
+        },
+        {
+          path: 'catalog/tools-and-equipment/sterilization/camera-paroformalinovaya/',
+          component: FormalinChambers
+        },
+        {
+          path: 'catalog/tools-and-equipment/sterilization/camera-paroformalinovaya/kamera-paroformalinovaya-kkhi-dlya-sterilizatsii-medizdelii-i-instrumenta-malaya',
+          component: FormalinChamberSmall
+        },
+        {
+          path: 'catalog/tools-and-equipment/sterilization/camera-paroformalinovaya/kamera-paroformalinovaya-kkhi-dlya-sterilizatsii-medizdelii-i-instrumenta-bolshaya',
+          component: FormalinChamberBig
+        },
+        {
+          path: 'catalog/tools-and-equipment/operational-equipment',
+          component: EquipmentScreen
+        },
+        {
+          path: 'catalog/tools-and-equipment/operational-equipment/suction/',
+          component: SuctionUnits
+        },
+        {
+          path: 'catalog/tools-and-equipment/operational-equipment/suction/elektricheskii-model-7a-23v',
+          component: ElectricOneScreen
+        },
+        {
+          path: 'catalog/tools-and-equipment/operational-equipment/suction/otsasyvatel-meditsinskii-elektricheskii-model-7a-23d',
+          component: ElectricSecondScreen
+        },
+        {
+          path: 'catalog/tools-and-equipment/operational-equipment/suction/elektricheskii-model-7s-dlya-iskusstvennogo-aborta',
+          component: ElectricThirdScreen
+        },
+        {
+          path: 'catalog/tools-and-equipment/operational-equipment/suction/detskii-model-7e-b',
+          component: ChildrenOne
+        },
+        {
+          path: 'catalog/tools-and-equipment/operational-equipment/suction/universalnyi-model-7e-d',
+          component: UniversalOne
+        },
+        {
+          path: 'catalog/tools-and-equipment/operational-equipment/suction/pedalnyi-model-7v',
+          component: PedalOne
+        },
+        {
+          path: 'catalog/tools-and-equipment/operational-equipment/suction/khirurgicheskii-elema-n-am1m',
+          component: SurgicalElema
+        },
+        {
+          path: 'catalog/tools-and-equipment/operational-equipment/koagulyatory/',
+          component: CoagulatorsScreen
+        },
+        {
+          path: 'catalog/tools-and-equipment/operational-equipment/koagulyatory/coagulator',
+          component: CoagulatorPage
+        },
+        {
+          path: 'catalog/tools-and-equipment/operational-equipment/fixtures/',
+          component: LightsScreen
+        },
+        {
+          path: 'catalog/tools-and-equipment/operational-equipment/operating-tables/',
+          component: OperatingTables
+        },
+        {
+          path: 'catalog/tools-and-equipment/cardiology',
+          component: CardiologyScreen
+        },
+        {
+          path: 'catalog/tools-and-equipment/electrocardiograph',
+          component: ElectroCardiographs
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture',
+          component: MedicalFurnitureScreen
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/medicine-cabinets',
+          component: MedicalCabinets
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/table-surgical/',
+          component: SurgicalTables
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/couches/',
+          component: ChairsScreen
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/litters-medical/',
+          component: MedicalStretcher
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/armchair-gynecological/',
+          component: GynecologicalChairs
+        },
+        {
+          path: 'catalog/tools-and-equipment/inhalers-nebulizers',
+          component: InhalersNebulizersScreen
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-instruments',
+          component: MedicalInstrumentScreen
+        },
         { path: 'catalog/neurosurgery', component: NeurosurgeryPage },
-        { path: 'catalog/neurosurgery/transpedikulyarnaya-fiksatsiya-pozvonochnika', component: TranspedicularFixationScreen },
+        {
+          path: 'catalog/neurosurgery/transpedikulyarnaya-fiksatsiya-pozvonochnika',
+          component: TranspedicularFixationScreen
+        },
         { path: 'catalog/neurosurgery/spinal-screws', component: SpinalScrews },
         { path: 'catalog/neurosurgery/spinal-beam', component: SpinalBeams },
         { path: 'catalog/neurosurgery/spinal-hooks', component: SpinalHooks },
-        { path: 'catalog/neurosurgery/spinal-system', component: SpinalSystems },
-        { path: 'catalog/neurosurgery/plates-neurosurgical', component: NeurosurgicalPlates },
-        { path: 'catalog/neurosurgery/vertebrae-implants', component: VertebralEndoprostheses },
-        { path: 'catalog/neurosurgery/neurosurgical-tool', component: NeurosurgicalInstrument },
+        {
+          path: 'catalog/neurosurgery/spinal-system',
+          component: SpinalSystems
+        },
+        {
+          path: 'catalog/neurosurgery/plates-neurosurgical',
+          component: NeurosurgicalPlates
+        },
+        {
+          path: 'catalog/neurosurgery/vertebrae-implants',
+          component: VertebralEndoprostheses
+        },
+        {
+          path: 'catalog/neurosurgery/neurosurgical-tool',
+          component: NeurosurgicalInstrument
+        }
       ]
     }
   ]

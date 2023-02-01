@@ -4,20 +4,12 @@
       :path="`/${$i18n.locale}/catalog/traumatology/`"
       :linkTitle="$t('main.certificates.links.traumatology')"
       :blueArrow="true"
-      :arrowPosition="typeLink === 'traumatology' ? null : 'top'" 
+      :arrowPosition="typeLink === 'traumatology' ? null : 'top'"
     />
     <ul v-if="typeLink === 'traumatology'">
-      <li
-        v-for="item in linksData"
-        :key="item"
-        class="link-list"
-      >
+      <li v-for="item in linksData" :key="item" class="link-list">
         <ul v-if="Array.isArray(item)">
-          <li
-            v-for="itemData in item"
-            :key="itemData"
-            class="link-list"
-          >
+          <li v-for="itemData in item" :key="itemData" class="link-list">
             <PrimaryLink
               :path="itemData.path"
               :linkTitle="itemData.name"
@@ -42,17 +34,9 @@
       :arrowPosition="typeLink === 'surgery' ? null : 'top'"
     />
     <ul v-if="typeLink === 'surgery'">
-      <li
-        v-for="item in linksData"
-        :key="item"
-        class="link-list"
-      >
+      <li v-for="item in linksData" :key="item" class="link-list">
         <ul v-if="Array.isArray(item)">
-          <li
-            v-for="itemData in item"
-            :key="itemData"
-            class="link-list"
-          >
+          <li v-for="itemData in item" :key="itemData" class="link-list">
             <PrimaryLink
               :path="itemData.path"
               :linkTitle="itemData.name"
@@ -77,17 +61,9 @@
       :arrowPosition="typeLink === 'neurosurgery' ? null : 'top'"
     />
     <ul v-if="typeLink === 'neurosurgery'">
-      <li
-        v-for="item in linksData"
-        :key="item"
-        class="link-list"
-      >
+      <li v-for="item in linksData" :key="item" class="link-list">
         <ul v-if="Array.isArray(item)">
-          <li
-            v-for="itemData in item"
-            :key="itemData"
-            class="link-list"
-          >
+          <li v-for="itemData in item" :key="itemData" class="link-list">
             <PrimaryLink
               :path="itemData.path"
               :linkTitle="itemData.name"
@@ -112,17 +88,9 @@
       :arrowPosition="typeLink === 'toolsAndEquipment' ? null : 'top'"
     />
     <ul v-if="typeLink === 'toolsAndEquipment'">
-      <li
-        v-for="item in linksData"
-        :key="item"
-        class="link-list"
-      >
+      <li v-for="item in linksData" :key="item" class="link-list">
         <ul v-if="Array.isArray(item)">
-          <li
-            v-for="itemData in item"
-            :key="itemData"
-            class="link-list"
-          >
+          <li v-for="itemData in item" :key="itemData" class="link-list">
             <PrimaryLink
               :path="itemData.path"
               :linkTitle="itemData.name"
@@ -144,7 +112,6 @@
 </template>
 
 <script>
-
 export default {
   props: {
     linksData: {
@@ -157,10 +124,7 @@ export default {
     }
   },
   setup() {
-    
-    return {
-
-    }
+    return {}
   }
 }
 </script>
