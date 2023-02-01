@@ -89,6 +89,12 @@ import PedalOne from '@/components/catalog/toolsAndEquipment/equipmentOperatingR
 import SurgicalElema from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/SurgicalElema.vue'
 import CoagulatorPage from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/Coagulator/CoagulatorPage.vue'
 import CatalogSurgery from '@/components/catalog/CatalogSurgery'
+import LuminaireOne from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireOne.vue'
+import LuminaireSecond from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireSecond.vue'
+import LuminaireThird from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireThird.vue'
+import LuminaireForth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireForth.vue'
+import LuminaireFfith from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireFfith.vue'
+import LuminaireSixth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireSixth.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -354,6 +360,30 @@ export default createRouter({
         {
           path: 'catalog/tools-and-equipment/operational-equipment/fixtures/',
           component: LightsScreen
+        },
+        {
+          path: 'catalog/tools-and-equipment/operational-equipment/fixtures/cvetilnik-l7412-ii',
+          component: LuminaireOne
+        },
+        {
+          path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-l2000-6-3-ii',
+          component: LuminaireSecond
+        },
+        {
+          path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-l735-ii',
+          component: LuminaireThird
+        },
+        {
+          path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-zmd-ii',
+          component: LuminaireForth
+        },
+        {
+          path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-l2000-6-ii',
+          component: LuminaireFfith
+        },
+        {
+          path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-l-2000-3-ii',
+          component: LuminaireSixth
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/operating-tables/',
