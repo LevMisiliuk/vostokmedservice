@@ -89,6 +89,7 @@ import PedalOne from '@/components/catalog/toolsAndEquipment/equipmentOperatingR
 import SurgicalElema from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/SurgicalElema.vue'
 import CoagulatorPage from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/Coagulator/CoagulatorPage.vue'
 import CatalogSurgery from '@/components/catalog/CatalogSurgery'
+import SutureMaterials from '@/components/catalog/surgery/suture-materials/SutureMaterials.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -105,6 +106,10 @@ export default createRouter({
         {
           path: 'catalog/surgery',
           component: CatalogSurgery
+        },
+        {
+          path: 'catalog/surgery/suture-materials',
+          component: SutureMaterials
         },
         {
           path: 'catalog/traumatology/intramedullary-pins',
