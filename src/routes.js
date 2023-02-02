@@ -96,6 +96,7 @@ import LuminaireForth from '@/components/catalog/toolsAndEquipment/equipmentOper
 import LuminaireFfith from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireFfith.vue'
 import LuminaireSixth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireSixth.vue'
 import SutureMaterials from '@/components/catalog/surgery/suture-materials/SutureMaterials.vue'
+import LuminaireSeventh from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireSeventh.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -389,6 +390,10 @@ export default createRouter({
         {
           path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-l-2000-3-ii',
           component: LuminaireSixth
+        },
+        {
+          path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-l2000-3e',
+          component: LuminaireSeventh
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/operating-tables/',
