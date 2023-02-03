@@ -11,7 +11,7 @@
         </el-breadcrumb-item>
         <el-breadcrumb-item :to="`/${$i18n.locale}/catalog/`">
           <a href="#">
-            Шовні матеріали
+            Ендопротези – сітки полімерні
           </a>
         </el-breadcrumb-item>
       </el-breadcrumb>
@@ -19,25 +19,10 @@
         <LeftLinksMenu />
         <div class="suture-materials__inner-block">
           <div class="suture-materials__block">
-            <h2 class="suture-materials__block-header">Шовні матеріали</h2>
-            <h4 class="suture-materials__block-subtitle">Нерозсмоктуються</h4>
+            <h2 class="suture-materials__block-header">Ендопротези – сітки полімерні</h2>
             <div class="suture-materials__cards">
               <a
-                v-for="card in sutureMaterialsCardsFirst"
-                :key="card"
-                class="suture-materials__card"
-                :href="card.link"
-              >
-                <img :src="card.img" alt="" class="suture-materials__card-img" />
-                <div class="suture-materials__card-title">
-                  {{ card.title }}
-                </div>
-              </a>
-            </div>
-            <h4 class="suture-materials__block-subtitle">Розсмоктуються</h4>
-            <div class="suture-materials__cards">
-              <a
-                v-for="card in sutureMaterialsCardsSecond"
+                v-for="card in endoprosthesesPolymerMeshesCards"
                 :key="card"
                 class="suture-materials__card"
                 :href="card.link"
@@ -61,87 +46,53 @@ import { computed } from 'vue'
 import i18n from '@/i18n'
 
 export default {
-  name: 'SutureMaterials',
+  name: 'EndoprosthesesPolymerMeshes',
   setup() {
-    const sutureMaterialsCardsFirst = computed(() => [
+    const endoprosthesesPolymerMeshesCards = computed(() => [
       {
-        title: 'уніфлекс',
-        img: require('@/assets/surgery/uniflex.jpeg'),
+        title: 'есфіл т',
+        img: require('@/assets/surgery/esfilt.jpeg'),
         link: `/${i18n.global.locale.value}/404`
       },
       {
-        title: 'моноамід',
-        img: require('@/assets/surgery/monoamide.jpeg'),
+        title: 'есфіл л',
+        img: require('@/assets/surgery/esfil-l.jpeg'),
         link: `/${i18n.global.locale.value}/404`
       },
       {
-        title: 'монофіл',
-        img: require('@/assets/surgery/monofil.jpeg'),
+        title: 'есфіл',
+        img: require('@/assets/surgery/esfil.jpeg'),
         link: `/${i18n.global.locale.value}/404`
       },
       {
-        title: 'капрон',
-        img: require('@/assets/surgery/capron.jpeg'),
+        title: 'флексилен',
+        img: require('@/assets/surgery/flexile.jpeg'),
         link: `/${i18n.global.locale.value}/404`
       },
       {
-        title: 'лавсан',
-        img: require('@/assets/surgery/lavsan.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
-      },
-      {
-        title: 'капрогент',
-        img: require('@/assets/surgery/caprogent.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
-      },
-      {
-        title: 'фторлін',
-        img: require('@/assets/surgery/fluorolin.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
-      },
-      {
-        title: 'шовк',
-        img: require('@/assets/surgery/silk.jpeg'),
+        title: 'еслан',
+        img: require('@/assets/surgery/eslan.jpeg'),
         link: `/${i18n.global.locale.value}/404`
       },
       {
         title: 'фторекс',
-        img: require('@/assets/surgery/fluorex.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
-      }
-    ])
-
-    const sutureMaterialsCardsSecond = computed(() => [
-      {
-        title: 'ультрасорб',
-        img: require('@/assets/surgery/ultrasorb.jpeg'),
+        img: require('@/assets/surgery/fluorex-2.jpeg'),
         link: `/${i18n.global.locale.value}/404`
       },
       {
-        title: 'пга',
-        img: require('@/assets/surgery/pga.jpeg'),
+        title: 'гінефлекс',
+        img: require('@/assets/surgery/gyneflex.jpeg'),
         link: `/${i18n.global.locale.value}/404`
       },
       {
-        title: 'кетгут простий',
-        img: require('@/assets/surgery/simple-catgut.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
-      },
-      {
-        title: 'пга-рапід',
-        img: require('@/assets/surgery/pga-rapid.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
-      },
-      {
-        title: 'моносорб',
-        img: require('@/assets/surgery/uniflex.jpeg'),
+        title: 'уніфлекс',
+        img: require('@/assets/surgery/uniflex-2.jpeg'),
         link: `/${i18n.global.locale.value}/404`
       }
     ])
 
     return {
-      sutureMaterialsCardsFirst,
-      sutureMaterialsCardsSecond
+      endoprosthesesPolymerMeshesCards
     }
   }
 }

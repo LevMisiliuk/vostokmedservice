@@ -100,6 +100,9 @@ import LuminaireSeventh from '@/components/catalog/toolsAndEquipment/equipmentOp
 import LuminaireEighth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireEighth.vue'
 import LuminaireNineth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireNineth.vue'
 import LuminaireTenth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireTenth.vue'
+import EndoprosthesesPolymerMeshes from '@/components/catalog/surgery/endoprostheses-polymer-meshes/EndoprosthesesPolymerMeshes.vue'
+import EndoprosthesesForUrogynecology from '@/components/catalog/surgery/endoprostheses-for-urogynecology/EndoprosthesesForUrogynecology.vue'
+import AntiadhesionsGel from '@/components/catalog/surgery/antiadhesions/AntiadhesionsGel.vue'
 
 
 export default createRouter({
@@ -121,6 +124,18 @@ export default createRouter({
         {
           path: 'catalog/surgery/suture-materials',
           component: SutureMaterials
+        },
+        {
+          path: 'catalog/surgery/endoprostheses-polymer-meshes',
+          component: EndoprosthesesPolymerMeshes
+        },
+        {
+          path: 'catalog/surgery/endoprostheses-for-urogynecology',
+          component: EndoprosthesesForUrogynecology
+        },
+        {
+          path: 'catalog/surgery/antiadhesions',
+          component: AntiadhesionsGel
         },
         {
           path: 'catalog/traumatology/intramedullary-pins',

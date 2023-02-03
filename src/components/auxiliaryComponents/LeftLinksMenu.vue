@@ -29,7 +29,7 @@
     </ul>
     <PrimaryLink
       :linkTitle="$t('main.certificates.links.surgery')"
-      path="#"
+      :path="`/${$i18n.locale}/catalog/surgery/`"
       :blueArrow="true"
       :arrowPosition="typeLink === 'surgery' ? null : 'top'"
     />

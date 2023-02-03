@@ -56,17 +56,17 @@ export default {
         name: i18n.global.t(
           'main.carts.surgery.links.endoprosthesesPolymerNets'
         ),
-        path: `/${i18n.global.locale.value}/404`
+        path: `/${i18n.global.locale.value}/catalog/surgery/endoprostheses-polymer-meshes`
       },
       {
         name: i18n.global.t(
           'main.carts.surgery.links.endoprosthesesForUrogynecology'
         ),
-        path: `/${i18n.global.locale.value}/404`
+        path: `/${i18n.global.locale.value}/catalog/surgery/endoprostheses-for-urogynecology`
       },
       {
         name: i18n.global.t('main.carts.surgery.links.antiAdhesiveAgents'),
-        path: `/${i18n.global.locale.value}/404`
+        path: `/${i18n.global.locale.value}/catalog/surgery/antiadhesions`
       },
       {
         name: i18n.global.t('main.carts.surgery.links.woundCovers'),
@@ -86,26 +86,26 @@ export default {
       {
         title: i18n.global.t('main.carts.surgery.links.sutureMaterials'),
         img: require('@/assets/surgery/suture-materials.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surgery/suture-materials`
       },
       {
         title: i18n.global.t(
           'main.carts.surgery.links.endoprosthesesPolymerNets'
         ),
         img: require('@/assets/surgery/endoprostheses.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surgery/endoprostheses-polymer-meshes`
       },
       {
         title: i18n.global.t(
           'main.carts.surgery.links.endoprosthesesForUrogynecology'
         ),
         img: require('@/assets/surgery/endoprostheses-for-urogenology.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surgery/endoprostheses-for-urogynecology`
       },
       {
         title: i18n.global.t('main.carts.surgery.links.antiAdhesiveAgents'),
         img: require('@/assets/surgery/antiadhesions.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surgery/antiadhesions`
       },
       {
         title: i18n.global.t('main.carts.surgery.links.woundCovers'),
