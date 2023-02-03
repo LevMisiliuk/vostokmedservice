@@ -97,6 +97,10 @@ import LuminaireFfith from '@/components/catalog/toolsAndEquipment/equipmentOper
 import LuminaireSixth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireSixth.vue'
 import SutureMaterials from '@/components/catalog/surgery/suture-materials/SutureMaterials.vue'
 import LuminaireSeventh from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireSeventh.vue'
+import LuminaireEighth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireEighth.vue'
+import LuminaireNineth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireNineth.vue'
+import LuminaireTenth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireTenth.vue'
+
 
 export default createRouter({
   history: createWebHistory(),
@@ -394,6 +398,18 @@ export default createRouter({
         {
           path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-l2000-3e',
           component: LuminaireSeventh
+        },
+        {
+          path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-l739-ii',
+          component: LuminaireEighth
+        },
+        {
+          path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-l735e',
+          component: LuminaireNineth
+        },
+        {
+          path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-l734-ii',
+          component: LuminaireTenth
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/operating-tables/',

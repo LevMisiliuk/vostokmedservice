@@ -106,17 +106,17 @@ export default {
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.equipmentOperatingRooms.links.luminaireL739II'),
         img: require('@/assets/toolsAndEquipment/equipmentOperatingRooms/luminaire-L739II.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-l739-ii`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.equipmentOperatingRooms.links.luminaireL735E'),
         img: require('@/assets/toolsAndEquipment/equipmentOperatingRooms/luminaire-L735E.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-l735e`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.equipmentOperatingRooms.links.luminaireL734II'),
         img: require('@/assets/toolsAndEquipment/equipmentOperatingRooms/luminaire-L734II.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-l734-ii`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.equipmentOperatingRooms.links.luminaireSPR5eEma'),
