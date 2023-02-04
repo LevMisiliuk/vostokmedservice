@@ -69,7 +69,7 @@ export default {
       },
       {
         id: 2,
-        data: i18n.global.t('main.carts.toolsAndEquipment.equipmentOperatingRooms.luminaireL735E.text1'),
+        data: i18n.global.t('main.carts.toolsAndEquipment.equipmentOperatingRooms.luminaireL735E.text2'),
       },
     ])
     const luminaireL735EData = computed(() => [

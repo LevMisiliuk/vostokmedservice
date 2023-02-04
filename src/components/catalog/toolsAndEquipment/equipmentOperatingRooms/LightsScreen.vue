@@ -7,11 +7,12 @@
         class="lights__cart"
         :href="cart.link"
       >
+      <div class="lights__cart-img">
         <img
           :src="cart.img"
           alt=""
-          class="lights__cart-img"
         />
+      </div>
         <div class="lights__cart-title">
           {{ cart.title }}
         </div>
@@ -81,17 +82,17 @@ export default {
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.equipmentOperatingRooms.links.luminaireSPR5eEma'),
         img: require('@/assets/toolsAndEquipment/equipmentOperatingRooms/luminaire-SPR5eEma.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/operational-equipment/fixtures/cvetilnik-spr-5-e-ema`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.equipmentOperatingRooms.links.luminaireL751IISingle'),
         img: require('@/assets/toolsAndEquipment/equipmentOperatingRooms/luminaire-L751IISingle.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-operatsionnyi-bestenevoi-l751-ii-odnoreflektornyi`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.equipmentOperatingRooms.links.luminaireReflectorEEma9'),
         img: require('@/assets/toolsAndEquipment/equipmentOperatingRooms/luminaire-reflector-EEma9.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-statsionarnyi-s-reguliruemym-razmerom-rabochego-polya-sr-2-4-5-e-ema-9-ti-reflektornyi`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.equipmentOperatingRooms.links.luminaireReflectorEEma3'),
@@ -146,6 +147,10 @@ export default {
   }
 
   &__cart-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
     color: $primary-white;
     background-color: $primary-blue;
     text-align: center;
@@ -153,6 +158,7 @@ export default {
   }
 
   &__cart-img {
+    height: 76%;
     margin-bottom: -10px;
   }
 }

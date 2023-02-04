@@ -103,6 +103,9 @@ import LuminaireTenth from '@/components/catalog/toolsAndEquipment/equipmentOper
 import EndoprosthesesPolymerMeshes from '@/components/catalog/surgery/endoprostheses-polymer-meshes/EndoprosthesesPolymerMeshes.vue'
 import EndoprosthesesForUrogynecology from '@/components/catalog/surgery/endoprostheses-for-urogynecology/EndoprosthesesForUrogynecology.vue'
 import AntiadhesionsGel from '@/components/catalog/surgery/antiadhesions/AntiadhesionsGel.vue'
+import LuminaireEleventh from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireEleventh.vue'
+import LuminaireTwelfth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireTwelfth.vue'
+import LuminaireEmaNine from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireEmaNine.vue'
 
 
 export default createRouter({
@@ -425,6 +428,18 @@ export default createRouter({
         {
           path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-l734-ii',
           component: LuminaireTenth
+        },
+        {
+          path: 'catalog/tools-and-equipment/operational-equipment/fixtures/cvetilnik-spr-5-e-ema',
+          component: LuminaireEleventh
+        },
+        {
+          path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-operatsionnyi-bestenevoi-l751-ii-odnoreflektornyi',
+          component: LuminaireTwelfth
+        },
+        {
+          path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-statsionarnyi-s-reguliruemym-razmerom-rabochego-polya-sr-2-4-5-e-ema-9-ti-reflektornyi',
+          component: LuminaireEmaNine
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/operating-tables/',
