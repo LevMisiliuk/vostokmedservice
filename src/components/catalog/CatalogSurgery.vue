@@ -70,15 +70,15 @@ export default {
       },
       {
         name: i18n.global.t('main.carts.surgery.links.woundCovers'),
-        path: `/${i18n.global.locale.value}/404`
+        path: `/${i18n.global.locale.value}/catalog/surgery/wound-dressings`
       },
       {
         name: i18n.global.t('main.carts.surgery.links.hemostaticSponge'),
-        path: `/${i18n.global.locale.value}/404`
+        path: `/${i18n.global.locale.value}/catalog/surgery/hemostatic-sponge`
       },
       {
         name: i18n.global.t('main.carts.surgery.links.productsPfZMCompany'),
-        path: `/${i18n.global.locale.value}/404`
+        path: `/${i18n.global.locale.value}/catalog/surgery/zm-production`
       }
     ])
 
@@ -110,17 +110,17 @@ export default {
       {
         title: i18n.global.t('main.carts.surgery.links.woundCovers'),
         img: require('@/assets/surgery/wound-dressings.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surgery/wound-dressings`
       },
       {
         title: i18n.global.t('main.carts.surgery.links.hemostaticSponge'),
         img: require('@/assets/surgery/hemostatic-sponge.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surgery/hemostatic-sponge`
       },
       {
         title: i18n.global.t('main.carts.surgery.links.productsPfZMCompany'),
         img: require('@/assets/surgery/zm-company-products.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surgery/zm-production`
       }
     ])
 

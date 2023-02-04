@@ -106,6 +106,11 @@ import AntiadhesionsGel from '@/components/catalog/surgery/antiadhesions/Antiadh
 import LuminaireEleventh from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireEleventh.vue'
 import LuminaireTwelfth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireTwelfth.vue'
 import LuminaireEmaNine from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireEmaNine.vue'
+import WoundDressings from '@/components/catalog/surgery/wound-dressings/WoundDressings.vue'
+import HemostaticSponge from '@/components/catalog/surgery/hemostatic-sponge/HemostaticSponge'
+import ZmProduction from '@/components/catalog/surgery/zm-production/ZmProduction'
+import ScotchkastPlus from '@/components/catalog/surgery/zm-production/ScotchkastPlus'
+import SoftcastScreen from '@/components/catalog/surgery/zm-production/SoftcastScreen'
 
 
 export default createRouter({
@@ -139,6 +144,26 @@ export default createRouter({
         {
           path: 'catalog/surgery/antiadhesions',
           component: AntiadhesionsGel
+        },
+        {
+          path: 'catalog/surgery/wound-dressings',
+          component: WoundDressings
+        },
+        {
+          path: 'catalog/surgery/hemostatic-sponge',
+          component: HemostaticSponge
+        },
+        {
+          path: 'catalog/surgery/zm-production',
+          component: ZmProduction
+        },
+        {
+          path: 'catalog/surgery/zm-production/scotchkast-plus',
+          component: ScotchkastPlus
+        },
+        {
+          path: 'catalog/surgery/zm-production/softcast',
+          component: SoftcastScreen
         },
         {
           path: 'catalog/traumatology/intramedullary-pins',
