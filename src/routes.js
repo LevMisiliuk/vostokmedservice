@@ -111,7 +111,7 @@ import HemostaticSponge from '@/components/catalog/surgery/hemostatic-sponge/Hem
 import ZmProduction from '@/components/catalog/surgery/zm-production/ZmProduction'
 import ScotchkastPlus from '@/components/catalog/surgery/zm-production/ScotchkastPlus'
 import SoftcastScreen from '@/components/catalog/surgery/zm-production/SoftcastScreen'
-
+import LuminaireReflect from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireReflect.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -465,6 +465,10 @@ export default createRouter({
         {
           path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-statsionarnyi-s-reguliruemym-razmerom-rabochego-polya-sr-2-4-5-e-ema-9-ti-reflektornyi',
           component: LuminaireEmaNine
+        },
+        {
+          path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilniki-khirurgicheskie-statsionarnye-s-reguliruemym-razmerom-rabochego-polya-sr-5-e-ema-3-kh-reflektornyi',
+          component: LuminaireReflect
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/operating-tables/',
