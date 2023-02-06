@@ -28,7 +28,7 @@
               </a>
             </div>
           </div>
-          <br />
+          <br>
           <div class="blocked-plates__block">
             {{ $t('main.carts.surgery.textMain') }}
           </div>

@@ -61,7 +61,7 @@
           </el-table>
 
           <img :src="cardData[0].imageAddition" alt="instrument set calf thigh retrograde thigh second kit">
-          <br />
+          <br>
           <el-table
             border
             style="width: 100%; margin-bottom: 20px"

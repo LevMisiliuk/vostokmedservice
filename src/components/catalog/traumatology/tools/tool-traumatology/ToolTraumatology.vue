@@ -59,7 +59,7 @@
               prop="third"
             />
           </el-table>
-          <br />
+          <br>
           <h3>{{ $t('main.carts.traumatology.toolTraumatological.screwTap') }}</h3>
           <el-table
             border
@@ -89,7 +89,7 @@
               prop="third"
             />
           </el-table>
-          <br />
+          <br>
           <h3>{{ $t('main.carts.traumatology.toolTraumatological.hexScrewdriver') }}</h3>
           <el-table
             border

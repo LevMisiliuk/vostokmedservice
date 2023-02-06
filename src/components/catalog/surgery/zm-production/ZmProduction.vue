@@ -62,27 +62,27 @@ export default {
       {
         title: 'Айобан',
         img: require('@/assets/surgery/ayoban.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surgery/zm-production/ayoban`
       },
       {
         title: 'Кобан',
         img: require('@/assets/surgery/coban.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surgery/zm-production/coban`
       },
       {
         title: 'Пластирний шкірний шов',
         img: require('@/assets/surgery/plaster-skin-suture.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surgery/zm-production/plaster-skin-suture`
       },
       {
         title: 'Медіпор',
         img: require('@/assets/surgery/medipore.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surgery/zm-production/medipore`
       },
       {
         title: 'Транспор',
         img: require('@/assets/surgery/transpor.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surgery/zm-production/transpor`
       },
       {
         title: 'Дюрапор',

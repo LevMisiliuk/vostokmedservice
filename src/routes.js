@@ -112,6 +112,11 @@ import ZmProduction from '@/components/catalog/surgery/zm-production/ZmProductio
 import ScotchkastPlus from '@/components/catalog/surgery/zm-production/ScotchkastPlus'
 import SoftcastScreen from '@/components/catalog/surgery/zm-production/SoftcastScreen'
 import LuminaireReflect from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireReflect.vue'
+import AyobanScreen from '@/components/catalog/surgery/zm-production/AyobanScreen.vue'
+import CobanScreen from '@/components/catalog/surgery/zm-production/CobanScreen.vue'
+import PlasterSkinSuture from '@/components/catalog/surgery/zm-production/PlasterSkinSuture.vue'
+import MediporeScreen from '@/components/catalog/surgery/zm-production/MediporeScreen.vue'
+import TransporScreen from '@/components/catalog/surgery/zm-production/TransporScreen.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -164,6 +169,26 @@ export default createRouter({
         {
           path: 'catalog/surgery/zm-production/softcast',
           component: SoftcastScreen
+        },
+        {
+          path: 'catalog/surgery/zm-production/ayoban',
+          component: AyobanScreen
+        },
+        {
+          path: 'catalog/surgery/zm-production/coban',
+          component: CobanScreen
+        },
+        {
+          path: 'catalog/surgery/zm-production/plaster-skin-suture',
+          component: PlasterSkinSuture
+        },
+        {
+          path: 'catalog/surgery/zm-production/medipore',
+          component: MediporeScreen
+        },
+        {
+          path: 'catalog/surgery/zm-production/transpor',
+          component: TransporScreen
         },
         {
           path: 'catalog/traumatology/intramedullary-pins',
