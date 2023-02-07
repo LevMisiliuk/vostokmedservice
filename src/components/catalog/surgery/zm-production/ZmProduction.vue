@@ -87,22 +87,22 @@ export default {
       {
         title: 'Дюрапор',
         img: require('@/assets/surgery/durapore.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surgery/zm-production/durapor`
       },
       {
         title: 'Медіпор плюс Пад',
         img: require('@/assets/surgery/medipore-plus-pad.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surgery/zm-production/medipor-plus-pad`
       },
       {
         title: 'Тегадерм',
         img: require('@/assets/surgery/tegaderm.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surgery/zm-production/tegaderm`
       },
       {
         title: 'Мікрофом',
         img: require('@/assets/surgery/microfom.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surgery/zm-production/microfom`
       }
     ])
 

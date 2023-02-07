@@ -15,7 +15,7 @@
           Продукція компанії ЗМ
         </el-breadcrumb-item>
         <el-breadcrumb-item :to="`/${$i18n.locale}/catalog/`">
-          <a href="#">Айобан</a>
+          <a href="#">Траспор</a>
         </el-breadcrumb-item>
       </el-breadcrumb>
       <div class="suture-materials__inner">

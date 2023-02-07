@@ -52,7 +52,7 @@ export default {
       {
         title: 'урослінг',
         img: require('@/assets/surgery/urosling.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surgery/endoprostheses-for-urogynecology/urosling`
       },
       {
         title: 'урофікс пл',

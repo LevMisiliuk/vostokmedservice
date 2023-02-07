@@ -117,6 +117,11 @@ import CobanScreen from '@/components/catalog/surgery/zm-production/CobanScreen.
 import PlasterSkinSuture from '@/components/catalog/surgery/zm-production/PlasterSkinSuture.vue'
 import MediporeScreen from '@/components/catalog/surgery/zm-production/MediporeScreen.vue'
 import TransporScreen from '@/components/catalog/surgery/zm-production/TransporScreen.vue'
+import DuraporScreen from '@/components/catalog/surgery/zm-production/DuraporScreen.vue'
+import MediporPlusPad from '@/components/catalog/surgery/zm-production/MediporPlusPad.vue'
+import TegadermScreen from '@/components/catalog/surgery/zm-production/TegadermScreen.vue'
+import MicroFom from '@/components/catalog/surgery/zm-production/MicroFom.vue'
+import UroslingScreen from '@/components/catalog/surgery/endoprostheses-for-urogynecology/UroslingScreen.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -189,6 +194,26 @@ export default createRouter({
         {
           path: 'catalog/surgery/zm-production/transpor',
           component: TransporScreen
+        },
+        {
+          path: 'catalog/surgery/zm-production/durapor',
+          component: DuraporScreen
+        },
+        {
+          path: 'catalog/surgery/zm-production/medipor-plus-pad',
+          component: MediporPlusPad
+        },
+        {
+          path: 'catalog/surgery/zm-production/tegaderm',
+          component: TegadermScreen
+        },
+        {
+          path: 'catalog/surgery/zm-production/microfom',
+          component: MicroFom
+        },
+        {
+          path: 'catalog/surgery/endoprostheses-for-urogynecology/urosling',
+          component: UroslingScreen
         },
         {
           path: 'catalog/traumatology/intramedullary-pins',
