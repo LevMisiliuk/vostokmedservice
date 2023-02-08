@@ -122,6 +122,8 @@ import MediporPlusPad from '@/components/catalog/surgery/zm-production/MediporPl
 import TegadermScreen from '@/components/catalog/surgery/zm-production/TegadermScreen.vue'
 import MicroFom from '@/components/catalog/surgery/zm-production/MicroFom.vue'
 import UroslingScreen from '@/components/catalog/surgery/endoprostheses-for-urogynecology/UroslingScreen.vue'
+import LuminaireReflectSecond from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireReflectSecond.vue'
+
 
 export default createRouter({
   history: createWebHistory(),
@@ -519,6 +521,10 @@ export default createRouter({
         {
           path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilniki-khirurgicheskie-statsionarnye-s-reguliruemym-razmerom-rabochego-polya-sr-5-e-ema-3-kh-reflektornyi',
           component: LuminaireReflect
+        },
+        {
+          path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-statsionarnyi-s-reguliruemym-razmerom-rabochego-polya-sr-4-e-ema-6-i-reflektornyi',
+          component: LuminaireReflectSecond
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/operating-tables/',
