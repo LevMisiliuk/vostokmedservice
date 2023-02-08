@@ -123,6 +123,8 @@ import TegadermScreen from '@/components/catalog/surgery/zm-production/TegadermS
 import MicroFom from '@/components/catalog/surgery/zm-production/MicroFom.vue'
 import UroslingScreen from '@/components/catalog/surgery/endoprostheses-for-urogynecology/UroslingScreen.vue'
 import LuminaireReflectSecond from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireReflectSecond.vue'
+import UrofixPl from '@/components/catalog/surgery/endoprostheses-for-urogynecology/UrofixPl.vue'
+import UrofixTo from '@/components/catalog/surgery/endoprostheses-for-urogynecology/UrofixTo.vue'
 
 
 export default createRouter({
@@ -216,6 +218,14 @@ export default createRouter({
         {
           path: 'catalog/surgery/endoprostheses-for-urogynecology/urosling',
           component: UroslingScreen
+        },
+        {
+          path: 'catalog/surgery/endoprostheses-for-urogynecology/urofix-pl',
+          component: UrofixPl
+        },
+        {
+          path: 'catalog/surgery/endoprostheses-for-urogynecology/urofix-to',
+          component: UrofixTo
         },
         {
           path: 'catalog/traumatology/intramedullary-pins',

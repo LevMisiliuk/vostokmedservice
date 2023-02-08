@@ -9,29 +9,30 @@
         <el-breadcrumb-item :to="`/${$i18n.locale}/catalog/surgery/`">
           Хірургія
         </el-breadcrumb-item>
+        <el-breadcrumb-item
+          :to="`/${$i18n.locale}/catalog/surgery/endoprostheses-for-urogynecology`"
+        >
+          Ендопротези для урогінекології
+        </el-breadcrumb-item>
         <el-breadcrumb-item :to="`/${$i18n.locale}/catalog/`">
-          <a href="#">
-            Эндопротезы для урогинекологии
-          </a>
+          <a href="#">Урофікс ТО</a>
         </el-breadcrumb-item>
       </el-breadcrumb>
       <div class="suture-materials__inner">
         <LeftLinksMenu />
         <div class="suture-materials__inner-block">
           <div class="suture-materials__block">
-            <h2 class="suture-materials__block-header">Эндопротезы для урогинекологии</h2>
-            <div class="suture-materials__cards">
-              <a
-                v-for="card in endoprosthesesPolymerMeshesCards"
-                :key="card"
-                class="suture-materials__card"
-                :href="card.link"
-              >
-                <img :src="card.img" alt="" class="suture-materials__card-img" />
-                <div class="suture-materials__card-title">
-                  {{ card.title }}
+            <h2 class="suture-materials__block-header">Урофікс ТО</h2>
+            <div class="suture-materials__text">
+              <div class="suture-materials__text-block">
+                <img src="@/assets/surgery/uroflix-to.jpeg" alt="Urofix TO" />
+                <div>
+                  Пристрій для встановлення ендопротезу-стрічки УроСлінг у трансобтураторному положенні:<br><br>
+                  <ul>
+                    <li>• жорсткий багаторазовий провідник-голка (правий та лівий)</li>
+                  </ul>
                 </div>
-              </a>
+              </div>
             </div>
           </div>
         </div>
@@ -42,34 +43,8 @@
 </template>
 
 <script>
-import { computed } from 'vue'
-import i18n from '@/i18n'
-
 export default {
-  name: 'EndoprosthesesForUrogynecology',
-  setup() {
-    const endoprosthesesPolymerMeshesCards = computed(() => [
-      {
-        title: 'урослінг',
-        img: require('@/assets/surgery/urosling.jpeg'),
-        link: `/${i18n.global.locale.value}/catalog/surgery/endoprostheses-for-urogynecology/urosling`
-      },
-      {
-        title: 'урофікс пл',
-        img: require('@/assets/surgery/uroflix-pl.jpeg'),
-        link: `/${i18n.global.locale.value}/catalog/surgery/endoprostheses-for-urogynecology/urofix-pl`
-      },
-      {
-        title: 'урофікс то',
-        img: require('@/assets/surgery/uroflix-to.jpeg'),
-        link: `/${i18n.global.locale.value}/catalog/surgery/endoprostheses-for-urogynecology/urofix-to`
-      }
-    ])
-
-    return {
-      endoprosthesesPolymerMeshesCards
-    }
-  }
+  name: 'UrofixTo'
 }
 </script>
 
@@ -79,11 +54,14 @@ export default {
     display: flex;
   }
 
-  &__cards {
-    width: 100%;
+  &__text-block {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    flex-direction: row;
+    gap: 40px;
+
+    img {
+      height: 100%;
+    }
   }
 
   &__card {
