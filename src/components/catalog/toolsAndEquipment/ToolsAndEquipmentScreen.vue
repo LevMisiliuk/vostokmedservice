@@ -72,7 +72,7 @@ export default {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
 
     img {
       width: 100%;
@@ -80,7 +80,7 @@ export default {
   }
 
   &__cart {
-    width: 300px;
+    width: 280px;
     max-height: 281px;
     border-radius: 16px;
     overflow: hidden;
@@ -95,10 +95,14 @@ export default {
   }
 
   &__cart-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 78px;
     color: $primary-white;
     background-color: $primary-blue;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px;
   }
 
   &__cart-img {

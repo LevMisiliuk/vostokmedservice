@@ -125,7 +125,9 @@ import UroslingScreen from '@/components/catalog/surgery/endoprostheses-for-urog
 import LuminaireReflectSecond from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireReflectSecond.vue'
 import UrofixPl from '@/components/catalog/surgery/endoprostheses-for-urogynecology/UrofixPl.vue'
 import UrofixTo from '@/components/catalog/surgery/endoprostheses-for-urogynecology/UrofixTo.vue'
-
+import LuminaireReflectThird from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireReflectThird.vue'
+import ElectricTableOne from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/OperatingTables/ElectricTableOne.vue'
+import ElectricTableSecond from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/OperatingTables/ElectricTableSecond.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -537,8 +539,20 @@ export default createRouter({
           component: LuminaireReflectSecond
         },
         {
+          path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-operatsionnyi-bestenevoi-l735-ii-pyatireflektornyi-peredvizhnoi',
+          component: LuminaireReflectThird
+        },
+        {
           path: 'catalog/tools-and-equipment/operational-equipment/operating-tables/',
           component: OperatingTables
+        },
+        {
+          path: 'catalog/tools-and-equipment/operational-equipment/operating-tables/stol-operatsionnyi-elektricheskii-ds-1',
+          component: ElectricTableOne
+        },
+        {
+          path: 'catalog/tools-and-equipment/operational-equipment/operating-tables/stol-operatsionnyi-elektricheskii-ds-3',
+          component: ElectricTableSecond
         },
         {
           path: 'catalog/tools-and-equipment/cardiology',
