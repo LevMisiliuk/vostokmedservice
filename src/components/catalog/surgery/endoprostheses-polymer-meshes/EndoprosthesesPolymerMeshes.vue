@@ -52,42 +52,42 @@ export default {
       {
         title: 'есфіл т',
         img: require('@/assets/surgery/esfilt.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surger/polymer-meshes/esfil-t`
       },
       {
         title: 'есфіл л',
         img: require('@/assets/surgery/esfil-l.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surger/polymer-meshes/esfil-l`
       },
       {
         title: 'есфіл',
         img: require('@/assets/surgery/esfil.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surger/polymer-meshes/esfil`
       },
       {
         title: 'флексилен',
         img: require('@/assets/surgery/flexile.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surger/polymer-meshes/flexilen`
       },
       {
         title: 'еслан',
         img: require('@/assets/surgery/eslan.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surger/polymer-meshes/eslan`
       },
       {
         title: 'фторекс',
         img: require('@/assets/surgery/fluorex-2.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surger/polymer-meshes/ftorex`
       },
       {
         title: 'гінефлекс',
         img: require('@/assets/surgery/gyneflex.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surger/polymer-meshes/gyneflex`
       },
       {
         title: 'уніфлекс',
         img: require('@/assets/surgery/uniflex-2.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surger/polymer-meshes/uniflex`
       }
     ])
 

@@ -67,47 +67,47 @@ export default {
       {
         title: 'уніфлекс',
         img: require('@/assets/surgery/uniflex.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surger/suture-materials/uniflex`
       },
       {
         title: 'моноамід',
         img: require('@/assets/surgery/monoamide.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surger/suture-materials/monoamid`
       },
       {
         title: 'монофіл',
         img: require('@/assets/surgery/monofil.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surger/suture-materials/monofil`
       },
       {
         title: 'капрон',
         img: require('@/assets/surgery/capron.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surger/suture-materials/capron`
       },
       {
         title: 'лавсан',
         img: require('@/assets/surgery/lavsan.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surger/suture-materials/lavsan`
       },
       {
         title: 'капрогент',
         img: require('@/assets/surgery/caprogent.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surger/suture-materials/caprogent`
       },
       {
         title: 'фторлін',
         img: require('@/assets/surgery/fluorolin.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surger/suture-materials/ftorlin`
       },
       {
         title: 'шовк',
         img: require('@/assets/surgery/silk.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surger/suture-materials/silk`
       },
       {
         title: 'фторекс',
         img: require('@/assets/surgery/fluorex.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surger/suture-materials/ftorex`
       }
     ])
 

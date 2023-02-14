@@ -131,7 +131,23 @@ import ElectricTableSecond from '@/components/catalog/toolsAndEquipment/equipmen
 import ElectricTableThird from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/OperatingTables/ElectricTableThird.vue'
 import ElectricTableForth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/OperatingTables/ElectricTableForth.vue'
 import ElectricTableFifth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/OperatingTables/ElectricTableFifth.vue'
-
+import EsfilT from '@/components/catalog/surgery/endoprostheses-polymer-meshes/EsfilT.vue'
+import EsfilL from '@/components/catalog/surgery/endoprostheses-polymer-meshes/EsfilL.vue'
+import EsfilScreen from '@/components/catalog/surgery/endoprostheses-polymer-meshes/EsfilScreen.vue'
+import FlexilenScreen from '@/components/catalog/surgery/endoprostheses-polymer-meshes/FlexilenScreen.vue'
+import EslanScreen from '@/components/catalog/surgery/endoprostheses-polymer-meshes/EslanScreen.vue'
+import FtorexScreen from '@/components/catalog/surgery/endoprostheses-polymer-meshes/FtorexScreen.vue'
+import GyneflexScreen from '@/components/catalog/surgery/endoprostheses-polymer-meshes/GyneflexScreen.vue'
+import UniflexScreen from '@/components/catalog/surgery/endoprostheses-polymer-meshes/UniflexScreen.vue'
+import Uniflex from '@/components/catalog/surgery/suture-materials/UniflexScreen.vue'
+import MonoamidScreen from '@/components/catalog/surgery/suture-materials/MonoamidScreen.vue'
+import KapronScreen from '@/components/catalog/surgery/suture-materials/KapronScreen.vue'
+import LavsanScreen from '@/components/catalog/surgery/suture-materials/LavsanScreen.vue'
+import CaprogentScreen from '@/components/catalog/surgery/suture-materials/CaprogentScreen.vue'
+import FtorlinScreen from '@/components/catalog/surgery/suture-materials/FtorlinScreen.vue'
+import SilkScreen from '@/components/catalog/surgery/suture-materials/SilkScreen.vue'
+import Ftorex from '@/components/catalog/surgery/suture-materials/FtorexScreen.vue'
+import MonofilScreen from '@/components/catalog/surgery/suture-materials/MonofilScreen.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -232,6 +248,74 @@ export default createRouter({
         {
           path: 'catalog/surgery/endoprostheses-for-urogynecology/urofix-to',
           component: UrofixTo
+        },
+        {
+          path: 'catalog/surger/polymer-meshes/esfil-t',
+          component: EsfilT
+        },
+        {
+          path: 'catalog/surger/polymer-meshes/esfil-l',
+          component: EsfilL
+        },
+        {
+          path: 'catalog/surger/polymer-meshes/esfil',
+          component: EsfilScreen
+        },
+        {
+          path: 'catalog/surger/polymer-meshes/flexilen',
+          component: FlexilenScreen
+        },
+        {
+          path: 'catalog/surger/polymer-meshes/eslan',
+          component: EslanScreen
+        },
+        {
+          path: 'catalog/surger/polymer-meshes/ftorex',
+          component: FtorexScreen
+        },
+        {
+          path: 'catalog/surger/polymer-meshes/gyneflex',
+          component: GyneflexScreen
+        },
+        {
+          path: 'catalog/surger/polymer-meshes/uniflex',
+          component: UniflexScreen
+        },
+        {
+          path: 'catalog/surger/suture-materials/uniflex',
+          component: Uniflex
+        },
+        {
+          path: 'catalog/surger/suture-materials/monoamid',
+          component: MonoamidScreen
+        },
+        {
+          path: 'catalog/surger/suture-materials/capron',
+          component: KapronScreen
+        },
+        {
+          path: 'catalog/surger/suture-materials/lavsan',
+          component: LavsanScreen
+        },
+        {
+          path: 'catalog/surger/suture-materials/caprogent',
+          component: CaprogentScreen
+        },
+        {
+          path: 'catalog/surger/suture-materials/ftorlin',
+          component: FtorlinScreen
+        },
+        {
+          path: 'catalog/surger/suture-materials/silk',
+          component: SilkScreen
+        },
+        {
+          path: 'catalog/surger/suture-materials/ftorex',
+          component: Ftorex
+        },
+        {
+          path: 'catalog/surger/suture-materials/monofil',
+          component: MonofilScreen
         },
         {
           path: 'catalog/traumatology/intramedullary-pins',
