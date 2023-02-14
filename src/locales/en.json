@@ -2285,7 +2285,13 @@
 						"gynecologicalChairKG1ME": "GYNECOLOGICAL CHAIR KG-1ME",
 						"gynecologicalChairKG2M": "GYNECOLOGICAL CHAIR KG-2M",
 						"gynecologicalChairElectricDrive": "GYNECOLOGICAL CHAIR WITH ELECTRIC DRIVE KG-ZE"
-					}
+					},
+          "medicalCabinetSHM1": {
+            "title1": "AREA OF USE",
+            "text1": "Designed to place instruments, materials and medicines in dressing rooms, operating rooms and other medical facilities.",
+            "title2": "FEATURES",
+            "text2": "The cabinet frame is made of metal profile and painted with white powder enamel. The door and side walls are glass, the back wall of the cabinet is metal. At the customer's request the cabinet can be all-metal. The cabinet has four glass shelves, the maximum load per shelf is 5 kg. The edges of the door and the front edges of the shelves are machined to prevent cuts. The door is fixed by a magnet. The construction of the cabinet has no protruding or sharp parts, which ensures the prevention of injuries during use. Overall dimensions 1010x400x1620mm."
+          }
 				},
 				"inhalersNebulizers": {
 					"links": {

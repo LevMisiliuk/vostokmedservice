@@ -148,6 +148,7 @@ import FtorlinScreen from '@/components/catalog/surgery/suture-materials/Ftorlin
 import SilkScreen from '@/components/catalog/surgery/suture-materials/SilkScreen.vue'
 import Ftorex from '@/components/catalog/surgery/suture-materials/FtorexScreen.vue'
 import MonofilScreen from '@/components/catalog/surgery/suture-materials/MonofilScreen.vue'
+import MedicalCabineOne from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalCabinets/MedicalCabineOne.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -669,6 +670,10 @@ export default createRouter({
         {
           path: 'catalog/tools-and-equipment/medical-furniture/medicine-cabinets',
           component: MedicalCabinets
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/medicine-cabinets/shkaf-meditsinskii-odnostvorchatyi-shm-1',
+          component: MedicalCabineOne
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/table-surgical/',
