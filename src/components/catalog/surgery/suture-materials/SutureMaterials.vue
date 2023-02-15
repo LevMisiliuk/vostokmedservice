@@ -115,27 +115,27 @@ export default {
       {
         title: 'ультрасорб',
         img: require('@/assets/surgery/ultrasorb.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surger/suture-materials/ultrasorb`
       },
       {
         title: 'пга',
         img: require('@/assets/surgery/pga.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surger/suture-materials/pga`
       },
       {
         title: 'кетгут простий',
         img: require('@/assets/surgery/simple-catgut.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surger/suture-materials/simple-catgut`
       },
       {
         title: 'пга-рапід',
         img: require('@/assets/surgery/pga-rapid.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surger/suture-materials/pga-rapid`
       },
       {
         title: 'моносорб',
         img: require('@/assets/surgery/uniflex.jpeg'),
-        link: `/${i18n.global.locale.value}/404`
+        link: `/${i18n.global.locale.value}/catalog/surger/suture-materials/monosorb`
       }
     ])
 

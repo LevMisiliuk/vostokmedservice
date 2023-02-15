@@ -149,6 +149,11 @@ import SilkScreen from '@/components/catalog/surgery/suture-materials/SilkScreen
 import Ftorex from '@/components/catalog/surgery/suture-materials/FtorexScreen.vue'
 import MonofilScreen from '@/components/catalog/surgery/suture-materials/MonofilScreen.vue'
 import MedicalCabineOne from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalCabinets/MedicalCabineOne.vue'
+import UltrasorbScreen from '@/components/catalog/surgery/suture-materials/UltrasorbScreen.vue'
+import PgaScreen from '@/components/catalog/surgery/suture-materials/PgaScreen.vue'
+import SimpleCatgut from '@/components/catalog/surgery/suture-materials/SimpleCatgut.vue'
+import PgaRapid from '@/components/catalog/surgery/suture-materials/PgaRapid.vue'
+import MonosorbScreen from '@/components/catalog/surgery/suture-materials/MonosorbScreen.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -317,6 +322,26 @@ export default createRouter({
         {
           path: 'catalog/surger/suture-materials/monofil',
           component: MonofilScreen
+        },
+        {
+          path: 'catalog/surger/suture-materials/ultrasorb',
+          component: UltrasorbScreen
+        },
+        {
+          path: 'catalog/surger/suture-materials/pga',
+          component: PgaScreen
+        },
+        {
+          path: 'catalog/surger/suture-materials/simple-catgut',
+          component: SimpleCatgut
+        },
+        {
+          path: 'catalog/surger/suture-materials/pga-rapid',
+          component: PgaRapid
+        },
+        {
+          path: 'catalog/surger/suture-materials/monosorb',
+          component: MonosorbScreen
         },
         {
           path: 'catalog/traumatology/intramedullary-pins',
