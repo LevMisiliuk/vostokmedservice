@@ -2291,6 +2291,72 @@
             "text1": "Designed to place instruments, materials and medicines in dressing rooms, operating rooms and other medical facilities.",
             "title2": "FEATURES",
             "text2": "The cabinet frame is made of metal profile and painted with white powder enamel. The door and side walls are glass, the back wall of the cabinet is metal. At the customer's request the cabinet can be all-metal. The cabinet has four glass shelves, the maximum load per shelf is 5 kg. The edges of the door and the front edges of the shelves are machined to prevent cuts. The door is fixed by a magnet. The construction of the cabinet has no protruding or sharp parts, which ensures the prevention of injuries during use. Overall dimensions 1010x400x1620mm."
+          },
+          "medicalCabinetSHM2": {
+            "title1": "AREA OF USE",
+            "text1": "Designed to place instruments, materials and medicines in dressing rooms, operating rooms and other medical facilities.",
+            "title2": "FEATURES",
+            "text2": "The cabinet frame is made of metal profile and painted white powder enamel. The doors and side walls are glass, the back wall of the cabinet is metal. At the customer's request the cabinet can be all-metal. The cabinet has four glass shelves, the maximum load per shelf is 2 kg. The edges of the doors and the front edges of the shelves are machined to prevent cuts. Doors are fixed with a magnet. The construction of the cabinet has no protruding or sharp parts, which ensures the prevention of injuries during use. Overall dimensions 1010x400x1620mm."
+          },
+          "medicalCabinetSHM1S": {
+            "title1": "AREA OF USE",
+            "text1": "Designed to place instruments, materials and medicines in dressing rooms, operating rooms and other medical facilities.",
+            "title2": "FEATURES",
+            "text2": "The cabinet frame is made of metal profile and painted with white powder enamel. The lower part is made all-metal and lockable. Inside the safe there is a glass shelf, max. load 20 kg. In the upper part of the cabinet the door and side walls are glass, the back wall is metal. At the customer's request the cabinet can be all-metal. The cabinet has two glass shelves, the maximum load per shelf is 5 kg. The door is fixed by a magnet. The edges of the doors and the front edges of the shelves are machined to prevent cuts. The construction of the cabinet has no protruding or sharp parts, which ensures the prevention of injuries during use. Overall dimensions (500x400x1620mm"
+          },
+          "changingTableSPL": {
+            "title1": "AREA OF USE",
+            "text1": "Designed to accommodate a newborn when sanitizing, examining, swaddling, measuring growth and other procedures in the maternity wards of hospitals.",
+            "title2": "FEATURES",
+            "text2": "The table is a structure consisting of a metal frame, welded from pipes of rectangular cross section with protective paint coating. The upper tier of the table has a rim, which is a table top fence.",
+            "dataLeft1": "Permissible load, kg:",
+            "dataLeft2": "Overall dimensions, h*w*d*, mm:"
+          },
+          "anesthesiologistsTable": {
+            "title1": "AREA OF USE",
+            "text1": "The table is designed for placing items, devices and instruments necessary for the anesthesiologist when working in the operating room.",
+            "title2": "FEATURES",
+            "text2": "The table is made of a metal profile and painted with powder enamel. The shelf is height adjustable and made of stainless steel. The design feature is that the table has the possibility, while maintaining stability, to be placed over the operating table or over the bed in the intensive care unit. The table is mounted on hardware wheels made of gray, non-marking rubber.",
+            "dataLeft1": "Overall dimensions, mm:"
+          },
+          "manipulationTableCM3": {
+            "title1": "AREA OF USE",
+            "text1": "The table is designed for placing instruments, materials and medicines both on the shelves and inside the table. It is used in operating rooms, dressing rooms and manipulation rooms.",
+            "title2": "FEATURES",
+            "text2": "The table is made of a metal profile and painted with white powder enamel. The upper shelf is made of stainless steel, under which a drawer on roller skids is placed. The lower shelf is made of glass. Both metal and stainless steel shelves can be made at the customer's request. The table is mounted on hardware wheels made of gray, non-marking rubber. The table is shipped unassembled, making it much easier to transport.",
+            "dataLeft1": "Overall dimensions, mm:"
+          },
+          "gynecologicalCouchKKG": {
+            "title1": "FEATURES",
+            "text1": "The couch has a fixed height, is equipped with comfortable hamstrings, and can also be equipped with a stainless steel bowl with a drain into the central drain. Models with Trendelenburg and Reverse Trendelenburg can be made to order.",
+            "dataLeft1": "Width, mm:",
+            "dataLeft2": "Height, mm:",
+            "dataLeft3": "Length, mm:",
+            "dataLeft4": "Thickness of foam rubber, mm:"
+          },
+          "treatmentCouchKP": {
+            "subtitle": "Procedural couch is designed to accommodate patients during procedures and examinations in hospitals."
+          },
+          "diagnosticCouchCD1": {
+            "title1": "FEATURES",
+            "text1": "The couch consists of a frame, welded from pipes of rectangular cross-section, on which is strengthened a soft panel consisting of a recliner and headrest. The headrest has the possibility of tilting with fixation of the selected position.",
+            "dataLeft1": "Load capacity, kg:",
+            "dataLeft2": "Panel height above floor level, mm:",
+            "dataLeft3": "Angle of elevation of the headrest, deg:",
+            "dataLeft4": "Panel dimensions, mm:",
+            "dataLeft5": "Overall dimensions, mm:",
+            "dataLeft6": "Overall dimensions, mm:",
+            "dataLeft7": "Weight, kg:",
+            "dataRight5": "1960 x 610 x 1230* (* headrest maximally raised)",
+            "dataRight6": "1960 x 610 x 1230* (* headrest maximally raised)"
+          },
+          "bowelFlushingCouchCPC": {
+            "title1": "FEATURES",
+            "text1": "The couch KPK with adjustable headrest is designed for carrying out bowel cleansing procedures over the toilet. The couch frame is an all-welded construction and is made of high quality steel painted white powder coating.",
+            "dataLeft1": "Width, mm:",
+            "dataLeft2": "Height, mm:",
+            "dataLeft3": "Length, mm:",
+            "dataLeft4": "Diameter of the hole, mm:"
           }
 				},
 				"inhalersNebulizers": {

@@ -1,5 +1,5 @@
 <template>
-  <div class="medical-cabine-second">
+  <div class="gynecological-couch">
     <div class="container">
       <MainHeader />
       <el-breadcrumb class="breadcrumb" separator="/">
@@ -10,18 +10,18 @@
           >{{$t('main.carts.toolsAndEquipment.title')}}</el-breadcrumb-item
         >
         <el-breadcrumb-item>
-          <a>{{$t('main.carts.toolsAndEquipment.medicalFurniture.links.medicalCabinetSHM2')}}</a>
+          <a>{{$t('main.carts.toolsAndEquipment.medicalFurniture.links.gynecologicalCouchKKG')}}</a>
         </el-breadcrumb-item>
       </el-breadcrumb>
 
-      <div class="medical-cabine-second__inner">
+      <div class="gynecological-couch__inner">
         <LeftLinksMenu />
-        <div class="medical-cabine-second__card">
+        <div class="gynecological-couch__card">
           <ProductInfoCard
-            :image="medicalCabinetSHM2Data[0].image"
-            :title="medicalCabinetSHM2Data[0].title"
-            :subtitle="medicalCabinetSHM2Data[0].subtitle"
-            :productsParams="medicalCabinetSHM2Data[0].productsParams"
+            :image="gynecologicalCouchKKGData[0].image"
+            :title="gynecologicalCouchKKGData[0].title"
+            :subtitle="gynecologicalCouchKKGData[0].subtitle"
+            :productsParams="gynecologicalCouchKKGData[0].productsParams"
           />
           <div class="card">
             <div class="card__product-info">
@@ -74,26 +74,41 @@ export default {
     const textData = computed(() => [
       {
         id: 1,
-        data: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.medicalCabinetSHM2.text1'),
-        title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.medicalCabinetSHM2.title1'),
-      },
-      {
-        id: 2,
-        data: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.medicalCabinetSHM2.text2'),
-        title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.medicalCabinetSHM2.title2'),
+        data: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.gynecologicalCouchKKG.text1'),
+        title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.gynecologicalCouchKKG.title1'),
       }
     ])
-    const medicalCabinetSHM2Data = computed(() => [
+    const gynecologicalCouchKKGData = computed(() => [
       {
-        title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.medicalCabinetSHM2'),
+        title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.gynecologicalCouchKKG'),
         subtitle: "",
-        image: require('@/assets/toolsAndEquipment/medicalFurniture/medical-cabinet-SHM2.png'),
+        image: require('@/assets/toolsAndEquipment/medicalFurniture/gynecological-couch-KKG.png'),
         productsParams: [
+          {
+            id: 1,
+            name: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.gynecologicalCouchKKG.dataLeft1'),
+            data: "580",
+          },
+          {
+            id: 2,
+            name: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.gynecologicalCouchKKG.dataLeft2'),
+            data: "	530",
+          },
+          {
+            id: 3,
+            name: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.gynecologicalCouchKKG.dataLeft3'),
+            data: "1500",
+          },
+          {
+            id: 4,
+            name: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.gynecologicalCouchKKG.dataLeft4'),
+            data: "30",
+          }
         ]
       }
     ])
     return {
-      medicalCabinetSHM2Data,
+      gynecologicalCouchKKGData,
       textData
     }
   }
@@ -101,7 +116,7 @@ export default {
 </script>
 
 <style lang="scss">
-.medical-cabine-second {
+.gynecological-couch {
   &__inner {
     width: 100%;
     display: flex;

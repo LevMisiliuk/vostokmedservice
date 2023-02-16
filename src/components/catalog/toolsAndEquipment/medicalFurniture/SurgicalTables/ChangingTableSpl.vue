@@ -1,5 +1,5 @@
 <template>
-  <div class="medical-cabine-second">
+  <div class="changing-table-spl">
     <div class="container">
       <MainHeader />
       <el-breadcrumb class="breadcrumb" separator="/">
@@ -10,18 +10,18 @@
           >{{$t('main.carts.toolsAndEquipment.title')}}</el-breadcrumb-item
         >
         <el-breadcrumb-item>
-          <a>{{$t('main.carts.toolsAndEquipment.medicalFurniture.links.medicalCabinetSHM2')}}</a>
+          <a>{{$t('main.carts.toolsAndEquipment.medicalFurniture.links.changingTableSPL')}}</a>
         </el-breadcrumb-item>
       </el-breadcrumb>
 
-      <div class="medical-cabine-second__inner">
+      <div class="changing-table-spl__inner">
         <LeftLinksMenu />
-        <div class="medical-cabine-second__card">
+        <div class="changing-table-spl__card">
           <ProductInfoCard
-            :image="medicalCabinetSHM2Data[0].image"
-            :title="medicalCabinetSHM2Data[0].title"
-            :subtitle="medicalCabinetSHM2Data[0].subtitle"
-            :productsParams="medicalCabinetSHM2Data[0].productsParams"
+            :image="changingTableSPLData[0].image"
+            :title="changingTableSPLData[0].title"
+            :subtitle="changingTableSPLData[0].subtitle"
+            :productsParams="changingTableSPLData[0].productsParams"
           />
           <div class="card">
             <div class="card__product-info">
@@ -74,26 +74,36 @@ export default {
     const textData = computed(() => [
       {
         id: 1,
-        data: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.medicalCabinetSHM2.text1'),
-        title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.medicalCabinetSHM2.title1'),
+        data: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.changingTableSPL.text1'),
+        title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.changingTableSPL.title1'),
       },
       {
         id: 2,
-        data: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.medicalCabinetSHM2.text2'),
-        title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.medicalCabinetSHM2.title2'),
+        data: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.changingTableSPL.text2'),
+        title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.changingTableSPL.title2'),
       }
     ])
-    const medicalCabinetSHM2Data = computed(() => [
+    const changingTableSPLData = computed(() => [
       {
-        title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.medicalCabinetSHM2'),
+        title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.changingTableSPL'),
         subtitle: "",
-        image: require('@/assets/toolsAndEquipment/medicalFurniture/medical-cabinet-SHM2.png'),
+        image: require('@/assets/toolsAndEquipment/medicalFurniture/changing-table-SPL.png'),
         productsParams: [
+          {
+            id: 1,
+            name: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.changingTableSPL.dataLeft1'),
+            data: "10",
+          },
+          {
+            id: 2,
+            name: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.changingTableSPL.dataLeft2'),
+            data: "900*800*1000",
+          }
         ]
       }
     ])
     return {
-      medicalCabinetSHM2Data,
+      changingTableSPLData,
       textData
     }
   }
@@ -101,7 +111,7 @@ export default {
 </script>
 
 <style lang="scss">
-.medical-cabine-second {
+.changing-table-spl {
   &__inner {
     width: 100%;
     display: flex;

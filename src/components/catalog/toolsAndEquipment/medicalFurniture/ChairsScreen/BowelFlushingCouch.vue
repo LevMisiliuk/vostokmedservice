@@ -1,5 +1,5 @@
 <template>
-  <div class="medical-cabine-second">
+  <div class="bowel-flushing-couch">
     <div class="container">
       <MainHeader />
       <el-breadcrumb class="breadcrumb" separator="/">
@@ -10,18 +10,18 @@
           >{{$t('main.carts.toolsAndEquipment.title')}}</el-breadcrumb-item
         >
         <el-breadcrumb-item>
-          <a>{{$t('main.carts.toolsAndEquipment.medicalFurniture.links.medicalCabinetSHM2')}}</a>
+          <a>{{$t('main.carts.toolsAndEquipment.medicalFurniture.links.bowelFlushingCouchCPC')}}</a>
         </el-breadcrumb-item>
       </el-breadcrumb>
 
-      <div class="medical-cabine-second__inner">
+      <div class="bowel-flushing-couch__inner">
         <LeftLinksMenu />
-        <div class="medical-cabine-second__card">
+        <div class="bowel-flushing-couch__card">
           <ProductInfoCard
-            :image="medicalCabinetSHM2Data[0].image"
-            :title="medicalCabinetSHM2Data[0].title"
-            :subtitle="medicalCabinetSHM2Data[0].subtitle"
-            :productsParams="medicalCabinetSHM2Data[0].productsParams"
+            :image="bowelFlushingCouchCPCData[0].image"
+            :title="bowelFlushingCouchCPCData[0].title"
+            :subtitle="bowelFlushingCouchCPCData[0].subtitle"
+            :productsParams="bowelFlushingCouchCPCData[0].productsParams"
           />
           <div class="card">
             <div class="card__product-info">
@@ -74,26 +74,41 @@ export default {
     const textData = computed(() => [
       {
         id: 1,
-        data: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.medicalCabinetSHM2.text1'),
-        title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.medicalCabinetSHM2.title1'),
-      },
-      {
-        id: 2,
-        data: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.medicalCabinetSHM2.text2'),
-        title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.medicalCabinetSHM2.title2'),
+        data: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.bowelFlushingCouchCPC.text1'),
+        title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.bowelFlushingCouchCPC.title1'),
       }
     ])
-    const medicalCabinetSHM2Data = computed(() => [
+    const bowelFlushingCouchCPCData = computed(() => [
       {
-        title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.medicalCabinetSHM2'),
+        title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.bowelFlushingCouchCPC'),
         subtitle: "",
-        image: require('@/assets/toolsAndEquipment/medicalFurniture/medical-cabinet-SHM2.png'),
+        image: require('@/assets/toolsAndEquipment/medicalFurniture/bowel-flushingcouch-CPC.png'),
         productsParams: [
+          {
+            id: 1,
+            name: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.bowelFlushingCouchCPC.dataLeft1'),
+            data: "850",
+          },
+          {
+            id: 2,
+            name: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.bowelFlushingCouchCPC.dataLeft2'),
+            data: "700",
+          },
+          {
+            id: 3,
+            name: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.bowelFlushingCouchCPC.dataLeft3'),
+            data: "1900",
+          },
+          {
+            id: 4,
+            name: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.bowelFlushingCouchCPC.dataLeft4'),
+            data: "230",
+          }
         ]
       }
     ])
     return {
-      medicalCabinetSHM2Data,
+      bowelFlushingCouchCPCData,
       textData
     }
   }
@@ -101,7 +116,7 @@ export default {
 </script>
 
 <style lang="scss">
-.medical-cabine-second {
+.bowel-flushing-couch {
   &__inner {
     width: 100%;
     display: flex;

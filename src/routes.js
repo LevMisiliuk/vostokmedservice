@@ -154,6 +154,17 @@ import PgaScreen from '@/components/catalog/surgery/suture-materials/PgaScreen.v
 import SimpleCatgut from '@/components/catalog/surgery/suture-materials/SimpleCatgut.vue'
 import PgaRapid from '@/components/catalog/surgery/suture-materials/PgaRapid.vue'
 import MonosorbScreen from '@/components/catalog/surgery/suture-materials/MonosorbScreen.vue'
+import MedicalCabineSecond from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalCabinets/MedicalCabineSecond.vue'
+import MedicalCabineThird from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalCabinets/MedicalCabineThird.vue'
+import ChangingTableSpl from '@/components/catalog/toolsAndEquipment/medicalFurniture/SurgicalTables/ChangingTableSpl.vue'
+import InsrumentTableC from '@/components/catalog/toolsAndEquipment/medicalFurniture/SurgicalTables/InsrumentTableC.vue'
+import SurgicalTableSH from '@/components/catalog/toolsAndEquipment/medicalFurniture/SurgicalTables/SurgicalTableSH.vue'
+import AnesthesiologistsTable from '@/components/catalog/toolsAndEquipment/medicalFurniture/SurgicalTables/AnesthesiologistsTable.vue'
+import ManipulationTableCm from '@/components/catalog/toolsAndEquipment/medicalFurniture/SurgicalTables/ManipulationTableCm.vue'
+import GynecologicalCouchKKG from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/GynecologicalCouchKKG.vue'
+import TreatmentCouchKP from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/TreatmentCouchKP.vue'
+import DiagnosticCouch from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/DiagnosticCouch.vue'
+import BowelFlushingCouch from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/BowelFlushingCouch.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -701,12 +712,56 @@ export default createRouter({
           component: MedicalCabineOne
         },
         {
+          path: 'catalog/tools-and-equipment/medical-furniture/medicine-cabinets/shkaf-meditsinskii-dvustvorchatyi-shm-2',
+          component: MedicalCabineSecond
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/medicine-cabinets/medicine_cabinets/shkaf-meditsinskii-odnostvorchatyi-s-seifom-shm-1s',
+          component: MedicalCabineThird
+        },
+        {
           path: 'catalog/tools-and-equipment/medical-furniture/table-surgical/',
           component: SurgicalTables
         },
         {
+          path: 'catalog/tools-and-equipment/medical-furniture/table-surgical/stol-pelenalnyi-spl',
+          component: ChangingTableSpl
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/table-surgical/stolik-instrumentalnyi-si-5',
+          component: InsrumentTableC
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/table-surgical/stolik-khirurgicheskii-skh-1',
+          component: SurgicalTableSH
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/table-surgical/stolik-anesteziologa-sa',
+          component: AnesthesiologistsTable
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/table-surgical/stolik-manipulyatsionnyi-sm-3',
+          component: ManipulationTableCm
+        },
+        {
           path: 'catalog/tools-and-equipment/medical-furniture/couches/',
           component: ChairsScreen
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/couches/kushetka-ginekologicheskaya-kkg',
+          component: GynecologicalCouchKKG
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/couches/kushetka-protsedurnaya-kp',
+          component: TreatmentCouchKP
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/couches/kushetka-diagnosticheskaya-kd-1',
+          component: DiagnosticCouch
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/couches/kushetka-dlya-promyvki-kishechnika-kpk',
+          component: BowelFlushingCouch
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/litters-medical/',

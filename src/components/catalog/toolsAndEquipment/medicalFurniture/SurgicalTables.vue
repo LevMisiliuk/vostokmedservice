@@ -31,27 +31,27 @@ export default {
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.changingTableSPL'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/changing-table-SPL.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/table-surgical/stol-pelenalnyi-spl`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.insrumentTableC5'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/instrument-table-C5.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/table-surgical/stolik-instrumentalnyi-si-5`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.surgicalTableSH1'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/surgical-table-SH1.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/table-surgical/stolik-khirurgicheskii-skh-1`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.anesthesiologistsTable'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/anesthesiologists-table.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/table-surgical/stolik-anesteziologa-sa`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.manipulationTableCM3'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/manipulation-table-CM3.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/table-surgical/stolik-manipulyatsionnyi-sm-3`
       },
     ])
 

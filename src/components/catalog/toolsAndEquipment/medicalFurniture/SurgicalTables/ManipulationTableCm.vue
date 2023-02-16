@@ -1,5 +1,5 @@
 <template>
-  <div class="medical-cabine-second">
+  <div class="manipulation-table-cm">
     <div class="container">
       <MainHeader />
       <el-breadcrumb class="breadcrumb" separator="/">
@@ -10,18 +10,18 @@
           >{{$t('main.carts.toolsAndEquipment.title')}}</el-breadcrumb-item
         >
         <el-breadcrumb-item>
-          <a>{{$t('main.carts.toolsAndEquipment.medicalFurniture.links.medicalCabinetSHM2')}}</a>
+          <a>{{$t('main.carts.toolsAndEquipment.medicalFurniture.links.manipulationTableCM3')}}</a>
         </el-breadcrumb-item>
       </el-breadcrumb>
 
-      <div class="medical-cabine-second__inner">
+      <div class="manipulation-table-cm__inner">
         <LeftLinksMenu />
-        <div class="medical-cabine-second__card">
+        <div class="manipulation-table-cm__card">
           <ProductInfoCard
-            :image="medicalCabinetSHM2Data[0].image"
-            :title="medicalCabinetSHM2Data[0].title"
-            :subtitle="medicalCabinetSHM2Data[0].subtitle"
-            :productsParams="medicalCabinetSHM2Data[0].productsParams"
+            :image="manipulationTableCM3Data[0].image"
+            :title="manipulationTableCM3Data[0].title"
+            :subtitle="manipulationTableCM3Data[0].subtitle"
+            :productsParams="manipulationTableCM3Data[0].productsParams"
           />
           <div class="card">
             <div class="card__product-info">
@@ -74,26 +74,31 @@ export default {
     const textData = computed(() => [
       {
         id: 1,
-        data: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.medicalCabinetSHM2.text1'),
-        title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.medicalCabinetSHM2.title1'),
+        data: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.manipulationTableCM3.text1'),
+        title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.manipulationTableCM3.title1'),
       },
       {
         id: 2,
-        data: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.medicalCabinetSHM2.text2'),
-        title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.medicalCabinetSHM2.title2'),
+        data: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.manipulationTableCM3.text2'),
+        title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.manipulationTableCM3.title2'),
       }
     ])
-    const medicalCabinetSHM2Data = computed(() => [
+    const manipulationTableCM3Data = computed(() => [
       {
-        title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.medicalCabinetSHM2'),
+        title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.manipulationTableCM3'),
         subtitle: "",
-        image: require('@/assets/toolsAndEquipment/medicalFurniture/medical-cabinet-SHM2.png'),
+        image: require('@/assets/toolsAndEquipment/medicalFurniture/manipulation-table-CM3.png'),
         productsParams: [
+          {
+            id: 1,
+            name: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.manipulationTableCM3.dataLeft1'),
+            data: "630*530*900",
+          }
         ]
       }
     ])
     return {
-      medicalCabinetSHM2Data,
+      manipulationTableCM3Data,
       textData
     }
   }
@@ -101,7 +106,7 @@ export default {
 </script>
 
 <style lang="scss">
-.medical-cabine-second {
+.manipulation-table-cm {
   &__inner {
     width: 100%;
     display: flex;
