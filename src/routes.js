@@ -165,6 +165,7 @@ import GynecologicalCouchKKG from '@/components/catalog/toolsAndEquipment/medica
 import TreatmentCouchKP from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/TreatmentCouchKP.vue'
 import DiagnosticCouch from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/DiagnosticCouch.vue'
 import BowelFlushingCouch from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/BowelFlushingCouch.vue'
+import SpecialScrews from '@/components/catalog/traumatology/ao-screws/special-screws/SpecialScrews.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -421,6 +422,10 @@ export default createRouter({
         {
           path: 'catalog/traumatology/ao-screws/micro-screws/thread-resistance-screw',
           component: ThreadResistantScrews
+        },
+        {
+          path: 'catalog/traumatology/ao-screws/special-screws',
+          component: SpecialScrews
         },
         { path: '404', component: NotFound },
         {
