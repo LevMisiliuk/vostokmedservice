@@ -11,9 +11,11 @@
           <p class="intro__text">
             {{ $t('main.intro.text') }}
           </p>
-          <el-button class="intro__button">{{
-            $t('main.intro.more')
-          }}</el-button>
+          <a :href="`/${$i18n.locale}/about`">
+            <el-button class="intro__button">
+              {{$t('main.intro.more')}}
+            </el-button>
+          </a>
         </div>
       </div>
       <div class="carts">
@@ -124,7 +126,9 @@ export default {
     const traumatologyLinks = computed(() => [
       {
         id: 1,
-        title: i18n.global.t('main.carts.traumatology.links.intramedullaryPins'),
+        title: i18n.global.t(
+          'main.carts.traumatology.links.intramedullaryPins'
+        ),
         path: `/${i18n.global.locale.value}/catalog/traumatology/intramedullary-pins`
       },
       {
@@ -149,19 +153,23 @@ export default {
       },
       {
         id: 6,
-        title: i18n.global.t('main.carts.traumatology.links.needlesRodsCerclage'),
+        title: i18n.global.t(
+          'main.carts.traumatology.links.needlesRodsCerclage'
+        ),
         path: `/${i18n.global.locale.value}/catalog/traumatology/needles-rods-cerclage`
       },
       {
         id: 7,
-        title:  i18n.global.t('main.carts.traumatology.links.microsurgery'),
+        title: i18n.global.t('main.carts.traumatology.links.microsurgery'),
         path: `/${i18n.global.locale.value}/catalog/traumatology/microsurgery`
       },
       {
         id: 8,
-        title:  i18n.global.t('main.carts.traumatology.links.ilizarovsApparatus'),
+        title: i18n.global.t(
+          'main.carts.traumatology.links.ilizarovsApparatus'
+        ),
         path: `/${i18n.global.locale.value}/catalog/traumatology/ilizarovs-apparatus`
-      },
+      }
     ])
     const surgeryLinks = computed(() => [
       i18n.global.t('main.carts.surgery.links.sutureMaterials'),

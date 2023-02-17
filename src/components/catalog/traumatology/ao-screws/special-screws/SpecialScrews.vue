@@ -32,6 +32,22 @@
           <BlockedScrew6and5 />
 
           <AntirotationScrew6and5 />
+
+          <AnchorScrew3and5 />
+
+          <AnchorScrew4 />
+
+          <AnchorScrew4and5 />
+
+          <FemoralM8 />
+
+          <FemoralM9and5 />
+
+          <FemoralScrewR8 />
+
+          <FemoralScrewR9and5 />
+
+          <HipScrew9and5 />
         </div>
       </div>
     </div>
@@ -45,10 +61,31 @@ import BlockedScrew3and9 from './grid/BlockedScrew3and9.vue'
 import BlockedScrew4and9 from './grid/BlockedScrew4and9.vue'
 import BlockedScrew6and5 from './grid/BlockedScrew6and5.vue'
 import AntirotationScrew6and5 from './grid/AntirotationScrew6and5.vue'
+import AnchorScrew3and5 from './grid/AnchorScrew3and5.vue'
+import AnchorScrew4 from './grid/AnchorScrew4.vue'
+import AnchorScrew4and5 from './grid/AnchorScrew4and5.vue'
+import FemoralM8 from './grid/FemoralM8.vue'
+import FemoralM9and5 from './grid/FemoralM9and5.vue'
+import FemoralScrewR8 from './grid/FemoralScrewR8.vue'
+import FemoralScrewR9and5 from './grid/FemoralScrewR9and5.vue'
+import HipScrew9and5 from './grid/HipScrew9and5.vue'
 
 export default {
   name: 'SpongeScrews',
-  components: { BlockedScrew3and9, BlockedScrew4and9, BlockedScrew6and5, AntirotationScrew6and5 },
+  components: {
+    BlockedScrew3and9,
+    BlockedScrew4and9,
+    BlockedScrew6and5,
+    AntirotationScrew6and5,
+    AnchorScrew3and5,
+    AnchorScrew4,
+    AnchorScrew4and5,
+    FemoralM8,
+    FemoralM9and5,
+    FemoralScrewR8,
+    FemoralScrewR9and5,
+    HipScrew9and5
+  },
   setup() {
     const cardData = computed(() => [
       {

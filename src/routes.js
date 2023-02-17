@@ -166,6 +166,7 @@ import TreatmentCouchKP from '@/components/catalog/toolsAndEquipment/medicalFurn
 import DiagnosticCouch from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/DiagnosticCouch.vue'
 import BowelFlushingCouch from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/BowelFlushingCouch.vue'
 import SpecialScrews from '@/components/catalog/traumatology/ao-screws/special-screws/SpecialScrews.vue'
+import AboutScreen from '@/components/mainScreens/AboutScreen.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -179,6 +180,7 @@ export default createRouter({
         { path: 'education', component: EducationPage },
         { path: 'certificates', component: CertificatesPage },
         { path: 'contacts', component: ContactsPage },
+        { path: 'about', component: AboutScreen },
         {
           path: 'catalog/surgery',
           component: CatalogSurgery
