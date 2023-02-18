@@ -167,6 +167,29 @@ import DiagnosticCouch from '@/components/catalog/toolsAndEquipment/medicalFurni
 import BowelFlushingCouch from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/BowelFlushingCouch.vue'
 import SpecialScrews from '@/components/catalog/traumatology/ao-screws/special-screws/SpecialScrews.vue'
 import AboutScreen from '@/components/mainScreens/AboutScreen.vue'
+import AdjustableMassegeCouch from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/AdjustableMassegeCouch.vue'
+import PowerDrivenMessageCouch from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/PowerDrivenMessageCouch.vue'
+import StationaryMessageCouch from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/StationaryMessageCouch.vue'
+import AdjustableHeadrestCouch from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/AdjustableHeadrestCouch.vue'
+import ProceduralCocuhTable from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/ProceduralCocuhTable.vue'
+import ExaminationCouch from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/ExaminationCouch.vue'
+import NewbornBabyCart from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/NewbornBabyCart.vue'
+import CartRemovableStretcher from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/CartRemovableStretcher.vue'
+import PatientTransferCart from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/PatientTransferCart.vue'
+import ScrewChairwithoutBackrest from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/ScrewChairwithoutBackrest.vue'
+import ScrewChairwithBackrest from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/ScrewChairwithBackrest.vue'
+import ScrewChairBackrest from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/ScrewChairBackrest.vue'
+import StretcherMedicalOne from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalStretcher/StretcherMedicalOne.vue'
+import StretcherMedicalSecond from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalStretcher/StretcherMedicalSecond.vue'
+import StretcherMedicalThird from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalStretcher/StretcherMedicalThird.vue'
+import StretcherMedicalForth from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalStretcher/StretcherMedicalForth.vue'
+import StretcherMedicalFifth from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalStretcher/StretcherMedicalFifth.vue'
+import StretcherMedicalSixth from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalStretcher/StretcherMedicalSixth.vue'
+import GynecologicalPediatricChair from '@/components/catalog/toolsAndEquipment/medicalFurniture/GynecologicalChairs/GynecologicalPediatricChair.vue'
+import GynecologicalChairOne from '@/components/catalog/toolsAndEquipment/medicalFurniture/GynecologicalChairs/GynecologicalChairOne.vue'
+import GynecologicalChairSecond from '@/components/catalog/toolsAndEquipment/medicalFurniture/GynecologicalChairs/GynecologicalChairSecond.vue'
+import GynecologicalChairThird from '@/components/catalog/toolsAndEquipment/medicalFurniture/GynecologicalChairs/GynecologicalChairThird.vue'
+import GynecologicalChairElectricdrive from '@/components/catalog/toolsAndEquipment/medicalFurniture/GynecologicalChairs/GynecologicalChairElectricdrive.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -763,6 +786,54 @@ export default createRouter({
           component: TreatmentCouchKP
         },
         {
+          path: 'catalog/tools-and-equipment/medical-furniture/couches/kushetka-massazhnaya-reguliruemaya-po-vysote-km-3',
+          component: AdjustableMassegeCouch
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/couches/kushetka-massazhnaya-s-elektroprivodom-kme',
+          component: PowerDrivenMessageCouch
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/couches/kushetka-massazhnaya-statsionarnaya-km-1',
+          component: StationaryMessageCouch
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/couches/kushetka-protsedurnaya-s-reguliruemym-podgolovnikom-krp',
+          component: AdjustableHeadrestCouch
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/couches/kushetka-protsedurnaya-s-tumbochkoi-krpt',
+          component: ProceduralCocuhTable
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/couches/kushetka-smotrovaya-ks-1',
+          component: ExaminationCouch
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/couches/telezhka-dlya-novorozhdennykh-tn',
+          component: NewbornBabyCart
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/couches/telezhka-dlya-perevozki-bolnykh-so-semnymi-nosilkami-tbs-150',
+          component: CartRemovableStretcher
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/couches/telezhka-dlya-transportirovki-patsientov-s-regulirovkoi-vysoty-tpbr',
+          component: PatientTransferCart
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/couches/stul-vintovoi-bez-spinki-sv',
+          component: ScrewChairwithoutBackrest
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/couches/stul-vintovoi-so-spinkoi-peredvizhnoi-s-podstavkoi-dlya-nog-svps',
+          component: ScrewChairwithBackrest
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/couches/stul-vintovoi-so-spinkoi-svs',
+          component: ScrewChairBackrest
+        },
+        {
           path: 'catalog/tools-and-equipment/medical-furniture/couches/kushetka-diagnosticheskaya-kd-1',
           component: DiagnosticCouch
         },
@@ -773,6 +844,50 @@ export default createRouter({
         {
           path: 'catalog/tools-and-equipment/medical-furniture/litters-medical/',
           component: MedicalStretcher
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/litters-medical/nosilki-meditsinskie-a03',
+          component: StretcherMedicalOne
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/litters-medical/nosilki-meditsinskie-a16',
+          component: StretcherMedicalSecond
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/litters-medical/nosilki-meditsinskie-a01',
+          component: StretcherMedicalThird
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/litters-medical/nosilki-meditsinskie-v01',
+          component: StretcherMedicalForth
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/litters-medical/nosilki-meditsinskie-v03',
+          component: StretcherMedicalFifth
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/litters-medical/nosilki-meditsinskie-v11',
+          component: StretcherMedicalSixth
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/litters-medical/kreslo-ginekologicheskoe-detskoe-s-elektroprivodom-kg-3d',
+          component: GynecologicalPediatricChair
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/litters-medical/kreslo-ginekologicheskoe-kg-1m',
+          component: GynecologicalChairOne
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/kreslo-ginekologicheskoe-kg-1me',
+          component: GynecologicalChairSecond
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/kreslo-ginekologicheskoe-kg-2m',
+          component: GynecologicalChairThird
+        },
+        {
+          path: 'catalog/tools-and-equipment/medical-furniture/kreslo-ginekologicheskoe-s-elektroprivodom-kg-ze',
+          component: GynecologicalChairElectricdrive
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/armchair-gynecological/',

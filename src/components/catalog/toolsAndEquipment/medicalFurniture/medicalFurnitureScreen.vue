@@ -66,62 +66,62 @@ export default {
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.adjustableMassegeCouch'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/adjustable-massege-couch.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/couches/kushetka-massazhnaya-reguliruemaya-po-vysote-km-3`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.powerDrivenMessageCouch'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/powerdriven-message-couch.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/couches/kushetka-massazhnaya-s-elektroprivodom-kme`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.stationaryMessageCouch'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/stationary-message-couch.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/couches/kushetka-massazhnaya-statsionarnaya-km-1`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.adjustableHeadrestCouch'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/adjustable-headrest-couch.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/couches/kushetka-protsedurnaya-s-reguliruemym-podgolovnikom-krp`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.proceduralCocuhTable'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/procedural-cocuh-table.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/couches/kushetka-protsedurnaya-s-tumbochkoi-krpt`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.examinationCouch'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/examination-couch.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/couches/kushetka-smotrovaya-ks-1`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.newbornBabyCartTN'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/newbornbaby-cart-TN.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/couches/telezhka-dlya-novorozhdennykh-tn`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.cartRemovableStretcher'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/cart-removable-stretcher.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/couches/telezhka-dlya-perevozki-bolnykh-so-semnymi-nosilkami-tbs-150`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.patientTransferCart'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/patient-transfer-cart.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/couches/telezhka-dlya-transportirovki-patsientov-s-regulirovkoi-vysoty-tpbr`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.screwChairWithoutBackrest'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/screw-chair-without-backrest.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/couches/stul-vintovoi-bez-spinki-sv`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.screwChairWithBackrest'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/screw-chair-with-backrest.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/couches/stul-vintovoi-so-spinkoi-peredvizhnoi-s-podstavkoi-dlya-nog-svps`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.screwChairWithBackrestSVS'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/screw-chairwith-backrest-SVS.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/couches/stul-vintovoi-so-spinkoi-svs`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.changingTableSPL'),
@@ -151,57 +151,57 @@ export default {
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.stretcherMedicalA03'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/stretcher-medical-A03.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/litters-medical/nosilki-meditsinskie-a03`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.stretcherMedicalA16'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/stretcher-medical-A16.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/litters-medical/nosilki-meditsinskie-a16`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.stretcherMedicalA01'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/stretcher-medical-A01.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/litters-medical/nosilki-meditsinskie-a01`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.stretcherMedicalB01'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/stretcher-medical-B01.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/litters-medical/nosilki-meditsinskie-v01`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.stretcherMedicalB03'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/stretcher-medical-B03.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/litters-medical/nosilki-meditsinskie-v03`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.stretcherMedicalB11'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/stretcher-medical-B11.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/litters-medical/nosilki-meditsinskie-v11`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.gynecologicalPediatricChairElectricDrive'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/gynecological-pediatricchair-electricdrive.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/litters-medical/kreslo-ginekologicheskoe-detskoe-s-elektroprivodom-kg-3d`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.gynecologicalChairKG1M'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/gynecological-chair-KG1M.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/litters-medical/kreslo-ginekologicheskoe-kg-1m`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.gynecologicalChairKG1ME'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/gynecological-chair-KG1ME.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/kreslo-ginekologicheskoe-kg-1me`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.gynecologicalChairKG2M'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/gynecological-chair-KG2M.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/kreslo-ginekologicheskoe-kg-2m`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.gynecologicalChairElectricDrive'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/gynecological-chair-electricdrive.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/kreslo-ginekologicheskoe-s-elektroprivodom-kg-ze`
       }
     ])
 

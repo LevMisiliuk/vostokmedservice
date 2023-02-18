@@ -31,27 +31,27 @@ export default {
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.gynecologicalPediatricChairElectricDrive'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/gynecological-pediatricchair-electricdrive.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/litters-medical/kreslo-ginekologicheskoe-detskoe-s-elektroprivodom-kg-3d`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.gynecologicalChairKG1M'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/gynecological-chair-KG1M.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/litters-medical/kreslo-ginekologicheskoe-kg-1m`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.gynecologicalChairKG1ME'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/gynecological-chair-KG1ME.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/kreslo-ginekologicheskoe-kg-1me`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.gynecologicalChairKG2M'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/gynecological-chair-KG2M.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/kreslo-ginekologicheskoe-kg-2m`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.gynecologicalChairElectricDrive'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/gynecological-chair-electricdrive.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/kreslo-ginekologicheskoe-s-elektroprivodom-kg-ze`
       }
     ])
 

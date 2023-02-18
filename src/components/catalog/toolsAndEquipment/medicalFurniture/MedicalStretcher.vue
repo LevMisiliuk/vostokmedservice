@@ -31,32 +31,32 @@ export default {
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.stretcherMedicalA03'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/stretcher-medical-A03.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/litters-medical/nosilki-meditsinskie-a03`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.stretcherMedicalA16'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/stretcher-medical-A16.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/litters-medical/nosilki-meditsinskie-a16`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.stretcherMedicalA01'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/stretcher-medical-A01.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/litters-medical/nosilki-meditsinskie-a01`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.stretcherMedicalB01'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/stretcher-medical-B01.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/litters-medical/nosilki-meditsinskie-v01`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.stretcherMedicalB03'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/stretcher-medical-B03.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/litters-medical/nosilki-meditsinskie-v03`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.medicalFurniture.links.stretcherMedicalB11'),
         img: require('@/assets/toolsAndEquipment/medicalFurniture/stretcher-medical-B11.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/medical-furniture/litters-medical/nosilki-meditsinskie-v11`
       },
     ])
 

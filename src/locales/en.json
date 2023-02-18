@@ -2361,6 +2361,168 @@
             "dataLeft2": "Height, mm:",
             "dataLeft3": "Length, mm:",
             "dataLeft4": "Diameter of the hole, mm:"
+          },
+          "adjustableMassegeCouch": {
+            "title1": "FEATURES",
+            "text1": "The couch consists of a frame welded from pipes of rectangular and circular cross-section, on which is strengthened a soft panel consisting of three rotating sections: head, hip and foot. The chosen position of the sections is fixed by means of special self-locking mechanisms. The design of the frame allows to adjust the height of the panel above the floor level. The head section has a headrest with a soft pillow for comfortable positioning of the patient's face while massaging the shoulder girdle muscles. The couch is equipped with a soft roller for convenient massage of calf and ankle muscles.",
+            "dataLeft1": "Maximum load capacity, kg:",
+            "dataLeft2": "Panel height above floor level, mm:",
+            "dataLeft3": "Panel dimensions, mm:",
+            "dataLeft4": "Limits of panel section tilt angle adjustment (degrees):",
+            "dataLeft5": "Dimensions:",
+            "dataLeft6": "Weight , kg, max:",
+            "dataRight4": "back up 0 - 45 back down 0 - 15 hip 0 - 25 (up) foot 0 - 50 (up)",
+            "dataRight5": "Length - 2250 ± 50 mm Width - 610 ± 10 mm Height - (1470 ± 20)* (* sections maximally raised) mm"
+          },
+          "powerDrivenMessageCouch": {
+            "title1": "FEATURES",
+            "text1": "- functional design providing a high level of safety and comfort",
+            "text2": "- specially designed for medical use",
+            "text3": "- highest stability",
+            "text4": "- manual, pneumatic or electric control",
+            "text5": "- high performance motors for electric operation",
+            "text6": "- wide range of coverings in various colors",
+            "text7": "- wide variety of optional accessories",
+            "text8": "- sanitary towel holders",
+            "dataLeft1": "Width, mm:",
+            "dataLeft2": "Height, mm:",
+            "dataLeft3": "Length, mm:"
+          },
+          "stationaryMessageCouch": {
+            "title1": "AREA OF USE",
+            "text1": "Designed to accommodate patients when performing therapeutic and other types of massage in medical and therapeutic institutions.",
+            "dataLeft1": "Load capacity, kg:",
+            "dataLeft2": "Panel height above floor level, mm:",
+            "dataLeft3": "Panel section inclination angles (degrees):",
+            "dataLeft4": "Panel dimensions, mm:",
+            "dataLeft5": "Overall dimensions, mm:",
+            "dataLeft6": "Weight, kg:",
+            "dataRight3": "dorsal (up/down) 0 - 45 / 0 - 15 hip (up) 0 - 25 foot (up) 0 - 50",
+            "dataRight5": "2250 x 610 x 1470* (* sections maximally raised)"
+          },
+          "adjustableHeadrestCouch": {
+            "title1": "FEATURES",
+            "text1": "The two-section couch with adjustable artificial leather headrest is designed for general examinations and procedures in medical institutions. The possibility to equip the couch with a tripod, injection table, armrests, rests, etc. allows to considerably expand its functionality. The couch base is of two types: demountable and all-welded, made of section steel, painted with environmentally friendly powder paints. The angle of elevation of the headrest is manually adjustable.",
+            "dataLeft1": "Width, mm:",
+            "dataLeft2": "Height, mm:",
+            "dataLeft3": "Length, mm:",
+            "dataLeft4": "Foam thickness, mm:"
+          },
+          "proceduralCocuhTable": {
+            "title1": "FEATURES",
+            "text1": "The main advantage of this model is that the couch is equipped with a nightstand with drawers as well as a towel holder. The couch has an optimal height for various types of procedures, which require the patient to be at a height of at least 800 mm. The couch bed and height-adjustable headrest are covered in seamless synthetic leather. The base is collapsible, made of profiled steel, painted with white disinfectant-resistant powder paint.",
+            "dataLeft1": "Width, mm:",
+            "dataLeft2": "Height, mm:",
+            "dataLeft3": "Length, mm:"
+          },
+          "examinationCouch": {
+            "title1": "FEATURES",
+            "text1": "The couch consists of a frame, welded from pipes of rectangular section, on which is strengthened a soft panel consisting of a recliner and headrest. The headrest has the possibility of tilting with fixation of the selected position.",
+            "dataLeft1": "Load capacity, kg:",
+            "dataLeft2": "Panel height above floor level, mm:",
+            "dataLeft3": "Angle of elevation of the headrest, deg:",
+            "dataLeft4": "Panel dimensions, mm:",
+            "dataLeft5": "Overall dimensions, mm:",
+            "dataLeft6": "Weight, kg:"
+          },
+          "patientTransferCart": {
+            "title1": "FEATURES",
+            "text1": "This cart model is characterized by simplicity and reliability. The TPBR model has manual bed height adjustment by rotating the handle. The cart frame is made of high quality sectional steel and is powder painted to be resistant to the environment and disinfectants. At the customer's request the cart can be equipped with side handrails, infusion bar and patient fixation belt. The cart has a comfortable handle for moving and angled rubber bumpers to protect against impacts. The cart has a seamless upholstery of the bed with medical leatherette.",
+            "dataLeft1": "Total length, mm:",
+            "dataLeft2": "Total width, mm:",
+            "dataLeft3": "Height adjustment, mm:",
+            "dataLeft4": "Backrest position change, °:"
+          },
+          "screwChairWithoutBackrest": {
+            "subtitle": "It consists of a metal frame welded from round tubes and a seat. The frame has a vertical column with a running thread; a rod with a running thread is attached to the seat. Turning the seat clockwise or anti-clockwise enables the seat to be lowered or raised accordingly"
+          },
+          "screwChairWithBackrest": {
+            "subtitle": "Screw type chair with backrest for mobile use with footrest SVPS. Designed for prolonged sitting work of a doctor. The backrest is arranged in such a way as to allow you to take a comfortable position while working. Height adjustment is performed with the help of a screw mechanism"
+          },
+          "screwChairWithBackrestSVS": {
+            "subtitle": "The SVS screw chair with backrest consists of a metal frame welded from round tubes, a seat and an adjustable upholstered backrest. The frame has a vertical bar with a running thread in a clockwise or anti-clockwise direction to lower or raise the seat accordingly."
+          },
+          "stretcherMedicalA03": {
+            "subtitle": "Medical stretcher YDC-1A3 is designed for transporting patients in hospitals, trauma centers, sports and emergency medicine. They have one pair of wheels and one pair of supports, which enable transportation by one person. Folded transversely, the head section is raised. The stretcher frame is made of a high-strength aluminum alloy, the cloth is made of a special fabric that can be easily disinfected. This makes the stretcher light, compact, comfortable and safe to use. Two safety straps are included",
+            "dataLeft1": "Size in unfolded state, l.x w.x h., cm:",
+            "dataLeft2": "Size in assembled condition length x width x height, cm:",
+            "dataLeft3": "Maximum angle of inclination of the head section, °:",
+            "dataLeft4": "Net weight, kg:",
+            "dataLeft5": "Maximum load weight, kg:"
+          },
+          "stretcherMedicalA16": {
+            "subtitle": "Pneumatic vacuum medical stretcher YDC-6A is designed for transportation of patients by teams of disaster medicine, emergency medicine, as well as in sports medicine. The stretcher is made of high quality synthetic fabric. They meet the anthropometric characteristics of a person. Suitable for radiographic examinations. They are light, compact, comfortable and safe to use. Depending on the patient's condition, the stretcher has an adjustable degree of air discharging in the middle by means of a pump, which allows the stretcher to take various degrees of hardness.",
+            "dataLeft1": "Dimensions in unfolded state, l.x w.x h., cm:",
+            "dataLeft2": "Size in folded condition l.width x height, cm:",
+            "dataLeft3": "Maximum load, kg:",
+            "dataLeft4": "Net weight, kg:"
+          },
+          "stretcherMedicalA01": {
+            "subtitle": "The YDC-1A1 medical stretcher is designed for transporting patients in hospitals, trauma centers and emergency medicine. They have one pair of wheels and one pair of supports, which allow, if necessary, transportation of one person. It can be folded crosswise. The stretcher frame is made of high tensile aluminum, the bed is made of a special fabric, which makes it light, compact, comfortable and safe to use. The surface of the stretcher can be easily disinfected. Two harness straps are included.",
+            "dataLeft1": "Size in unfolded state, l.x w.x h., cm:",
+            "dataLeft2": "Size in assembled condition length x width x height, cm:",
+            "dataLeft3": "Net weight, kg:",
+            "dataLeft4": "Maximum load weight, kg:"
+          },
+          "stretcherMedicalB01": {
+            "subtitle": "The YDC-2A medical stretcher (gurney) is designed for transporting patients in ambulances and hospital rooms and can be used for simple operations. The stretcher, on both sides, is equipped with limiting shackles that can be lowered. Adjustable angle of inclination of the head section. The stretcher frame is made of high-strength aluminum alloy. Equipped with a stand for continuous infusion, which can be installed on both sides of the gurney and two safety belts.",
+            "dataLeft1": "Size in unfolded state, l.h. x width. x height, cm:",
+            "dataLeft2": "Distance between wheels, cm:",
+            "dataLeft3": "Max. tilt angle, °:",
+            "dataLeft4": "Net weight, kg:",
+            "dataLeft5": "Gross weight, kg:",
+            "dataLeft6": "Maximum load weight, kg:"
+          },
+          "stretcherMedicalB03": {
+            "subtitle": "Medical stretcher YDC-3A (gurney car) is designed for transporting patients in ambulances and hospital rooms. The gurney is equipped with a convenient mechanism for folding the legs when loaded into the ambulance. The legs are folded when they are pressed on the device and the safety handles are released. For easier loading, the gurney is equipped with two pairs of wheels under the head section. The legs of the gurney are lowered automatically when it is pulled out of the ambulance. Large diameter wheels provide stability and maneuverability. Gurney, on both sides, has limiting arcs, which are lowered. The frame is made of high-strength aluminum alloy.",
+            "dataLeft1": "Size in unfolded state, l.x w.x h., cm:s",
+            "dataLeft2": "Size in assembled condition length x width x height, cm:",
+            "dataLeft3": "Maximum angle of inclination of the head section, °:",
+            "dataLeft4": "Net Weight, kg:",
+            "dataLeft5": "Gross weight, kg:",
+            "dataLeft6": "Maximum load weight, kg:"
+          },
+          "stretcherMedicalB11": {
+            "subtitle": "YDC-5G medical stretcher is designed for transporting patients. They are shaped like a chair with wheels, which greatly improves their movement in confined spaces. It can be folded in transverse direction. The stretcher frame is made of high strength aluminum alloy. It comes with two safety straps. The stretcher is designed for use at home, in emergency medicine and hospitals.",
+            "dataLeft1": "Size in unfolded state, l.x w.x h., cm:",
+            "dataLeft2": "Size in assembled condition length x width x height, cm:",
+            "dataLeft3": "Net Weight, kg:",
+            "dataLeft4": "Gross weight kg:",
+            "dataLeft5": "Maximum load weight, kg:"
+          },
+          "gynecologicalPediatricChairElectricDrive": {
+            "subtitle": "This model is equipped with a full electric drive that allows you to change the angle of the seat, as well as Trendelenburg and Reverse Trendelenburg positions. The electric actuator creates the most comfortable working conditions for the physician. The absence of steps has an important psychological aspect for the patients, namely: no tension before the examination, the patient comfortably sits down and smoothly rises with the help of the electric drive for the examination. The chairs are equipped with a stainless steel bowl, manual control panel, comfortable plastic armrests. In the back section there is a compartment with a holder for disposable sheets. The seats are upholstered in medical grade leatherette, resistant to cleaning and disinfection. The upholstery color can be chosen by the customer from a wide range of colors, upon request the frame color can be changed from white to any other color.",
+            "dataLeft1": "Seat height, mm:",
+            "dataLeft2": "Seat width, mm:",
+            "dataLeft3": "Backrest tilt angle, °:",
+            "dataLeft4": "Lifting force, kg:"
+          },
+          "gynecologicalChairKG1M": {
+            "subtitle": "The chair has a fixed height. The backrest position can be changed mechanically and the seat position can be changed by means of a pneumatic actuator. The chair can be in Trendelenburg position. At customer's request the chair can be equipped with an infusion stand, colposcope holder, stainless steel bowl, instrument table, armrest for long infusions, ergonomic polymeric kneecaps.",
+            "dataLeft1": "Backrest tilt angle, °, mechanical:",
+            "dataLeft2": "Seat tilt angle, °, pneumatic:",
+            "dataLeft3": "Permissible load, up to kg:"
+          },
+          "gynecologicalChairKG1ME": {
+            "subtitle": "The chair has a fixed height. The backrest position is changed mechanically, the seat angle is fixed, the step is simplified.",
+            "dataLeft1": "Backrest tilt angle, °, mechanical:",
+            "dataLeft2": "Seat tilt angle, °,:",
+            "dataLeft3": "Permissible load, up to kg:"
+          },
+          "gynecologicalChairKG2M": {
+            "subtitle": "The chair is characterized by simplicity and reliability. Adjustment of the backrest and seat position is done manually. The height of the chair bed is fixed. The armchair is equipped with elastic armrests, stainless steel bowl and comfortable step. The optional foot section, which transforms the chair into a treatment table, is available. The chair is made of stainless steel and powder enamel coated, resistant to the environment and disinfectants. The chair bed is seamlessly upholstered in medical grade leatherette. At customer's request the chair can be completed with armrest for long infusions, infusion stand, colposcope holder, instrumental table, additional section for legs.",
+            "dataLeft1": "Backrest position changes, °:",
+            "dataLeft2": "Seat position changes, °:",
+            "dataLeft3": "Backrest height, mm:",
+            "dataLeft4": "Seat width, mm:",
+            "dataLeft5": "Total length in table position, mm:"
+          },
+          "gynecologicalChairElectricDrive": {
+            "subtitle": "This model is equipped with a full electric drive that allows you to change the angle of the seat, as well as Trendelenburg and Reverse Trendelenburg positions. The electric actuator creates the most comfortable working conditions for the physician. The absence of steps has an important psychological aspect for the patients, namely: no tension before the examination, the patient comfortably sits down and smoothly rises with the help of the electric drive for the examination. The chairs are equipped with a stainless steel bowl, manual control panel, comfortable plastic armrests. In the back section there is a compartment with a holder for disposable sheets. The seats are upholstered in medical grade leatherette, resistant to cleaning and disinfection. The upholstery color can be chosen by the customer from a wide range of colors, upon request the frame color can be changed from white to any other color.",
+            "dataLeft1": "Seat height, mm:",
+            "dataLeft2": "Seat width, mm:",
+            "dataLeft3": "Backrest tilt angle, °:",
+            "dataLeft4": "Lifting force, kg:"
           }
 				},
 				"inhalersNebulizers": {
