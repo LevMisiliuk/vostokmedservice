@@ -190,6 +190,14 @@ import GynecologicalChairOne from '@/components/catalog/toolsAndEquipment/medica
 import GynecologicalChairSecond from '@/components/catalog/toolsAndEquipment/medicalFurniture/GynecologicalChairs/GynecologicalChairSecond.vue'
 import GynecologicalChairThird from '@/components/catalog/toolsAndEquipment/medicalFurniture/GynecologicalChairs/GynecologicalChairThird.vue'
 import GynecologicalChairElectricdrive from '@/components/catalog/toolsAndEquipment/medicalFurniture/GynecologicalChairs/GynecologicalChairElectricdrive.vue'
+import DefibrillatorMonitor from '@/components/catalog/toolsAndEquipment/DefibrillatorMonitor/DefibrillatorMonitor.vue'
+import PolyaxialScrew from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalScrews/PolyaxialScrew.vue'
+import CompressorInhalerDolphin from '@/components/catalog/toolsAndEquipment/inhalersNebulizers/CompressorInhalerDolphin.vue'
+import CompressorInhalerBoreal from '@/components/catalog/toolsAndEquipment/inhalersNebulizers/CompressorInhalerBoreal.vue'
+import InhalerOne from '@/components/catalog/toolsAndEquipment/inhalersNebulizers/InhalerOne.vue'
+import OmronOne from '@/components/catalog/toolsAndEquipment/inhalersNebulizers/OmronOne.vue'
+import OmronSecond from '@/components/catalog/toolsAndEquipment/inhalersNebulizers/OmronSecond.vue'
+import OmronThird from '@/components/catalog/toolsAndEquipment/inhalersNebulizers/OmronThird.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -726,6 +734,10 @@ export default createRouter({
           component: CardiologyScreen
         },
         {
+          path: 'catalog/tools-and-equipment/cardiology/defibrillyator-monitor',
+          component: DefibrillatorMonitor
+        },
+        {
           path: 'catalog/tools-and-equipment/electrocardiograph',
           component: ElectroCardiographs
         },
@@ -898,6 +910,30 @@ export default createRouter({
           component: InhalersNebulizersScreen
         },
         {
+          path: 'catalog/tools-and-equipment/inhalers-nebulizers/komprescornyi-ingalyator-nebulaizer-delfin',
+          component: CompressorInhalerDolphin
+        },
+        {
+          path: 'catalog/tools-and-equipment/inhalers-nebulizers/komprescornyi-ingalyator-nebulaizer-boreal',
+          component: CompressorInhalerBoreal
+        },
+        {
+          path: 'catalog/tools-and-equipment/inhalers-nebulizers/ingalyator-403a-kompressornyi',
+          component: InhalerOne
+        },
+        {
+          path: 'catalog/tools-and-equipment/inhalers-nebulizers/omron-ne-c30-comp-a-i-r-elite',
+          component: OmronOne
+        },
+        {
+          path: 'catalog/tools-and-equipment/inhalers-nebulizers/omron-ne-c29-comp-a-i-r-pro',
+          component: OmronSecond
+        },
+        {
+          path: 'catalog/tools-and-equipment/inhalers-nebulizers/omron-ne-c28-comp-a-i-r',
+          component: OmronThird
+        },
+        {
           path: 'catalog/tools-and-equipment/medical-instruments',
           component: MedicalInstrumentScreen
         },
@@ -907,6 +943,7 @@ export default createRouter({
           component: TranspedicularFixationScreen
         },
         { path: 'catalog/neurosurgery/spinal-screws', component: SpinalScrews },
+        { path: 'catalog/neurosurgery/spinal-screws/poliaksialnyi-vint', component: PolyaxialScrew },
         { path: 'catalog/neurosurgery/spinal-beam', component: SpinalBeams },
         { path: 'catalog/neurosurgery/spinal-hooks', component: SpinalHooks },
         {

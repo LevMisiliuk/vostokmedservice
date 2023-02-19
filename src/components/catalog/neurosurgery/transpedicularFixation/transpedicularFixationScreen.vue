@@ -31,7 +31,7 @@ export default {
       {
         title: i18n.global.t('main.carts.neurosurgery.spinalScrewsLinks.polyaxialScrew'),
         img: require('@/assets/neurosurgery/polyaxial-screw.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/spinal-screws/poliaksialnyi-vint`
       },
       {
         title: i18n.global.t('main.carts.neurosurgery.spinalScrewsLinks.monoaxialScrew'),

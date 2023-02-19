@@ -31,32 +31,32 @@ export default {
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.inhalersNebulizers.links.compressorInhalerDolphin'),
         img: require('@/assets/toolsAndEquipment/inhalersNebulizers/compressor-inhaler-dolphin.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/inhalers-nebulizers/komprescornyi-ingalyator-nebulaizer-delfin`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.inhalersNebulizers.links.compressorInhalerBoreal'),
         img: require('@/assets/toolsAndEquipment/inhalersNebulizers/compressor-inhaler-boreal.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/inhalers-nebulizers/komprescornyi-ingalyator-nebulaizer-boreal`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.inhalersNebulizers.links.inhaler403A'),
         img: require('@/assets/toolsAndEquipment/inhalersNebulizers/inhaler-403A.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/inhalers-nebulizers/ingalyator-403a-kompressornyi`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.inhalersNebulizers.links.omronNeC30'),
         img: require('@/assets/toolsAndEquipment/inhalersNebulizers/omron-ne-C30.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/inhalers-nebulizers/omron-ne-c30-comp-a-i-r-elite`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.inhalersNebulizers.links.omronNeC29'),
         img: require('@/assets/toolsAndEquipment/inhalersNebulizers/omron-ne-C29.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/inhalers-nebulizers/omron-ne-c29-comp-a-i-r-pro`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.inhalersNebulizers.links.omronNeC28'),
         img: require('@/assets/toolsAndEquipment/inhalersNebulizers/omron-ne-C28.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/inhalers-nebulizers/omron-ne-c28-comp-a-i-r`
       },
     ])
 
