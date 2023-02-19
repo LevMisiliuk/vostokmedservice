@@ -198,6 +198,32 @@ import InhalerOne from '@/components/catalog/toolsAndEquipment/inhalersNebulizer
 import OmronOne from '@/components/catalog/toolsAndEquipment/inhalersNebulizers/OmronOne.vue'
 import OmronSecond from '@/components/catalog/toolsAndEquipment/inhalersNebulizers/OmronSecond.vue'
 import OmronThird from '@/components/catalog/toolsAndEquipment/inhalersNebulizers/OmronThird.vue'
+import MonoaxialScrew from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalScrews/MonoaxialScrew.vue'
+import StaightGirder from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalBeams/StaightGirder.vue'
+import CurvedBeam from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalBeams/CurvedBeam.vue'
+import CrossBar from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalBeams/CrossBar.vue'
+import ConnectionHook from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalHooks/ConnectionHook.vue'
+import ClosedPedicleHook from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalHooks/ClosedPedicleHook.vue'
+import OpenPedicleHook from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalHooks/OpenPedicleHook.vue'
+import OpenLaminarFlowHook from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalHooks/OpenLaminarFlowHook.vue'
+import ClosedLaminarHook from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalHooks/ClosedLaminarHook.vue'
+import CurvedLaminarHook from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalHooks/CurvedLaminarHook.vue'
+import SacredBlock from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalSystems/SacredBlock.vue'
+import SacralScrew from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalSystems/SacralScrew.vue'
+import InstrumentOne from '@/components/catalog/neurosurgery/neurosurgicalInstrument/InstrumentOne.vue'
+import InstrumentSecond from '@/components/catalog/neurosurgery/neurosurgicalInstrument/InstrumentSecond.vue'
+import InstrumentThird from '@/components/catalog/neurosurgery/neurosurgicalInstrument/InstrumentThird.vue'
+import InstrumentForth from '@/components/catalog/neurosurgery/neurosurgicalInstrument/InstrumentForth.vue'
+import InstrumentFifth from '@/components/catalog/neurosurgery/neurosurgicalInstrument/InstrumentFifth.vue'
+import InstrumentSixth from '@/components/catalog/neurosurgery/neurosurgicalInstrument/InstrumentSixth.vue'
+import InstrumentSeventh from '@/components/catalog/neurosurgery/neurosurgicalInstrument/InstrumentSeventh.vue'
+import LoveGruenwald from '@/components/catalog/neurosurgery/neurosurgicalInstrument/LoveGruenwald.vue'
+import MicroCupForceps from '@/components/catalog/neurosurgery/neurosurgicalInstrument/MicroCupForceps.vue'
+import MicroAlligatorShaft from '@/components/catalog/neurosurgery/neurosurgicalInstrument/MicroAlligatorShaft.vue'
+import LunbraLaminaSpreader from '@/components/catalog/neurosurgery/neurosurgicalInstrument/LunbraLaminaSpreader.vue'
+import ClowardOne from '@/components/catalog/neurosurgery/neurosurgicalInstrument/ClowardOne.vue'
+import MicroGraspingSerrated from '@/components/catalog/neurosurgery/neurosurgicalInstrument/MicroGraspingSerrated.vue'
+import MicroAlligatorStraight from '@/components/catalog/neurosurgery/neurosurgicalInstrument/MicroAlligatorStraight.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -944,11 +970,29 @@ export default createRouter({
         },
         { path: 'catalog/neurosurgery/spinal-screws', component: SpinalScrews },
         { path: 'catalog/neurosurgery/spinal-screws/poliaksialnyi-vint', component: PolyaxialScrew },
+        { path: 'catalog/neurosurgery/spinal-screws/monoaksialnyi-vint', component: MonoaxialScrew },
         { path: 'catalog/neurosurgery/spinal-beam', component: SpinalBeams },
+        { path: 'catalog/neurosurgery/spinal-beam/pryamayabalka', component: StaightGirder },
+        { path: 'catalog/neurosurgery/spinal-beam/izognutaya-balka', component: CurvedBeam },
+        { path: 'catalog/neurosurgery/spinal-beam/perekrestnayabalk', component: CrossBar },
         { path: 'catalog/neurosurgery/spinal-hooks', component: SpinalHooks },
+        { path: 'catalog/neurosurgery/spinal-hooks/soedinitelnyi-kryuchok', component: ConnectionHook },
+        { path: 'catalog/neurosurgery/spinal-hooks/zakrytyi-pedikulyarnyi-kryuchok', component: ClosedPedicleHook },
+        { path: 'catalog/neurosurgery/spinal-hooks/otkrytyi-pedikulyarnyi-kryuchok', component: OpenPedicleHook },
+        { path: 'catalog/neurosurgery/spinal-hooks/otkrytyi-laminarnyi-kryuchok', component: OpenLaminarFlowHook },
+        { path: 'catalog/neurosurgery/spinal-hooks/zakrytyi-laminarnyi-kryuchok', component: ClosedLaminarHook },
+        { path: 'catalog/neurosurgery/spinal-hooks/izognutyi-laminarnyi-kryuchok', component: CurvedLaminarHook },
         {
           path: 'catalog/neurosurgery/spinal-system',
           component: SpinalSystems
+        },
+        {
+          path: 'catalog/neurosurgery/spinal-system/sakralnyi-blok',
+          component: SacredBlock
+        },
+        {
+          path: 'catalog/neurosurgery/spinal-system/sakralnyi-vint',
+          component: SacralScrew
         },
         {
           path: 'catalog/neurosurgery/plates-neurosurgical',
@@ -961,6 +1005,62 @@ export default createRouter({
         {
           path: 'catalog/neurosurgery/neurosurgical-tool',
           component: NeurosurgicalInstrument
+        },
+        {
+          path: 'catalog/neurosurgery/neurosurgical-tool/cloward-11-201-160-16-cm',
+          component: InstrumentOne
+        },
+        {
+          path: 'catalog/neurosurgery/neurosurgical-tool/11-202-140-14-cm',
+          component: InstrumentSecond
+        },
+        {
+          path: 'catalog/neurosurgery/neurosurgical-tool/inge-11-195-160-16-cm-small-pattern',
+          component: InstrumentThird
+        },
+        {
+          path: 'catalog/neurosurgery/neurosurgical-tool/inge-11-196-170-17-cm',
+          component: InstrumentForth
+        },
+        {
+          path: 'catalog/neurosurgery/neurosurgical-tool/inge-26-cm-11-197-260-jaw-with-5-mm-11-198-260-jaw-with-10-mm-large-pattern',
+          component: InstrumentFifth
+        },
+        {
+          path: 'catalog/neurosurgery/neurosurgical-tool/cushing',
+          component: InstrumentSixth
+        },
+        {
+          path: 'catalog/neurosurgery/neurosurgical-tool/gloward-type-serrated-cup-jaws',
+          component: InstrumentSeventh
+        },
+        {
+          path: 'catalog/neurosurgery/neurosurgical-tool/love-gruenwald',
+          component: LoveGruenwald
+        },
+        {
+          path: 'catalog/neurosurgery/neurosurgical-tool/micro-cup-forceps',
+          component: MicroCupForceps
+        },
+        {
+          path: 'catalog/neurosurgery/neurosurgical-tool/micro-alligator-f0rceps-with-tubular-shaft-18-cm',
+          component: MicroAlligatorShaft
+        },
+        {
+          path: 'catalog/neurosurgery/neurosurgical-tool/lumbar-lamina-spreader-11-200-00-arm-length-87-5-mm-spread-37-5-mm',
+          component: LunbraLaminaSpreader
+        },
+        {
+          path: 'catalog/neurosurgery/neurosurgical-tool/cloward-11-199-130-13-cm',
+          component: ClowardOne
+        },
+        {
+          path: 'catalog/neurosurgery/neurosurgical-tool/micro-grasping-11-153-00-serrated-straight',
+          component: MicroGraspingSerrated
+        },
+        {
+          path: 'catalog/neurosurgery/neurosurgical-tool/micro-alligator-11-154-00-straight',
+          component: MicroAlligatorStraight
         }
       ]
     }

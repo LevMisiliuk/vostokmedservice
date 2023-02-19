@@ -956,10 +956,48 @@
           "polyaxialScrew": "ПОЛІАКСІАЛЬНИЙ ГВИНТ",
           "monoaxialScrew": "МОНОАКСІАЛЬНИЙ ГВИНТ"
         },
+        "polyaxialScrew": {
+					"table": {
+						"first": "L, мм",
+						"second": "Ø 4,5 мм",
+						"third": "Ø 5,5 мм",
+						"fourth": "Ø 6,5 мм",
+						"fifth": "Ø 7,5 мм"
+          }
+        },
+        "monoaxialScrew": {
+					"table": {
+						"first": "L, mm",
+						"second": "Ø 4,5 mm",
+						"third": "Ø 5,5 mm",
+						"fourth": "Ø 6,5 mm",
+						"fifth": "Ø 7,5 mm"
+          }
+        },
         "spinalBeamsLinks": {
           "staightGirder": "ПРЯМА БАЛКА",
           "curvedBeam": "ВИГНУТА БАЛКА",
           "crossBar": "ПЕРЕХРЕСНА БАЛКА"
+        },
+        "staightGirder": {
+					"table": {
+						"first": "L, мм",
+						"second": "Кат №",
+						"third": "L",
+						"fourth": "Кат №"
+          }
+        },
+        "curvedBeam": {
+					"table": {
+						"first": "L, мм",
+						"second": "Кат №"
+          }
+        },
+        "crossBar": {
+					"table": {
+						"first": "L, мм",
+						"second": "Кат №"
+          }
         },
         "spinalHooksLinks": {
           "connectionHook": "З'ЄДНУВАЛЬНИЙ ГАЧОК",
@@ -969,9 +1007,59 @@
           "closedLaminarHook": "ЗАКРИТИЙ ЛАМІНАРНИЙ ГАЧОК",
           "curvedLaminarHook": "ВИГНУТИЙ ЛАМІНАРНИЙ ГАЧОК"
         },
+        "connectionHook": {
+					"table": {
+						"first": "Кат №"
+          }
+        },
+        "closedPedicleHook": {
+					"table": {
+						"first": "Розмір",
+            "second": "Кат №"
+          }
+        },
+        "openPedicleHook": {
+					"table": {
+						"first": "Розмір",
+            "second": "Кат №"
+          }
+        },
+        "openLaminarFlowHook": {
+					"table": {
+						"first": "Розмір",
+            "second": "Сторона",
+            "third": "Кат №"
+          }
+        },
+        "closedLaminarHook": {
+					"table": {
+						"first": "Розмір",
+            "second": "Kat szám"
+          }
+        },
+        "curvedLaminarHook": {
+					"table": {
+						"first": "Розмір",
+            "second": "Сторона",
+            "third": "Кат №"
+          }
+        },
         "spinalSystemsLinks": {
           "sacredBlock": "САКРАЛЬНИЙ БЛОК",
           "sacralScrew": "САКРАЛЬНИЙ ГВИНТ"
+        },
+        "sacredBlock": {
+					"table": {
+						"first": "Сторона",
+            "second": "Кат №"
+          }
+        },
+        "sacralScrew": {
+					"table": {
+						"first": "Розмір",
+            "second": "",
+            "third": "Кат №"
+          }
         },
         "neurosurgicalPlatesLinks": {
           "links": {

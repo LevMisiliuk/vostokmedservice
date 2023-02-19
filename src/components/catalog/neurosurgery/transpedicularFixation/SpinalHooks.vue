@@ -31,32 +31,32 @@ export default {
       {
         title: i18n.global.t('main.carts.neurosurgery.spinalHooksLinks.connectionHook'),
         img: require('@/assets/neurosurgery/connection-hook.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/spinal-hooks/soedinitelnyi-kryuchok`
       },
       {
         title: i18n.global.t('main.carts.neurosurgery.spinalHooksLinks.closedPedicleHook'),
         img: require('@/assets/neurosurgery/closed-pedicle-hook.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/spinal-hooks/zakrytyi-pedikulyarnyi-kryuchok`
       },
       {
         title: i18n.global.t('main.carts.neurosurgery.spinalHooksLinks.openPedicleHook'),
         img: require('@/assets/neurosurgery/open-pedicle-hook.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/spinal-hooks/otkrytyi-pedikulyarnyi-kryuchok`
       },
       {
         title: i18n.global.t('main.carts.neurosurgery.spinalHooksLinks.openLaminarFlowHook'),
         img: require('@/assets/neurosurgery/open-laminar-flowhook.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/spinal-hooks/otkrytyi-laminarnyi-kryuchok`
       },
       {
         title: i18n.global.t('main.carts.neurosurgery.spinalHooksLinks.closedLaminarHook'),
         img: require('@/assets/neurosurgery/closed-laminar-hook.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/spinal-hooks/zakrytyi-laminarnyi-kryuchok`
       },
       {
         title: i18n.global.t('main.carts.neurosurgery.spinalHooksLinks.curvedLaminarHook'),
         img: require('@/assets/neurosurgery/curved-laminar-hook.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/spinal-hooks/izognutyi-laminarnyi-kryuchok`
       },
     ])
 

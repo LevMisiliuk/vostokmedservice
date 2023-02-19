@@ -958,10 +958,48 @@
           "polyaxialScrew": "POLYAXIAL SCREW",
           "monoaxialScrew": "MONOAXIAL SCREW"
         },
+        "polyaxialScrew": {
+					"table": {
+						"first": "L, mm",
+						"second": "Ø 4,5 mm",
+						"third": "Ø 5,5 mm",
+						"fourth": "Ø 6,5 mm",
+						"fifth": "Ø 7,5 mm"
+          }
+        },
+        "monoaxialScrew": {
+					"table": {
+						"first": "L, mm",
+						"second": "Ø 4,5 mm",
+						"third": "Ø 5,5 mm",
+						"fourth": "Ø 6,5 mm",
+						"fifth": "Ø 7,5 mm"
+          }
+        },
         "spinalBeamsLinks": {
           "staightGirder": "STRAIGHT GIRDER",
           "curvedBeam": "CURVED BEAM",
           "crossBar": "CROSSBAR"
+        },
+        "staightGirder": {
+					"table": {
+						"first": "L, мм",
+						"second": "Cat №",
+						"third": "L",
+						"fourth": "Cat №"
+          }
+        },
+        "curvedBeam": {
+					"table": {
+						"first": "L, мм",
+						"second": "Cat №"
+          }
+        },
+        "crossBar": {
+					"table": {
+						"first": "L, мм",
+						"second": "Cat №"
+          }
         },
         "spinalHooksLinks": {
           "connectionHook": "CONNECTION HOOK",
@@ -970,6 +1008,56 @@
           "openLaminarFlowHook": "OPEN LAMINAR FLOW HOOK",
           "closedLaminarHook": "CLOSED LAMINAR HOOK",
           "curvedLaminarHook": "CURVED LAMINAR HOOK"
+        },
+        "connectionHook": {
+					"table": {
+						"first": "Cat №"
+          }
+        },
+        "closedPedicleHook": {
+					"table": {
+						"first": "Size",
+            "second": "Cat №"
+          }
+        },
+        "openPedicleHook": {
+					"table": {
+						"first": "Size",
+            "second": "Cat №"
+          }
+        },
+        "closedLaminarHook": {
+					"table": {
+						"first": "Size",
+            "second": "Kat szám"
+          }
+        },
+        "openLaminarFlowHook": {
+					"table": {
+						"first": "Size",
+            "second": "Side",
+            "third": "Cat №"
+          }
+        },
+        "curvedLaminarHook": {
+					"table": {
+						"first": "Size",
+            "second": "Side",
+            "third": "Cat №"
+          }
+        },
+        "sacredBlock": {
+					"table": {
+						"first": "Side",
+            "second": "Cat №"
+          }
+        },
+        "sacralScrew": {
+					"table": {
+						"first": "Size",
+            "second": "",
+            "third": "Cat №"
+          }
         },
         "spinalSystemsLinks": {
           "sacredBlock": "SACRED BLOCK",

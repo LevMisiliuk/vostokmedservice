@@ -10,12 +10,12 @@
           {{ $t('main.carts.neurosurgery.title') }}
         </el-breadcrumb-item>
         <el-breadcrumb-item
-          :to="`/${$i18n.locale}/catalog/neurosurgery/spinal-screws/`"
+          :to="`/${$i18n.locale}/catalog/neurosurgery/spinal-hooks/`"
         >
-          {{ $t('main.carts.neurosurgery.secondlinks.spinalScrews') }}
+          {{ $t('main.carts.neurosurgery.secondlinks.spinalHooks') }}
         </el-breadcrumb-item>
         <el-breadcrumb-item>
-          {{ $t('main.carts.neurosurgery.spinalScrewsLinks.polyaxialScrew') }}
+          {{ $t('main.carts.neurosurgery.spinalHooksLinks.curvedLaminarHook') }}
         </el-breadcrumb-item>
       </el-breadcrumb>
 
@@ -35,24 +35,16 @@
             style="width: 100%"
           >
             <el-table-column
-              :label="$t('main.carts.neurosurgery.polyaxialScrew.table.first')"
+              :label="$t('main.carts.neurosurgery.curvedLaminarHook.table.first')"
               prop="first"
             />
             <el-table-column
-              :label="$t('main.carts.neurosurgery.polyaxialScrew.table.second')"
+              :label="$t('main.carts.neurosurgery.curvedLaminarHook.table.second')"
               prop="second"
             />
             <el-table-column
-              :label="$t('main.carts.neurosurgery.polyaxialScrew.table.third')"
+              :label="$t('main.carts.neurosurgery.curvedLaminarHook.table.third')"
               prop="third"
-            />
-            <el-table-column
-              :label="$t('main.carts.neurosurgery.polyaxialScrew.table.fourth')"
-              prop="fourth"
-            />
-            <el-table-column
-              :label="$t('main.carts.neurosurgery.polyaxialScrew.table.fifth')"
-              prop="fifth"
             />
           </el-table>
         </div>
@@ -67,57 +59,35 @@ import { computed, ref } from 'vue'
 import i18n from '@/i18n'
 
 export default {
-  name: 'polyaxialScrew',
+  name: 'curvedLaminarHook',
   setup() {
     const tableData = ref([
       {
-        first: '30',
-        second: '36110-45030',
-        third: '36110-55030',
-        fourth: '',
-        fifth: '',
+        first: '5x7',
+        second: 'Left',
+        third: '36200-05007',
       },
       {
-        first: '35',
-        second: '36110-45035',
-        third: '36110-55035',
-        fourth: '36110-65035',
-        fifth: '',
+        first: '5x9',
+        second: 'Left',
+        third: '36200-05009',
       },
       {
-        first: '40',
-        second: '36110-45040',
-        third: '36110-55040',
-        fourth: '36110-65040',
-        fifth: '36110-75040',
+        first: '5X7',
+        second: 'Right',
+        third: '36201-05007',
       },
       {
-        first: '45',
-        second: '',
-        third: '36110-55045',
-        fourth: '36110-65045',
-        fifth: '36110-75045',
-      },
-      {
-        first: '50',
-        second: '',
-        third: '36110-55050',
-        fourth: '36110-65050',
-        fifth: '',
-      },
-      {
-        first: '55',
-        second: '',
-        third: '',
-        fourth: '36110-65055',
-        fifth: '',
+        first: '5x9',
+        second: 'Right',
+        third: '36201-05009',
       },
     ])
     const cardData = computed(() => [
       {
-        title: i18n.global.t('main.carts.neurosurgery.spinalScrewsLinks.polyaxialScrew'),
+        title: i18n.global.t('main.carts.neurosurgery.spinalHooksLinks.curvedLaminarHook'),
         subtitle: "",
-        image: require('@/assets/neurosurgery/polyaxial-screw.png'),
+        image: require('@/assets/neurosurgery/open-laminar-flowhook.png'),
         productsParams: [
         ]
       }

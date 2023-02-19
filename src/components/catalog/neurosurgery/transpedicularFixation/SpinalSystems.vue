@@ -31,12 +31,12 @@ export default {
       {
         title: i18n.global.t('main.carts.neurosurgery.spinalSystemsLinks.sacredBlock'),
         img: require('@/assets/neurosurgery/sacred-block.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/spinal-system/sakralnyi-blok`
       },
       {
         title: i18n.global.t('main.carts.neurosurgery.spinalSystemsLinks.sacralScrew'),
         img: require('@/assets/neurosurgery/sacral-screw.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/spinal-system/sakralnyi-vint`
       },
     ])
 

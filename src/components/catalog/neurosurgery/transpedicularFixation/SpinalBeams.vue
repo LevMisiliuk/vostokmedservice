@@ -31,17 +31,17 @@ export default {
       {
         title: i18n.global.t('main.carts.neurosurgery.spinalBeamsLinks.staightGirder'),
         img: require('@/assets/neurosurgery/staight-girder.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/spinal-beam/pryamayabalka`
       },
       {
         title: i18n.global.t('main.carts.neurosurgery.spinalBeamsLinks.curvedBeam'),
         img: require('@/assets/neurosurgery/curved-beam.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/spinal-beam/izognutaya-balka`
       },
       {
         title: i18n.global.t('main.carts.neurosurgery.spinalBeamsLinks.crossBar'),
         img: require('@/assets/neurosurgery/cross-bar.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/spinal-beam/perekrestnayabalk`
       },
     ])
 

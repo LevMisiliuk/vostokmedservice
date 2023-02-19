@@ -10,12 +10,12 @@
           {{ $t('main.carts.neurosurgery.title') }}
         </el-breadcrumb-item>
         <el-breadcrumb-item
-          :to="`/${$i18n.locale}/catalog/neurosurgery/spinal-screws/`"
+          :to="`/${$i18n.locale}/catalog/neurosurgery/spinal-beam/`"
         >
-          {{ $t('main.carts.neurosurgery.secondlinks.spinalScrews') }}
+          {{ $t('main.carts.neurosurgery.secondlinks.spinalBeams') }}
         </el-breadcrumb-item>
         <el-breadcrumb-item>
-          {{ $t('main.carts.neurosurgery.spinalScrewsLinks.polyaxialScrew') }}
+          {{ $t('main.carts.neurosurgery.spinalBeamsLinks.staightGirder') }}
         </el-breadcrumb-item>
       </el-breadcrumb>
 
@@ -35,25 +35,21 @@
             style="width: 100%"
           >
             <el-table-column
-              :label="$t('main.carts.neurosurgery.polyaxialScrew.table.first')"
+              :label="$t('main.carts.neurosurgery.staightGirder.table.first')"
               prop="first"
             />
             <el-table-column
-              :label="$t('main.carts.neurosurgery.polyaxialScrew.table.second')"
+              :label="$t('main.carts.neurosurgery.staightGirder.table.second')"
               prop="second"
             />
             <el-table-column
-              :label="$t('main.carts.neurosurgery.polyaxialScrew.table.third')"
+              :label="$t('main.carts.neurosurgery.staightGirder.table.third')"
               prop="third"
             />
             <el-table-column
-              :label="$t('main.carts.neurosurgery.polyaxialScrew.table.fourth')"
+              :label="$t('main.carts.neurosurgery.staightGirder.table.fourth')"
               prop="fourth"
-            />
-            <el-table-column
-              :label="$t('main.carts.neurosurgery.polyaxialScrew.table.fifth')"
-              prop="fifth"
-            />
+            />  
           </el-table>
         </div>
       </div>
@@ -67,57 +63,98 @@ import { computed, ref } from 'vue'
 import i18n from '@/i18n'
 
 export default {
-  name: 'polyaxialScrew',
+  name: 'staightGirder',
   setup() {
     const tableData = ref([
       {
         first: '30',
-        second: '36110-45030',
-        third: '36110-55030',
-        fourth: '',
-        fifth: '',
+        second: '	36130-06030',
+        third: '160 мм',
+        fourth: '36130-06160',      
       },
       {
         first: '35',
-        second: '36110-45035',
-        third: '36110-55035',
-        fourth: '36110-65035',
-        fifth: '',
+        second: '36130-06035',
+        third: '170 мм',
+        fourth: '36130-06170',
       },
       {
         first: '40',
-        second: '36110-45040',
-        third: '36110-55040',
-        fourth: '36110-65040',
-        fifth: '36110-75040',
+        second: '36130-06040',
+        third: '200 мм',
+        fourth: '36130-06200',
       },
       {
         first: '45',
-        second: '',
-        third: '36110-55045',
-        fourth: '36110-65045',
-        fifth: '36110-75045',
+        second: '36130-06045',
+        third: '230 мм',
+        fourth: '36130-06230',
       },
       {
         first: '50',
-        second: '',
-        third: '36110-55050',
-        fourth: '36110-65050',
-        fifth: '',
+        second: '36130-06050',
+        third: '250 мм',
+        fourth: '36130-06250',
       },
       {
         first: '55',
-        second: '',
+        second: '36130-06055',
+        third: '260 мм',
+        fourth: '36130-06260',
+      },
+      {
+        first: '60',
+        second: '36130-06060',
+        third: '280 мм',
+        fourth: '36130-06280',
+      },{
+        first: '80',
+        second: '	36130-06080',
+        third: '300 мм',
+        fourth: '36130-06300',
+      },
+      {
+        first: '90',
+        second: '36130-06090',
+        third: '320 мм',
+        fourth: '36130-06320',
+      },
+      {
+        first: '100',
+        second: '36130-06100',
+        third: '340 мм',
+        fourth: '36130-06340',
+      },
+      {
+        first: '120',
+        second: '36130-06120',
+        third: '400 мм',
+        fourth: '36130-06400',
+      },
+      {
+        first: '130',
+        second: '36130-06130',
+        third: '450 мм',
+        fourth: '36130-06450',
+      },
+      {
+        first: '140',
+        second: '36130-06140',
+        third: '490 мм',
+        fourth: '36130-06490',
+      },
+      {
+        first: '150',
+        second: '36130-06150',
         third: '',
-        fourth: '36110-65055',
-        fifth: '',
+        fourth: '',
       },
     ])
     const cardData = computed(() => [
       {
-        title: i18n.global.t('main.carts.neurosurgery.spinalScrewsLinks.polyaxialScrew'),
+        title: i18n.global.t('main.carts.neurosurgery.spinalBeamsLinks.staightGirder'),
         subtitle: "",
-        image: require('@/assets/neurosurgery/polyaxial-screw.png'),
+        image: require('@/assets/neurosurgery/staight-girder.png'),
         productsParams: [
         ]
       }

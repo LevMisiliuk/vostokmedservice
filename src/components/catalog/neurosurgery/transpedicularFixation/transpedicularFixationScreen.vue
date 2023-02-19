@@ -36,62 +36,62 @@ export default {
       {
         title: i18n.global.t('main.carts.neurosurgery.spinalScrewsLinks.monoaxialScrew'),
         img: require('@/assets/neurosurgery/monoaxial-screw.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/spinal-screws/monoaksialnyi-vint`
       },
       {
         title: i18n.global.t('main.carts.neurosurgery.spinalBeamsLinks.staightGirder'),
         img: require('@/assets/neurosurgery/staight-girder.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/spinal-beam/pryamayabalka`
       },
       {
         title: i18n.global.t('main.carts.neurosurgery.spinalBeamsLinks.curvedBeam'),
         img: require('@/assets/neurosurgery/curved-beam.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/spinal-beam/izognutaya-balka`
       },
       {
         title: i18n.global.t('main.carts.neurosurgery.spinalBeamsLinks.crossBar'),
         img: require('@/assets/neurosurgery/cross-bar.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/spinal-beam/perekrestnayabalk`
       },
       {
         title: i18n.global.t('main.carts.neurosurgery.spinalHooksLinks.connectionHook'),
         img: require('@/assets/neurosurgery/connection-hook.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/spinal-hooks/soedinitelnyi-kryuchok`
       },
       {
         title: i18n.global.t('main.carts.neurosurgery.spinalHooksLinks.closedPedicleHook'),
         img: require('@/assets/neurosurgery/closed-pedicle-hook.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/spinal-hooks/zakrytyi-pedikulyarnyi-kryuchok`
       },
       {
         title: i18n.global.t('main.carts.neurosurgery.spinalHooksLinks.openPedicleHook'),
         img: require('@/assets/neurosurgery/open-pedicle-hook.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/spinal-hooks/otkrytyi-pedikulyarnyi-kryuchok`
       },
       {
         title: i18n.global.t('main.carts.neurosurgery.spinalHooksLinks.openLaminarFlowHook'),
         img: require('@/assets/neurosurgery/open-laminar-flowhook.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/spinal-hooks/otkrytyi-laminarnyi-kryuchok`
       },
       {
         title: i18n.global.t('main.carts.neurosurgery.spinalHooksLinks.closedLaminarHook'),
         img: require('@/assets/neurosurgery/closed-laminar-hook.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/spinal-hooks/zakrytyi-laminarnyi-kryuchok`
       },
       {
         title: i18n.global.t('main.carts.neurosurgery.spinalHooksLinks.curvedLaminarHook'),
         img: require('@/assets/neurosurgery/curved-laminar-hook.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/spinal-hooks/izognutyi-laminarnyi-kryuchok`
       },
       {
         title: i18n.global.t('main.carts.neurosurgery.spinalSystemsLinks.sacredBlock'),
         img: require('@/assets/neurosurgery/sacred-block.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/spinal-system/sakralnyi-blok`
       },
       {
         title: i18n.global.t('main.carts.neurosurgery.spinalSystemsLinks.sacralScrew'),
         img: require('@/assets/neurosurgery/sacral-screw.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/spinal-system/sakralnyi-vint`
       },
     ])
 

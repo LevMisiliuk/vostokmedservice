@@ -36,7 +36,7 @@ export default {
       {
         title: i18n.global.t('main.carts.neurosurgery.spinalScrewsLinks.monoaxialScrew'),
         img: require('@/assets/neurosurgery/monoaxial-screw.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/spinal-screws/monoaksialnyi-vint`
       },
     ])
 

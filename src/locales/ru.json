@@ -954,10 +954,48 @@
           "polyaxialScrew": "ПОЛИАКСИАЛЬНЫЙ ВИНТ",
           "monoaxialScrew": "МОНОАКСИАЛЬНЫЙ ВИНТ"
         },
+        "polyaxialScrew": {
+					"table": {
+						"first": "L, мм",
+						"second": "Ø 4,5 мм",
+						"third": "Ø 5,5 мм",
+						"fourth": "Ø 6,5 мм",
+						"fifth": "Ø 7,5 мм"
+          }
+        },
+        "monoaxialScrew": {
+					"table": {
+						"first": "L, mm",
+						"second": "Ø 4,5 mm",
+						"third": "Ø 5,5 mm",
+						"fourth": "Ø 6,5 mm",
+						"fifth": "Ø 7,5 mm"
+          }
+        },
         "spinalBeamsLinks": {
           "staightGirder": "ПРЯМАЯ БАЛКА",
           "curvedBeam": "ИЗОГНУТАЯ БАЛКА",
           "crossBar": "ПЕРЕКРЕСТНАЯ БАЛКА"
+        },
+        "staightGirder": {
+					"table": {
+						"first": "L, мм",
+						"second": "Кат №",
+						"third": "L",
+						"fourth": "Кат №"
+          }
+        },
+        "curvedBeam": {
+					"table": {
+						"first": "L, мм",
+						"second": "Кат №"
+          }
+        },
+        "crossBar": {
+					"table": {
+						"first": "L, мм",
+						"second": "Кат №"
+          }
         },
         "spinalHooksLinks": {
           "connectionHook": "СОЕДИНИТЕЛЬНЫЙ КРЮЧОК",
@@ -967,9 +1005,59 @@
           "closedLaminarHook": "ЗАКРЫТЫЙ ЛАМИНАРНЫЙ КРЮЧОК",
           "curvedLaminarHook": "ИЗОГНУТЫЙ ЛАМИНАРНЫЙ КРЮЧОК"
         },
+        "connectionHook": {
+					"table": {
+						"first": "Кат №"
+          }
+        },
+        "closedPedicleHook": {
+					"table": {
+						"first": "Размер",
+            "second": "Кат №"
+          }
+        },
+        "openPedicleHook": {
+					"table": {
+						"first": "Размер",
+            "second": "Кат №"
+          }
+        },
+        "openLaminarFlowHook": {
+					"table": {
+						"first": "Размер",
+            "second": "Сторона",
+            "third": "Кат №"
+          }
+        },
+        "closedLaminarHook": {
+					"table": {
+						"first": "Размер",
+            "second": "Kat szám"
+          }
+        },
+        "curvedLaminarHook": {
+					"table": {
+						"first": "Размер",
+            "second": "Сторона",
+            "third": "Кат №"
+          }
+        },
         "spinalSystemsLinks": {
           "sacredBlock": "САКРАЛЬНЫЙ БЛОК",
           "sacralScrew": "САКРАЛЬНЫЙ ВИНТ"
+        },
+        "sacredBlock": {
+					"table": {
+						"first": "Сторона",
+            "second": "Кат №"
+          }
+        },
+        "sacralScrew": {
+					"table": {
+						"first": "Размер",
+            "second": "",
+            "third": "Кат №"
+          }
         },
 				"neurosurgicalPlatesLinks": {
           "links": {

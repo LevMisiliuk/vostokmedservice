@@ -12,10 +12,10 @@
         <el-breadcrumb-item
           :to="`/${$i18n.locale}/catalog/neurosurgery/spinal-screws/`"
         >
-          {{ $t('main.carts.neurosurgery.secondlinks.spinalScrews') }}
+          {{ $t('main.carts.neurosurgery.secondlinks.spinalBeams') }}
         </el-breadcrumb-item>
         <el-breadcrumb-item>
-          {{ $t('main.carts.neurosurgery.spinalScrewsLinks.polyaxialScrew') }}
+          {{ $t('main.carts.neurosurgery.spinalBeamsLinks.crossBar') }}
         </el-breadcrumb-item>
       </el-breadcrumb>
 
@@ -35,24 +35,12 @@
             style="width: 100%"
           >
             <el-table-column
-              :label="$t('main.carts.neurosurgery.polyaxialScrew.table.first')"
+              :label="$t('main.carts.neurosurgery.crossBar.table.first')"
               prop="first"
             />
             <el-table-column
-              :label="$t('main.carts.neurosurgery.polyaxialScrew.table.second')"
+              :label="$t('main.carts.neurosurgery.crossBar.table.second')"
               prop="second"
-            />
-            <el-table-column
-              :label="$t('main.carts.neurosurgery.polyaxialScrew.table.third')"
-              prop="third"
-            />
-            <el-table-column
-              :label="$t('main.carts.neurosurgery.polyaxialScrew.table.fourth')"
-              prop="fourth"
-            />
-            <el-table-column
-              :label="$t('main.carts.neurosurgery.polyaxialScrew.table.fifth')"
-              prop="fifth"
             />
           </el-table>
         </div>
@@ -67,57 +55,39 @@ import { computed, ref } from 'vue'
 import i18n from '@/i18n'
 
 export default {
-  name: 'polyaxialScrew',
+  name: 'crossBar',
   setup() {
     const tableData = ref([
       {
-        first: '30',
-        second: '36110-45030',
-        third: '36110-55030',
-        fourth: '',
-        fifth: '',
-      },
-      {
-        first: '35',
-        second: '36110-45035',
-        third: '36110-55035',
-        fourth: '36110-65035',
-        fifth: '',
-      },
-      {
         first: '40',
-        second: '36110-45040',
-        third: '36110-55040',
-        fourth: '36110-65040',
-        fifth: '36110-75040',
-      },
-      {
-        first: '45',
-        second: '',
-        third: '36110-55045',
-        fourth: '36110-65045',
-        fifth: '36110-75045',
+        second: '36150-4504050',     
       },
       {
         first: '50',
-        second: '',
-        third: '36110-55050',
-        fourth: '36110-65050',
-        fifth: '',
+        second: '36150-45050',
       },
       {
-        first: '55',
-        second: '',
-        third: '',
-        fourth: '36110-65055',
-        fifth: '',
+        first: '60',
+        second: '36150-45060',
+      },
+      {
+        first: '70',
+        second: '36150-45070',
+      },
+      {
+        first: '80',
+        second: '36150-45080',
+      },
+      {
+        first: '90',
+        second: '36150-45090',
       },
     ])
     const cardData = computed(() => [
       {
-        title: i18n.global.t('main.carts.neurosurgery.spinalScrewsLinks.polyaxialScrew'),
+        title: i18n.global.t('main.carts.neurosurgery.spinalBeamsLinks.crossBar'),
         subtitle: "",
-        image: require('@/assets/neurosurgery/polyaxial-screw.png'),
+        image: require('@/assets/neurosurgery/cross-bar.png'),
         productsParams: [
         ]
       }
