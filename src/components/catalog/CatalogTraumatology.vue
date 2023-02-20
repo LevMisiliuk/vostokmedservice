@@ -127,7 +127,7 @@ export default {
           'main.carts.traumatology.links.ilizarovsApparatus'
         ),
         img: require('@/assets/traumatology/ilizarovs-apparatus.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/traumatology/ilizarovs-apparatus`
       }
     ])
 

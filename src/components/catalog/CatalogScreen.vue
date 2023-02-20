@@ -34,13 +34,13 @@
             {{ $t('main.catalog.block.title') }}
           </h2>
           <div class="catalog__block-btns">
-            <el-button class="button-download-pdf">
+            <el-button @click="downloadPDF(catalogueRus, $t('main.catalog.block.button-1'))" class="button-download-pdf">
               {{ $t('main.catalog.block.button-1') }}
             </el-button>
-            <el-button class="button-download-pdf">
-              {{ $t('main.catalog.block.button-3') }}
+            <el-button @click="downloadPDF(newTraumatologyCatalogue, $t('main.catalog.block.button-2'))" class="button-download-pdf">
+              {{ $t('main.catalog.block.button-2') }}
             </el-button>
-            <el-button class="button-download-pdf">
+            <el-button @click="downloadPDF(Catalogue_2009_vostok, $t('main.catalog.block.button-3'))" class="button-download-pdf">
               {{ $t('main.catalog.block.button-3') }}
             </el-button>
           </div>
@@ -52,12 +52,36 @@
 </template>
 
 <script>
+import axios from 'axios'
+import catalogueRus from '@/assets/pdf/catalogue-rus.pdf'
+import newTraumatologyCatalogue from '@/assets/pdf/new-traumatology-catalogue.pdf'
+import Catalogue_2009_vostok from '@/assets/pdf/Catalogue_2009_vostok.pdf'
 
 export default {
   name: 'CatalogScreen',
-
-  setup() {
-    return {}
+  methods: {
+    downloadPDF (url, name) {
+      axios
+        .get(url, { responseType: 'blob' })
+        .then((response) => {
+          const url = window.URL.createObjectURL(new Blob([response.data]))
+          const link = document.createElement('a')
+          link.href = url
+          link.setAttribute('download', `${name}.pdf`)
+          document.body.appendChild(link)
+          link.click()
+        })
+        .catch((error) => {
+          console.log(error)
+        })
+    }
+  },
+  setup () {
+    return {
+      catalogueRus,
+      newTraumatologyCatalogue,
+      Catalogue_2009_vostok
+    }
   }
 }
 </script>

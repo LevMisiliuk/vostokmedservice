@@ -35,6 +35,11 @@ module.exports = defineConfig({
   },
   chainWebpack(config) {
     config.resolve.symlinks(false)
-    config.resolve.alias.set( 'vue', path.resolve('./node_modules/vue'))    
-  },  
+    config.resolve.alias.set( 'vue', path.resolve('./node_modules/vue'))
+    config.module.rule('pdf').test(/\.(pdf)(\?.*)?$/).use('file-loader')
+      .loader('file-loader')
+      .options({
+        name: 'assets/pdf/[name].[ext]'
+      })
+  },
 })

@@ -26,6 +26,7 @@ export default {
 .page-not-found {
   &__inner {
     text-align: center;
+    height: 300px;
 
     .blue {
       color: $primary-blue;

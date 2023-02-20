@@ -224,6 +224,7 @@ import LunbraLaminaSpreader from '@/components/catalog/neurosurgery/neurosurgica
 import ClowardOne from '@/components/catalog/neurosurgery/neurosurgicalInstrument/ClowardOne.vue'
 import MicroGraspingSerrated from '@/components/catalog/neurosurgery/neurosurgicalInstrument/MicroGraspingSerrated.vue'
 import MicroAlligatorStraight from '@/components/catalog/neurosurgery/neurosurgicalInstrument/MicroAlligatorStraight.vue'
+import IlizarovApparatus from '@/components/catalog/traumatology/Ilizarov-apparatus/IlizarovApparatus.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -238,6 +239,10 @@ export default createRouter({
         { path: 'certificates', component: CertificatesPage },
         { path: 'contacts', component: ContactsPage },
         { path: 'about', component: AboutScreen },
+        {
+          path: 'catalog/traumatology/ilizarovs-apparatus',
+          component: IlizarovApparatus
+        },
         {
           path: 'catalog/surgery',
           component: CatalogSurgery
