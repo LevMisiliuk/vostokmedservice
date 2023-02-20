@@ -52,8 +52,8 @@
           <ul>
             <li v-for="item in surgeryLinks" :key="item" class="cart__list">
               <PrimaryLink
-                :path="`/${$i18n.locale}/catalog/surgery/`"
-                :linkTitle="item"
+                :path="item.path"
+                :linkTitle="item.title"
                 :blueCircle="true"
                 :linkSize="15"
                 :linkMargin="20"
@@ -139,12 +139,12 @@ export default {
       {
         id: 3,
         title: i18n.global.t('main.carts.traumatology.links.tool'),
-        path: `/${i18n.global.locale.value}/catalog/traumatology/tool`
+        path: `/${i18n.global.locale.value}/catalog/traumatology/tools`
       },
       {
         id: 4,
         title: i18n.global.t('main.carts.traumatology.links.screwsAT'),
-        path: `/${i18n.global.locale.value}/catalog/traumatology/screw-at`
+        path: `/${i18n.global.locale.value}/catalog/traumatology/ao-screws`
       },
       {
         id: 5,
@@ -172,13 +172,41 @@ export default {
       }
     ])
     const surgeryLinks = computed(() => [
-      i18n.global.t('main.carts.surgery.links.sutureMaterials'),
-      i18n.global.t('main.carts.surgery.links.endoprosthesesPolymerNets'),
-      i18n.global.t('main.carts.surgery.links.endoprosthesesForUrogynecology'),
-      i18n.global.t('main.carts.surgery.links.antiAdhesiveAgents'),
-      i18n.global.t('main.carts.surgery.links.woundCovers'),
-      i18n.global.t('main.carts.surgery.links.hemostaticSponge'),
-      i18n.global.t('main.carts.surgery.links.productsPfZMCompany')
+      {
+        id: 1,
+        title: i18n.global.t('main.carts.surgery.links.sutureMaterials'),
+        path: `/${i18n.global.locale.value}/catalog/surgery/suture-materials`
+      },
+      {
+        id: 2,
+        title: i18n.global.t('main.carts.surgery.links.endoprosthesesPolymerNets'),
+        path: `/${i18n.global.locale.value}/catalog/surgery/endoprostheses-polymer-meshes`
+      },
+      {
+        id: 3,
+        title: i18n.global.t('main.carts.surgery.links.endoprosthesesForUrogynecology'),
+        path: `/${i18n.global.locale.value}/catalog/surgery/endoprostheses-for-urogynecology`
+      },
+      {
+        id: 4,
+        title: i18n.global.t('main.carts.surgery.links.antiAdhesiveAgents'),
+        path: `/${i18n.global.locale.value}/catalog/surgery/antiadhesions`
+      },
+      {
+        id: 5,
+        title: i18n.global.t('main.carts.surgery.links.woundCovers'),
+        path: `/${i18n.global.locale.value}/catalog/surgery/wound-dressings`
+      },
+      {
+        id: 6,
+        title: i18n.global.t('main.carts.surgery.links.hemostaticSponge'),
+        path: `/${i18n.global.locale.value}/catalog/surgery/hemostatic-sponge`
+      },
+      {
+        id: 7,
+        title: i18n.global.t('main.carts.surgery.links.productsPfZMCompany'),
+        path: `/${i18n.global.locale.value}/catalog/surgery/zm-production`
+      }
     ])
     const neurosurgeryLinks = computed(() => [
       i18n.global.t(
