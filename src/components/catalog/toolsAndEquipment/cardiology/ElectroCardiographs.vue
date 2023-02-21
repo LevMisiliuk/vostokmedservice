@@ -31,22 +31,22 @@ export default {
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.cardiology.links.electrocardiogrphAksion'),
         img: require('@/assets/toolsAndEquipment/cardiology/electrocardiogrph-aksion.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/cardiology/elektrokardiograf-odno-trekhkanalnii-ek1t-1-3-07-aksion`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.cardiology.links.electrocardiogrphMiniature'),
         img: require('@/assets/toolsAndEquipment/cardiology/electrocardiogrph-miniature.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/cardiology/elektrokardiograf-dvenadtsatikanalnyi-s-registratsiei-ekg-v-ruchnom-i-avtomaticheskom-rezhimakh-miniatyurnyi-ek-12t-01-r-d`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.cardiology.links.electrocardiogrphRDArmasoft'),
         img: require('@/assets/toolsAndEquipment/cardiology/electrocardiogrph-rd-armasoft.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/cardiology/elektrokardiograf-dvenadtsatikanalnyi-s-registratsiei-ekg-v-ruchnom-i-avtomaticheskom-rezhimakh-miniatyurnyi-ek-12t-01-r-d-s-programmoi-na-pk-armasoft-12-cardio`
       },
       {
         title: i18n.global.t('main.carts.toolsAndEquipment.cardiology.links.electrocardiogrphSingleThreeChannel'),
         img: require('@/assets/toolsAndEquipment/cardiology/electrocardiogrph-single-three-channel.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/tools-and-equipment/cardiology/elektrokardiograf-odno-tryokhkanalnyi-miniatyurnyi-ek-3t-01-r-d`
       },
     ])
 

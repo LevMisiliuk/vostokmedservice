@@ -64,7 +64,7 @@ export default {
       },
       {
         name: i18n.global.t('main.carts.neurosurgery.links.antiAdhesionGel'),
-        path: `/404`
+        path: `/${i18n.global.locale.value}/catalog/neurosurgery/gel_protivospaechny`
       },
     ]);
 

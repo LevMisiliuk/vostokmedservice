@@ -217,6 +217,7 @@ import InstrumentForth from '@/components/catalog/neurosurgery/neurosurgicalInst
 import InstrumentFifth from '@/components/catalog/neurosurgery/neurosurgicalInstrument/InstrumentFifth.vue'
 import InstrumentSixth from '@/components/catalog/neurosurgery/neurosurgicalInstrument/InstrumentSixth.vue'
 import InstrumentSeventh from '@/components/catalog/neurosurgery/neurosurgicalInstrument/InstrumentSeventh.vue'
+import AntiAdhesionGel from '@/components/catalog/neurosurgery/AntiAdhesionGel.vue'
 import LoveGruenwald from '@/components/catalog/neurosurgery/neurosurgicalInstrument/LoveGruenwald.vue'
 import MicroCupForceps from '@/components/catalog/neurosurgery/neurosurgicalInstrument/MicroCupForceps.vue'
 import MicroAlligatorShaft from '@/components/catalog/neurosurgery/neurosurgicalInstrument/MicroAlligatorShaft.vue'
@@ -227,6 +228,11 @@ import MicroAlligatorStraight from '@/components/catalog/neurosurgery/neurosurgi
 import IlizarovApparatus from '@/components/catalog/traumatology/Ilizarov-apparatus/IlizarovApparatus.vue'
 import MicroSurgery from '@/components/catalog/traumatology/micro-surgery/MicroSurgery.vue'
 import NeedlesRobsCerclage from '@/components/catalog/traumatology/needles-robs-cerclage/NeedlesRobsCerclage.vue'
+import ElectrocardiogrphAksion from '@/components/catalog/toolsAndEquipment/cardiology/ElectrocardiogrphAksion.vue'
+import ElectrocardiogrphMiniature from '@/components/catalog/toolsAndEquipment/cardiology/ElectrocardiogrphMiniature.vue'
+import ElectrocardiogrphArmasoft from '@/components/catalog/toolsAndEquipment/cardiology/ElectrocardiogrphArmasoft.vue'
+import ElectrocardiogrphChannel from '@/components/catalog/toolsAndEquipment/cardiology/ElectrocardiogrphChannel.vue'
+import MonitorResuscitation from '@/components/catalog/toolsAndEquipment/cardiology/MonitorResuscitation.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -769,6 +775,26 @@ export default createRouter({
           component: CardiologyScreen
         },
         {
+          path: 'catalog/tools-and-equipment/cardiology/elektrokardiograf-odno-trekhkanalnii-ek1t-1-3-07-aksion',
+          component: ElectrocardiogrphAksion
+        },
+        {
+          path: 'catalog/tools-and-equipment/cardiology/elektrokardiograf-dvenadtsatikanalnyi-s-registratsiei-ekg-v-ruchnom-i-avtomaticheskom-rezhimakh-miniatyurnyi-ek-12t-01-r-d',
+          component: ElectrocardiogrphMiniature
+        },
+        {
+          path: 'catalog/tools-and-equipment/cardiology/elektrokardiograf-dvenadtsatikanalnyi-s-registratsiei-ekg-v-ruchnom-i-avtomaticheskom-rezhimakh-miniatyurnyi-ek-12t-01-r-d-s-programmoi-na-pk-armasoft-12-cardio',
+          component: ElectrocardiogrphArmasoft
+        },
+        {
+          path: 'catalog/tools-and-equipment/cardiology/elektrokardiograf-odno-tryokhkanalnyi-miniatyurnyi-ek-3t-01-r-d',
+          component: ElectrocardiogrphChannel
+        },
+        {
+          path: 'catalog/tools-and-equipment/cardiology/monitor_resuscitation',
+          component: MonitorResuscitation
+        },
+        {
           path: 'catalog/tools-and-equipment/cardiology/defibrillyator-monitor',
           component: DefibrillatorMonitor
         },
@@ -973,6 +999,7 @@ export default createRouter({
           component: MedicalInstrumentScreen
         },
         { path: 'catalog/neurosurgery', component: NeurosurgeryPage },
+        { path: 'catalog/neurosurgery/gel_protivospaechny', component: AntiAdhesionGel },
         {
           path: 'catalog/neurosurgery/transpedikulyarnaya-fiksatsiya-pozvonochnika',
           component: TranspedicularFixationScreen

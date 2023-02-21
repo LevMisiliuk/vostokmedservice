@@ -96,6 +96,7 @@ export default {
     background-color: $primary-blue;
     text-align: center;
     padding: 10px 0;
+    height: 26%;
   }
 
   &__cart-img {

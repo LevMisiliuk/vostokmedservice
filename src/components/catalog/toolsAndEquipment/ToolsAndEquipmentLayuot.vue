@@ -125,7 +125,7 @@ export default {
         },
         {
           name: i18n.global.t('main.carts.toolsAndEquipment.secondlinks.careMonitor'),
-          path: `/404`
+          path: `/${i18n.global.locale.value}/catalog/tools-and-equipment/cardiology/monitor_resuscitation`
         },
       ],
       {

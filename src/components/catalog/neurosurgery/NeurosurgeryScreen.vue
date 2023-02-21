@@ -50,7 +50,7 @@ export default {
       {
         title: i18n.global.t('main.carts.neurosurgery.links.antiAdhesionGel'),
         img: require('@/assets/neurosurgery/anti-adhesion-gel.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/gel_protivospaechny`
       },
     ])
 

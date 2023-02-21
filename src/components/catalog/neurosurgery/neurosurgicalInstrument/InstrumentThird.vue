@@ -7,7 +7,7 @@
           >{{$t('header.catalog')}}</el-breadcrumb-item
         >
         <el-breadcrumb-item :to="`/${$i18n.locale}/catalog/neurosurgery/neurosurgical-tool`"
-          >{{$t('main.carts.toolsAndEquipment.title')}}</el-breadcrumb-item
+          >{{$t('main.carts.neurosurgery.title')}}</el-breadcrumb-item
         >
         <el-breadcrumb-item>
           <a>{{$t('main.carts.neurosurgery.neurosurgicalInstrument.links.INGE1119516016CMSMALLPATTERN')}}</a>
