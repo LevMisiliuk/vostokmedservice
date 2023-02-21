@@ -225,6 +225,8 @@ import ClowardOne from '@/components/catalog/neurosurgery/neurosurgicalInstrumen
 import MicroGraspingSerrated from '@/components/catalog/neurosurgery/neurosurgicalInstrument/MicroGraspingSerrated.vue'
 import MicroAlligatorStraight from '@/components/catalog/neurosurgery/neurosurgicalInstrument/MicroAlligatorStraight.vue'
 import IlizarovApparatus from '@/components/catalog/traumatology/Ilizarov-apparatus/IlizarovApparatus.vue'
+import MicroSurgery from '@/components/catalog/traumatology/micro-surgery/MicroSurgery.vue'
+import NeedlesRobsCerclage from '@/components/catalog/traumatology/needles-robs-cerclage/NeedlesRobsCerclage.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -239,6 +241,8 @@ export default createRouter({
         { path: 'certificates', component: CertificatesPage },
         { path: 'contacts', component: ContactsPage },
         { path: 'about', component: AboutScreen },
+        { path: 'catalog/traumatology/micro-surgery', component: MicroSurgery },
+        { path: 'catalog/traumatology/needles-robs-cerclage', component: NeedlesRobsCerclage },
         {
           path: 'catalog/traumatology/ilizarovs-apparatus',
           component: IlizarovApparatus

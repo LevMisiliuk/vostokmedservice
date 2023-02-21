@@ -115,12 +115,12 @@ export default {
           'main.carts.traumatology.links.needlesRodsCerclage'
         ),
         img: require('@/assets/traumatology/needles-etc.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/traumatology/needles-robs-cerclage`
       },
       {
         title: i18n.global.t('main.carts.traumatology.links.microsurgery'),
         img: require('@/assets/traumatology/microsurgery.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/traumatology/micro-surgery`
       },
       {
         title: i18n.global.t(

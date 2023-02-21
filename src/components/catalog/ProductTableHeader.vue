@@ -62,6 +62,7 @@ export default {
   &__product-info {
     display: flex;
     flex-direction: column;
+    width: 100%;
 
     &-inner {
       display: flex;
@@ -86,7 +87,7 @@ export default {
 
   &__product-image {
     max-width: 40%;
-    max-height: 70px;
+    max-height: 70p;
   }
 }
 </style>
