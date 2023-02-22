@@ -31,17 +31,17 @@ export default {
       {
         title: i18n.global.t('main.carts.neurosurgery.neurosurgicalPlatesLinks.links.cervicalPlatesTitanium'),
         img: require('@/assets/neurosurgery/cervical-plates-titanium.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/plates-neurosurgical/plastiny-sheinye-titanovye`
       },
       {
         title: i18n.global.t('main.carts.neurosurgery.neurosurgicalPlatesLinks.links.hPlate'),
         img: require('@/assets/neurosurgery/h-plate.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/plates-neurosurgical/plastina-h-obraznaya`
       },
       {
         title: i18n.global.t('main.carts.neurosurgery.neurosurgicalPlatesLinks.links.trapezoidalPlate'),
         img: require('@/assets/neurosurgery/trapezoidal-plate.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/neurosurgery/plates-neurosurgical/plastina-trapetsioobraznaya`
       },
     ])
 

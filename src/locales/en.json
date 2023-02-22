@@ -1081,6 +1081,51 @@
             "cervicalPlatesTitanium": "CERVICAL PLATES, TITANIUM",
             "hPlate": "H-PLATE",
             "trapezoidalPlate": "TRAPEZOIDAL PLATE"
+          },
+          "cervicalPlatesTitanium": {
+            "plastin1": "1. Neck plate 30x10, 1.5 mm thick, under screw 03.5",
+            "plastin2": "2. Neck plate 40x10, 1.5 mm thick, under screw 03.5",
+            "plastin3": "3. Neck plate 50x10, 1.5 mm thick, under screw 03.5",
+            "plastin4": "4. Neck plate 60x10, 1.5 mm thick, under screw 03.5",
+            "plastin5": "5. Neck plate 60x10, 3 mm thick, under screw 03.5",
+            "plastin6": "6. Front plate 30x17, thickness 1.5 mm, under screw 03.5",
+            "plastin7": "7. Front plate 42x17, 1.5 mm thick, under screw 03.5",
+            "plastin8": "8. Front plate 50x17, 2 mm thick, under screw 03.5",
+            "plastin9": "9. Front plate 60x17, 2 mm thick, under screw 03.5",
+            "plastin10": "10. Front plate 70x17, 2 mm thick, under screw 03.5",
+            "plastin11": "11. Anterior plate on the C2 vertebra, 3 mm thick, under screw 03.5",
+            "plastin12": "12. Front plate 50x17, 2 mm thick, under screw 03.5",
+            "plastin13": "13. Front plate 60x17, 2 mm thick, under screw 03.5",
+            "plastin14": "14. Front plate 70x17, 2 mm thick, under screw 03.5"
+          },
+          "hPlate": {
+            "subtitle": "Material - titanium alloy",
+            "dataLeft1": "Thickness:",
+            "dataLeft2": "Width:",
+            "dataLeft3": "Screw diameter:",
+            "dataRight1": "1.2 mm",
+            "dataRight2": "18.5 mm",
+            "dataRight3": "3.5 mm",
+            "table": {
+              "first": "Division",
+              "second": "Number of holes.",
+              "third": "L",
+              "fourth": "Cat No. Titanium alloy"
+            }
+          },
+          "trapezoidalPlate": {
+            "subtitle": "Material - titanium alloy",
+            "dataLeft1": "Thickness:",
+            "dataLeft2": "Width:",
+            "dataLeft3": "Screw diameter:",
+            "dataRight1": "1.2 mm",
+            "dataRight2": "17 mm",
+            "dataRight3": "3.5 mm",
+            "table": {
+              "first": "Number of holes.",
+              "second": "L",
+              "third": "Cat No. Titanium alloy"
+            }
           }
         },
 				"vertebralEndoprostheses": {

@@ -31,32 +31,26 @@ export default {
       {
         title: i18n.global.t('main.carts.neurosurgery.vertebralEndoprostheses.links.slidingLumbarVertebra'),
         img: require('@/assets/neurosurgery/sliding-lumbar-vertebra.png'),
-        link: '/404'
       },
       {
         title: i18n.global.t('main.carts.neurosurgery.vertebralEndoprostheses.links.slindigCervicalVertebra'),
         img: require('@/assets/neurosurgery/slindig-cervical-vertebra.png'),
-        link: '/404'
       },
       {
         title: i18n.global.t('main.carts.neurosurgery.vertebralEndoprostheses.links.slindigVertebraThoracicSpine'),
         img: require('@/assets/neurosurgery/slindig-vertebra-thoracicspine.png'),
-        link: '/404'
       },
       {
         title: i18n.global.t('main.carts.neurosurgery.vertebralEndoprostheses.links.slindigVertebraThoracicSpine2'),
         img: require('@/assets/neurosurgery/slindig-vertebra-thoracicspine2.png'),
-        link: '/404'
       },
       {
         title: i18n.global.t('main.carts.neurosurgery.vertebralEndoprostheses.links.lumbarIntervertebraldiscEdoprosthesis'),
         img: require('@/assets/neurosurgery/lumbar-intervertebraldisc-edoprosthesis.png'),
-        link: '/404'
       },
       {
         title: i18n.global.t('main.carts.neurosurgery.vertebralEndoprostheses.links.edoprosthesisCervicalIntervertebraldisc'),
         img: require('@/assets/neurosurgery/edoprosthesis-cervical-intervertebraldisc.png'),
-        link: '/404'
       },
     ])
 
@@ -89,12 +83,6 @@ export default {
     overflow: hidden;
     position: relative;
     box-shadow: 0 0 40px 5px rgba(221, 221, 221, 1);
-    transition: transform 0.05s linear, -webkit-transform 0.05s linear;
-    cursor: pointer;
-
-    &:hover {
-      transform: scale(1.03);
-    }
   }
 
   &__cart-title {

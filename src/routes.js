@@ -233,6 +233,9 @@ import ElectrocardiogrphMiniature from '@/components/catalog/toolsAndEquipment/c
 import ElectrocardiogrphArmasoft from '@/components/catalog/toolsAndEquipment/cardiology/ElectrocardiogrphArmasoft.vue'
 import ElectrocardiogrphChannel from '@/components/catalog/toolsAndEquipment/cardiology/ElectrocardiogrphChannel.vue'
 import MonitorResuscitation from '@/components/catalog/toolsAndEquipment/cardiology/MonitorResuscitation.vue'
+import CervicalPlatesTitanium from '@/components/catalog/neurosurgery/neurosurgicalPlates/CervicalPlatesTitanium.vue'
+import Hplate from '@/components/catalog/neurosurgery/neurosurgicalPlates/Hplate.vue'
+import TrapezoidalPlate from '@/components/catalog/neurosurgery/neurosurgicalPlates/TrapezoidalPlate.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -1033,6 +1036,18 @@ export default createRouter({
         {
           path: 'catalog/neurosurgery/plates-neurosurgical',
           component: NeurosurgicalPlates
+        },
+        {
+          path: 'catalog/neurosurgery/plates-neurosurgical/plastina-h-obraznaya',
+          component: Hplate
+        },
+        {
+          path: 'catalog/neurosurgery/plates-neurosurgical/plastina-trapetsioobraznaya',
+          component: TrapezoidalPlate
+        },
+        {
+          path: 'catalog/neurosurgery/plates-neurosurgical/plastiny-sheinye-titanovye',
+          component: CervicalPlatesTitanium
         },
         {
           path: 'catalog/neurosurgery/vertebrae-implants',
