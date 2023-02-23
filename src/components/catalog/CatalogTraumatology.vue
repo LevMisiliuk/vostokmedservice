@@ -108,7 +108,7 @@ export default {
       {
         title: i18n.global.t('main.carts.traumatology.links.JSCPlates'),
         img: require('@/assets/traumatology/plates-at.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/traumatology/ao-plates`
       },
       {
         title: i18n.global.t(

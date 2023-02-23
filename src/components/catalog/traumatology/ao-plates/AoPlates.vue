@@ -11,7 +11,7 @@
         </el-breadcrumb-item>
         <el-breadcrumb-item :to="`/${$i18n.locale}/catalog/`">
           <a href="#">
-            Спиці, стрижні, серкляж
+            {{ $t('main.carts.traumatology.links.aoScrews') }}
           </a>
         </el-breadcrumb-item>
       </el-breadcrumb>
@@ -45,24 +45,34 @@ import { computed } from 'vue'
 import i18n from '@/i18n'
 
 export default {
-  name: 'NeedlesRobsCerclage',
+  name: 'AoPlates',
   setup() {
     const traumatologyCarts = computed(() => [
       {
-        title: 'Серкляж',
-        img: require('@/assets/traumatology/cerclage.jpeg'),
-        link: `/${i18n.global.locale.value}/catalog/traumatology/needles-robs-cerclage/cerclage`
+        title: 'Невеликі пластини',
+        img: require('@/assets/traumatology/small-plates.jpeg'),
+        link: `/${i18n.global.locale.value}/catalog/traumatology/ao-plates/small-plates`
       },
       {
-        title: 'Спиці',
-        img: require('@/assets/traumatology/needles.jpeg'),
-        link: `/${i18n.global.locale.value}/catalog/traumatology/needles-robs-cerclage/needles`
+        title: 'Динамічні системи стегнової кістки та кондилу',
+        img: require('@/assets/traumatology/dynamical-hip-systems.jpeg'),
+        link: `/${i18n.global.locale.value}/catalog/traumatology/ao-screws/sponge-screw`
       },
       {
-        title: 'Стержні',
-        img: require('@/assets/traumatology/robs.jpeg'),
-        link: `/${i18n.global.locale.value}/catalog/traumatology/needles-robs-cerclage/robs`
+        title: 'Мініпластини',
+        img: require('@/assets/traumatology/mini-plates-card-img.jpeg'),
+        link: `/${i18n.global.locale.value}/catalog/traumatology/ao-screws/cortical-screw`
       },
+      {
+        title: 'Спеціальні пластини',
+        img: require('@/assets/traumatology/special-plates.jpeg'),
+        link: `/${i18n.global.locale.value}/catalog/traumatology/ao-screws/thread-resistance-screw`
+      },
+      {
+        title: 'Великі пластини',
+        img: require('@/assets/traumatology/bit-plates.jpeg'),
+        link: `/${i18n.global.locale.value}/catalog/traumatology/ao-screws/special-screws`
+      }
     ])
 
     return {
