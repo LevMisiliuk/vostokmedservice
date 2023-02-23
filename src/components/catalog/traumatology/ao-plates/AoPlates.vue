@@ -56,17 +56,17 @@ export default {
       {
         title: 'Динамічні системи стегнової кістки та кондилу',
         img: require('@/assets/traumatology/dynamical-hip-systems.jpeg'),
-        link: `/${i18n.global.locale.value}/catalog/traumatology/ao-screws/sponge-screw`
+        link: `/${i18n.global.locale.value}/catalog/traumatology/ao-plates/dynamic-femoral-and-condylar-systems`
       },
       {
         title: 'Мініпластини',
         img: require('@/assets/traumatology/mini-plates-card-img.jpeg'),
-        link: `/${i18n.global.locale.value}/catalog/traumatology/ao-screws/cortical-screw`
+        link: `/${i18n.global.locale.value}/catalog/traumatology/ao-plates/mini-plates`
       },
       {
         title: 'Спеціальні пластини',
         img: require('@/assets/traumatology/special-plates.jpeg'),
-        link: `/${i18n.global.locale.value}/catalog/traumatology/ao-screws/thread-resistance-screw`
+        link: `/${i18n.global.locale.value}/catalog/traumatology/ao-plates/special-plates`
       },
       {
         title: 'Великі пластини',

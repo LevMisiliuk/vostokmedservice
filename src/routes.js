@@ -241,6 +241,9 @@ import NeedlesScreen from '@/components/catalog/traumatology/needles-robs-cercla
 import RobsScreen from '@/components/catalog/traumatology/needles-robs-cerclage/robs/RobsScreen.vue'
 import AoPlates from '@/components/catalog/traumatology/ao-plates/AoPlates.vue'
 import SmallPlates from '@/components/catalog/traumatology/ao-plates/small-plates/SmallPlates.vue'
+import DynamicalFemoralSystems from '@/components/catalog/traumatology/ao-plates/dynamical-femoral-systems/DynamicalFemoralSystems.vue'
+import MiniPlates from '@/components/catalog/traumatology/ao-plates/mini-plates/MiniPlates.vue'
+import SpecialPlates from '@/components/catalog/traumatology/ao-plates/specials-plates/SpecialPlates.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -262,6 +265,9 @@ export default createRouter({
         { path: 'catalog/traumatology/needles-robs-cerclage/robs', component: RobsScreen },
         { path: 'catalog/traumatology/ao-plates', component: AoPlates },
         { path: 'catalog/traumatology/ao-plates/small-plates', component: SmallPlates },
+        { path: 'catalog/traumatology/ao-plates/dynamic-femoral-and-condylar-systems', component: DynamicalFemoralSystems },
+        { path: 'catalog/traumatology/ao-plates/mini-plates', component: MiniPlates },
+        { path: 'catalog/traumatology/ao-plates/special-plates', component: SpecialPlates },
         {
           path: 'catalog/traumatology/ilizarovs-apparatus',
           component: IlizarovApparatus
@@ -499,15 +505,15 @@ export default createRouter({
           component: MicroScrew
         },
         {
-          path: 'catalog/traumatology/ao-screws/micro-screws/sponge-screw',
+          path: 'catalog/traumatology/ao-screws/sponge-screw',
           component: SpongeScrews
         },
         {
-          path: 'catalog/traumatology/ao-screws/micro-screws/cortical-screw',
+          path: 'catalog/traumatology/ao-screws/cortical-screw',
           component: CorticalScrews
         },
         {
-          path: 'catalog/traumatology/ao-screws/micro-screws/thread-resistance-screw',
+          path: 'catalog/traumatology/ao-screws/thread-resistance-screw',
           component: ThreadResistantScrews
         },
         {
