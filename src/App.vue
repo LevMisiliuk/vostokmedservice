@@ -53,7 +53,7 @@ p {
 }
 
 .blue-circle {
-  width: 10px;
+  min-width: 10px;
   height: 10px;
   background-color: $primary-pale-blue;
   border-radius: 50%;

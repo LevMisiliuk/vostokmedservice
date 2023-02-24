@@ -60,25 +60,25 @@ export default {
       },
       {
         name: i18n.global.t('main.carts.traumatology.links.screwsAT'),
-        path: `/404`
+        path: `/${i18n.global.locale.value}/catalog/traumatology/ao-screws`
       },
       {
         name: i18n.global.t('main.carts.traumatology.links.JSCPlates'),
-        path: `/404`
+        path: `/${i18n.global.locale.value}/catalog/traumatology/ao-plates`
       },
       {
         name: i18n.global.t(
           'main.carts.traumatology.links.needlesRodsCerclage'
         ),
-        path: `/404`
+        path: `/${i18n.global.locale.value}/catalog/traumatology/needles-robs-cerclage`
       },
       {
         name: i18n.global.t('main.carts.traumatology.links.microsurgery'),
-        path: `/404`
+        path: `/${i18n.global.locale.value}/catalog/traumatology/micro-surgery`
       },
       {
         name: i18n.global.t('main.carts.traumatology.links.ilizarovsApparatus'),
-        path: `/404`
+        path:  `/${i18n.global.locale.value}/catalog/traumatology/ilizarovs-apparatus`
       }
     ])
 
@@ -152,18 +152,20 @@ export default {
     gap: 20px;
   }
 
-  &__cart {
+ &__cart {
     width: 300px;
     max-height: 281px;
     border-radius: 16px;
     overflow: hidden;
     position: relative;
-    box-shadow: 0 0 40px 5px rgba(221, 221, 221, 1);
-    transition: transform 0.05s linear, -webkit-transform 0.05s linear;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s;
     cursor: pointer;
 
     &:hover {
-      transform: scale(1.03);
+      transition: all 0.2s;
+      transform: translateY(-10px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
     }
   }
 

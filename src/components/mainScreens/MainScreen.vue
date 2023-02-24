@@ -25,6 +25,7 @@
             :text="$t('main.carts.traumatology.text')"
             :img="require('@/assets/traumatology-img.png')"
             img-position="bottom"
+            @click="$router.push({ name: 'catalog-traumatology' })"
           />
           <ul>
             <li
@@ -48,6 +49,7 @@
             :text="$t('main.carts.surgery.text')"
             :img="require('@/assets/surgery-img.png')"
             img-position="bottom"
+            @click="$router.push({ name: 'catalog-surgery' })"
           />
           <ul>
             <li v-for="item in surgeryLinks" :key="item" class="cart__list">
@@ -67,6 +69,7 @@
             :text="$t('main.carts.neurosurgery.text')"
             :img="require('@/assets/neurosurgery-img.png')"
             img-position="bottom"
+            @click="$router.push({ name: 'catalog-neurosurgery' })"
           />
           <ul>
             <li
@@ -90,6 +93,7 @@
             :text="$t('main.carts.toolsAndEquipment.text')"
             :img="require('@/assets/tools-and-equipment-img.png')"
             img-position="top"
+            @click="$router.push({ name: 'catalog-tools-and-equipment' })"
           />
           <ul>
             <li
@@ -149,19 +153,19 @@ export default {
       {
         id: 5,
         title: i18n.global.t('main.carts.traumatology.links.JSCPlates'),
-        path: `/${i18n.global.locale.value}/catalog/traumatology/jsc-plates`
+        path: `/${i18n.global.locale.value}/catalog/traumatology/ao-plates`
       },
       {
         id: 6,
         title: i18n.global.t(
           'main.carts.traumatology.links.needlesRodsCerclage'
         ),
-        path: `/${i18n.global.locale.value}/catalog/traumatology/needles-rods-cerclage`
+        path: `/${i18n.global.locale.value}/catalog/traumatology/needles-robs-cerclage`
       },
       {
         id: 7,
         title: i18n.global.t('main.carts.traumatology.links.microsurgery'),
-        path: `/${i18n.global.locale.value}/catalog/traumatology/microsurgery`
+        path: `/${i18n.global.locale.value}/catalog/traumatology/micro-surgery`
       },
       {
         id: 8,

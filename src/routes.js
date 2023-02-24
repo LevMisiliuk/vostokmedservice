@@ -244,6 +244,7 @@ import SmallPlates from '@/components/catalog/traumatology/ao-plates/small-plate
 import DynamicalFemoralSystems from '@/components/catalog/traumatology/ao-plates/dynamical-femoral-systems/DynamicalFemoralSystems.vue'
 import MiniPlates from '@/components/catalog/traumatology/ao-plates/mini-plates/MiniPlates.vue'
 import SpecialPlates from '@/components/catalog/traumatology/ao-plates/specials-plates/SpecialPlates.vue'
+import ScrewsWithInsertForAngularStability from '@/components/catalog/traumatology/ao-screws/screws-with-insert-for-angular-stability/ScrewsWithInsertForAngularStability.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -253,28 +254,61 @@ export default createRouter({
       children: [
         { path: '', component: HomePage },
         { path: 'catalog', component: CatalogPage },
-        { path: 'catalog/traumatology', component: TraumatologyPage },
+        {
+          path: 'catalog/traumatology',
+          component: TraumatologyPage,
+          name: 'catalog-traumatology'
+        },
         { path: 'education', component: EducationPage },
         { path: 'certificates', component: CertificatesPage },
         { path: 'contacts', component: ContactsPage },
         { path: 'about', component: AboutScreen },
         { path: 'catalog/traumatology/micro-surgery', component: MicroSurgery },
-        { path: 'catalog/traumatology/needles-robs-cerclage', component: NeedlesRobsCerclage },
-        { path: 'catalog/traumatology/needles-robs-cerclage/cerclage', component: CerclageScreen },
-        { path: 'catalog/traumatology/needles-robs-cerclage/needles', component: NeedlesScreen },
-        { path: 'catalog/traumatology/needles-robs-cerclage/robs', component: RobsScreen },
+        {
+          path: 'catalog/traumatology/needles-robs-cerclage',
+          component: NeedlesRobsCerclage
+        },
+        {
+          path: 'catalog/traumatology/needles-robs-cerclage/cerclage',
+          component: CerclageScreen
+        },
+        {
+          path: 'catalog/traumatology/needles-robs-cerclage/needles',
+          component: NeedlesScreen
+        },
+        {
+          path: 'catalog/traumatology/needles-robs-cerclage/robs',
+          component: RobsScreen
+        },
         { path: 'catalog/traumatology/ao-plates', component: AoPlates },
-        { path: 'catalog/traumatology/ao-plates/small-plates', component: SmallPlates },
-        { path: 'catalog/traumatology/ao-plates/dynamic-femoral-and-condylar-systems', component: DynamicalFemoralSystems },
-        { path: 'catalog/traumatology/ao-plates/mini-plates', component: MiniPlates },
-        { path: 'catalog/traumatology/ao-plates/special-plates', component: SpecialPlates },
+        {
+          path: 'catalog/traumatology/ao-plates/small-plates',
+          component: SmallPlates
+        },
+        {
+          path: 'catalog/traumatology/ao-plates/dynamic-femoral-and-condylar-systems',
+          component: DynamicalFemoralSystems
+        },
+        {
+          path: 'catalog/traumatology/ao-plates/mini-plates',
+          component: MiniPlates
+        },
+        {
+          path: 'catalog/traumatology/ao-plates/special-plates',
+          component: SpecialPlates
+        },
+        {
+          path: 'catalog/traumatology/ao-screws/screws-with-inserts-for-angular-stability',
+          component: ScrewsWithInsertForAngularStability
+        },
         {
           path: 'catalog/traumatology/ilizarovs-apparatus',
           component: IlizarovApparatus
         },
         {
           path: 'catalog/surgery',
-          component: CatalogSurgery
+          component: CatalogSurgery,
+          name: 'catalog-surgery'
         },
         {
           path: 'catalog/surgery/suture-materials',
@@ -551,7 +585,8 @@ export default createRouter({
         },
         {
           path: 'catalog/tools-and-equipment',
-          component: ToolsAndEquipmentPage
+          component: ToolsAndEquipmentPage,
+          name: 'catalog-tools-and-equipment'
         },
         {
           path: 'catalog/tools-and-equipment/sterilization',
@@ -1017,26 +1052,66 @@ export default createRouter({
           path: 'catalog/tools-and-equipment/medical-instruments',
           component: MedicalInstrumentScreen
         },
-        { path: 'catalog/neurosurgery', component: NeurosurgeryPage },
-        { path: 'catalog/neurosurgery/gel_protivospaechny', component: AntiAdhesionGel },
+        {
+          path: 'catalog/neurosurgery',
+          component: NeurosurgeryPage,
+          name: 'catalog-neurosurgery'
+        },
+        {
+          path: 'catalog/neurosurgery/gel_protivospaechny',
+          component: AntiAdhesionGel
+        },
         {
           path: 'catalog/neurosurgery/transpedikulyarnaya-fiksatsiya-pozvonochnika',
           component: TranspedicularFixationScreen
         },
         { path: 'catalog/neurosurgery/spinal-screws', component: SpinalScrews },
-        { path: 'catalog/neurosurgery/spinal-screws/poliaksialnyi-vint', component: PolyaxialScrew },
-        { path: 'catalog/neurosurgery/spinal-screws/monoaksialnyi-vint', component: MonoaxialScrew },
+        {
+          path: 'catalog/neurosurgery/spinal-screws/poliaksialnyi-vint',
+          component: PolyaxialScrew
+        },
+        {
+          path: 'catalog/neurosurgery/spinal-screws/monoaksialnyi-vint',
+          component: MonoaxialScrew
+        },
         { path: 'catalog/neurosurgery/spinal-beam', component: SpinalBeams },
-        { path: 'catalog/neurosurgery/spinal-beam/pryamayabalka', component: StaightGirder },
-        { path: 'catalog/neurosurgery/spinal-beam/izognutaya-balka', component: CurvedBeam },
-        { path: 'catalog/neurosurgery/spinal-beam/perekrestnayabalk', component: CrossBar },
+        {
+          path: 'catalog/neurosurgery/spinal-beam/pryamayabalka',
+          component: StaightGirder
+        },
+        {
+          path: 'catalog/neurosurgery/spinal-beam/izognutaya-balka',
+          component: CurvedBeam
+        },
+        {
+          path: 'catalog/neurosurgery/spinal-beam/perekrestnayabalk',
+          component: CrossBar
+        },
         { path: 'catalog/neurosurgery/spinal-hooks', component: SpinalHooks },
-        { path: 'catalog/neurosurgery/spinal-hooks/soedinitelnyi-kryuchok', component: ConnectionHook },
-        { path: 'catalog/neurosurgery/spinal-hooks/zakrytyi-pedikulyarnyi-kryuchok', component: ClosedPedicleHook },
-        { path: 'catalog/neurosurgery/spinal-hooks/otkrytyi-pedikulyarnyi-kryuchok', component: OpenPedicleHook },
-        { path: 'catalog/neurosurgery/spinal-hooks/otkrytyi-laminarnyi-kryuchok', component: OpenLaminarFlowHook },
-        { path: 'catalog/neurosurgery/spinal-hooks/zakrytyi-laminarnyi-kryuchok', component: ClosedLaminarHook },
-        { path: 'catalog/neurosurgery/spinal-hooks/izognutyi-laminarnyi-kryuchok', component: CurvedLaminarHook },
+        {
+          path: 'catalog/neurosurgery/spinal-hooks/soedinitelnyi-kryuchok',
+          component: ConnectionHook
+        },
+        {
+          path: 'catalog/neurosurgery/spinal-hooks/zakrytyi-pedikulyarnyi-kryuchok',
+          component: ClosedPedicleHook
+        },
+        {
+          path: 'catalog/neurosurgery/spinal-hooks/otkrytyi-pedikulyarnyi-kryuchok',
+          component: OpenPedicleHook
+        },
+        {
+          path: 'catalog/neurosurgery/spinal-hooks/otkrytyi-laminarnyi-kryuchok',
+          component: OpenLaminarFlowHook
+        },
+        {
+          path: 'catalog/neurosurgery/spinal-hooks/zakrytyi-laminarnyi-kryuchok',
+          component: ClosedLaminarHook
+        },
+        {
+          path: 'catalog/neurosurgery/spinal-hooks/izognutyi-laminarnyi-kryuchok',
+          component: CurvedLaminarHook
+        },
         {
           path: 'catalog/neurosurgery/spinal-system',
           component: SpinalSystems

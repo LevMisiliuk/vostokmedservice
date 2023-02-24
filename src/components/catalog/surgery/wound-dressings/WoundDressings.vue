@@ -17,7 +17,7 @@
         <LeftLinksMenu />
         <div class="suture-materials__inner-block">
           <div class="suture-materials__block">
-            <h2 class="suture-materials__block-header">Протиспайкові засоби</h2>
+            <h2 class="suture-materials__block-header">Раневі покриття</h2>
             <div class="suture-materials__text">
               <div class="suture-materials__text-block">
                 <img
@@ -130,12 +130,14 @@ export default {
     max-height: 290px;
     border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 0 40px 5px rgba(221, 221, 221, 1);
-    transition: transform 0.05s linear, -webkit-transform 0.05s linear;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s;
     cursor: pointer;
 
     &:hover {
-      transform: scale(1.03);
+      transition: all 0.2s;
+      transform: translateY(-10px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
     }
   }
 

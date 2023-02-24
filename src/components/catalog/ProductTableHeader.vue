@@ -87,7 +87,6 @@ export default {
 
   &__product-image {
     max-width: 40%;
-    max-height: 70p;
   }
 }
 </style>

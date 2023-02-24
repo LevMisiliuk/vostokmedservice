@@ -802,6 +802,8 @@
 				"corticalScrews": {
           "title": "Cortical Screw",
 					"threadDiameter": "Thread diameter",
+          "corticalScrew3,5mm": "Cortical screw 3.5 mm",
+          "corticalScrew4,5mm": "Cortical screw 4.5 mm",
 					"coreDiameter": "Core diameter",
 					"headDiameter": "Head diameter",
 					"threadSpacing": "Thread spacing",

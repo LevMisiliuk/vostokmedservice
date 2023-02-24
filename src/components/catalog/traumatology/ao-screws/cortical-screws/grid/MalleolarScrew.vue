@@ -1,6 +1,6 @@
 <template>
   <ProductTableHeader
-    :title="$t('main.carts.traumatology.corticalScrews.corticalScrew4,5mm')"
+    title="Малеолярний гвинт 4,5 мм"
     :productsParams="cardData[0].productsParams"
     :image="cardData[0].imageAddition"
   />
