@@ -1,8 +1,5 @@
 <template>
   <MobilePageWrapper>
-    <div class="catalog-traumatology_mobile__links">
-      <ButtonLinks />
-    </div>
     <div class="intramedullary-pins_mobile__inner">
       <h2 class="intramedullary-pins_mobile__title">
         {{ $t('main.carts.traumatology.title') }}
@@ -109,7 +106,7 @@ export default {
   &__inner {
     display: flex;
     flex-direction: column;
-    margin: 0px 0px 50px 0px;
+    margin: 80px 0px 50px 0px;
 
     h2 {
       color: $primary-blue;

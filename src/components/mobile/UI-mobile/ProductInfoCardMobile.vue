@@ -65,6 +65,7 @@ export default {
   display: flex;
   flex-direction: column;
   margin: 80px 16px 40px 16px;
+  min-width: 1vw;
   border-radius: 16px;
   background-color: #fff;
   color: $primary-black;

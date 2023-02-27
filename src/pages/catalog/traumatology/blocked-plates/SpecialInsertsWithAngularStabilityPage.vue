@@ -1,9 +1,9 @@
 <template>
   <MqResponsive :target="['xs', 'sm']">
-    <SmallInsertsWithAngularStabilityMobile />
+    <SpecialInsertsWithAngularStabilityMobile />
   </MqResponsive>
   <MqResponsive :target="['md', 'lg', 'xl', 'xxl']">
-    <SmallInsertsWithAngularStability />
+    <SpecialInsertsWithAngularStability />
   </MqResponsive>
 </template>
 

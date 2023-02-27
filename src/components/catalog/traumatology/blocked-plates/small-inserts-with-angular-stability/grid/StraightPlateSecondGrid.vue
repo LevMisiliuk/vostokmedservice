@@ -15,6 +15,7 @@
     :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
     :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
     :data="tableData"
+    :scrollbar-always-on="true"
   >
     <el-table-column
       :label="
@@ -23,6 +24,7 @@
         )
       "
       prop="first"
+      min-width="140px"
     />
     <el-table-column
       :label="
@@ -31,6 +33,7 @@
         )
       "
       prop="second"
+      min-width="140px"
     />
     <el-table-column
       :label="
@@ -39,6 +42,7 @@
         )
       "
       prop="third"
+      min-width="140px"
     />
     <el-table-column
       :label="
@@ -47,6 +51,7 @@
         )
       "
       prop="fourth"
+      min-width="140px"
     />
     <el-table-column
       :label="
@@ -55,6 +60,7 @@
         )
       "
       prop="fifth"
+      min-width="140px"
     />
   </el-table>
 </template>

@@ -15,8 +15,8 @@ import RetrogradeFemoralPinsPage from './pages/catalog/traumatology/intramedulla
 import DistalFemoralPinsPage from './pages/catalog/traumatology/intramedullary-pins/DistalFemoralPinsPage.vue'
 import HipProximalPinsPage from './pages/catalog/traumatology/intramedullary-pins/HipProximalPinsPage.vue'
 import BlockedPlatesPage from '@/pages/catalog/traumatology/blocked-plates/BlockedPlatesPage.vue'
-import SmallInsertsWithAngularStabilityPage from '@/components/catalog/traumatology/blocked-plates/small-inserts-with-angular-stability/SmallInsertsWithAngularStability.vue'
-import SpecialInsertsWithAngularStability from '@/components/catalog/traumatology/blocked-plates/special-inserts-with-angular-stability/SpecialInsertsWithAngularStability.vue'
+import SmallInsertsWithAngularStabilityPage from '@/pages/catalog/traumatology/blocked-plates/SmallInsertsWithAngularStabilityPage.vue'
+import SpecialInsertsWithAngularStabilityPage from '@/pages/catalog/traumatology/blocked-plates/SpecialInsertsWithAngularStabilityPage.vue'
 import InsertsWithAngularStability from '@/components/catalog/traumatology/blocked-plates/inserts-with-angular-stability/InsertsWithAngularStability.vue'
 import ToolsAndEquipmentPage from '@/pages/catalog/toolsAndEquipment/ToolsAndEquipmentPage.vue'
 import SterilizationScreen from '@/components/catalog/toolsAndEquipment/sterilization/SterilizationScreen.vue'
@@ -496,7 +496,7 @@ export default createRouter({
         },
         {
           path: 'catalog/traumatology/blockedPlates/special-inserts-with-angular-stability',
-          component: SpecialInsertsWithAngularStability
+          component: SpecialInsertsWithAngularStabilityPage
         },
         {
           path: 'catalog/traumatology/blockedPlates/inserts-with-angular-stability',
