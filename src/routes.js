@@ -26,14 +26,19 @@ import ZTypeTrochantericStudToolKitPage from '@/pages/catalog/traumatology/Traum
 import HumerusToolPage from '@/pages/catalog/traumatology/TraumatologyTools/HumerusToolPage.vue'
 import ToolDtssDcssInsertPage from '@/pages/catalog/traumatology/TraumatologyTools/ToolDtssDcssInsertPage.vue'
 import ToolTraumatologyPage from '@/pages/catalog/traumatology/TraumatologyTools/ToolTraumatologyPage.vue'
+import AoScrewsPage from '@/pages/catalog/traumatology/AoScrews/AoScrewsPage.vue'
+import MicroScrewPage from '@/pages/catalog/traumatology/AoScrews/MicroScrewPage.vue'
+import SpongeScrewsPage from '@/pages/catalog/traumatology/AoScrews/SpongeScrewsPage.vue'
+import CorticalScrewsPage from '@/pages/catalog/traumatology/AoScrews/CorticalScrewsPage.vue'
+import ThreadResistantScrewsPage from '@/pages/catalog/traumatology/AoScrews/ThreadResistantScrewsPage.vue'
+import SpecialScrewsPage from '@/pages/catalog/traumatology/AoScrews/SpecialScrewsPage.vue'
+import ScrewsWithInsertForAngularStabilityPage from '@/pages/catalog/traumatology/AoScrews/ScrewsWithInsertForAngularStabilityPage.vue'
 import SterilizationScreen from '@/components/catalog/toolsAndEquipment/sterilization/SterilizationScreen.vue'
 import EquipmentScreen from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/EquipmentScreen.vue'
 import CardiologyScreen from '@/components/catalog/toolsAndEquipment/cardiology/CardiologyScreen.vue'
 import InhalersNebulizersScreen from '@/components/catalog/toolsAndEquipment/inhalersNebulizers/InhalersNebulizersScreen.vue'
 import MedicalInstrumentScreen from '@/components/catalog/toolsAndEquipment/medicalInstrument/MedicalInstrumentScreen.vue'
 import MedicalFurnitureScreen from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalFurnitureScreen.vue'
-import AoScrews from '@/components/catalog/traumatology/ao-screws/AoScrews.vue'
-import MicroScrew from '@/components/catalog/traumatology/ao-screws/micro-screws/MicroScrew.vue'
 import NeurosurgeryPage from '@/pages/catalog/neurosurgery/NeurosurgeryPage.vue'
 import TranspedicularFixationScreen from '@/components/catalog/neurosurgery/transpedicularFixation/TranspedicularFixationScreen.vue'
 import NeurosurgicalPlates from '@/components/catalog/neurosurgery/neurosurgicalPlates/NeurosurgicalPlates.vue'
@@ -50,7 +55,6 @@ import SuctionUnits from '@/components/catalog/toolsAndEquipment/equipmentOperat
 import CoagulatorsScreen from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/CoagulatorsScreen.vue'
 import LightsScreen from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen.vue'
 import OperatingTables from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/OperatingTables.vue'
-import SpongeScrews from '@/components/catalog/traumatology/ao-screws/sponge-screws/SpongeScrews.vue'
 import MedicalCabinets from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalCabinets.vue'
 import SurgicalTables from '@/components/catalog/toolsAndEquipment/medicalFurniture/SurgicalTables.vue'
 import ChairsScreen from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen.vue'
@@ -71,8 +75,6 @@ import SterilizationCabinet from '@/components/catalog/toolsAndEquipment/sterili
 import ElectricSterilizersFirst from '@/components/catalog/toolsAndEquipment/sterilization/ElectricSterilizers/ElectricSterilizersFirst.vue'
 import ElectricSterilizersSecond from '@/components/catalog/toolsAndEquipment/sterilization/ElectricSterilizers/ElectricSterilizersSecond.vue'
 import SterilizationBoxesRound from '@/components/catalog/toolsAndEquipment/sterilization/SterilizationBoxes/SterilizationBoxesRound.vue'
-import CorticalScrews from '@/components/catalog/traumatology/ao-screws/cortical-screws/CorticalScrews.vue'
-import ThreadResistantScrews from '@/components/catalog/traumatology/ao-screws/thread-resistant-screws/ThreadResistantScrews.vue'
 import FormalinChamberBig from '@/components/catalog/toolsAndEquipment/sterilization/FormalinChambers/FormalinChamberBig'
 import FormalinChamberSmall from '@/components/catalog/toolsAndEquipment/sterilization/FormalinChambers/FormalinChamberSmall'
 import BactericidalIrradiator1Lamp from '@/components/catalog/toolsAndEquipment/sterilization/BactericidalIrradiators/BactericidalIrradiator1Lamp.vue'
@@ -165,7 +167,6 @@ import GynecologicalCouchKKG from '@/components/catalog/toolsAndEquipment/medica
 import TreatmentCouchKP from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/TreatmentCouchKP.vue'
 import DiagnosticCouch from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/DiagnosticCouch.vue'
 import BowelFlushingCouch from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/BowelFlushingCouch.vue'
-import SpecialScrews from '@/components/catalog/traumatology/ao-screws/special-screws/SpecialScrews.vue'
 import AboutScreen from '@/components/mainScreens/AboutScreen.vue'
 import AdjustableMassegeCouch from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/AdjustableMassegeCouch.vue'
 import PowerDrivenMessageCouch from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/PowerDrivenMessageCouch.vue'
@@ -244,7 +245,6 @@ import SmallPlates from '@/components/catalog/traumatology/ao-plates/small-plate
 import DynamicalFemoralSystems from '@/components/catalog/traumatology/ao-plates/dynamical-femoral-systems/DynamicalFemoralSystems.vue'
 import MiniPlates from '@/components/catalog/traumatology/ao-plates/mini-plates/MiniPlates.vue'
 import SpecialPlates from '@/components/catalog/traumatology/ao-plates/specials-plates/SpecialPlates.vue'
-import ScrewsWithInsertForAngularStability from '@/components/catalog/traumatology/ao-screws/screws-with-insert-for-angular-stability/ScrewsWithInsertForAngularStability.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -299,7 +299,7 @@ export default createRouter({
         },
         {
           path: 'catalog/traumatology/ao-screws/screws-with-inserts-for-angular-stability',
-          component: ScrewsWithInsertForAngularStability
+          component: ScrewsWithInsertForAngularStabilityPage
         },
         {
           path: 'catalog/traumatology/ilizarovs-apparatus',
@@ -532,27 +532,27 @@ export default createRouter({
         },
         {
           path: 'catalog/traumatology/ao-screws',
-          component: AoScrews
+          component: AoScrewsPage
         },
         {
           path: 'catalog/traumatology/ao-screws/micro-screws/microscrew',
-          component: MicroScrew
+          component: MicroScrewPage
         },
         {
           path: 'catalog/traumatology/ao-screws/sponge-screw',
-          component: SpongeScrews
+          component: SpongeScrewsPage
         },
         {
           path: 'catalog/traumatology/ao-screws/cortical-screw',
-          component: CorticalScrews
+          component: CorticalScrewsPage
         },
         {
           path: 'catalog/traumatology/ao-screws/thread-resistance-screw',
-          component: ThreadResistantScrews
+          component: ThreadResistantScrewsPage
         },
         {
           path: 'catalog/traumatology/ao-screws/special-screws',
-          component: SpecialScrews
+          component: SpecialScrewsPage
         },
         { path: '404', component: NotFound },
         {

@@ -50,13 +50,14 @@ import CorticalScrew2and7 from './grid/CorticalScrew2and7.vue'
 import CorticalScrew3and5 from './grid/CorticalScrew3and5.vue'
 import CorticalScrew3and5Second from './grid/CorticalScrew3and5Second.vue'
 import CorticalScrew4and5 from './grid/CorticalScrew4and5.vue'
+import i18n from '@/i18n'
 
 export default {
   name: 'ScrewsWithInsertForAngularStability',
   setup() {
     const cardData = computed(() => [
       {
-        title: 'Гвинти для пластин з кутовою стабільністю',
+        title: i18n.global.t('main.carts.traumatology.links.screwsInsertsWithAngularStability'),
         image: require('@/assets/traumatology/screws-for-plates-with-angular-stability.jpeg')
       }
     ])

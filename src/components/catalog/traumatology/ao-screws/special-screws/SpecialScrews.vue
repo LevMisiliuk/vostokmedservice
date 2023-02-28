@@ -69,6 +69,7 @@ import FemoralM9and5 from './grid/FemoralM9and5.vue'
 import FemoralScrewR8 from './grid/FemoralScrewR8.vue'
 import FemoralScrewR9and5 from './grid/FemoralScrewR9and5.vue'
 import HipScrew9and5 from './grid/HipScrew9and5.vue'
+import i18n from '@/i18n'
 
 export default {
   name: 'SpongeScrews',
@@ -89,7 +90,7 @@ export default {
   setup() {
     const cardData = computed(() => [
       {
-        title: 'Гвинти спеціальні',
+        title: i18n.global.t('main.carts.traumatology.links.specialScrews'),
         image: require('@/assets/traumatology/special-screws.jpeg')
       }
     ])

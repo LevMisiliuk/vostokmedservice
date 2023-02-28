@@ -10,14 +10,17 @@
     :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
     :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
     :data="tableData"
+    :scrollbar-always-on="true"
   >
     <el-table-column
       :label="$t('main.carts.traumatology.microScrews.table.first')"
       prop="first"
+      min-width="140px"
     />
     <el-table-column
       :label="$t('main.carts.traumatology.microScrews.table.third')"
       prop="second"
+      min-width="140px"
     />
   </el-table>
 </template>
