@@ -1,31 +1,25 @@
 <template>
   <MobilePageWrapper>
-    <div class="small-inserts-with-angular-stability_mobile__card">
+    <div class="default_mobile__card">
       <ProductInfoCardMobile
         :image="cardData[0].image"
         :title="cardData[0].title"
         :subtitle="cardData[0].subtitle"
         :productsParams="cardData[0].productsParams"
       />
-      <StraightPlateGrid />
+      <StraightPlateAngleStableWide />
 
-          <StraightPlateSecondGrid />
+      <StraightPlateAngleStableWideLimitedContact />
 
-          <SmallPlateTShapedGrid />
+      <ReconstructivePlateAngleStable />
 
-          <ReconstructivePlateGrid />
+      <TShapedPlateAngleStable />
 
-          <PlateTubularGrid />
+      <SupportPlateTShapedAngleStable />
 
-          <ShoulderNeckPlateGrid />
+      <SupportPlateLShapedAngleStable />
 
-          <HookPlateGrid />
-
-          <MedialCondylarPlate />
-
-          <StraightPlateThirdGrid />
-
-          <StraightPlateFourthGrid />
+      <CalfPlateAngleStable />
     </div>
   </MobilePageWrapper>
 </template>
@@ -40,9 +34,9 @@ export default {
     const cardData = computed(() => [
       {
         title: i18n.global.t(
-          'main.carts.traumatology.smallInsertsWithAngularStability.title'
+          'main.carts.traumatology.insertsWithAngularStability.title'
         ),
-        image: require('@/assets/traumatology/small-inserts-with-angular-stability.jpeg'),
+        image: require('@/assets/traumatology/angular-stability-inserts.jpeg')
       }
     ])
 
@@ -54,7 +48,7 @@ export default {
 </script>
 
 <style lang="scss">
-.small-inserts-with-angular-stability_mobile {
+.default_mobile {
   &__card {
     display: flex;
     flex-direction: column;

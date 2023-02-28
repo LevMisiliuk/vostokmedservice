@@ -17,7 +17,8 @@ import HipProximalPinsPage from './pages/catalog/traumatology/intramedullary-pin
 import BlockedPlatesPage from '@/pages/catalog/traumatology/blocked-plates/BlockedPlatesPage.vue'
 import SmallInsertsWithAngularStabilityPage from '@/pages/catalog/traumatology/blocked-plates/SmallInsertsWithAngularStabilityPage.vue'
 import SpecialInsertsWithAngularStabilityPage from '@/pages/catalog/traumatology/blocked-plates/SpecialInsertsWithAngularStabilityPage.vue'
-import InsertsWithAngularStability from '@/components/catalog/traumatology/blocked-plates/inserts-with-angular-stability/InsertsWithAngularStability.vue'
+import InsertsWithAngularStabilityPage from '@/pages/catalog/traumatology/blocked-plates/InsertsWithAngularStabilityPage.vue'
+import LargeInsertsWithAngularStabilityPage from '@/pages/catalog/traumatology/blocked-plates/LargeInsertsWithAngularStabilityPage.vue'
 import ToolsAndEquipmentPage from '@/pages/catalog/toolsAndEquipment/ToolsAndEquipmentPage.vue'
 import SterilizationScreen from '@/components/catalog/toolsAndEquipment/sterilization/SterilizationScreen.vue'
 import EquipmentScreen from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/EquipmentScreen.vue'
@@ -25,7 +26,6 @@ import CardiologyScreen from '@/components/catalog/toolsAndEquipment/cardiology/
 import InhalersNebulizersScreen from '@/components/catalog/toolsAndEquipment/inhalersNebulizers/InhalersNebulizersScreen.vue'
 import MedicalInstrumentScreen from '@/components/catalog/toolsAndEquipment/medicalInstrument/MedicalInstrumentScreen.vue'
 import MedicalFurnitureScreen from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalFurnitureScreen.vue'
-import LargeInsertsWithAngularStability from '@/components/catalog/traumatology/blocked-plates/large-inserts-with-angular-stability/LargeInsertsWithAngularStability.vue'
 import TraumatologyTools from '@/components/catalog/traumatology/tools/TraumatologyTools.vue'
 import InstrumentsCalfThighRetrogradetThigh from '@/components/catalog/traumatology/tools/instruments-calf-thigh-retrogradet-tight/InstrumentsCalfThighRetrogradetThigh.vue'
 import ZTypeTrochantericStudToolKit from '@/components/catalog/traumatology/tools/z-type-trochanteric-stud-tool-kit/ZTypeTrochantericStudToolKit.vue'
@@ -500,11 +500,11 @@ export default createRouter({
         },
         {
           path: 'catalog/traumatology/blockedPlates/inserts-with-angular-stability',
-          component: InsertsWithAngularStability
+          component: InsertsWithAngularStabilityPage
         },
         {
           path: 'catalog/traumatology/blockedPlates/large-inserts-with-angular-stability',
-          component: LargeInsertsWithAngularStability
+          component: LargeInsertsWithAngularStabilityPage
         },
         {
           path: 'catalog/traumatology/tools',

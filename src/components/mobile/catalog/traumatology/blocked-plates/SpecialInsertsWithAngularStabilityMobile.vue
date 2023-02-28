@@ -9,20 +9,13 @@
       />
     </div>
     <LockingSmallTPlateGrid />
-
-          <LockingSmallTPlateObliqueGrid />
-
-          <LockingDistalMedialHumerusPlateGrid />
-
-          <ThreadStabilizedSmallTPlateGrid />
-
-          <ThreadStabilizedSmallTPlateObliqueGrid />
-
-          <LockingDistalFemurPlateGrid />
-
-          <LockingProximalTibiaPlateGrid />
-
-          <LockingDistalMedialTibiaPlateGrid />
+    <LockingSmallTPlateObliqueGrid />
+    <LockingDistalMedialHumerusPlateGrid />
+    <ThreadStabilizedSmallTPlateGrid />
+    <ThreadStabilizedSmallTPlateObliqueGrid />
+    <LockingDistalFemurPlateGrid />
+    <LockingProximalTibiaPlateGrid />
+    <LockingDistalMedialTibiaPlateGrid />
   </MobilePageWrapper>
 </template>
 
@@ -57,6 +50,10 @@ export default {
   &__card {
     display: flex;
     flex-direction: column;
+  }
+
+  .card__product-data {
+    text-align: right;
   }
 }
 </style>
