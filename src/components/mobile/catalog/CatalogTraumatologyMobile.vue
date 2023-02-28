@@ -63,36 +63,36 @@ export default {
       {
         title: i18n.global.t('main.carts.traumatology.links.tool'),
         img: require('@/assets/traumatology/tools.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/traumatology/tools`
       },
       {
         title: i18n.global.t('main.carts.traumatology.links.screwsAT'),
         img: require('@/assets/traumatology/screews-at.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/traumatology/ao-screws`
       },
       {
         title: i18n.global.t('main.carts.traumatology.links.JSCPlates'),
         img: require('@/assets/traumatology/plates-at.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/traumatology/ao-plates`
       },
       {
         title: i18n.global.t(
           'main.carts.traumatology.links.needlesRodsCerclage'
         ),
         img: require('@/assets/traumatology/needles-etc.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/traumatology/needles-robs-cerclage`
       },
       {
         title: i18n.global.t('main.carts.traumatology.links.microsurgery'),
         img: require('@/assets/traumatology/microsurgery.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/traumatology/micro-surgery`
       },
       {
         title: i18n.global.t(
           'main.carts.traumatology.links.ilizarovsApparatus'
         ),
         img: require('@/assets/traumatology/ilizarovs-apparatus.png'),
-        link: '/404'
+        link: `/${i18n.global.locale.value}/catalog/traumatology/ilizarovs-apparatus`
       }
     ])
 

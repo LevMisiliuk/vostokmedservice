@@ -20,18 +20,18 @@ import SpecialInsertsWithAngularStabilityPage from '@/pages/catalog/traumatology
 import InsertsWithAngularStabilityPage from '@/pages/catalog/traumatology/blocked-plates/InsertsWithAngularStabilityPage.vue'
 import LargeInsertsWithAngularStabilityPage from '@/pages/catalog/traumatology/blocked-plates/LargeInsertsWithAngularStabilityPage.vue'
 import ToolsAndEquipmentPage from '@/pages/catalog/toolsAndEquipment/ToolsAndEquipmentPage.vue'
+import TraumatologyToolsPage from '@/pages/catalog/traumatology/TraumatologyTools/TraumatologyToolsPage.vue'
+import InstrumentsCalfThighRetrogradetThighPage from '@/pages/catalog/traumatology/TraumatologyTools/InstrumentsCalfThighRetrogradetThighPage.vue'
+import ZTypeTrochantericStudToolKitPage from '@/pages/catalog/traumatology/TraumatologyTools/ZTypeTrochantericStudToolKitPage.vue'
+import HumerusToolPage from '@/pages/catalog/traumatology/TraumatologyTools/HumerusToolPage.vue'
+import ToolDtssDcssInsertPage from '@/pages/catalog/traumatology/TraumatologyTools/ToolDtssDcssInsertPage.vue'
+import ToolTraumatologyPage from '@/pages/catalog/traumatology/TraumatologyTools/ToolTraumatologyPage.vue'
 import SterilizationScreen from '@/components/catalog/toolsAndEquipment/sterilization/SterilizationScreen.vue'
 import EquipmentScreen from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/EquipmentScreen.vue'
 import CardiologyScreen from '@/components/catalog/toolsAndEquipment/cardiology/CardiologyScreen.vue'
 import InhalersNebulizersScreen from '@/components/catalog/toolsAndEquipment/inhalersNebulizers/InhalersNebulizersScreen.vue'
 import MedicalInstrumentScreen from '@/components/catalog/toolsAndEquipment/medicalInstrument/MedicalInstrumentScreen.vue'
 import MedicalFurnitureScreen from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalFurnitureScreen.vue'
-import TraumatologyTools from '@/components/catalog/traumatology/tools/TraumatologyTools.vue'
-import InstrumentsCalfThighRetrogradetThigh from '@/components/catalog/traumatology/tools/instruments-calf-thigh-retrogradet-tight/InstrumentsCalfThighRetrogradetThigh.vue'
-import ZTypeTrochantericStudToolKit from '@/components/catalog/traumatology/tools/z-type-trochanteric-stud-tool-kit/ZTypeTrochantericStudToolKit.vue'
-import HumerusTool from '@/components/catalog/traumatology/tools/humerus-tool/HumerusTool.vue'
-import ToolDtssDcssInsert from '@/components/catalog/traumatology/tools/tool-dtss-dcss-insert/ToolDtssDcssInsert.vue'
-import ToolTraumatology from '@/components/catalog/traumatology/tools/tool-traumatology/ToolTraumatology.vue'
 import AoScrews from '@/components/catalog/traumatology/ao-screws/AoScrews.vue'
 import MicroScrew from '@/components/catalog/traumatology/ao-screws/micro-screws/MicroScrew.vue'
 import NeurosurgeryPage from '@/pages/catalog/neurosurgery/NeurosurgeryPage.vue'
@@ -508,27 +508,27 @@ export default createRouter({
         },
         {
           path: 'catalog/traumatology/tools',
-          component: TraumatologyTools
+          component: TraumatologyToolsPage
         },
         {
           path: 'catalog/traumatology/tools/instruments-calf-thigh-retrogradet-thigh',
-          component: InstrumentsCalfThighRetrogradetThigh
+          component: InstrumentsCalfThighRetrogradetThighPage
         },
         {
           path: 'catalog/traumatology/tools/z-type-trochanteric-stud-tool-kit',
-          component: ZTypeTrochantericStudToolKit
+          component: ZTypeTrochantericStudToolKitPage
         },
         {
           path: 'catalog/traumatology/tools/humerus-tool',
-          component: HumerusTool
+          component: HumerusToolPage
         },
         {
           path: 'catalog/traumatology/tools/tool-dtss-dcss-inserts',
-          component: ToolDtssDcssInsert
+          component: ToolDtssDcssInsertPage
         },
         {
           path: 'catalog/traumatology/tools/tool-traumatology',
-          component: ToolTraumatology
+          component: ToolTraumatologyPage
         },
         {
           path: 'catalog/traumatology/ao-screws',
