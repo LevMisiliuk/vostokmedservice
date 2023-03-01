@@ -10,13 +10,14 @@
     :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
     :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
     :data="tableData"
+    :scrollbar-always-on="true"
   >
-    <el-table-column label="Кат. №нерж. сталь, Ліва" prop="first" />
-    <el-table-column label="Кат. № сплав титану, Ліва" prop="second" />
-    <el-table-column label="Кількість отворів" prop="third" />
-    <el-table-column label="L, мм" prop="fourth" />
-    <el-table-column label="Кат. №нерж. сталь, Права" prop="fifth" />
-    <el-table-column label="Кат. № сплав титану, Права" prop="sixth" />
+    <el-table-column label="Кат. №нерж. сталь, Ліва" prop="first" min-width="140px"/>
+    <el-table-column label="Кат. № сплав титану, Ліва" prop="second" min-width="140px"/>
+    <el-table-column label="Кількість отворів" prop="third" min-width="140px"/>
+    <el-table-column label="L, мм" prop="fourth" min-width="140px"/>
+    <el-table-column label="Кат. №нерж. сталь, Права" prop="fifth" min-width="140px"/>
+    <el-table-column label="Кат. № сплав титану, Права" prop="sixth" min-width="140px"/>
   </el-table>
 </template>
 

@@ -10,10 +10,11 @@
     :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
     :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
     :data="tableData"
+    :scrollbar-always-on="true"
   >
-    <el-table-column label="L, мм" prop="first" />
-    <el-table-column label="Диаметр, мм" prop="second" />
-    <el-table-column label="Сталь" prop="third" />
+    <el-table-column label="L, мм" prop="first" min-width="140px" />
+    <el-table-column label="Диаметр, мм" prop="second" min-width="140px" />
+    <el-table-column label="Сталь" prop="third" min-width="140px" />
   </el-table>
 </template>
 

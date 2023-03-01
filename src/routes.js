@@ -33,6 +33,12 @@ import CorticalScrewsPage from '@/pages/catalog/traumatology/AoScrews/CorticalSc
 import ThreadResistantScrewsPage from '@/pages/catalog/traumatology/AoScrews/ThreadResistantScrewsPage.vue'
 import SpecialScrewsPage from '@/pages/catalog/traumatology/AoScrews/SpecialScrewsPage.vue'
 import ScrewsWithInsertForAngularStabilityPage from '@/pages/catalog/traumatology/AoScrews/ScrewsWithInsertForAngularStabilityPage.vue'
+import AoPlatesPage from '@/pages/catalog/traumatology/AoPlates/AoPlatesPage.vue'
+import SmallPlatesPage from '@/pages/catalog/traumatology/AoPlates/SmallPlatesPage.vue'
+import DynamicalFemoralSystemsPage from '@/pages/catalog/traumatology/AoPlates/DynamicalFemoralSystemsPage.vue'
+import MiniPlatesPage from '@/pages/catalog/traumatology/AoPlates/MiniPlatesPage.vue'
+import SpecialPlatesPage from '@/pages/catalog/traumatology/AoPlates/SpecialPlatesPage.vue'
+
 import SterilizationScreen from '@/components/catalog/toolsAndEquipment/sterilization/SterilizationScreen.vue'
 import EquipmentScreen from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/EquipmentScreen.vue'
 import CardiologyScreen from '@/components/catalog/toolsAndEquipment/cardiology/CardiologyScreen.vue'
@@ -240,11 +246,6 @@ import TrapezoidalPlate from '@/components/catalog/neurosurgery/neurosurgicalPla
 import CerclageScreen from '@/components/catalog/traumatology/needles-robs-cerclage/cerclage/CerclageScreen.vue'
 import NeedlesScreen from '@/components/catalog/traumatology/needles-robs-cerclage/needles/NeedlesScreen.vue'
 import RobsScreen from '@/components/catalog/traumatology/needles-robs-cerclage/robs/RobsScreen.vue'
-import AoPlates from '@/components/catalog/traumatology/ao-plates/AoPlates.vue'
-import SmallPlates from '@/components/catalog/traumatology/ao-plates/small-plates/SmallPlates.vue'
-import DynamicalFemoralSystems from '@/components/catalog/traumatology/ao-plates/dynamical-femoral-systems/DynamicalFemoralSystems.vue'
-import MiniPlates from '@/components/catalog/traumatology/ao-plates/mini-plates/MiniPlates.vue'
-import SpecialPlates from '@/components/catalog/traumatology/ao-plates/specials-plates/SpecialPlates.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -280,22 +281,22 @@ export default createRouter({
           path: 'catalog/traumatology/needles-robs-cerclage/robs',
           component: RobsScreen
         },
-        { path: 'catalog/traumatology/ao-plates', component: AoPlates },
+        { path: 'catalog/traumatology/ao-plates', component: AoPlatesPage },
         {
           path: 'catalog/traumatology/ao-plates/small-plates',
-          component: SmallPlates
+          component: SmallPlatesPage
         },
         {
           path: 'catalog/traumatology/ao-plates/dynamic-femoral-and-condylar-systems',
-          component: DynamicalFemoralSystems
+          component: DynamicalFemoralSystemsPage
         },
         {
           path: 'catalog/traumatology/ao-plates/mini-plates',
-          component: MiniPlates
+          component: MiniPlatesPage
         },
         {
           path: 'catalog/traumatology/ao-plates/special-plates',
-          component: SpecialPlates
+          component: SpecialPlatesPage
         },
         {
           path: 'catalog/traumatology/ao-screws/screws-with-inserts-for-angular-stability',

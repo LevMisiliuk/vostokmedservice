@@ -10,14 +10,15 @@
     :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
     :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
     :data="tableData"
+    :scrollbar-always-on="true"
   >
-    <el-table-column label="Кількість отворів" prop="first" />
-    <el-table-column label="L" prop="second" />
-    <el-table-column label="130" prop="third" />
-    <el-table-column label="135" prop="fourth" />
-    <el-table-column label="140" prop="fifth" />
-    <el-table-column label="145" prop="sixth" />
-    <el-table-column label="150" prop="seventh" />
+    <el-table-column label="Кількість отворів" prop="first" min-width="140px" />
+    <el-table-column label="L" prop="second" min-width="140px" />
+    <el-table-column label="130" prop="third" min-width="140px" />
+    <el-table-column label="135" prop="fourth" min-width="140px" />
+    <el-table-column label="140" prop="fifth" min-width="140px" />
+    <el-table-column label="145" prop="sixth" min-width="140px" />
+    <el-table-column label="150" prop="seventh" min-width="140px" />
   </el-table>
 </template>
 

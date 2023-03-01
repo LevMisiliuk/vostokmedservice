@@ -10,12 +10,13 @@
     :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
     :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
     :data="tableData"
+    :scrollbar-always-on="true"
   >
-    <el-table-column label="Кількість отворів" prop="first" />
-    <el-table-column label="L, мм" prop="second" />
-    <el-table-column label="Товщина" prop="third" />
-    <el-table-column label="Кат. № нерж. сталь" prop="fourth" />
-    <el-table-column label="Кат. № сплав титану" prop="fifth" />
+    <el-table-column label="Кількість отворів" prop="first" min-width="140px" />
+    <el-table-column label="L, мм" prop="second" min-width="140px" />
+    <el-table-column label="Товщина" prop="third" min-width="140px" />
+    <el-table-column label="Кат. № нерж. сталь" prop="fourth" min-width="140px" />
+    <el-table-column label="Кат. № сплав титану" prop="fifth" min-width="140px" />
   </el-table>
 </template>
 

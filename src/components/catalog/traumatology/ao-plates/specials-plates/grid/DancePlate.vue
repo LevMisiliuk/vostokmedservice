@@ -10,9 +10,10 @@
     :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
     :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
     :data="tableData"
+    :scrollbar-always-on="true"
   >
-    <el-table-column label="Кат. № нерж. сталь" prop="first" />
-    <el-table-column label="Кат. № сплав титану" prop="second" />
+    <el-table-column label="Кат. № нерж. сталь" prop="first" min-width="140px" />
+    <el-table-column label="Кат. № сплав титану" prop="second" min-width="140px" />
   </el-table>
 </template>
 
