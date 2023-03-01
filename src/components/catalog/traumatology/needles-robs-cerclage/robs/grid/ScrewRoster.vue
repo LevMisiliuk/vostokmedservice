@@ -11,12 +11,13 @@
     :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
     :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
     :data="tableData"
+    :scrollbar-always-on="true"
   >
-    <el-table-column label="Сталь" prop="first" />
-    <el-table-column label="L, мм" prop="second" />
-    <el-table-column label="D, мм" prop="third" />
-    <el-table-column label="I1, мм" prop="fourth" />
-    <el-table-column label="I, мм" prop="fifth" />
+    <el-table-column label="Сталь" prop="first" min-width="140px"/>
+    <el-table-column label="L, мм" prop="second" min-width="140px"/>
+    <el-table-column label="D, мм" prop="third" min-width="140px"/>
+    <el-table-column label="I1, мм" prop="fourth" min-width="140px"/>
+    <el-table-column label="I, мм" prop="fifth" min-width="140px"/>
   </el-table>
   <h2>Гвинт спінгиозний</h2>
   <el-table

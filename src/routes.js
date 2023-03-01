@@ -38,6 +38,12 @@ import SmallPlatesPage from '@/pages/catalog/traumatology/AoPlates/SmallPlatesPa
 import DynamicalFemoralSystemsPage from '@/pages/catalog/traumatology/AoPlates/DynamicalFemoralSystemsPage.vue'
 import MiniPlatesPage from '@/pages/catalog/traumatology/AoPlates/MiniPlatesPage.vue'
 import SpecialPlatesPage from '@/pages/catalog/traumatology/AoPlates/SpecialPlatesPage.vue'
+import NeedlesRobsCerclagePage from '@/pages/catalog/traumatology/NeedlesRobsCerclage/NeedlesRobsCerclagePage.vue'
+import CerclageScreenPage from '@/pages/catalog/traumatology/NeedlesRobsCerclage/CerclageScreenPage.vue'
+import NeedlesScreenPage from '@/pages/catalog/traumatology/NeedlesRobsCerclage/NeedlesScreenPage.vue'
+import RobsScreenPage from '@/pages/catalog/traumatology/NeedlesRobsCerclage/RobsScreenPage.vue'
+import MicroSurgeryPage from '@/pages/catalog/traumatology/MicroSurgeryPage.vue'
+import IlizarovApparatusPage from '@/pages/catalog/traumatology/IlizarovApparatusPage.vue'
 
 import SterilizationScreen from '@/components/catalog/toolsAndEquipment/sterilization/SterilizationScreen.vue'
 import EquipmentScreen from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/EquipmentScreen.vue'
@@ -232,9 +238,6 @@ import LunbraLaminaSpreader from '@/components/catalog/neurosurgery/neurosurgica
 import ClowardOne from '@/components/catalog/neurosurgery/neurosurgicalInstrument/ClowardOne.vue'
 import MicroGraspingSerrated from '@/components/catalog/neurosurgery/neurosurgicalInstrument/MicroGraspingSerrated.vue'
 import MicroAlligatorStraight from '@/components/catalog/neurosurgery/neurosurgicalInstrument/MicroAlligatorStraight.vue'
-import IlizarovApparatus from '@/components/catalog/traumatology/Ilizarov-apparatus/IlizarovApparatus.vue'
-import MicroSurgery from '@/components/catalog/traumatology/micro-surgery/MicroSurgery.vue'
-import NeedlesRobsCerclage from '@/components/catalog/traumatology/needles-robs-cerclage/NeedlesRobsCerclage.vue'
 import ElectrocardiogrphAksion from '@/components/catalog/toolsAndEquipment/cardiology/ElectrocardiogrphAksion.vue'
 import ElectrocardiogrphMiniature from '@/components/catalog/toolsAndEquipment/cardiology/ElectrocardiogrphMiniature.vue'
 import ElectrocardiogrphArmasoft from '@/components/catalog/toolsAndEquipment/cardiology/ElectrocardiogrphArmasoft.vue'
@@ -243,9 +246,6 @@ import MonitorResuscitation from '@/components/catalog/toolsAndEquipment/cardiol
 import CervicalPlatesTitanium from '@/components/catalog/neurosurgery/neurosurgicalPlates/CervicalPlatesTitanium.vue'
 import Hplate from '@/components/catalog/neurosurgery/neurosurgicalPlates/Hplate.vue'
 import TrapezoidalPlate from '@/components/catalog/neurosurgery/neurosurgicalPlates/TrapezoidalPlate.vue'
-import CerclageScreen from '@/components/catalog/traumatology/needles-robs-cerclage/cerclage/CerclageScreen.vue'
-import NeedlesScreen from '@/components/catalog/traumatology/needles-robs-cerclage/needles/NeedlesScreen.vue'
-import RobsScreen from '@/components/catalog/traumatology/needles-robs-cerclage/robs/RobsScreen.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -264,22 +264,22 @@ export default createRouter({
         { path: 'certificates', component: CertificatesPage },
         { path: 'contacts', component: ContactsPage },
         { path: 'about', component: AboutScreen },
-        { path: 'catalog/traumatology/micro-surgery', component: MicroSurgery },
+        { path: 'catalog/traumatology/micro-surgery', component: MicroSurgeryPage },
         {
           path: 'catalog/traumatology/needles-robs-cerclage',
-          component: NeedlesRobsCerclage
+          component: NeedlesRobsCerclagePage
         },
         {
           path: 'catalog/traumatology/needles-robs-cerclage/cerclage',
-          component: CerclageScreen
+          component: CerclageScreenPage
         },
         {
           path: 'catalog/traumatology/needles-robs-cerclage/needles',
-          component: NeedlesScreen
+          component: NeedlesScreenPage
         },
         {
           path: 'catalog/traumatology/needles-robs-cerclage/robs',
-          component: RobsScreen
+          component: RobsScreenPage
         },
         { path: 'catalog/traumatology/ao-plates', component: AoPlatesPage },
         {
@@ -304,7 +304,7 @@ export default createRouter({
         },
         {
           path: 'catalog/traumatology/ilizarovs-apparatus',
-          component: IlizarovApparatus
+          component: IlizarovApparatusPage
         },
         {
           path: 'catalog/surgery',

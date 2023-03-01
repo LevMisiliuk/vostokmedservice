@@ -10,12 +10,13 @@
     :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
     :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
     :data="tableData"
+    :scrollbar-always-on="true"
   >
-    <el-table-column label="L, мм" prop="first" />
-    <el-table-column label="3,5мм" prop="second" />
-    <el-table-column label="4,0мм" prop="third" />
-    <el-table-column label="4,5мм" prop="fourth" />
-    <el-table-column label="5,0мм" prop="fifth" />
+    <el-table-column label="L, мм" prop="first" min-width="140px"/>
+    <el-table-column label="3,5мм" prop="second" min-width="140px"/>
+    <el-table-column label="4,0мм" prop="third" min-width="140px"/>
+    <el-table-column label="4,5мм" prop="fourth" min-width="140px"/>
+    <el-table-column label="5,0мм" prop="fifth" min-width="140px"/>
   </el-table>
 </template>
 

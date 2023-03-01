@@ -10,18 +10,22 @@
     :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
     :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
     :data="tableData"
+    :scrollbar-always-on="true"
   >
     <el-table-column
       label="D mm"
       prop="first"
+      min-width="140px"
     />
     <el-table-column
       label="Ø mm"
       prop="second"
+      min-width="140px"
     />
     <el-table-column
       label="Сталь"
       prop="third"
+      min-width="140px"
     />
   </el-table>
 </template>

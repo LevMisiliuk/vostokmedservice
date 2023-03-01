@@ -10,8 +10,9 @@
     :header-cell-style="{ background: '#00AEEF', color: '#FFF' }"
     :cell-style="{ padding: '0', height: '50px', color: '#1B1C1E' }"
     :data="tableData"
+    :scrollbar-always-on="true"
   >
-    <el-table-column label="Категорія №" prop="first" />
+    <el-table-column label="Категорія №" prop="first" min-width="140px"/>
   </el-table>
 </template>
 
