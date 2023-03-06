@@ -1,20 +1,22 @@
 <template>
   <MqResponsive :target="['xs', 'sm']">
-    <ThighPinsMobile />
+    <UniflexScreenMobile />
   </MqResponsive>
   <MqResponsive :target="['md', 'lg', 'xl', 'xxl']">
-    <ThighPins />
+    <Uniflex />
   </MqResponsive>
 </template>
 
 <script>
+import Uniflex from '@/components/catalog/surgery/suture-materials/UniflexScreen.vue'
 import { MqResponsive } from "vue3-mq";
 import { onMounted } from "vue";
 import { updateBreakpoints } from "vue3-mq";
 
 export default {
   components: {
-    MqResponsive
+    MqResponsive,
+    Uniflex
   },
   setup() {
     onMounted(() => {

@@ -207,6 +207,7 @@ export default {
   &__card {
     display: flex;
     flex-direction: column;
+    margin-top: 80px;
   }
 }
 </style>

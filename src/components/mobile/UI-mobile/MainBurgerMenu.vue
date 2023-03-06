@@ -20,9 +20,6 @@
       :class="{ 'burger-menu__dropdown-after': isActive }"
     >
       <div class="burger-menu__dropdown-content">
-        <router-link :to="`/${$i18n.locale}/`" class="burger-menu__dropdown-content-item">
-          <img src="@/assets/logo-mobile.png" alt="logo" />
-        </router-link>
         <div class="burger-menu__dropdown-content-items">
           <PrimaryLink
             :linkTitle="$t('header.main')"

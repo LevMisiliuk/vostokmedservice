@@ -1,9 +1,9 @@
 <template>
   <MqResponsive :target="['xs', 'sm']">
-    <ThighPinsMobile />
+    <CatalogSurgeryMobile />
   </MqResponsive>
   <MqResponsive :target="['md', 'lg', 'xl', 'xxl']">
-    <ThighPins />
+    <CatalogSurgery />
   </MqResponsive>
 </template>
 

@@ -44,6 +44,9 @@ import NeedlesScreenPage from '@/pages/catalog/traumatology/NeedlesRobsCerclage/
 import RobsScreenPage from '@/pages/catalog/traumatology/NeedlesRobsCerclage/RobsScreenPage.vue'
 import MicroSurgeryPage from '@/pages/catalog/traumatology/MicroSurgeryPage.vue'
 import IlizarovApparatusPage from '@/pages/catalog/traumatology/IlizarovApparatusPage.vue'
+import CatalogSurgeryPage from '@/pages/catalog/surgery/CatalogSurgeryPage.vue'
+import SutureMaterialsPage from '@/pages/catalog/surgery/SutureMaterialsPage.vue'
+import UniflexScreenPage from '@/pages/catalog/surgery/SutureMaterials/UniflexScreenPage.vue'
 
 import SterilizationScreen from '@/components/catalog/toolsAndEquipment/sterilization/SterilizationScreen.vue'
 import EquipmentScreen from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/EquipmentScreen.vue'
@@ -102,14 +105,12 @@ import UniversalOne from '@/components/catalog/toolsAndEquipment/equipmentOperat
 import PedalOne from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/PedalOne.vue'
 import SurgicalElema from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/SurgicalElema.vue'
 import CoagulatorPage from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/Coagulator/CoagulatorPage.vue'
-import CatalogSurgery from '@/components/catalog/CatalogSurgery'
 import LuminaireOne from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireOne.vue'
 import LuminaireSecond from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireSecond.vue'
 import LuminaireThird from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireThird.vue'
 import LuminaireForth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireForth.vue'
 import LuminaireFfith from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireFfith.vue'
 import LuminaireSixth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireSixth.vue'
-import SutureMaterials from '@/components/catalog/surgery/suture-materials/SutureMaterials.vue'
 import LuminaireSeventh from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireSeventh.vue'
 import LuminaireEighth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireEighth.vue'
 import LuminaireNineth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireNineth.vue'
@@ -153,7 +154,6 @@ import EslanScreen from '@/components/catalog/surgery/endoprostheses-polymer-mes
 import FtorexScreen from '@/components/catalog/surgery/endoprostheses-polymer-meshes/FtorexScreen.vue'
 import GyneflexScreen from '@/components/catalog/surgery/endoprostheses-polymer-meshes/GyneflexScreen.vue'
 import UniflexScreen from '@/components/catalog/surgery/endoprostheses-polymer-meshes/UniflexScreen.vue'
-import Uniflex from '@/components/catalog/surgery/suture-materials/UniflexScreen.vue'
 import MonoamidScreen from '@/components/catalog/surgery/suture-materials/MonoamidScreen.vue'
 import KapronScreen from '@/components/catalog/surgery/suture-materials/KapronScreen.vue'
 import LavsanScreen from '@/components/catalog/surgery/suture-materials/LavsanScreen.vue'
@@ -308,12 +308,12 @@ export default createRouter({
         },
         {
           path: 'catalog/surgery',
-          component: CatalogSurgery,
+          component: CatalogSurgeryPage,
           name: 'catalog-surgery'
         },
         {
           path: 'catalog/surgery/suture-materials',
-          component: SutureMaterials
+          component: SutureMaterialsPage
         },
         {
           path: 'catalog/surgery/endoprostheses-polymer-meshes',
@@ -429,7 +429,7 @@ export default createRouter({
         },
         {
           path: 'catalog/surger/suture-materials/uniflex',
-          component: Uniflex
+          component: UniflexScreenPage
         },
         {
           path: 'catalog/surger/suture-materials/monoamid',

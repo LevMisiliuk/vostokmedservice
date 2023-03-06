@@ -11,7 +11,7 @@
     class="button-links-mobile"
     type="primary"
     :autofocus="currentPagePath === `/${$i18n.locale}/catalog/surgery`"
-    @click="$router.push(`/${$i18n.locale}/404`)"
+    @click="$router.push(`/${$i18n.locale}/catalog/surgery`)"
   >
     {{ $t('main.catalog.links.surgery') }}
   </el-button>
@@ -19,7 +19,7 @@
     class="button-links-mobile"
     type="primary"
     :autofocus="currentPagePath === `/${$i18n.locale}/catalog/neurosurgery`"
-    @click="$router.push(`/${$i18n.locale}/404`)"
+    @click="$router.push(`/${$i18n.locale}/catalog/neurosurgery`)"
   >
     {{ $t('main.catalog.links.neurosurgery') }}
   </el-button>
@@ -29,7 +29,7 @@
     :autofocus="
       currentPagePath === `/${$i18n.locale}/catalog/tools-and-equipment`
     "
-    @click="$router.push(`/${$i18n.locale}/404`)"
+    @click="$router.push(`/${$i18n.locale}/catalog/tools-and-equipment`)"
   >
     {{ $t('main.catalog.links.toolsAndEquipment') }}
   </el-button>
@@ -42,7 +42,7 @@ import { computed } from 'vue'
 export default {
   setup() {
     const route = useRoute()
-    const currentPagePath = computed(() => route.path)
+    const currentPagePath = computed(() => route.path);
 
     return {
       currentPagePath
