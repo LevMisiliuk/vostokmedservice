@@ -47,6 +47,14 @@ import IlizarovApparatusPage from '@/pages/catalog/traumatology/IlizarovApparatu
 import CatalogSurgeryPage from '@/pages/catalog/surgery/CatalogSurgeryPage.vue'
 import SutureMaterialsPage from '@/pages/catalog/surgery/SutureMaterialsPage.vue'
 import UniflexScreenPage from '@/pages/catalog/surgery/SutureMaterials/UniflexScreenPage.vue'
+import MonoamidScreenPage from '@/pages/catalog/surgery/SutureMaterials/MonoamidScreenPage.vue'
+import MonofilScreenPage from '@/pages/catalog/surgery/SutureMaterials/MonofilScreenPage.vue'
+import KapronScreenPage from '@/pages/catalog/surgery/SutureMaterials/KapronScreenPage.vue'
+import LavsanScreenPage from '@/pages/catalog/surgery/SutureMaterials/LavsanScreenPage.vue'
+import CaprogentScreenPage from '@/pages/catalog/surgery/SutureMaterials/CaprogentScreenPage.vue'
+import FtorlinScreenPage from '@/pages/catalog/surgery/SutureMaterials/FtorlinScreenPage.vue'
+import SilkScreenPage from '@/pages/catalog/surgery/SutureMaterials/SilkScreenPage.vue'
+import FtorexScreenPage from '@/pages/catalog/surgery/SutureMaterials/FtorexScreenPage.vue'
 
 import SterilizationScreen from '@/components/catalog/toolsAndEquipment/sterilization/SterilizationScreen.vue'
 import EquipmentScreen from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/EquipmentScreen.vue'
@@ -154,14 +162,6 @@ import EslanScreen from '@/components/catalog/surgery/endoprostheses-polymer-mes
 import FtorexScreen from '@/components/catalog/surgery/endoprostheses-polymer-meshes/FtorexScreen.vue'
 import GyneflexScreen from '@/components/catalog/surgery/endoprostheses-polymer-meshes/GyneflexScreen.vue'
 import UniflexScreen from '@/components/catalog/surgery/endoprostheses-polymer-meshes/UniflexScreen.vue'
-import MonoamidScreen from '@/components/catalog/surgery/suture-materials/MonoamidScreen.vue'
-import KapronScreen from '@/components/catalog/surgery/suture-materials/KapronScreen.vue'
-import LavsanScreen from '@/components/catalog/surgery/suture-materials/LavsanScreen.vue'
-import CaprogentScreen from '@/components/catalog/surgery/suture-materials/CaprogentScreen.vue'
-import FtorlinScreen from '@/components/catalog/surgery/suture-materials/FtorlinScreen.vue'
-import SilkScreen from '@/components/catalog/surgery/suture-materials/SilkScreen.vue'
-import Ftorex from '@/components/catalog/surgery/suture-materials/FtorexScreen.vue'
-import MonofilScreen from '@/components/catalog/surgery/suture-materials/MonofilScreen.vue'
 import MedicalCabineOne from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalCabinets/MedicalCabineOne.vue'
 import UltrasorbScreen from '@/components/catalog/surgery/suture-materials/UltrasorbScreen.vue'
 import PgaScreen from '@/components/catalog/surgery/suture-materials/PgaScreen.vue'
@@ -433,35 +433,35 @@ export default createRouter({
         },
         {
           path: 'catalog/surger/suture-materials/monoamid',
-          component: MonoamidScreen
+          component: MonoamidScreenPage
         },
         {
           path: 'catalog/surger/suture-materials/capron',
-          component: KapronScreen
+          component: KapronScreenPage
         },
         {
           path: 'catalog/surger/suture-materials/lavsan',
-          component: LavsanScreen
+          component: LavsanScreenPage
         },
         {
           path: 'catalog/surger/suture-materials/caprogent',
-          component: CaprogentScreen
+          component: CaprogentScreenPage
         },
         {
           path: 'catalog/surger/suture-materials/ftorlin',
-          component: FtorlinScreen
+          component: FtorlinScreenPage
         },
         {
           path: 'catalog/surger/suture-materials/silk',
-          component: SilkScreen
+          component: SilkScreenPage
         },
         {
           path: 'catalog/surger/suture-materials/ftorex',
-          component: Ftorex
+          component: FtorexScreenPage
         },
         {
           path: 'catalog/surger/suture-materials/monofil',
-          component: MonofilScreen
+          component: MonofilScreenPage
         },
         {
           path: 'catalog/surger/suture-materials/ultrasorb',
