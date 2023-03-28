@@ -109,8 +109,30 @@ import TrapezoidalPlatePage from '@/pages/catalog/neurosurgery/neurosurgicalPlat
 import VertebralEndoprosthesesPage from '@/pages/catalog/neurosurgery/vertebralEndoprostheses/VertebralEndoprosthesesPage.vue'
 import NeurosurgicalInstrumentPage from '@/pages/catalog/neurosurgery/neurosurgicalInstrument/NeurosurgicalInstrumentPage.vue'
 import InstrumentOnePage from '@/pages/catalog/neurosurgery/neurosurgicalInstrument/InstrumentOnePage.vue'
+import InstrumentSecondPage from '@/pages/catalog/neurosurgery/neurosurgicalInstrument/InstrumentSecondPage.vue'
+import InstrumentThirdPage from '@/pages/catalog/neurosurgery/neurosurgicalInstrument/InstrumentThirdPage.vue'
+import InstrumentForthPage from '@/pages/catalog/neurosurgery/neurosurgicalInstrument/InstrumentForthPage.vue'
+import InstrumentFifthPage from '@/pages/catalog/neurosurgery/neurosurgicalInstrument/InstrumentFifthPage.vue'
+import InstrumentSixthPage from '@/pages/catalog/neurosurgery/neurosurgicalInstrument/InstrumentSixthPage.vue'
+import InstrumentSeventhPage from '@/pages/catalog/neurosurgery/neurosurgicalInstrument/InstrumentSeventhPage.vue'
+import LoveGruenwaldPage from '@/pages/catalog/neurosurgery/neurosurgicalInstrument/LoveGruenwaldPage.vue'
+import MicroCupForcepsPage from '@/pages/catalog/neurosurgery/neurosurgicalInstrument/MicroCupForcepsPage.vue'
+import MicroAlligatorShaftPage from '@/pages/catalog/neurosurgery/neurosurgicalInstrument/MicroAlligatorShaftPage.vue'
+import LunbraLaminaSpreaderPage from '@/pages/catalog/neurosurgery/neurosurgicalInstrument/LunbraLaminaSpreaderPage.vue'
+import ClowardOnePage from '@/pages/catalog/neurosurgery/neurosurgicalInstrument/ClowardOnePage.vue'
+import MicroGraspingSerratedPage from '@/pages/catalog/neurosurgery/neurosurgicalInstrument/MicroGraspingSerratedPage.vue'
+import MicroAlligatorStraightPage from '@/pages/catalog/neurosurgery/neurosurgicalInstrument/MicroAlligatorStraightPage.vue'
+import AntiAdhesionGelPage from '@/pages/catalog/neurosurgery/AntiAdhesionGelPage.vue'
+import SterilizationScreenPage from '@/pages/catalog/toolsAndEquipment/sterilization/SterilizationScreenPage.vue'
+import UvCameraMediumPage from '@/pages/catalog/toolsAndEquipment/sterilization/PanmedCamers/UvCameraMediumPage.vue'
+import UvCameraLargePage from '@/pages/catalog/toolsAndEquipment/sterilization/PanmedCamers/UvCameraLargePage.vue'
+import UvCameraSmallPage from '@/pages/catalog/toolsAndEquipment/sterilization/PanmedCamers/UvCameraSmallPage.vue'
+import AirSterilizerNotpassablePage from '@/pages/catalog/toolsAndEquipment/sterilization/AirSterilizer/AirSterilizerNotpassablePage.vue'
+import AirSterilizerUkrainePage from '@/pages/catalog/toolsAndEquipment/sterilization/AirSterilizer/AirSterilizerUkrainePage.vue'
+import AirSterilizerBDPage from '@/pages/catalog/toolsAndEquipment/sterilization/AirSterilizer/AirSterilizerBDPage.vue'
+import AirSterilizerSpuPage from '@/pages/catalog/toolsAndEquipment/sterilization/AirSterilizer/AirSterilizerSpuPage.vue'
+import SterilizationCabinetPage from '@/pages/catalog/toolsAndEquipment/sterilization/AirSterilizer/SterilizationCabinetPage.vue'
 
-import SterilizationScreen from '@/components/catalog/toolsAndEquipment/sterilization/SterilizationScreen.vue'
 import EquipmentScreen from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/EquipmentScreen.vue'
 import CardiologyScreen from '@/components/catalog/toolsAndEquipment/cardiology/CardiologyScreen.vue'
 import InhalersNebulizersScreen from '@/components/catalog/toolsAndEquipment/inhalersNebulizers/InhalersNebulizersScreen.vue'
@@ -118,7 +140,6 @@ import MedicalInstrumentScreen from '@/components/catalog/toolsAndEquipment/medi
 import MedicalFurnitureScreen from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalFurnitureScreen.vue'
 import NeurosurgeryPage from '@/pages/catalog/neurosurgery/NeurosurgeryPage.vue'
 import PanmedCamers from '@/components/catalog/toolsAndEquipment/sterilization/PanmedCamers.vue'
-import uvCameraMedium from '@/components/catalog/toolsAndEquipment/sterilization/PanmedCamers/UvCameraMedium.vue'
 import AirSterilizer from '@/components/catalog/toolsAndEquipment/sterilization/AirSterilizer.vue'
 import ElectricSterilizers from '@/components/catalog/toolsAndEquipment/sterilization/ElectricSterilizers.vue'
 import SterilizationBoxes from '@/components/catalog/toolsAndEquipment/sterilization/SterilizationBoxes.vue'
@@ -138,13 +159,6 @@ import SpinalScrews from '@/components/catalog/neurosurgery/transpedicularFixati
 import SpinalBeams from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalBeams.vue'
 import SpinalHooks from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalHooks.vue'
 import SpinalSystems from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalSystems.vue'
-import UvCameraLarge from '@/components/catalog/toolsAndEquipment/sterilization/PanmedCamers/UvCameraLarge.vue'
-import UvCameraSmall from '@/components/catalog/toolsAndEquipment/sterilization/PanmedCamers/UvCameraSmall.vue'
-import AirSterilizerNotpassable from '@/components/catalog/toolsAndEquipment/sterilization/AirSterilizer/AirSterilizerNotpassable.vue'
-import AirSterilizerUkraine from '@/components/catalog/toolsAndEquipment/sterilization/AirSterilizer/AirSterilizerUkraine.vue'
-import AirSterilizerBD from '@/components/catalog/toolsAndEquipment/sterilization/AirSterilizer/AirSterilizerBD.vue'
-import AirSterilizerSpu from '@/components/catalog/toolsAndEquipment/sterilization/AirSterilizer/AirSterilizerSpu.vue'
-import SterilizationCabinet from '@/components/catalog/toolsAndEquipment/sterilization/AirSterilizer/SterilizationCabinet.vue'
 import ElectricSterilizersFirst from '@/components/catalog/toolsAndEquipment/sterilization/ElectricSterilizers/ElectricSterilizersFirst.vue'
 import ElectricSterilizersSecond from '@/components/catalog/toolsAndEquipment/sterilization/ElectricSterilizers/ElectricSterilizersSecond.vue'
 import SterilizationBoxesRound from '@/components/catalog/toolsAndEquipment/sterilization/SterilizationBoxes/SterilizationBoxesRound.vue'
@@ -227,20 +241,6 @@ import InhalerOne from '@/components/catalog/toolsAndEquipment/inhalersNebulizer
 import OmronOne from '@/components/catalog/toolsAndEquipment/inhalersNebulizers/OmronOne.vue'
 import OmronSecond from '@/components/catalog/toolsAndEquipment/inhalersNebulizers/OmronSecond.vue'
 import OmronThird from '@/components/catalog/toolsAndEquipment/inhalersNebulizers/OmronThird.vue'
-import InstrumentSecond from '@/components/catalog/neurosurgery/neurosurgicalInstrument/InstrumentSecond.vue'
-import InstrumentThird from '@/components/catalog/neurosurgery/neurosurgicalInstrument/InstrumentThird.vue'
-import InstrumentForth from '@/components/catalog/neurosurgery/neurosurgicalInstrument/InstrumentForth.vue'
-import InstrumentFifth from '@/components/catalog/neurosurgery/neurosurgicalInstrument/InstrumentFifth.vue'
-import InstrumentSixth from '@/components/catalog/neurosurgery/neurosurgicalInstrument/InstrumentSixth.vue'
-import InstrumentSeventh from '@/components/catalog/neurosurgery/neurosurgicalInstrument/InstrumentSeventh.vue'
-import AntiAdhesionGel from '@/components/catalog/neurosurgery/AntiAdhesionGel.vue'
-import LoveGruenwald from '@/components/catalog/neurosurgery/neurosurgicalInstrument/LoveGruenwald.vue'
-import MicroCupForceps from '@/components/catalog/neurosurgery/neurosurgicalInstrument/MicroCupForceps.vue'
-import MicroAlligatorShaft from '@/components/catalog/neurosurgery/neurosurgicalInstrument/MicroAlligatorShaft.vue'
-import LunbraLaminaSpreader from '@/components/catalog/neurosurgery/neurosurgicalInstrument/LunbraLaminaSpreader.vue'
-import ClowardOne from '@/components/catalog/neurosurgery/neurosurgicalInstrument/ClowardOne.vue'
-import MicroGraspingSerrated from '@/components/catalog/neurosurgery/neurosurgicalInstrument/MicroGraspingSerrated.vue'
-import MicroAlligatorStraight from '@/components/catalog/neurosurgery/neurosurgicalInstrument/MicroAlligatorStraight.vue'
 import ElectrocardiogrphAksion from '@/components/catalog/toolsAndEquipment/cardiology/ElectrocardiogrphAksion.vue'
 import ElectrocardiogrphMiniature from '@/components/catalog/toolsAndEquipment/cardiology/ElectrocardiogrphMiniature.vue'
 import ElectrocardiogrphArmasoft from '@/components/catalog/toolsAndEquipment/cardiology/ElectrocardiogrphArmasoft.vue'
@@ -591,7 +591,7 @@ export default createRouter({
         },
         {
           path: 'catalog/tools-and-equipment/sterilization',
-          component: SterilizationScreen
+          component: SterilizationScreenPage
         },
         {
           path: 'catalog/tools-and-equipment/sterilization/camera-panmed/',
@@ -599,15 +599,15 @@ export default createRouter({
         },
         {
           path: 'catalog/tools-and-equipment/sterilization/camera-panmed/uf-kamera-dlya-khraneniya-sterilnogo-large',
-          component: UvCameraLarge
+          component: UvCameraLargePage
         },
         {
           path: 'catalog/tools-and-equipment/sterilization/camera-panmed/uf-kamera-dlya-khraneniya-sterilnogo-medium',
-          component: uvCameraMedium
+          component: UvCameraMediumPage
         },
         {
           path: 'catalog/tools-and-equipment/sterilization/camera-panmed/uf-kamera-dlya-khraneniya-sterilnogo-small',
-          component: UvCameraSmall
+          component: UvCameraSmallPage
         },
         {
           path: 'catalog/tools-and-equipment/sterilization/air-sterilizer/',
@@ -615,23 +615,23 @@ export default createRouter({
         },
         {
           path: 'catalog/tools-and-equipment/sterilization/air-sterilizer/sterilizatory-vozdushnye-gp-320-bd-neprokhodnoi-gpd-320-prokhodnoi-usovershenstvovannye-analogi-shss-250p-i-shss-250pr',
-          component: AirSterilizerNotpassable
+          component: AirSterilizerNotpassablePage
         },
         {
           path: 'catalog/tools-and-equipment/sterilization/air-sterilizer/sterilizatory-vozdushnye-gp-20-gp-40-gp-80-ukraina',
-          component: AirSterilizerUkraine
+          component: AirSterilizerUkrainePage
         },
         {
           path: 'catalog/tools-and-equipment/sterilization/air-sterilizer/sterilizatory-vozdushnye-gp-160bd-gp-640-bd-gp-1300-bd',
-          component: AirSterilizerBD
+          component: AirSterilizerBDPage
         },
         {
           path: 'catalog/tools-and-equipment/sterilization/air-sterilizer/sterilizatory-vozdushnye-gp-20-spu-gp-40-spu-gp-80-spu',
-          component: AirSterilizerSpu
+          component: AirSterilizerSpuPage
         },
         {
           path: 'catalog/tools-and-equipment/sterilization/air-sterilizer/shkaf-sushilno-sterilizatsionnyi-shs-80',
-          component: SterilizationCabinet
+          component: SterilizationCabinetPage
         },
         {
           path: 'catalog/tools-and-equipment/sterilization/electric-sterilizer/',
@@ -1060,7 +1060,7 @@ export default createRouter({
         },
         {
           path: 'catalog/neurosurgery/gel_protivospaechny',
-          component: AntiAdhesionGel
+          component: AntiAdhesionGelPage
         },
         {
           path: 'catalog/neurosurgery/transpedikulyarnaya-fiksatsiya-pozvonochnika',
@@ -1155,55 +1155,55 @@ export default createRouter({
         },
         {
           path: 'catalog/neurosurgery/neurosurgical-tool/11-202-140-14-cm',
-          component: InstrumentSecond
+          component: InstrumentSecondPage
         },
         {
           path: 'catalog/neurosurgery/neurosurgical-tool/inge-11-195-160-16-cm-small-pattern',
-          component: InstrumentThird
+          component: InstrumentThirdPage
         },
         {
           path: 'catalog/neurosurgery/neurosurgical-tool/inge-11-196-170-17-cm',
-          component: InstrumentForth
+          component: InstrumentForthPage
         },
         {
           path: 'catalog/neurosurgery/neurosurgical-tool/inge-26-cm-11-197-260-jaw-with-5-mm-11-198-260-jaw-with-10-mm-large-pattern',
-          component: InstrumentFifth
+          component: InstrumentFifthPage
         },
         {
           path: 'catalog/neurosurgery/neurosurgical-tool/cushing',
-          component: InstrumentSixth
+          component: InstrumentSixthPage
         },
         {
           path: 'catalog/neurosurgery/neurosurgical-tool/gloward-type-serrated-cup-jaws',
-          component: InstrumentSeventh
+          component: InstrumentSeventhPage
         },
         {
           path: 'catalog/neurosurgery/neurosurgical-tool/love-gruenwald',
-          component: LoveGruenwald
+          component: LoveGruenwaldPage
         },
         {
           path: 'catalog/neurosurgery/neurosurgical-tool/micro-cup-forceps',
-          component: MicroCupForceps
+          component: MicroCupForcepsPage
         },
         {
           path: 'catalog/neurosurgery/neurosurgical-tool/micro-alligator-f0rceps-with-tubular-shaft-18-cm',
-          component: MicroAlligatorShaft
+          component: MicroAlligatorShaftPage
         },
         {
           path: 'catalog/neurosurgery/neurosurgical-tool/lumbar-lamina-spreader-11-200-00-arm-length-87-5-mm-spread-37-5-mm',
-          component: LunbraLaminaSpreader
+          component: LunbraLaminaSpreaderPage
         },
         {
           path: 'catalog/neurosurgery/neurosurgical-tool/cloward-11-199-130-13-cm',
-          component: ClowardOne
+          component: ClowardOnePage
         },
         {
           path: 'catalog/neurosurgery/neurosurgical-tool/micro-grasping-11-153-00-serrated-straight',
-          component: MicroGraspingSerrated
+          component: MicroGraspingSerratedPage
         },
         {
           path: 'catalog/neurosurgery/neurosurgical-tool/micro-alligator-11-154-00-straight',
-          component: MicroAlligatorStraight
+          component: MicroAlligatorStraightPage
         }
       ]
     }

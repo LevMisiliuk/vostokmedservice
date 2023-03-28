@@ -19,10 +19,11 @@ export default {
   setup() {
     const cardData = computed(() => [
       {
-        title: i18n.global.t('main.carts.neurosurgery.neurosurgicalInstrument.links.CLOWARD1120116016cm'),
-        subtitle: "",
-        image: require('@/assets/neurosurgery/CLOWARD-1120116016cm.png'),
+        title: i18n.global.t('main.carts.toolsAndEquipment.panmedCamersLinks.uvCameraMedium'),
+        subtitle: i18n.global.t('main.carts.toolsAndEquipment.panmedCamers.uvCameraMediumData'),
+        image: require('@/assets/toolsAndEquipment/uv-camera-medium.png'),
         productsParams: [
+
         ]
       }
     ])

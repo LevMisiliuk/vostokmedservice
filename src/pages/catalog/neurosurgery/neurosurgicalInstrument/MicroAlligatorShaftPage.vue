@@ -1,9 +1,9 @@
 <template>
   <MqResponsive :target="['xs', 'sm']">
-    <ToolsAndEquipmentScreenMobile />
+    <MicroAlligatorShaftMobile />
   </MqResponsive>
   <MqResponsive :target="['md', 'lg', 'xl', 'xxl']">
-    <ToolsAndEquipmentScreen />
+    <MicroAlligatorShaft />
   </MqResponsive>
 </template>
 

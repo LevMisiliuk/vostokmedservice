@@ -19,9 +19,9 @@ export default {
   setup() {
     const cardData = computed(() => [
       {
-        title: i18n.global.t('main.carts.neurosurgery.neurosurgicalInstrument.links.CLOWARD1120116016cm'),
+        title: i18n.global.t('main.carts.neurosurgery.neurosurgicalInstrument.links.microAlligatorStraight'),
         subtitle: "",
-        image: require('@/assets/neurosurgery/CLOWARD-1120116016cm.png'),
+        image: require('@/assets/neurosurgery/micro-alligator-straight.png'),
         productsParams: [
         ]
       }

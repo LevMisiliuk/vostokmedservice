@@ -129,7 +129,7 @@ export default {
 };
 </script>
 
-<style lang="scss" >
+<style lang="scss" scoped>
 .catalog-default_mobile {
   &__links {
     margin-top: 80px;
@@ -155,7 +155,7 @@ export default {
 
   &__carts {
     display: flex;
-    height: 320px;
+    height: 360px;
     justify-content: center;
   }
 
@@ -167,15 +167,17 @@ export default {
     color: $primary-white;
     background-color: $primary-blue;
     text-align: center;
+    max-width: 340px;
+    font-size: 16px;
     padding: 10px 0;
     border-radius: 0px 0px 16px 16px;
   }
 
   &__cart-img {
     margin-bottom: -10px;
-    width: 100%;
+    width: 340px;
     min-width: 310px;
-    max-height: 235px;
+    min-height: 235px;
     border-radius: 16px 16px 0px 0px;
   }
 }

@@ -2,10 +2,10 @@
   <MobilePageWrapper>
     <div class="default_mobile__card">
       <ProductInfoCardMobile
-          :image="cardData[0].image"
-          :title="cardData[0].title"
-          :subtitle="cardData[0].subtitle"
-          :productsParams="cardData[0].productsParams"
+          :image="sterilizationCabinetData[0].image"
+          :title="sterilizationCabinetData[0].title"
+          :subtitle="sterilizationCabinetData[0].subtitle"
+          :productsParams="sterilizationCabinetData[0].productsParams"
       />
     </div>
   </MobilePageWrapper>
@@ -17,18 +17,18 @@ import i18n from "@/i18n";
 
 export default {
   setup() {
-    const cardData = computed(() => [
+
+    const sterilizationCabinetData = computed(() => [
       {
-        title: i18n.global.t('main.carts.neurosurgery.neurosurgicalInstrument.links.CLOWARD1120116016cm'),
-        subtitle: "",
-        image: require('@/assets/neurosurgery/CLOWARD-1120116016cm.png'),
+        title: i18n.global.t('main.carts.toolsAndEquipment.airSterilizerLinks.sterilizationCabinet'),
+        subtitle: i18n.global.t('main.carts.toolsAndEquipment.sterilizationCabinet.title'),
+        image: require('@/assets/toolsAndEquipment/sterilization-cabinet.png'),
         productsParams: [
         ]
       }
     ])
-
     return {
-      cardData,
+      sterilizationCabinetData,
     }
   }
 }
