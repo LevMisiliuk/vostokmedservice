@@ -1,9 +1,9 @@
 <template>
   <MqResponsive :target="['xs', 'sm']">
-    <NeurosurgeryScreenMobile />
+    <EndoprosthesesPolymerMeshesMobile />
   </MqResponsive>
   <MqResponsive :target="['md', 'lg', 'xl', 'xxl']">
-    <NeurosurgeryScreen />
+    <EndoprosthesesPolymerMeshes />
   </MqResponsive>
 </template>
 
@@ -22,7 +22,6 @@ export default {
         preset: "bootstrap5"
       })
     })
-
   }
 }
 </script>

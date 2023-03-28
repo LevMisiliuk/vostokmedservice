@@ -87,7 +87,7 @@ export default {
       {
         title: i18n.global.t('main.carts.neurosurgery.spinalHooksLinks.curvedLaminarHook'),
         subtitle: "",
-        image: require('@/assets/neurosurgery/open-laminar-flowhook.png'),
+        image: require('@/assets/neurosurgery/curved-laminar-hook.png'),
         productsParams: [
         ]
       }

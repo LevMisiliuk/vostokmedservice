@@ -55,6 +55,60 @@ import CaprogentScreenPage from '@/pages/catalog/surgery/SutureMaterials/Caproge
 import FtorlinScreenPage from '@/pages/catalog/surgery/SutureMaterials/FtorlinScreenPage.vue'
 import SilkScreenPage from '@/pages/catalog/surgery/SutureMaterials/SilkScreenPage.vue'
 import FtorexScreenPage from '@/pages/catalog/surgery/SutureMaterials/FtorexScreenPage.vue'
+import UltrasorbScreenPage from '@/pages/catalog/surgery/SutureMaterials/UltrasorbScreenPage.vue'
+import PgaRapidPage from '@/pages/catalog/surgery/SutureMaterials/PgaRapidPage.vue'
+import PgaScreenPage from '@/pages/catalog/surgery/SutureMaterials/PgaScreenPage.vue'
+import SimpleCatgutPage from '@/pages/catalog/surgery/SutureMaterials/SimpleCatgutPage.vue'
+import MonosorbScreenPage from '@/pages/catalog/surgery/SutureMaterials/MonosorbScreenPage.vue'
+import EndoprosthesesPolymerMeshesPage from '@/pages/catalog/surgery/endoprosthesesPolymerMeshes/EndoprosthesesPolymerMeshesPage.vue'
+import EsfilTPage from '@/pages/catalog/surgery/endoprosthesesPolymerMeshes/EsfilTPage.vue'
+import EsfilLPage from '@/pages/catalog/surgery/endoprosthesesPolymerMeshes/EsfilLPage.vue'
+import EsfilScreenPage from '@/pages/catalog/surgery/endoprosthesesPolymerMeshes/EsfilScreenPage.vue'
+import FlexilenScreenPage from '@/pages/catalog/surgery/endoprosthesesPolymerMeshes/FlexilenScreenPage.vue'
+import EslanScreenPage from '@/pages/catalog/surgery/endoprosthesesPolymerMeshes/EslanScreenPage.vue'
+import FtorexSencondScreenPage from '@/pages/catalog/surgery/endoprosthesesPolymerMeshes/FtorexSencondScreenPage.vue'
+import GyneflexScreenPage from '@/pages/catalog/surgery/endoprosthesesPolymerMeshes/GyneflexScreenPage.vue'
+import UniflexSecondScreenPage from '@/pages/catalog/surgery/endoprosthesesPolymerMeshes/UniflexSecondScreenPage.vue'
+import EndoprosthesesForUrogynecologyPage from '@/pages/catalog/surgery/EndoprosthesesForUrogynecology/EndoprosthesesForUrogynecologyPage.vue'
+import UrofixPlPage from '@/pages/catalog/surgery/EndoprosthesesForUrogynecology/UrofixPlPage.vue'
+import UrofixToPage from '@/pages/catalog/surgery/EndoprosthesesForUrogynecology/UrofixToPage.vue'
+import UroslingScreenPage from '@/pages/catalog/surgery/EndoprosthesesForUrogynecology/UroslingScreenPage.vue'
+import AntiadhesionsGelPage from '@/pages/catalog/surgery/AntiadhesionsGelPage.vue'
+import WoundDressingsPage from '@/pages/catalog/surgery/WoundDressingsPage.vue'
+import HemostaticSpongePage from '@/pages/catalog/surgery/HemostaticSpongePage.vue'
+import ZmProductionPage from '@/pages/catalog/surgery/zmProduction/ZmProductionPage.vue'
+import ScotchkastPlusPage from '@/pages/catalog/surgery/zmProduction/ScotchkastPlusPage.vue'
+import SoftcastScreenPage from '@/pages/catalog/surgery/zmProduction/SoftcastScreenPage.vue'
+import AyobanScreenPage from '@/pages/catalog/surgery/zmProduction/AyobanScreenPage.vue'
+import CobanScreenPage from '@/pages/catalog/surgery/zmProduction/CobanScreenPage.vue'
+import PlasterSkinSuturePage from '@/pages/catalog/surgery/zmProduction/PlasterSkinSuturePage.vue'
+import MediporeScreenPage from '@/pages/catalog/surgery/zmProduction/MediporeScreenPage.vue'
+import TransporScreenPage from '@/pages/catalog/surgery/zmProduction/TransporScreenPage.vue'
+import DuraporScreenPage from '@/pages/catalog/surgery/zmProduction/DuraporScreenPage.vue'
+import MediporPlusPadPage from '@/pages/catalog/surgery/zmProduction/MediporPlusPadPage.vue'
+import TegadermScreenPage from '@/pages/catalog/surgery/zmProduction/TegadermScreenPage.vue'
+import MicroFomPage from '@/pages/catalog/surgery/zmProduction/MicroFomPage.vue'
+import TranspedicularFixationScreenPage from '@/pages/catalog/neurosurgery/transpedicularFixation/TranspedicularFixationScreenPage.vue'
+import PolyaxialScrewPage from '@/pages/catalog/neurosurgery/transpedicularFixation/SpinalScrews/PolyaxialScrewPage.vue'
+import MonoaxialScrewPage from '@/pages/catalog/neurosurgery/transpedicularFixation/SpinalScrews/MonoaxialScrewPage.vue'
+import StaightGirderPage from '@/pages/catalog/neurosurgery/transpedicularFixation/SpinalBeams/StaightGirderPage.vue'
+import CurvedBeamPage from '@/pages/catalog/neurosurgery/transpedicularFixation/SpinalBeams/CurvedBeamPage.vue'
+import CrossBarPage from '@/pages/catalog/neurosurgery/transpedicularFixation/SpinalBeams/CrossBarPage.vue'
+import ConnectionHookPage from '@/pages/catalog/neurosurgery/transpedicularFixation/SpinalHooks/ConnectionHookPage.vue'
+import ClosedPedicleHookPage from '@/pages/catalog/neurosurgery/transpedicularFixation/SpinalHooks/ClosedPedicleHookPage.vue'
+import OpenPedicleHookPage from '@/pages/catalog/neurosurgery/transpedicularFixation/SpinalHooks/OpenPedicleHookPage.vue'
+import OpenLaminarFlowHookPage from '@/pages/catalog/neurosurgery/transpedicularFixation/SpinalHooks/OpenLaminarFlowHookPage.vue'
+import ClosedLaminarHookPage from '@/pages/catalog/neurosurgery/transpedicularFixation/SpinalHooks/ClosedLaminarHookPage.vue'
+import CurvedLaminarHookPage from '@/pages/catalog/neurosurgery/transpedicularFixation/SpinalHooks/CurvedLaminarHookPage.vue'
+import SacralScrewPage from '@/pages/catalog/neurosurgery/transpedicularFixation/SpinalSystems/SacralScrewPage.vue'
+import SacredBlockPage from '@/pages/catalog/neurosurgery/transpedicularFixation/SpinalSystems/SacredBlockPage.vue'
+import NeurosurgicalPlatesPage from '@/pages/catalog/neurosurgery/neurosurgicalPlates/NeurosurgicalPlatesPage.vue'
+import CervicalPlatesTitaniumPage from '@/pages/catalog/neurosurgery/neurosurgicalPlates/CervicalPlatesTitaniumPage.vue'
+import HplatePage from '@/pages/catalog/neurosurgery/neurosurgicalPlates/HplatePage.vue'
+import TrapezoidalPlatePage from '@/pages/catalog/neurosurgery/neurosurgicalPlates/TrapezoidalPlatePage.vue'
+import VertebralEndoprosthesesPage from '@/pages/catalog/neurosurgery/vertebralEndoprostheses/VertebralEndoprosthesesPage.vue'
+import NeurosurgicalInstrumentPage from '@/pages/catalog/neurosurgery/neurosurgicalInstrument/NeurosurgicalInstrumentPage.vue'
+import InstrumentOnePage from '@/pages/catalog/neurosurgery/neurosurgicalInstrument/InstrumentOnePage.vue'
 
 import SterilizationScreen from '@/components/catalog/toolsAndEquipment/sterilization/SterilizationScreen.vue'
 import EquipmentScreen from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/EquipmentScreen.vue'
@@ -63,10 +117,6 @@ import InhalersNebulizersScreen from '@/components/catalog/toolsAndEquipment/inh
 import MedicalInstrumentScreen from '@/components/catalog/toolsAndEquipment/medicalInstrument/MedicalInstrumentScreen.vue'
 import MedicalFurnitureScreen from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalFurnitureScreen.vue'
 import NeurosurgeryPage from '@/pages/catalog/neurosurgery/NeurosurgeryPage.vue'
-import TranspedicularFixationScreen from '@/components/catalog/neurosurgery/transpedicularFixation/TranspedicularFixationScreen.vue'
-import NeurosurgicalPlates from '@/components/catalog/neurosurgery/neurosurgicalPlates/NeurosurgicalPlates.vue'
-import VertebralEndoprostheses from '@/components/catalog/neurosurgery/vertebralEndoprostheses/VertebralEndoprostheses.vue'
-import NeurosurgicalInstrument from '@/components/catalog/neurosurgery/neurosurgicalInstrument/NeurosurgicalInstrument.vue'
 import PanmedCamers from '@/components/catalog/toolsAndEquipment/sterilization/PanmedCamers.vue'
 import uvCameraMedium from '@/components/catalog/toolsAndEquipment/sterilization/PanmedCamers/UvCameraMedium.vue'
 import AirSterilizer from '@/components/catalog/toolsAndEquipment/sterilization/AirSterilizer.vue'
@@ -123,51 +173,18 @@ import LuminaireSeventh from '@/components/catalog/toolsAndEquipment/equipmentOp
 import LuminaireEighth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireEighth.vue'
 import LuminaireNineth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireNineth.vue'
 import LuminaireTenth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireTenth.vue'
-import EndoprosthesesPolymerMeshes from '@/components/catalog/surgery/endoprostheses-polymer-meshes/EndoprosthesesPolymerMeshes.vue'
-import EndoprosthesesForUrogynecology from '@/components/catalog/surgery/endoprostheses-for-urogynecology/EndoprosthesesForUrogynecology.vue'
-import AntiadhesionsGel from '@/components/catalog/surgery/antiadhesions/AntiadhesionsGel.vue'
 import LuminaireEleventh from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireEleventh.vue'
 import LuminaireTwelfth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireTwelfth.vue'
 import LuminaireEmaNine from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireEmaNine.vue'
-import WoundDressings from '@/components/catalog/surgery/wound-dressings/WoundDressings.vue'
-import HemostaticSponge from '@/components/catalog/surgery/hemostatic-sponge/HemostaticSponge'
-import ZmProduction from '@/components/catalog/surgery/zm-production/ZmProduction'
-import ScotchkastPlus from '@/components/catalog/surgery/zm-production/ScotchkastPlus'
-import SoftcastScreen from '@/components/catalog/surgery/zm-production/SoftcastScreen'
 import LuminaireReflect from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireReflect.vue'
-import AyobanScreen from '@/components/catalog/surgery/zm-production/AyobanScreen.vue'
-import CobanScreen from '@/components/catalog/surgery/zm-production/CobanScreen.vue'
-import PlasterSkinSuture from '@/components/catalog/surgery/zm-production/PlasterSkinSuture.vue'
-import MediporeScreen from '@/components/catalog/surgery/zm-production/MediporeScreen.vue'
-import TransporScreen from '@/components/catalog/surgery/zm-production/TransporScreen.vue'
-import DuraporScreen from '@/components/catalog/surgery/zm-production/DuraporScreen.vue'
-import MediporPlusPad from '@/components/catalog/surgery/zm-production/MediporPlusPad.vue'
-import TegadermScreen from '@/components/catalog/surgery/zm-production/TegadermScreen.vue'
-import MicroFom from '@/components/catalog/surgery/zm-production/MicroFom.vue'
-import UroslingScreen from '@/components/catalog/surgery/endoprostheses-for-urogynecology/UroslingScreen.vue'
 import LuminaireReflectSecond from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireReflectSecond.vue'
-import UrofixPl from '@/components/catalog/surgery/endoprostheses-for-urogynecology/UrofixPl.vue'
-import UrofixTo from '@/components/catalog/surgery/endoprostheses-for-urogynecology/UrofixTo.vue'
 import LuminaireReflectThird from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireReflectThird.vue'
 import ElectricTableOne from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/OperatingTables/ElectricTableOne.vue'
 import ElectricTableSecond from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/OperatingTables/ElectricTableSecond.vue'
 import ElectricTableThird from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/OperatingTables/ElectricTableThird.vue'
 import ElectricTableForth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/OperatingTables/ElectricTableForth.vue'
 import ElectricTableFifth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/OperatingTables/ElectricTableFifth.vue'
-import EsfilT from '@/components/catalog/surgery/endoprostheses-polymer-meshes/EsfilT.vue'
-import EsfilL from '@/components/catalog/surgery/endoprostheses-polymer-meshes/EsfilL.vue'
-import EsfilScreen from '@/components/catalog/surgery/endoprostheses-polymer-meshes/EsfilScreen.vue'
-import FlexilenScreen from '@/components/catalog/surgery/endoprostheses-polymer-meshes/FlexilenScreen.vue'
-import EslanScreen from '@/components/catalog/surgery/endoprostheses-polymer-meshes/EslanScreen.vue'
-import FtorexScreen from '@/components/catalog/surgery/endoprostheses-polymer-meshes/FtorexScreen.vue'
-import GyneflexScreen from '@/components/catalog/surgery/endoprostheses-polymer-meshes/GyneflexScreen.vue'
-import UniflexScreen from '@/components/catalog/surgery/endoprostheses-polymer-meshes/UniflexScreen.vue'
 import MedicalCabineOne from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalCabinets/MedicalCabineOne.vue'
-import UltrasorbScreen from '@/components/catalog/surgery/suture-materials/UltrasorbScreen.vue'
-import PgaScreen from '@/components/catalog/surgery/suture-materials/PgaScreen.vue'
-import SimpleCatgut from '@/components/catalog/surgery/suture-materials/SimpleCatgut.vue'
-import PgaRapid from '@/components/catalog/surgery/suture-materials/PgaRapid.vue'
-import MonosorbScreen from '@/components/catalog/surgery/suture-materials/MonosorbScreen.vue'
 import MedicalCabineSecond from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalCabinets/MedicalCabineSecond.vue'
 import MedicalCabineThird from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalCabinets/MedicalCabineThird.vue'
 import ChangingTableSpl from '@/components/catalog/toolsAndEquipment/medicalFurniture/SurgicalTables/ChangingTableSpl.vue'
@@ -204,26 +221,12 @@ import GynecologicalChairSecond from '@/components/catalog/toolsAndEquipment/med
 import GynecologicalChairThird from '@/components/catalog/toolsAndEquipment/medicalFurniture/GynecologicalChairs/GynecologicalChairThird.vue'
 import GynecologicalChairElectricdrive from '@/components/catalog/toolsAndEquipment/medicalFurniture/GynecologicalChairs/GynecologicalChairElectricdrive.vue'
 import DefibrillatorMonitor from '@/components/catalog/toolsAndEquipment/DefibrillatorMonitor/DefibrillatorMonitor.vue'
-import PolyaxialScrew from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalScrews/PolyaxialScrew.vue'
 import CompressorInhalerDolphin from '@/components/catalog/toolsAndEquipment/inhalersNebulizers/CompressorInhalerDolphin.vue'
 import CompressorInhalerBoreal from '@/components/catalog/toolsAndEquipment/inhalersNebulizers/CompressorInhalerBoreal.vue'
 import InhalerOne from '@/components/catalog/toolsAndEquipment/inhalersNebulizers/InhalerOne.vue'
 import OmronOne from '@/components/catalog/toolsAndEquipment/inhalersNebulizers/OmronOne.vue'
 import OmronSecond from '@/components/catalog/toolsAndEquipment/inhalersNebulizers/OmronSecond.vue'
 import OmronThird from '@/components/catalog/toolsAndEquipment/inhalersNebulizers/OmronThird.vue'
-import MonoaxialScrew from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalScrews/MonoaxialScrew.vue'
-import StaightGirder from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalBeams/StaightGirder.vue'
-import CurvedBeam from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalBeams/CurvedBeam.vue'
-import CrossBar from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalBeams/CrossBar.vue'
-import ConnectionHook from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalHooks/ConnectionHook.vue'
-import ClosedPedicleHook from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalHooks/ClosedPedicleHook.vue'
-import OpenPedicleHook from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalHooks/OpenPedicleHook.vue'
-import OpenLaminarFlowHook from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalHooks/OpenLaminarFlowHook.vue'
-import ClosedLaminarHook from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalHooks/ClosedLaminarHook.vue'
-import CurvedLaminarHook from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalHooks/CurvedLaminarHook.vue'
-import SacredBlock from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalSystems/SacredBlock.vue'
-import SacralScrew from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalSystems/SacralScrew.vue'
-import InstrumentOne from '@/components/catalog/neurosurgery/neurosurgicalInstrument/InstrumentOne.vue'
 import InstrumentSecond from '@/components/catalog/neurosurgery/neurosurgicalInstrument/InstrumentSecond.vue'
 import InstrumentThird from '@/components/catalog/neurosurgery/neurosurgicalInstrument/InstrumentThird.vue'
 import InstrumentForth from '@/components/catalog/neurosurgery/neurosurgicalInstrument/InstrumentForth.vue'
@@ -243,9 +246,6 @@ import ElectrocardiogrphMiniature from '@/components/catalog/toolsAndEquipment/c
 import ElectrocardiogrphArmasoft from '@/components/catalog/toolsAndEquipment/cardiology/ElectrocardiogrphArmasoft.vue'
 import ElectrocardiogrphChannel from '@/components/catalog/toolsAndEquipment/cardiology/ElectrocardiogrphChannel.vue'
 import MonitorResuscitation from '@/components/catalog/toolsAndEquipment/cardiology/MonitorResuscitation.vue'
-import CervicalPlatesTitanium from '@/components/catalog/neurosurgery/neurosurgicalPlates/CervicalPlatesTitanium.vue'
-import Hplate from '@/components/catalog/neurosurgery/neurosurgicalPlates/Hplate.vue'
-import TrapezoidalPlate from '@/components/catalog/neurosurgery/neurosurgicalPlates/TrapezoidalPlate.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -317,115 +317,115 @@ export default createRouter({
         },
         {
           path: 'catalog/surgery/endoprostheses-polymer-meshes',
-          component: EndoprosthesesPolymerMeshes
+          component: EndoprosthesesPolymerMeshesPage
         },
         {
           path: 'catalog/surgery/endoprostheses-for-urogynecology',
-          component: EndoprosthesesForUrogynecology
+          component: EndoprosthesesForUrogynecologyPage
         },
         {
           path: 'catalog/surgery/antiadhesions',
-          component: AntiadhesionsGel
+          component: AntiadhesionsGelPage
         },
         {
           path: 'catalog/surgery/wound-dressings',
-          component: WoundDressings
+          component: WoundDressingsPage
         },
         {
           path: 'catalog/surgery/hemostatic-sponge',
-          component: HemostaticSponge
+          component: HemostaticSpongePage
         },
         {
           path: 'catalog/surgery/zm-production',
-          component: ZmProduction
+          component: ZmProductionPage
         },
         {
           path: 'catalog/surgery/zm-production/scotchkast-plus',
-          component: ScotchkastPlus
+          component: ScotchkastPlusPage
         },
         {
           path: 'catalog/surgery/zm-production/softcast',
-          component: SoftcastScreen
+          component: SoftcastScreenPage
         },
         {
           path: 'catalog/surgery/zm-production/ayoban',
-          component: AyobanScreen
+          component: AyobanScreenPage
         },
         {
           path: 'catalog/surgery/zm-production/coban',
-          component: CobanScreen
+          component: CobanScreenPage
         },
         {
           path: 'catalog/surgery/zm-production/plaster-skin-suture',
-          component: PlasterSkinSuture
+          component: PlasterSkinSuturePage
         },
         {
           path: 'catalog/surgery/zm-production/medipore',
-          component: MediporeScreen
+          component: MediporeScreenPage
         },
         {
           path: 'catalog/surgery/zm-production/transpor',
-          component: TransporScreen
+          component: TransporScreenPage
         },
         {
           path: 'catalog/surgery/zm-production/durapor',
-          component: DuraporScreen
+          component: DuraporScreenPage
         },
         {
           path: 'catalog/surgery/zm-production/medipor-plus-pad',
-          component: MediporPlusPad
+          component: MediporPlusPadPage
         },
         {
           path: 'catalog/surgery/zm-production/tegaderm',
-          component: TegadermScreen
+          component: TegadermScreenPage
         },
         {
           path: 'catalog/surgery/zm-production/microfom',
-          component: MicroFom
+          component: MicroFomPage
         },
         {
           path: 'catalog/surgery/endoprostheses-for-urogynecology/urosling',
-          component: UroslingScreen
+          component: UroslingScreenPage
         },
         {
           path: 'catalog/surgery/endoprostheses-for-urogynecology/urofix-pl',
-          component: UrofixPl
+          component: UrofixPlPage
         },
         {
           path: 'catalog/surgery/endoprostheses-for-urogynecology/urofix-to',
-          component: UrofixTo
+          component: UrofixToPage
         },
         {
           path: 'catalog/surger/polymer-meshes/esfil-t',
-          component: EsfilT
+          component: EsfilTPage
         },
         {
           path: 'catalog/surger/polymer-meshes/esfil-l',
-          component: EsfilL
+          component: EsfilLPage
         },
         {
           path: 'catalog/surger/polymer-meshes/esfil',
-          component: EsfilScreen
+          component: EsfilScreenPage
         },
         {
           path: 'catalog/surger/polymer-meshes/flexilen',
-          component: FlexilenScreen
+          component: FlexilenScreenPage
         },
         {
           path: 'catalog/surger/polymer-meshes/eslan',
-          component: EslanScreen
+          component: EslanScreenPage
         },
         {
           path: 'catalog/surger/polymer-meshes/ftorex',
-          component: FtorexScreen
+          component: FtorexSencondScreenPage
         },
         {
           path: 'catalog/surger/polymer-meshes/gyneflex',
-          component: GyneflexScreen
+          component: GyneflexScreenPage
         },
         {
           path: 'catalog/surger/polymer-meshes/uniflex',
-          component: UniflexScreen
+          component: UniflexSecondScreenPage
         },
         {
           path: 'catalog/surger/suture-materials/uniflex',
@@ -456,6 +456,10 @@ export default createRouter({
           component: SilkScreenPage
         },
         {
+          path: 'catalog/surger/suture-materials/ultrasorb',
+          component: UltrasorbScreenPage
+        },
+        {
           path: 'catalog/surger/suture-materials/ftorex',
           component: FtorexScreenPage
         },
@@ -464,24 +468,20 @@ export default createRouter({
           component: MonofilScreenPage
         },
         {
-          path: 'catalog/surger/suture-materials/ultrasorb',
-          component: UltrasorbScreen
-        },
-        {
           path: 'catalog/surger/suture-materials/pga',
-          component: PgaScreen
+          component: PgaScreenPage
         },
         {
           path: 'catalog/surger/suture-materials/simple-catgut',
-          component: SimpleCatgut
+          component: SimpleCatgutPage
         },
         {
           path: 'catalog/surger/suture-materials/pga-rapid',
-          component: PgaRapid
+          component: PgaRapidPage
         },
         {
           path: 'catalog/surger/suture-materials/monosorb',
-          component: MonosorbScreen
+          component: MonosorbScreenPage
         },
         {
           path: 'catalog/traumatology/intramedullary-pins',
@@ -1064,54 +1064,54 @@ export default createRouter({
         },
         {
           path: 'catalog/neurosurgery/transpedikulyarnaya-fiksatsiya-pozvonochnika',
-          component: TranspedicularFixationScreen
+          component: TranspedicularFixationScreenPage
         },
         { path: 'catalog/neurosurgery/spinal-screws', component: SpinalScrews },
         {
           path: 'catalog/neurosurgery/spinal-screws/poliaksialnyi-vint',
-          component: PolyaxialScrew
+          component: PolyaxialScrewPage
         },
         {
           path: 'catalog/neurosurgery/spinal-screws/monoaksialnyi-vint',
-          component: MonoaxialScrew
+          component: MonoaxialScrewPage
         },
         { path: 'catalog/neurosurgery/spinal-beam', component: SpinalBeams },
         {
           path: 'catalog/neurosurgery/spinal-beam/pryamayabalka',
-          component: StaightGirder
+          component: StaightGirderPage
         },
         {
           path: 'catalog/neurosurgery/spinal-beam/izognutaya-balka',
-          component: CurvedBeam
+          component: CurvedBeamPage
         },
         {
           path: 'catalog/neurosurgery/spinal-beam/perekrestnayabalk',
-          component: CrossBar
+          component: CrossBarPage
         },
         { path: 'catalog/neurosurgery/spinal-hooks', component: SpinalHooks },
         {
           path: 'catalog/neurosurgery/spinal-hooks/soedinitelnyi-kryuchok',
-          component: ConnectionHook
+          component: ConnectionHookPage
         },
         {
           path: 'catalog/neurosurgery/spinal-hooks/zakrytyi-pedikulyarnyi-kryuchok',
-          component: ClosedPedicleHook
+          component: ClosedPedicleHookPage
         },
         {
           path: 'catalog/neurosurgery/spinal-hooks/otkrytyi-pedikulyarnyi-kryuchok',
-          component: OpenPedicleHook
+          component: OpenPedicleHookPage
         },
         {
           path: 'catalog/neurosurgery/spinal-hooks/otkrytyi-laminarnyi-kryuchok',
-          component: OpenLaminarFlowHook
+          component: OpenLaminarFlowHookPage
         },
         {
           path: 'catalog/neurosurgery/spinal-hooks/zakrytyi-laminarnyi-kryuchok',
-          component: ClosedLaminarHook
+          component: ClosedLaminarHookPage
         },
         {
           path: 'catalog/neurosurgery/spinal-hooks/izognutyi-laminarnyi-kryuchok',
-          component: CurvedLaminarHook
+          component: CurvedLaminarHookPage
         },
         {
           path: 'catalog/neurosurgery/spinal-system',
@@ -1119,39 +1119,39 @@ export default createRouter({
         },
         {
           path: 'catalog/neurosurgery/spinal-system/sakralnyi-blok',
-          component: SacredBlock
+          component: SacredBlockPage
         },
         {
           path: 'catalog/neurosurgery/spinal-system/sakralnyi-vint',
-          component: SacralScrew
+          component: SacralScrewPage
         },
         {
           path: 'catalog/neurosurgery/plates-neurosurgical',
-          component: NeurosurgicalPlates
+          component: NeurosurgicalPlatesPage
         },
         {
           path: 'catalog/neurosurgery/plates-neurosurgical/plastina-h-obraznaya',
-          component: Hplate
+          component: HplatePage
         },
         {
           path: 'catalog/neurosurgery/plates-neurosurgical/plastina-trapetsioobraznaya',
-          component: TrapezoidalPlate
+          component: TrapezoidalPlatePage
         },
         {
           path: 'catalog/neurosurgery/plates-neurosurgical/plastiny-sheinye-titanovye',
-          component: CervicalPlatesTitanium
+          component: CervicalPlatesTitaniumPage
         },
         {
           path: 'catalog/neurosurgery/vertebrae-implants',
-          component: VertebralEndoprostheses
+          component: VertebralEndoprosthesesPage
         },
         {
           path: 'catalog/neurosurgery/neurosurgical-tool',
-          component: NeurosurgicalInstrument
+          component: NeurosurgicalInstrumentPage
         },
         {
           path: 'catalog/neurosurgery/neurosurgical-tool/cloward-11-201-160-16-cm',
-          component: InstrumentOne
+          component: InstrumentOnePage
         },
         {
           path: 'catalog/neurosurgery/neurosurgical-tool/11-202-140-14-cm',

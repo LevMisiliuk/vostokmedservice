@@ -1,9 +1,9 @@
 <template>
   <MqResponsive :target="['xs', 'sm']">
-    <NeurosurgeryScreenMobile />
+    <MonosorbScreenMobile />
   </MqResponsive>
   <MqResponsive :target="['md', 'lg', 'xl', 'xxl']">
-    <NeurosurgeryScreen />
+    <MonosorbScreen />
   </MqResponsive>
 </template>
 
@@ -14,7 +14,7 @@ import { updateBreakpoints } from "vue3-mq";
 
 export default {
   components: {
-    MqResponsive
+    MqResponsive,
   },
   setup() {
     onMounted(() => {
@@ -22,7 +22,6 @@ export default {
         preset: "bootstrap5"
       })
     })
-
   }
 }
 </script>
