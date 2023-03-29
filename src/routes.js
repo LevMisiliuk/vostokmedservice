@@ -132,15 +132,38 @@ import AirSterilizerUkrainePage from '@/pages/catalog/toolsAndEquipment/steriliz
 import AirSterilizerBDPage from '@/pages/catalog/toolsAndEquipment/sterilization/AirSterilizer/AirSterilizerBDPage.vue'
 import AirSterilizerSpuPage from '@/pages/catalog/toolsAndEquipment/sterilization/AirSterilizer/AirSterilizerSpuPage.vue'
 import SterilizationCabinetPage from '@/pages/catalog/toolsAndEquipment/sterilization/AirSterilizer/SterilizationCabinetPage.vue'
+import ElectricSterilizersFirstPage from '@/pages/catalog/toolsAndEquipment/sterilization/ElectricSterilizers/ElectricSterilizersFirstPage.vue'
+import ElectricSterilizersSecondPage from '@/pages/catalog/toolsAndEquipment/sterilization/ElectricSterilizers/ElectricSterilizersSecondPage.vue'
+import SterilizationBoxesRoundPage from '@/pages/catalog/toolsAndEquipment/sterilization/SterilizationBoxes/SterilizationBoxesRoundPage.vue'
+import FormalinChamberBigPage from '@/pages/catalog/toolsAndEquipment/sterilization/FormalinChambers/FormalinChamberBigPage.vue'
+import FormalinChamberSmallPage from '@/pages/catalog/toolsAndEquipment/sterilization/FormalinChambers/FormalinChamberSmallPage.vue'
+import BactericidalIrradiator1LampPage from '@/pages/catalog/toolsAndEquipment/sterilization/BactericidalIrradiators/BactericidalIrradiator1LampPage.vue'
+import BactericidalIrradiator2Lamp150MPage from '@/pages/catalog/toolsAndEquipment/sterilization/BactericidalIrradiators/BactericidalIrradiator2Lamp150MPage.vue'
+import BactericidalIrradiator2Lamp150MPPage from '@/pages/catalog/toolsAndEquipment/sterilization/BactericidalIrradiators/BactericidalIrradiator2Lamp150MPPage.vue'
+import BactericidalIrradiator3Lamp225MPage from '@/pages/catalog/toolsAndEquipment/sterilization/BactericidalIrradiators/BactericidalIrradiator3Lamp225MPage.vue'
+import BactericidalIrradiator4Lamp300MPage from '@/pages/catalog/toolsAndEquipment/sterilization/BactericidalIrradiators/BactericidalIrradiator4Lamp300MPage.vue'
+import AirSterilizerPage from '@/pages/catalog/toolsAndEquipment/sterilization/AirSterilizerPage.vue'
+import InhalersNebulizersScreenPage from '@/pages/catalog/toolsAndEquipment/inhalersNebulizers/InhalersNebulizersScreenPage.vue'
+import CompressorInhalerBorealPage from '@/pages/catalog/toolsAndEquipment/inhalersNebulizers/CompressorInhalerBorealPage.vue'
+import CompressorInhalerDolphinPage from '@/pages/catalog/toolsAndEquipment/inhalersNebulizers/CompressorInhalerDolphinPage.vue'
+import InhalerOnePage from '@/pages/catalog/toolsAndEquipment/inhalersNebulizers/InhalerOnePage.vue'
+import OmronOnePage from '@/pages/catalog/toolsAndEquipment/inhalersNebulizers/OmronOnePage.vue'
+import OmronSecondPage from '@/pages/catalog/toolsAndEquipment/inhalersNebulizers/OmronSecondPage.vue'
+import OmronThirdPage from '@/pages/catalog/toolsAndEquipment/inhalersNebulizers/OmronThirdPage.vue'
+import EquipmentScreenPage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/EquipmentScreenPage.vue'
+import ChildrenOnePage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/ChildrenOnePage.vue'
+import ElectricOneScreenPage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/ElectricOneScreenPage.vue'
+import ElectricSecondScreenPage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/ElectricSecondScreenPage.vue'
+import ElectricThirdScreenPage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/ElectricThirdScreenPage.vue'
+import PedalOnePage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/PedalOnePage.vue'
+import SurgicalElemaPage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/SurgicalElemaPage.vue'
+import UniversalOnePage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/UniversalOnePage.vue'
 
-import EquipmentScreen from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/EquipmentScreen.vue'
 import CardiologyScreen from '@/components/catalog/toolsAndEquipment/cardiology/CardiologyScreen.vue'
-import InhalersNebulizersScreen from '@/components/catalog/toolsAndEquipment/inhalersNebulizers/InhalersNebulizersScreen.vue'
 import MedicalInstrumentScreen from '@/components/catalog/toolsAndEquipment/medicalInstrument/MedicalInstrumentScreen.vue'
 import MedicalFurnitureScreen from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalFurnitureScreen.vue'
 import NeurosurgeryPage from '@/pages/catalog/neurosurgery/NeurosurgeryPage.vue'
 import PanmedCamers from '@/components/catalog/toolsAndEquipment/sterilization/PanmedCamers.vue'
-import AirSterilizer from '@/components/catalog/toolsAndEquipment/sterilization/AirSterilizer.vue'
 import ElectricSterilizers from '@/components/catalog/toolsAndEquipment/sterilization/ElectricSterilizers.vue'
 import SterilizationBoxes from '@/components/catalog/toolsAndEquipment/sterilization/SterilizationBoxes.vue'
 import FormalinChambers from '@/components/catalog/toolsAndEquipment/sterilization/FormalinChambers.vue'
@@ -159,23 +182,6 @@ import SpinalScrews from '@/components/catalog/neurosurgery/transpedicularFixati
 import SpinalBeams from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalBeams.vue'
 import SpinalHooks from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalHooks.vue'
 import SpinalSystems from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalSystems.vue'
-import ElectricSterilizersFirst from '@/components/catalog/toolsAndEquipment/sterilization/ElectricSterilizers/ElectricSterilizersFirst.vue'
-import ElectricSterilizersSecond from '@/components/catalog/toolsAndEquipment/sterilization/ElectricSterilizers/ElectricSterilizersSecond.vue'
-import SterilizationBoxesRound from '@/components/catalog/toolsAndEquipment/sterilization/SterilizationBoxes/SterilizationBoxesRound.vue'
-import FormalinChamberBig from '@/components/catalog/toolsAndEquipment/sterilization/FormalinChambers/FormalinChamberBig'
-import FormalinChamberSmall from '@/components/catalog/toolsAndEquipment/sterilization/FormalinChambers/FormalinChamberSmall'
-import BactericidalIrradiator1Lamp from '@/components/catalog/toolsAndEquipment/sterilization/BactericidalIrradiators/BactericidalIrradiator1Lamp.vue'
-import BactericidalIrradiator2Lamp150M from '@/components/catalog/toolsAndEquipment/sterilization/BactericidalIrradiators/BactericidalIrradiator2Lamp150M.vue'
-import BactericidalIrradiator2Lamp150MP from '@/components/catalog/toolsAndEquipment/sterilization/BactericidalIrradiators/BactericidalIrradiator2Lamp150MP.vue'
-import BactericidalIrradiator4Lamp300M from '@/components/catalog/toolsAndEquipment/sterilization/BactericidalIrradiators/BactericidalIrradiator4Lamp300M.vue'
-import BactericidalIrradiator3Lamp225M from '@/components/catalog/toolsAndEquipment/sterilization/BactericidalIrradiators/BactericidalIrradiator3Lamp225M.vue'
-import ElectricOneScreen from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/ElectricOneScreen.vue'
-import ElectricSecondScreen from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/ElectricSecondScreen.vue'
-import ElectricThirdScreen from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/ElectricThirdScreen.vue'
-import ChildrenOne from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/ChildrenOne.vue'
-import UniversalOne from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/UniversalOne.vue'
-import PedalOne from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/PedalOne.vue'
-import SurgicalElema from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/SurgicalElema.vue'
 import CoagulatorPage from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/Coagulator/CoagulatorPage.vue'
 import LuminaireOne from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireOne.vue'
 import LuminaireSecond from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireSecond.vue'
@@ -235,12 +241,6 @@ import GynecologicalChairSecond from '@/components/catalog/toolsAndEquipment/med
 import GynecologicalChairThird from '@/components/catalog/toolsAndEquipment/medicalFurniture/GynecologicalChairs/GynecologicalChairThird.vue'
 import GynecologicalChairElectricdrive from '@/components/catalog/toolsAndEquipment/medicalFurniture/GynecologicalChairs/GynecologicalChairElectricdrive.vue'
 import DefibrillatorMonitor from '@/components/catalog/toolsAndEquipment/DefibrillatorMonitor/DefibrillatorMonitor.vue'
-import CompressorInhalerDolphin from '@/components/catalog/toolsAndEquipment/inhalersNebulizers/CompressorInhalerDolphin.vue'
-import CompressorInhalerBoreal from '@/components/catalog/toolsAndEquipment/inhalersNebulizers/CompressorInhalerBoreal.vue'
-import InhalerOne from '@/components/catalog/toolsAndEquipment/inhalersNebulizers/InhalerOne.vue'
-import OmronOne from '@/components/catalog/toolsAndEquipment/inhalersNebulizers/OmronOne.vue'
-import OmronSecond from '@/components/catalog/toolsAndEquipment/inhalersNebulizers/OmronSecond.vue'
-import OmronThird from '@/components/catalog/toolsAndEquipment/inhalersNebulizers/OmronThird.vue'
 import ElectrocardiogrphAksion from '@/components/catalog/toolsAndEquipment/cardiology/ElectrocardiogrphAksion.vue'
 import ElectrocardiogrphMiniature from '@/components/catalog/toolsAndEquipment/cardiology/ElectrocardiogrphMiniature.vue'
 import ElectrocardiogrphArmasoft from '@/components/catalog/toolsAndEquipment/cardiology/ElectrocardiogrphArmasoft.vue'
@@ -611,7 +611,7 @@ export default createRouter({
         },
         {
           path: 'catalog/tools-and-equipment/sterilization/air-sterilizer/',
-          component: AirSterilizer
+          component: AirSterilizerPage
         },
         {
           path: 'catalog/tools-and-equipment/sterilization/air-sterilizer/sterilizatory-vozdushnye-gp-320-bd-neprokhodnoi-gpd-320-prokhodnoi-usovershenstvovannye-analogi-shss-250p-i-shss-250pr',
@@ -639,11 +639,11 @@ export default createRouter({
         },
         {
           path: 'catalog/tools-and-equipment/sterilization/electric-sterilizer/sterilizator-elektricheskii-420-e-kipyatilnik',
-          component: ElectricSterilizersFirst
+          component: ElectricSterilizersFirstPage
         },
         {
           path: 'catalog/tools-and-equipment/sterilization/electric-sterilizer/sterilizator-elektricheskii-320-e-kipyatilnik',
-          component: ElectricSterilizersSecond
+          component: ElectricSterilizersSecondPage
         },
         {
           path: 'catalog/tools-and-equipment/sterilization/boxes-sterilization-round/',
@@ -651,7 +651,7 @@ export default createRouter({
         },
         {
           path: 'catalog/tools-and-equipment/sterilization/boxes-sterilization-round/boxes-sterilization-round',
-          component: SterilizationBoxesRound
+          component: SterilizationBoxesRoundPage
         },
         {
           path: 'catalog/tools-and-equipment/sterilization/reflectors-bactericidal/',
@@ -659,23 +659,23 @@ export default createRouter({
         },
         {
           path: 'catalog/tools-and-equipment/sterilization/reflectors-bactericidal/obluchatel-bakteritsidnyi-3-lampovyi-peredvizhnoi-obpe-225m',
-          component: BactericidalIrradiator3Lamp225M
+          component: BactericidalIrradiator3Lamp225MPage
         },
         {
           path: 'catalog/tools-and-equipment/sterilization/reflectors-bactericidal/obluchatel-bakteritsidnyi-4-lampovyi-obn-300m',
-          component: BactericidalIrradiator4Lamp300M
+          component: BactericidalIrradiator4Lamp300MPage
         },
         {
           path: 'catalog/tools-and-equipment/sterilization/reflectors-bactericidal/obluchatel-bakteritsidnyi-2-lampovyi-obn-150mp',
-          component: BactericidalIrradiator2Lamp150MP
+          component: BactericidalIrradiator2Lamp150MPPage
         },
         {
           path: 'catalog/tools-and-equipment/sterilization/reflectors-bactericidal/reflectors_bactericidal/obluchatel-bakteritsidnyi-2-lampovyi-obn-150m',
-          component: BactericidalIrradiator2Lamp150M
+          component: BactericidalIrradiator2Lamp150MPage
         },
         {
           path: 'catalog/tools-and-equipment/sterilization/reflectors-bactericidal/obluchatel-bakteritsidnyi-1-lampovyi-obn-75',
-          component: BactericidalIrradiator1Lamp
+          component: BactericidalIrradiator1LampPage
         },
         {
           path: 'catalog/tools-and-equipment/sterilization/camera-paroformalinovaya/',
@@ -683,15 +683,15 @@ export default createRouter({
         },
         {
           path: 'catalog/tools-and-equipment/sterilization/camera-paroformalinovaya/kamera-paroformalinovaya-kkhi-dlya-sterilizatsii-medizdelii-i-instrumenta-malaya',
-          component: FormalinChamberSmall
+          component: FormalinChamberSmallPage
         },
         {
           path: 'catalog/tools-and-equipment/sterilization/camera-paroformalinovaya/kamera-paroformalinovaya-kkhi-dlya-sterilizatsii-medizdelii-i-instrumenta-bolshaya',
-          component: FormalinChamberBig
+          component: FormalinChamberBigPage
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment',
-          component: EquipmentScreen
+          component: EquipmentScreenPage
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/suction/',
@@ -699,31 +699,31 @@ export default createRouter({
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/suction/elektricheskii-model-7a-23v',
-          component: ElectricOneScreen
+          component: ElectricOneScreenPage
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/suction/otsasyvatel-meditsinskii-elektricheskii-model-7a-23d',
-          component: ElectricSecondScreen
+          component: ElectricSecondScreenPage
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/suction/elektricheskii-model-7s-dlya-iskusstvennogo-aborta',
-          component: ElectricThirdScreen
+          component: ElectricThirdScreenPage
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/suction/detskii-model-7e-b',
-          component: ChildrenOne
+          component: ChildrenOnePage
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/suction/universalnyi-model-7e-d',
-          component: UniversalOne
+          component: UniversalOnePage
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/suction/pedalnyi-model-7v',
-          component: PedalOne
+          component: PedalOnePage
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/suction/khirurgicheskii-elema-n-am1m',
-          component: SurgicalElema
+          component: SurgicalElemaPage
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/koagulyatory/',
@@ -1023,31 +1023,31 @@ export default createRouter({
         },
         {
           path: 'catalog/tools-and-equipment/inhalers-nebulizers',
-          component: InhalersNebulizersScreen
+          component: InhalersNebulizersScreenPage
         },
         {
           path: 'catalog/tools-and-equipment/inhalers-nebulizers/komprescornyi-ingalyator-nebulaizer-delfin',
-          component: CompressorInhalerDolphin
+          component: CompressorInhalerDolphinPage
         },
         {
           path: 'catalog/tools-and-equipment/inhalers-nebulizers/komprescornyi-ingalyator-nebulaizer-boreal',
-          component: CompressorInhalerBoreal
+          component: CompressorInhalerBorealPage
         },
         {
           path: 'catalog/tools-and-equipment/inhalers-nebulizers/ingalyator-403a-kompressornyi',
-          component: InhalerOne
+          component: InhalerOnePage
         },
         {
           path: 'catalog/tools-and-equipment/inhalers-nebulizers/omron-ne-c30-comp-a-i-r-elite',
-          component: OmronOne
+          component: OmronOnePage
         },
         {
           path: 'catalog/tools-and-equipment/inhalers-nebulizers/omron-ne-c29-comp-a-i-r-pro',
-          component: OmronSecond
+          component: OmronSecondPage
         },
         {
           path: 'catalog/tools-and-equipment/inhalers-nebulizers/omron-ne-c28-comp-a-i-r',
-          component: OmronThird
+          component: OmronThirdPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-instruments',
