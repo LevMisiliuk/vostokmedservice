@@ -158,11 +158,76 @@ import ElectricThirdScreenPage from '@/pages/catalog/toolsAndEquipment/equipment
 import PedalOnePage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/PedalOnePage.vue'
 import SurgicalElemaPage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/SurgicalElemaPage.vue'
 import UniversalOnePage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/SuctionUnits/UniversalOnePage.vue'
-
-import CardiologyScreen from '@/components/catalog/toolsAndEquipment/cardiology/CardiologyScreen.vue'
-import MedicalInstrumentScreen from '@/components/catalog/toolsAndEquipment/medicalInstrument/MedicalInstrumentScreen.vue'
-import MedicalFurnitureScreen from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalFurnitureScreen.vue'
+import CoagulatorPageScreen from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/Coagulator/CoagulatorPageScreen.vue'
+import LuminaireEighthPage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireEighthPage.vue'
+import LuminaireEleventhPage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireEleventhPage.vue'
+import LuminaireEmaNinePage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireEmaNinePage.vue'
+import LuminaireFfithPage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireFfithPage.vue'
+import LuminaireForthPage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireForthPage.vue'
+import LuminaireNinethPage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireNinethPage.vue'
+import LuminaireOnePage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireOnePage.vue'
+import LuminaireReflectPage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireReflectPage.vue'
+import LuminaireReflectSecondPage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireReflectSecondPage.vue'
+import LuminaireReflectThirdPage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireReflectThirdPage.vue'
+import LuminaireSecondPage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireSecondPage.vue'
+import LuminaireSeventhPage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireSeventhPage.vue'
+import LuminaireSixthPage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireSixthPage.vue'
+import LuminaireTenthPage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireTenthPage.vue'
+import LuminaireThirdPage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireThirdPage.vue'
+import LuminaireTwelfthPage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireTwelfthPage.vue'
+import ElectricTableFifthPage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/OperatingTables/ElectricTableFifthPage.vue'
+import ElectricTableForthPage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/OperatingTables/ElectricTableForthPage.vue'
+import ElectricTableOnePage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/OperatingTables/ElectricTableOnePage.vue'
+import ElectricTableThirdPage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/OperatingTables/ElectricTableThirdPage.vue'
+import MedicalFurnitureScreenPage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/MedicalFurnitureScreenPage.vue'
+import MedicalCabineOnePage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/MedicalCabinets/MedicalCabineOnePage.vue'
+import MedicalCabineSecondPage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/MedicalCabinets/MedicalCabineSecondPage.vue'
+import MedicalCabineThirdPage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/MedicalCabinets/MedicalCabineThirdPage.vue'
+import AdjustableHeadrestCouchPage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/AdjustableHeadrestCouchPage.vue'
+import AdjustableMassegeCouchPage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/AdjustableMassegeCouchPage.vue'
+import BowelFlushingCouchPage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/BowelFlushingCouchPage.vue'
+import CartRemovableStretcherPage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/CartRemovableStretcherPage.vue'
+import DiagnosticCouchPage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/DiagnosticCouchPage.vue'
+import ExaminationCouchPage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/ExaminationCouchPage.vue'
+import GynecologicalCouchKKGPage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/GynecologicalCouchKKGPage.vue'
+import NewbornBabyCartPage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/NewbornBabyCartPage.vue'
+import PatientTransferCartPage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/PatientTransferCartPage.vue'
+import PowerDrivenMessageCouchPage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/PowerDrivenMessageCouchPage.vue'
+import ProceduralCocuhTablePage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/ProceduralCocuhTablePage.vue'
+import ScrewChairBackrestPage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/ScrewChairBackrestPage.vue'
+import ScrewChairwithBackrestPage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/ScrewChairwithBackrestPage.vue'
+import ScrewChairwithoutBackrestPage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/ScrewChairwithoutBackrestPage.vue'
+import StationaryMessageCouchPage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/StationaryMessageCouchPage.vue'
+import AnesthesiologistsTablePage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/SurgicalTables/AnesthesiologistsTablePage.vue'
+import ChangingTableSplPage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/SurgicalTables/ChangingTableSplPage.vue'
+import InsrumentTableCPage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/SurgicalTables/InsrumentTableCPage.vue'
+import ManipulationTableCmPage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/SurgicalTables/ManipulationTableCmPage.vue'
+import SurgicalTableSHPage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/SurgicalTables/SurgicalTableSHPage.vue'
+import StretcherMedicalFifthPage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/MedicalStretcher/StretcherMedicalFifthPage.vue'
+import StretcherMedicalForthPage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/MedicalStretcher/StretcherMedicalForthPage.vue'
+import StretcherMedicalOnePage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/MedicalStretcher/StretcherMedicalOnePage.vue'
+import StretcherMedicalSecondPage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/MedicalStretcher/StretcherMedicalSecondPage.vue'
+import StretcherMedicalSixthPage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/MedicalStretcher/StretcherMedicalSixthPage.vue'
+import StretcherMedicalThirdPage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/MedicalStretcher/StretcherMedicalThirdPage.vue'
+import GynecologicalChairElectricdrivePage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/GynecologicalChairs/GynecologicalChairElectricdrivePage.vue'
+import GynecologicalChairOnePage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/GynecologicalChairs/GynecologicalChairOnePage.vue'
+import GynecologicalChairSecondPage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/GynecologicalChairs/GynecologicalChairSecondPage.vue'
+import GynecologicalChairThirdPage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/GynecologicalChairs/GynecologicalChairThirdPage.vue'
+import GynecologicalPediatricChairPage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/GynecologicalChairs/GynecologicalPediatricChairPage.vue'
+import CardiologyScreenPage from '@/pages/catalog/toolsAndEquipment/cardiology/CardiologyScreenPage.vue'
+import ElectroCardiographsPage from '@/pages/catalog/toolsAndEquipment/cardiology/ElectroCardiographsPage.vue'
+import ElectrocardiogrphArmasoftPage from '@/pages/catalog/toolsAndEquipment/cardiology/ElectrocardiogrphArmasoftPage.vue'
+import ElectrocardiogrphChannelPage from '@/pages/catalog/toolsAndEquipment/cardiology/ElectrocardiogrphChannelPage.vue'
+import ElectrocardiogrphMiniaturePage from '@/pages/catalog/toolsAndEquipment/cardiology/ElectrocardiogrphMiniaturePage.vue'
+import MonitorResuscitationPage from '@/pages/catalog/toolsAndEquipment/cardiology/MonitorResuscitationPage.vue'
+import MedicalInstrumentScreenPage from '@/pages/catalog/toolsAndEquipment/MedicalInstrumentScreenPage.vue'
 import NeurosurgeryPage from '@/pages/catalog/neurosurgery/NeurosurgeryPage.vue'
+import ElectricTableSecondPage from '@/pages/catalog/toolsAndEquipment/equipmentOperatingRooms/OperatingTables/ElectricTableSecondPage.vue'
+import TreatmentCouchKPPage from '@/pages/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/TreatmentCouchKPPage.vue'
+import DefibrillatorMonitorPage from '@/pages/catalog/toolsAndEquipment/DefibrillatorMonitorPage.vue'
+import ElectrocardiogrphAksionPage from '@/pages/catalog/toolsAndEquipment/cardiology/ElectrocardiogrphAksionPage.vue'
+import AboutScreenPage from './pages/AboutScreenPage.vue'
+
 import PanmedCamers from '@/components/catalog/toolsAndEquipment/sterilization/PanmedCamers.vue'
 import ElectricSterilizers from '@/components/catalog/toolsAndEquipment/sterilization/ElectricSterilizers.vue'
 import SterilizationBoxes from '@/components/catalog/toolsAndEquipment/sterilization/SterilizationBoxes.vue'
@@ -177,75 +242,10 @@ import SurgicalTables from '@/components/catalog/toolsAndEquipment/medicalFurnit
 import ChairsScreen from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen.vue'
 import MedicalStretcher from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalStretcher.vue'
 import GynecologicalChairs from '@/components/catalog/toolsAndEquipment/medicalFurniture/GynecologicalChairs.vue'
-import ElectroCardiographs from '@/components/catalog/toolsAndEquipment/cardiology/ElectroCardiographs.vue'
 import SpinalScrews from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalScrews.vue'
 import SpinalBeams from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalBeams.vue'
 import SpinalHooks from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalHooks.vue'
 import SpinalSystems from '@/components/catalog/neurosurgery/transpedicularFixation/SpinalSystems.vue'
-import CoagulatorPage from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/Coagulator/CoagulatorPage.vue'
-import LuminaireOne from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireOne.vue'
-import LuminaireSecond from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireSecond.vue'
-import LuminaireThird from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireThird.vue'
-import LuminaireForth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireForth.vue'
-import LuminaireFfith from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireFfith.vue'
-import LuminaireSixth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireSixth.vue'
-import LuminaireSeventh from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireSeventh.vue'
-import LuminaireEighth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireEighth.vue'
-import LuminaireNineth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireNineth.vue'
-import LuminaireTenth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireTenth.vue'
-import LuminaireEleventh from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireEleventh.vue'
-import LuminaireTwelfth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireTwelfth.vue'
-import LuminaireEmaNine from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireEmaNine.vue'
-import LuminaireReflect from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireReflect.vue'
-import LuminaireReflectSecond from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireReflectSecond.vue'
-import LuminaireReflectThird from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/LightsScreen/LuminaireReflectThird.vue'
-import ElectricTableOne from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/OperatingTables/ElectricTableOne.vue'
-import ElectricTableSecond from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/OperatingTables/ElectricTableSecond.vue'
-import ElectricTableThird from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/OperatingTables/ElectricTableThird.vue'
-import ElectricTableForth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/OperatingTables/ElectricTableForth.vue'
-import ElectricTableFifth from '@/components/catalog/toolsAndEquipment/equipmentOperatingRooms/OperatingTables/ElectricTableFifth.vue'
-import MedicalCabineOne from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalCabinets/MedicalCabineOne.vue'
-import MedicalCabineSecond from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalCabinets/MedicalCabineSecond.vue'
-import MedicalCabineThird from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalCabinets/MedicalCabineThird.vue'
-import ChangingTableSpl from '@/components/catalog/toolsAndEquipment/medicalFurniture/SurgicalTables/ChangingTableSpl.vue'
-import InsrumentTableC from '@/components/catalog/toolsAndEquipment/medicalFurniture/SurgicalTables/InsrumentTableC.vue'
-import SurgicalTableSH from '@/components/catalog/toolsAndEquipment/medicalFurniture/SurgicalTables/SurgicalTableSH.vue'
-import AnesthesiologistsTable from '@/components/catalog/toolsAndEquipment/medicalFurniture/SurgicalTables/AnesthesiologistsTable.vue'
-import ManipulationTableCm from '@/components/catalog/toolsAndEquipment/medicalFurniture/SurgicalTables/ManipulationTableCm.vue'
-import GynecologicalCouchKKG from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/GynecologicalCouchKKG.vue'
-import TreatmentCouchKP from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/TreatmentCouchKP.vue'
-import DiagnosticCouch from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/DiagnosticCouch.vue'
-import BowelFlushingCouch from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/BowelFlushingCouch.vue'
-import AboutScreen from '@/components/mainScreens/AboutScreen.vue'
-import AdjustableMassegeCouch from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/AdjustableMassegeCouch.vue'
-import PowerDrivenMessageCouch from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/PowerDrivenMessageCouch.vue'
-import StationaryMessageCouch from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/StationaryMessageCouch.vue'
-import AdjustableHeadrestCouch from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/AdjustableHeadrestCouch.vue'
-import ProceduralCocuhTable from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/ProceduralCocuhTable.vue'
-import ExaminationCouch from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/ExaminationCouch.vue'
-import NewbornBabyCart from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/NewbornBabyCart.vue'
-import CartRemovableStretcher from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/CartRemovableStretcher.vue'
-import PatientTransferCart from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/PatientTransferCart.vue'
-import ScrewChairwithoutBackrest from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/ScrewChairwithoutBackrest.vue'
-import ScrewChairwithBackrest from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/ScrewChairwithBackrest.vue'
-import ScrewChairBackrest from '@/components/catalog/toolsAndEquipment/medicalFurniture/ChairsScreen/ScrewChairBackrest.vue'
-import StretcherMedicalOne from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalStretcher/StretcherMedicalOne.vue'
-import StretcherMedicalSecond from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalStretcher/StretcherMedicalSecond.vue'
-import StretcherMedicalThird from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalStretcher/StretcherMedicalThird.vue'
-import StretcherMedicalForth from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalStretcher/StretcherMedicalForth.vue'
-import StretcherMedicalFifth from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalStretcher/StretcherMedicalFifth.vue'
-import StretcherMedicalSixth from '@/components/catalog/toolsAndEquipment/medicalFurniture/MedicalStretcher/StretcherMedicalSixth.vue'
-import GynecologicalPediatricChair from '@/components/catalog/toolsAndEquipment/medicalFurniture/GynecologicalChairs/GynecologicalPediatricChair.vue'
-import GynecologicalChairOne from '@/components/catalog/toolsAndEquipment/medicalFurniture/GynecologicalChairs/GynecologicalChairOne.vue'
-import GynecologicalChairSecond from '@/components/catalog/toolsAndEquipment/medicalFurniture/GynecologicalChairs/GynecologicalChairSecond.vue'
-import GynecologicalChairThird from '@/components/catalog/toolsAndEquipment/medicalFurniture/GynecologicalChairs/GynecologicalChairThird.vue'
-import GynecologicalChairElectricdrive from '@/components/catalog/toolsAndEquipment/medicalFurniture/GynecologicalChairs/GynecologicalChairElectricdrive.vue'
-import DefibrillatorMonitor from '@/components/catalog/toolsAndEquipment/DefibrillatorMonitor/DefibrillatorMonitor.vue'
-import ElectrocardiogrphAksion from '@/components/catalog/toolsAndEquipment/cardiology/ElectrocardiogrphAksion.vue'
-import ElectrocardiogrphMiniature from '@/components/catalog/toolsAndEquipment/cardiology/ElectrocardiogrphMiniature.vue'
-import ElectrocardiogrphArmasoft from '@/components/catalog/toolsAndEquipment/cardiology/ElectrocardiogrphArmasoft.vue'
-import ElectrocardiogrphChannel from '@/components/catalog/toolsAndEquipment/cardiology/ElectrocardiogrphChannel.vue'
-import MonitorResuscitation from '@/components/catalog/toolsAndEquipment/cardiology/MonitorResuscitation.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -263,7 +263,7 @@ export default createRouter({
         { path: 'education', component: EducationPage },
         { path: 'certificates', component: CertificatesPage },
         { path: 'contacts', component: ContactsPage },
-        { path: 'about', component: AboutScreen },
+        { path: 'about', component: AboutScreenPage },
         { path: 'catalog/traumatology/micro-surgery', component: MicroSurgeryPage },
         {
           path: 'catalog/traumatology/needles-robs-cerclage',
@@ -731,7 +731,7 @@ export default createRouter({
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/koagulyatory/coagulator',
-          component: CoagulatorPage
+          component: CoagulatorPageScreen
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/fixtures/',
@@ -739,67 +739,67 @@ export default createRouter({
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/fixtures/cvetilnik-l7412-ii',
-          component: LuminaireOne
+          component: LuminaireOnePage
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-l2000-6-3-ii',
-          component: LuminaireSecond
+          component: LuminaireSecondPage
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-l735-ii',
-          component: LuminaireThird
+          component: LuminaireThirdPage
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-zmd-ii',
-          component: LuminaireForth
+          component: LuminaireForthPage
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-l2000-6-ii',
-          component: LuminaireFfith
+          component: LuminaireFfithPage
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-l-2000-3-ii',
-          component: LuminaireSixth
+          component: LuminaireSixthPage
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-l2000-3e',
-          component: LuminaireSeventh
+          component: LuminaireSeventhPage
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-l739-ii',
-          component: LuminaireEighth
+          component: LuminaireEighthPage
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-l735e',
-          component: LuminaireNineth
+          component: LuminaireNinethPage
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-l734-ii',
-          component: LuminaireTenth
+          component: LuminaireTenthPage
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/fixtures/cvetilnik-spr-5-e-ema',
-          component: LuminaireEleventh
+          component: LuminaireEleventhPage
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-operatsionnyi-bestenevoi-l751-ii-odnoreflektornyi',
-          component: LuminaireTwelfth
+          component: LuminaireTwelfthPage
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-statsionarnyi-s-reguliruemym-razmerom-rabochego-polya-sr-2-4-5-e-ema-9-ti-reflektornyi',
-          component: LuminaireEmaNine
+          component: LuminaireEmaNinePage
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilniki-khirurgicheskie-statsionarnye-s-reguliruemym-razmerom-rabochego-polya-sr-5-e-ema-3-kh-reflektornyi',
-          component: LuminaireReflect
+          component: LuminaireReflectPage
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-statsionarnyi-s-reguliruemym-razmerom-rabochego-polya-sr-4-e-ema-6-i-reflektornyi',
-          component: LuminaireReflectSecond
+          component: LuminaireReflectSecondPage
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/fixtures/svetilnik-operatsionnyi-bestenevoi-l735-ii-pyatireflektornyi-peredvizhnoi',
-          component: LuminaireReflectThird
+          component: LuminaireReflectThirdPage
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/operating-tables/',
@@ -807,59 +807,59 @@ export default createRouter({
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/operating-tables/stol-operatsionnyi-elektricheskii-ds-1',
-          component: ElectricTableOne
+          component: ElectricTableOnePage
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/operating-tables/stol-operatsionnyi-elektricheskii-ds-3',
-          component: ElectricTableSecond
+          component: ElectricTableSecondPage
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/operating-tables/stol-operatsionnyi-universalnyi-s-gidravlicheskim-privodom-3008-a',
-          component: ElectricTableThird
+          component: ElectricTableThirdPage
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/operating-tables/stol-operatsionnyi-universalnyi-s-gidravlicheskim-privodom-3008-s',
-          component: ElectricTableForth
+          component: ElectricTableForthPage
         },
         {
           path: 'catalog/tools-and-equipment/operational-equipment/operating-tables/stol-operatsionnyi-universalnyi-s-gidravlicheskim-privodom-peredvizhnoi-3006',
-          component: ElectricTableFifth
+          component: ElectricTableFifthPage
         },
         {
           path: 'catalog/tools-and-equipment/cardiology',
-          component: CardiologyScreen
+          component: CardiologyScreenPage
         },
         {
           path: 'catalog/tools-and-equipment/cardiology/elektrokardiograf-odno-trekhkanalnii-ek1t-1-3-07-aksion',
-          component: ElectrocardiogrphAksion
+          component: ElectrocardiogrphAksionPage
         },
         {
           path: 'catalog/tools-and-equipment/cardiology/elektrokardiograf-dvenadtsatikanalnyi-s-registratsiei-ekg-v-ruchnom-i-avtomaticheskom-rezhimakh-miniatyurnyi-ek-12t-01-r-d',
-          component: ElectrocardiogrphMiniature
+          component: ElectrocardiogrphMiniaturePage
         },
         {
           path: 'catalog/tools-and-equipment/cardiology/elektrokardiograf-dvenadtsatikanalnyi-s-registratsiei-ekg-v-ruchnom-i-avtomaticheskom-rezhimakh-miniatyurnyi-ek-12t-01-r-d-s-programmoi-na-pk-armasoft-12-cardio',
-          component: ElectrocardiogrphArmasoft
+          component: ElectrocardiogrphArmasoftPage
         },
         {
           path: 'catalog/tools-and-equipment/cardiology/elektrokardiograf-odno-tryokhkanalnyi-miniatyurnyi-ek-3t-01-r-d',
-          component: ElectrocardiogrphChannel
+          component: ElectrocardiogrphChannelPage
         },
         {
           path: 'catalog/tools-and-equipment/cardiology/monitor_resuscitation',
-          component: MonitorResuscitation
+          component: MonitorResuscitationPage
         },
         {
           path: 'catalog/tools-and-equipment/cardiology/defibrillyator-monitor',
-          component: DefibrillatorMonitor
+          component: DefibrillatorMonitorPage
         },
         {
           path: 'catalog/tools-and-equipment/electrocardiograph',
-          component: ElectroCardiographs
+          component: ElectroCardiographsPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture',
-          component: MedicalFurnitureScreen
+          component: MedicalFurnitureScreenPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/medicine-cabinets',
@@ -867,15 +867,15 @@ export default createRouter({
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/medicine-cabinets/shkaf-meditsinskii-odnostvorchatyi-shm-1',
-          component: MedicalCabineOne
+          component: MedicalCabineOnePage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/medicine-cabinets/shkaf-meditsinskii-dvustvorchatyi-shm-2',
-          component: MedicalCabineSecond
+          component: MedicalCabineSecondPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/medicine-cabinets/medicine_cabinets/shkaf-meditsinskii-odnostvorchatyi-s-seifom-shm-1s',
-          component: MedicalCabineThird
+          component: MedicalCabineThirdPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/table-surgical/',
@@ -883,23 +883,23 @@ export default createRouter({
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/table-surgical/stol-pelenalnyi-spl',
-          component: ChangingTableSpl
+          component: ChangingTableSplPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/table-surgical/stolik-instrumentalnyi-si-5',
-          component: InsrumentTableC
+          component: InsrumentTableCPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/table-surgical/stolik-khirurgicheskii-skh-1',
-          component: SurgicalTableSH
+          component: SurgicalTableSHPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/table-surgical/stolik-anesteziologa-sa',
-          component: AnesthesiologistsTable
+          component: AnesthesiologistsTablePage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/table-surgical/stolik-manipulyatsionnyi-sm-3',
-          component: ManipulationTableCm
+          component: ManipulationTableCmPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/couches/',
@@ -907,67 +907,67 @@ export default createRouter({
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/couches/kushetka-ginekologicheskaya-kkg',
-          component: GynecologicalCouchKKG
+          component: GynecologicalCouchKKGPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/couches/kushetka-protsedurnaya-kp',
-          component: TreatmentCouchKP
+          component: TreatmentCouchKPPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/couches/kushetka-massazhnaya-reguliruemaya-po-vysote-km-3',
-          component: AdjustableMassegeCouch
+          component: AdjustableMassegeCouchPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/couches/kushetka-massazhnaya-s-elektroprivodom-kme',
-          component: PowerDrivenMessageCouch
+          component: PowerDrivenMessageCouchPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/couches/kushetka-massazhnaya-statsionarnaya-km-1',
-          component: StationaryMessageCouch
+          component: StationaryMessageCouchPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/couches/kushetka-protsedurnaya-s-reguliruemym-podgolovnikom-krp',
-          component: AdjustableHeadrestCouch
+          component: AdjustableHeadrestCouchPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/couches/kushetka-protsedurnaya-s-tumbochkoi-krpt',
-          component: ProceduralCocuhTable
+          component: ProceduralCocuhTablePage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/couches/kushetka-smotrovaya-ks-1',
-          component: ExaminationCouch
+          component: ExaminationCouchPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/couches/telezhka-dlya-novorozhdennykh-tn',
-          component: NewbornBabyCart
+          component: NewbornBabyCartPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/couches/telezhka-dlya-perevozki-bolnykh-so-semnymi-nosilkami-tbs-150',
-          component: CartRemovableStretcher
+          component: CartRemovableStretcherPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/couches/telezhka-dlya-transportirovki-patsientov-s-regulirovkoi-vysoty-tpbr',
-          component: PatientTransferCart
+          component: PatientTransferCartPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/couches/stul-vintovoi-bez-spinki-sv',
-          component: ScrewChairwithoutBackrest
+          component: ScrewChairwithoutBackrestPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/couches/stul-vintovoi-so-spinkoi-peredvizhnoi-s-podstavkoi-dlya-nog-svps',
-          component: ScrewChairwithBackrest
+          component: ScrewChairwithBackrestPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/couches/stul-vintovoi-so-spinkoi-svs',
-          component: ScrewChairBackrest
+          component: ScrewChairBackrestPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/couches/kushetka-diagnosticheskaya-kd-1',
-          component: DiagnosticCouch
+          component: DiagnosticCouchPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/couches/kushetka-dlya-promyvki-kishechnika-kpk',
-          component: BowelFlushingCouch
+          component: BowelFlushingCouchPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/litters-medical/',
@@ -975,47 +975,47 @@ export default createRouter({
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/litters-medical/nosilki-meditsinskie-a03',
-          component: StretcherMedicalOne
+          component: StretcherMedicalOnePage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/litters-medical/nosilki-meditsinskie-a16',
-          component: StretcherMedicalSecond
+          component: StretcherMedicalSecondPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/litters-medical/nosilki-meditsinskie-a01',
-          component: StretcherMedicalThird
+          component: StretcherMedicalThirdPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/litters-medical/nosilki-meditsinskie-v01',
-          component: StretcherMedicalForth
+          component: StretcherMedicalForthPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/litters-medical/nosilki-meditsinskie-v03',
-          component: StretcherMedicalFifth
+          component: StretcherMedicalFifthPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/litters-medical/nosilki-meditsinskie-v11',
-          component: StretcherMedicalSixth
+          component: StretcherMedicalSixthPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/litters-medical/kreslo-ginekologicheskoe-detskoe-s-elektroprivodom-kg-3d',
-          component: GynecologicalPediatricChair
+          component: GynecologicalPediatricChairPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/litters-medical/kreslo-ginekologicheskoe-kg-1m',
-          component: GynecologicalChairOne
+          component: GynecologicalChairOnePage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/kreslo-ginekologicheskoe-kg-1me',
-          component: GynecologicalChairSecond
+          component: GynecologicalChairSecondPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/kreslo-ginekologicheskoe-kg-2m',
-          component: GynecologicalChairThird
+          component: GynecologicalChairThirdPage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/kreslo-ginekologicheskoe-s-elektroprivodom-kg-ze',
-          component: GynecologicalChairElectricdrive
+          component: GynecologicalChairElectricdrivePage
         },
         {
           path: 'catalog/tools-and-equipment/medical-furniture/armchair-gynecological/',
@@ -1051,7 +1051,7 @@ export default createRouter({
         },
         {
           path: 'catalog/tools-and-equipment/medical-instruments',
-          component: MedicalInstrumentScreen
+          component: MedicalInstrumentScreenPage
         },
         {
           path: 'catalog/neurosurgery',
