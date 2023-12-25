@@ -61,7 +61,7 @@
             class="burger-menu__contact-img"
             alt="email"
           />
-          <mail class="">tdvostok@mail.ru</mail>
+          <mail class="">tdomvostok@gmail.com</mail>
         </div>
         <div class="burger-menu__contact-langs">
           <ChooseLangButton

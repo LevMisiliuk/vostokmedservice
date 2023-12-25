@@ -26,7 +26,7 @@
             />
             <span class="blue-txt">{{ $t('contacts.email') }}</span>
           </div>
-          <mail>tdvostok@mail.ru</mail>
+          <mail>tdomvostok@gmail.com</mail>
         </div>
       </div>
     </div>

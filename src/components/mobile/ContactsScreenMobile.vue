@@ -17,7 +17,7 @@
             class="contacts-mobile__contact-img"
             alt="email"
           />
-          <mail class="">tdvostok@mail.ru</mail>
+          <mail class="">tdomvostok@gmail.com</mail>
         </div>
       </div>
     </div>
